@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-12-01 15:51:47,2022-12-01 15:52:46,59.342s,ERROR
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-12-01 15:51:47,2022-12-01 15:52:23,35.998s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-12-01 15:51:48,2022-12-01 15:52:03,15.006s,PASSED
+"check_image = findTestObject(""Object Repository/Smoke/Verify Login Sign Up/Intro screen image"")",,,,2022-12-01 15:52:03,2022-12-01 15:52:03,0.044s,PASSED
+"if (waitForElementPresent(check_image, 10))",,,,2022-12-01 15:52:03,2022-12-01 15:52:13,10.104s,PASSED
+else,,,,2022-12-01 15:52:13,2022-12-01 15:52:23,10.389s,PASSED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-12-01 15:52:23,2022-12-01 15:52:46,22.925s,ERROR
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:52:24,2022-12-01 15:52:24,0.827s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:52:24,2022-12-01 15:52:26,1.595s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-12-01 15:52:26,2022-12-01 15:52:29,3.010s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:52:29,2022-12-01 15:52:37,8.365s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen""), [""Gender"":Gender], STOP_ON_FAILURE)",,,,2022-12-01 15:52:37,2022-12-01 15:52:40,2.282s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen""), [""Into"":Into], STOP_ON_FAILURE)",,,,2022-12-01 15:52:40,2022-12-01 15:52:43,2.788s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:52:43,2022-12-01 15:52:44,1.920s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen""), [""Ethnicity"":Ethnicity], STOP_ON_FAILURE)",,,,2022-12-01 15:52:44,2022-12-01 15:52:46,1.764s,ERROR

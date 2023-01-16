@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tap continue btn on source screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a119d74-b786-4ad4-99d4-fa87a51f5b29</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3ca1a35-b2de-45cd-9569-ec2a5cbd0fa3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue Source Screen')</defaultValue>
+      <description></description>
+      <id>d3ca1a35-b2de-45cd-9569-ec2a5cbd0fa3</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+</TestCaseEntity>

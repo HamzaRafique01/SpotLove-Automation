@@ -1,0 +1,291 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Sanity,,,,2022-04-21 12:55:31,2022-04-21 13:11:34,16m - 2.810s,FAILED
+,,,,,,,
+Test Cases/testing/Use Phone Number screen,,,,2022-04-21 12:55:31,2022-04-21 12:56:04,32.298s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-04-21 12:55:32,2022-04-21 12:55:53,20.797s,PASSED
+"checkElement(findTestObject(""Use Phone Number Screen/SPOT""), 15)",,,,2022-04-21 12:55:53,2022-04-21 12:55:59,6.614s,PASSED
+"checkElement(findTestObject(""Use Phone Number Screen/heart icon""), 15)",,,,2022-04-21 12:55:59,2022-04-21 12:56:00,0.575s,PASSED
+"checkElement(findTestObject(""Use Phone Number Screen/LOVE label text""), 15)",,,,2022-04-21 12:56:00,2022-04-21 12:56:01,0.611s,PASSED
+"checkElement(findTestObject(""Use Phone Number Screen/AT FIRST SIGHT label text""), 15)",,,,2022-04-21 12:56:01,2022-04-21 12:56:01,0.619s,PASSED
+"checkElement(findTestObject(""Use Phone Number Screen/Privacy Policy label text""), 15)",,,,2022-04-21 12:56:01,2022-04-21 12:56:02,1.152s,PASSED
+"checkElement(findTestObject(""Use Phone Number Screen/MATCHMAKERS label text""), 15)",,,,2022-04-21 12:56:02,2022-04-21 12:56:03,0.598s,PASSED
+"tap(findTestObject(""Use Phone Number Screen/usePhoneNUmber""), 15)",,,,2022-04-21 12:56:03,2022-04-21 12:56:04,0.700s,PASSED
+,,,,,,,
+Test Cases/testing/Whats Your phone number,,,,2022-04-21 12:56:04,2022-04-21 12:56:14,10.572s,PASSED
+"checkElement(findTestObject(""Whats Your Phone Number/YOUR DEETS label text""), 15)",,,,2022-04-21 12:56:04,2022-04-21 12:56:06,1.362s,PASSED
+"checkElement(findTestObject(""Whats Your Phone Number/Whats your  phone number label text""), 15)",,,,2022-04-21 12:56:06,2022-04-21 12:56:06,0.565s,PASSED
+"checkElement(findTestObject(""Whats Your Phone Number/We protect label text""), 15)",,,,2022-04-21 12:56:06,2022-04-21 12:56:07,0.552s,PASSED
+"checkElement(findTestObject(""Whats Your Phone Number/flag""), 15)",,,,2022-04-21 12:56:07,2022-04-21 12:56:07,0.599s,PASSED
+"setText(findTestObject(""Whats Your Phone Number/Enter country name""), ""US"", 15)",,,,2022-04-21 12:56:07,2022-04-21 12:56:09,2.093s,PASSED
+"tap(findTestObject(""Whats Your Phone Number/Selected Country""), 15)",,,,2022-04-21 12:56:09,2022-04-21 12:56:11,1.490s,PASSED
+"setText(findTestObject(""Whats Your Phone Number/Enter Phone Number""), ""5673430763"", 15)",,,,2022-04-21 12:56:11,2022-04-21 12:56:12,1.409s,PASSED
+"checkElement(findTestObject(""Whats Your Phone Number/We never share label text""), 15)",,,,2022-04-21 12:56:12,2022-04-21 12:56:13,0.892s,PASSED
+"checkElement(findTestObject(""Whats Your Phone Number/black lock icon""), 15)",,,,2022-04-21 12:56:13,2022-04-21 12:56:14,0.538s,PASSED
+"tap(findTestObject(""Whats Your Phone Number/Whats your phone forward (button)""), 15)",,,,2022-04-21 12:56:14,2022-04-21 12:56:14,0.541s,PASSED
+,,,,,,,
+Test Cases/testing/Verify phone Number,,,,2022-04-21 12:56:14,2022-04-21 12:57:02,48.155s,PASSED
+"checkElement(findTestObject(""Verify Your Number/YOUR DEETS label text""), 15)",,,,2022-04-21 12:56:15,2022-04-21 12:56:15,0.551s,PASSED
+"checkElement(findTestObject(""Verify Your Number/Verify your number label text""), 60)",,,,2022-04-21 12:56:15,2022-04-21 12:57:02,47.145s,PASSED
+,,,,,,,
+Test Cases/testing/Create spotLove account,,,,2022-04-21 12:57:02,2022-04-21 12:57:26,23.441s,PASSED
+"checkElement(findTestObject(""Account Creation/Youre verified""), 30)",,,,2022-04-21 12:57:03,2022-04-21 12:57:25,22.466s,PASSED
+"checkElement(findTestObject(""Account Creation/create spot lve acc""), 15)",,,,2022-04-21 12:57:25,2022-04-21 12:57:26,0.431s,PASSED
+,,,,,,,
+Test Cases/testing/Email verification,,,,2022-04-21 12:57:26,2022-04-21 12:57:30,4.391s,PASSED
+"checkElement(findTestObject(""Whats Your Email Screen/YOUR DEETS label text""), 15)",,,,2022-04-21 12:57:26,2022-04-21 12:57:27,0.959s,PASSED
+"checkElement(findTestObject(""Whats Your Email Screen/Whats your email address label text""), 15)",,,,2022-04-21 12:57:27,2022-04-21 12:57:28,0.438s,PASSED
+"checkElement(findTestObject(""Whats Your Email Screen/We use this to recover label text""), 15)",,,,2022-04-21 12:57:28,2022-04-21 12:57:28,0.430s,PASSED
+"setText(findTestObject(""Whats Your Email Screen/Add recovery email (field)""), ""Test@testing.com"", 15)",,,,2022-04-21 12:57:28,2022-04-21 12:57:29,1.320s,PASSED
+"tap(findTestObject(""Whats Your Email Screen/Email Forword Button""), 15)",,,,2022-04-21 12:57:29,2022-04-21 12:57:30,0.813s,PASSED
+,,,,,,,
+Test Cases/testing/First Name Verfication,,,,2022-04-21 12:57:30,2022-04-21 12:57:35,4.794s,PASSED
+"checkElement(findTestObject(""First Name Screen/YOUR DEETS label text""), 15)",,,,2022-04-21 12:57:31,2022-04-21 12:57:32,0.925s,PASSED
+"checkElement(findTestObject(""First Name Screen/Whats your first name label text""), 15)",,,,2022-04-21 12:57:32,2022-04-21 12:57:32,0.432s,PASSED
+"checkElement(findTestObject(""First Name Screen/This will be shown on your profile""), 15)",,,,2022-04-21 12:57:32,2022-04-21 12:57:33,0.401s,PASSED
+"checkElement(findTestObject(""First Name Screen/You wont be able to change this later""), 15)",,,,2022-04-21 12:57:33,2022-04-21 12:57:33,0.497s,PASSED
+"setText(findTestObject(""First Name Screen/First Name""), ""Test"", 15)",,,,2022-04-21 12:57:33,2022-04-21 12:57:34,1.292s,PASSED
+"tap(findTestObject(""First Name Screen/First Name Forword Button""), 15)",,,,2022-04-21 12:57:34,2022-04-21 12:57:35,0.777s,PASSED
+,,,,,,,
+Test Cases/testing/DOB Verification,,,,2022-04-21 12:57:35,2022-04-21 12:57:43,7.676s,PASSED
+"checkElement(findTestObject(""DOB/YOUR DEETS""), 15)",,,,2022-04-21 12:57:36,2022-04-21 12:57:36,0.435s,PASSED
+"checkElement(findTestObject(""DOB/Whens your birthday label text""), 15)",,,,2022-04-21 12:57:36,2022-04-21 12:57:38,1.631s,PASSED
+"checkElement(findTestObject(""DOB/We only show label text""), 15)",,,,2022-04-21 12:57:38,2022-04-21 12:57:38,0.487s,PASSED
+"setText(findTestObject(""DOB/Month""), ""05"", 15)",,,,2022-04-21 12:57:38,2022-04-21 12:57:39,1.324s,PASSED
+"setText(findTestObject(""DOB/Day""), ""25"", 15)",,,,2022-04-21 12:57:39,2022-04-21 12:57:41,1.218s,PASSED
+"setText(findTestObject(""DOB/Year""), ""1995"", 15)",,,,2022-04-21 12:57:41,2022-04-21 12:57:42,1.217s,PASSED
+"tap(findTestObject(""DOB/DOB Forword""), 15)",,,,2022-04-21 12:57:42,2022-04-21 12:57:43,0.939s,PASSED
+,,,,,,,
+Test Cases/testing/About You,,,,2022-04-21 12:57:43,2022-04-21 12:57:45,2.444s,PASSED
+"checkElement(findTestObject(""About YOU/Heart Icon""), 15)",,,,2022-04-21 12:57:43,2022-04-21 12:57:44,1.047s,PASSED
+"checkElement(findTestObject(""About YOU/About You label text""), 15)",,,,2022-04-21 12:57:44,2022-04-21 12:57:45,0.448s,PASSED
+"tap(findTestObject(""About YOU/About forword Button""), 15)",,,,2022-04-21 12:57:45,2022-04-21 12:57:45,0.487s,PASSED
+,,,,,,,
+Test Cases/testing/Location Verification,,,,2022-04-21 12:59:02,2022-04-21 12:59:22,20.163s,PASSED
+"checkElement(findTestObject(""Location screen/ABOUT YOU label text""), 15)",,,,2022-04-21 12:59:02,2022-04-21 12:59:02,0.869s,PASSED
+"checkElement(findTestObject(""Location screen/So, do you label text""), 15)",,,,2022-04-21 12:59:02,2022-04-21 12:59:03,0.474s,PASSED
+"checkElement(findTestObject(""Location screen/Tell us where you live label text""), 15)",,,,2022-04-21 12:59:03,2022-04-21 12:59:04,1.109s,PASSED
+"setText(findTestObject(""Location screen/country field""), ""US"", 15)",,,,2022-04-21 12:59:04,2022-04-21 12:59:17,12.577s,PASSED
+"setText(findTestObject(""Location screen/State field""), ""California"", 15)",,,,2022-04-21 12:59:17,2022-04-21 12:59:18,1.404s,PASSED
+"setText(findTestObject(""Location screen/City Field""), ""Los Angless"", 15)",,,,2022-04-21 12:59:18,2022-04-21 12:59:19,1.406s,PASSED
+"setText(findTestObject(""Location screen/Zip Field""), ""90001"", 15)",,,,2022-04-21 12:59:19,2022-04-21 12:59:21,1.400s,PASSED
+"tap(findTestObject(""Location screen/loc Forword""), 15)",,,,2022-04-21 12:59:21,2022-04-21 12:59:22,0.913s,PASSED
+,,,,,,,
+Test Cases/testing/Brutal Honesty,,,,2022-04-21 12:59:22,2022-04-21 12:59:26,4.156s,PASSED
+"checkElement(findTestObject(""Brutal Honesty/ABOUT YOU label text""), 15)",,,,2022-04-21 12:59:22,2022-04-21 12:59:24,1.391s,PASSED
+"checkElement(findTestObject(""Brutal Honesty/We want you to find label text""), 15)",,,,2022-04-21 12:59:24,2022-04-21 12:59:24,0.583s,PASSED
+"tap(findTestObject(""Brutal Honesty/Male Radio Button""), 15)",,,,2022-04-21 12:59:24,2022-04-21 12:59:25,0.548s,PASSED
+"tap(findTestObject(""Brutal Honesty/forword""), 15)",,,,2022-04-21 12:59:25,2022-04-21 12:59:26,1.066s,PASSED
+,,,,,,,
+Test Cases/testing/Black White Brown,,,,2022-04-21 12:59:26,2022-04-21 12:59:34,7.716s,PASSED
+"checkElement(findTestObject(""Black White Brown/ABOUT YOU""), 15)",,,,2022-04-21 12:59:26,2022-04-21 12:59:28,1.367s,PASSED
+"checkElement(findTestObject(""Black White Brown/Black. White. Brown. Purple label text""), 15)",,,,2022-04-21 12:59:28,2022-04-21 12:59:28,0.555s,PASSED
+"checkElement(findTestObject(""Black White Brown/ETHNICITY label Text""), 15)",,,,2022-04-21 12:59:28,2022-04-21 12:59:29,0.564s,PASSED
+"tap(findTestObject(""Black White Brown/East Asian""), 15)",,,,2022-04-21 12:59:29,2022-04-21 12:59:29,0.521s,PASSED
+"tap(findTestObject(""Black White Brown/Multiracial""), 15)",,,,2022-04-21 12:59:29,2022-04-21 12:59:30,1.047s,PASSED
+"tap(findTestObject(""Black White Brown/hispanic Latino""), 15)",,,,2022-04-21 12:59:30,2022-04-21 12:59:31,1.083s,PASSED
+"tap(findTestObject(""Black White Brown/south Asian""), 15)",,,,2022-04-21 12:59:31,2022-04-21 12:59:33,1.089s,PASSED
+"tap(findTestObject(""Black White Brown/forword""), 15)",,,,2022-04-21 12:59:33,2022-04-21 12:59:34,1.099s,PASSED
+,,,,,,,
+Test Cases/testing/Religion,,,,2022-04-21 12:59:34,2022-04-21 12:59:42,8.803s,PASSED
+"checkElement(findTestObject(""Religion/ABOUT YOU""), 15)",,,,2022-04-21 12:59:34,2022-04-21 12:59:36,1.476s,PASSED
+"checkElement(findTestObject(""Religion/Well find Lebel Text""), 15)",,,,2022-04-21 12:59:36,2022-04-21 12:59:36,0.635s,PASSED
+"tap(findTestObject(""Religion/LDS Radio button""), 15)",,,,2022-04-21 12:59:36,2022-04-21 12:59:37,0.583s,PASSED
+"tap(findTestObject(""Religion/Christian Radio button""), 15)",,,,2022-04-21 12:59:37,2022-04-21 12:59:38,1.102s,PASSED
+"tap(findTestObject(""Religion/Spiritual Radio button""), 15)",,,,2022-04-21 12:59:38,2022-04-21 12:59:39,1.113s,PASSED
+"tap(findTestObject(""Religion/Muslim Radio button""), 15)",,,,2022-04-21 12:59:39,2022-04-21 12:59:40,1.117s,PASSED
+"tap(findTestObject(""Religion/Buddhist taoist Radio button""), 15)",,,,2022-04-21 12:59:40,2022-04-21 12:59:41,1.118s,PASSED
+"tap(findTestObject(""Religion/forword""), 15)",,,,2022-04-21 12:59:41,2022-04-21 12:59:42,1.153s,PASSED
+,,,,,,,
+Test Cases/testing/One Liner,,,,2022-04-21 12:59:42,2022-04-21 12:59:48,5.592s,PASSED
+"checkElement(findTestObject(""One Liner/PROFILE""), 15)",,,,2022-04-21 12:59:43,2022-04-21 12:59:44,1.452s,PASSED
+"checkElement(findTestObject(""One Liner/Got a personal one-liner or catch phrase""), 15)",,,,2022-04-21 12:59:44,2022-04-21 12:59:45,0.580s,PASSED
+"checkElement(findTestObject(""One Liner/No pressure label text""), 15)",,,,2022-04-21 12:59:45,2022-04-21 12:59:46,0.618s,PASSED
+"setText(findTestObject(""One Liner/My catch phrase""), ""This is only for testing purpose one Liner"", 15)",,,,2022-04-21 12:59:46,2022-04-21 12:59:47,1.457s,PASSED
+"tap(findTestObject(""One Liner/forword""), 15)",,,,2022-04-21 12:59:47,2022-04-21 12:59:48,1.032s,PASSED
+,,,,,,,
+Test Cases/testing/Relationship Status,,,,2022-04-21 12:59:48,2022-04-21 12:59:56,7.575s,PASSED
+"checkElement(findTestObject(""Relationship Status/ABOUT YOU""), 15)",,,,2022-04-21 12:59:49,2022-04-21 12:59:51,2.119s,PASSED
+"checkElement(findTestObject(""Relationship Status/Check one label Text""), 15)",,,,2022-04-21 12:59:51,2022-04-21 12:59:51,0.700s,PASSED
+"tap(findTestObject(""Relationship Status/Separated Radio button""), 5)",,,,2022-04-21 12:59:51,2022-04-21 12:59:52,0.664s,PASSED
+"tap(findTestObject(""Relationship Status/Divorce in Pogress Radio button""), 15)",,,,2022-04-21 12:59:52,2022-04-21 12:59:53,1.218s,PASSED
+"tap(findTestObject(""Relationship Status/Widowed Radio button""), 15)",,,,2022-04-21 12:59:53,2022-04-21 12:59:54,1.173s,PASSED
+"tap(findTestObject(""Relationship Status/Forword""), 15)",,,,2022-04-21 12:59:54,2022-04-21 12:59:56,1.212s,PASSED
+,,,,,,,
+Test Cases/testing/Family Plans,,,,2022-04-21 12:59:56,2022-04-21 13:00:04,8.388s,PASSED
+"checkElement(findTestObject(""Family Plain/ABOUT YOU""), 15)",,,,2022-04-21 12:59:56,2022-04-21 12:59:57,0.735s,PASSED
+"checkElement(findTestObject(""Family Plain/As long as label text""), 15)",,,,2022-04-21 12:59:57,2022-04-21 12:59:59,1.685s,PASSED
+"tap(findTestObject(""Family Plain/I dont want children Radio button""), 15)",,,,2022-04-21 12:59:59,2022-04-21 12:59:59,0.666s,PASSED
+"tap(findTestObject(""Family Plain/I dont have children Radio button""), 15)",,,,2022-04-21 12:59:59,2022-04-21 13:00:00,1.218s,PASSED
+"tap(findTestObject(""Family Plain/I want children Radio button""), 15)",,,,2022-04-21 13:00:00,2022-04-21 13:00:02,1.868s,PASSED
+"tap(findTestObject(""Family Plain/I m open to children Radio button""), 15)",,,,2022-04-21 13:00:02,2022-04-21 13:00:03,0.661s,PASSED
+"tap(findTestObject(""Family Plain/forword""), 15)",,,,2022-04-21 13:00:03,2022-04-21 13:00:04,1.136s,PASSED
+,,,,,,,
+Test Cases/testing/Education,,,,2022-04-21 13:00:04,2022-04-21 13:00:13,8.557s,PASSED
+"checkElement(findTestObject(""Education/ABOUT YOU""), 15)",,,,2022-04-21 13:00:05,2022-04-21 13:00:06,1.866s,PASSED
+"checkElement(findTestObject(""Education/All we label text""), 15)",,,,2022-04-21 13:00:06,2022-04-21 13:00:07,0.698s,PASSED
+"tap(findTestObject(""Education/Graduate Professional Degree Radio button""), 15)",,,,2022-04-21 13:00:07,2022-04-21 13:00:08,0.667s,PASSED
+"tap(findTestObject(""Education/Some Collage Radio button""), 15)",,,,2022-04-21 13:00:08,2022-04-21 13:00:09,1.235s,PASSED
+"tap(findTestObject(""Education/HS Diploma Radio button""), 15)",,,,2022-04-21 13:00:09,2022-04-21 13:00:10,1.217s,PASSED
+"tap(findTestObject(""Education/Phd Doctoral Radio button""), 15)",,,,2022-04-21 13:00:10,2022-04-21 13:00:11,1.180s,PASSED
+"tap(findTestObject(""Education/Forword""), 15)",,,,2022-04-21 13:00:11,2022-04-21 13:00:13,1.217s,PASSED
+,,,,,,,
+Test Cases/testing/Vices,,,,2022-04-21 13:00:13,2022-04-21 13:00:28,14.916s,PASSED
+"checkElement(findTestObject(""VICES/ABOUT YOU""), 15)",,,,2022-04-21 13:00:13,2022-04-21 13:00:15,1.850s,PASSED
+"checkElement(findTestObject(""VICES/In our eyes label Text""), 15)",,,,2022-04-21 13:00:15,2022-04-21 13:00:16,0.714s,PASSED
+"tap(findTestObject(""VICES/Never AL Radio button""), 15)",,,,2022-04-21 13:00:16,2022-04-21 13:00:16,0.785s,PASSED
+"tap(findTestObject(""VICES/Socially Radio button""), 15)",,,,2022-04-21 13:00:16,2022-04-21 13:00:18,1.299s,PASSED
+"tap(findTestObject(""VICES/Socially AL Radio button""), 15)",,,,2022-04-21 13:00:18,2022-04-21 13:00:19,0.784s,PASSED
+"tap(findTestObject(""VICES/Often Mari Radio button""), 15)",,,,2022-04-21 13:00:19,2022-04-21 13:00:20,1.351s,PASSED
+"tap(findTestObject(""VICES/Socially Mari Radio button""), 15)",,,,2022-04-21 13:00:20,2022-04-21 13:00:21,1.313s,PASSED
+"tap(findTestObject(""VICES/Never Radio button""), 15)",,,,2022-04-21 13:00:21,2022-04-21 13:00:22,1.020s,PASSED
+"tap(findTestObject(""VICES/Often Radio button""), 15)",,,,2022-04-21 13:00:22,2022-04-21 13:00:24,1.331s,PASSED
+"tap(findTestObject(""VICES/Never Mari Radio button""), 15)",,,,2022-04-21 13:00:24,2022-04-21 13:00:25,1.340s,PASSED
+"tap(findTestObject(""VICES/Often AL Radio button""), 15)",,,,2022-04-21 13:00:25,2022-04-21 13:00:26,1.362s,PASSED
+"tap(findTestObject(""VICES/Forword""), 15)",,,,2022-04-21 13:00:26,2022-04-21 13:00:28,1.321s,PASSED
+,,,,,,,
+Test Cases/testing/politics,,,,2022-04-21 13:00:28,2022-04-21 13:00:38,10.125s,PASSED
+"checkElement(findTestObject(""politices/ABOUT YOU""), 15)",,,,2022-04-21 13:00:28,2022-04-21 13:00:30,1.974s,PASSED
+"checkElement(findTestObject(""politices/We plead the fifth label text""), 15)",,,,2022-04-21 13:00:30,2022-04-21 13:00:31,0.838s,PASSED
+"checkElement(findTestObject(""politices/POLITICS label text""), 15)",,,,2022-04-21 13:00:31,2022-04-21 13:00:32,0.819s,PASSED
+"tap(findTestObject(""politices/Conservative""), 15)",,,,2022-04-21 13:00:32,2022-04-21 13:00:32,0.783s,PASSED
+"tap(findTestObject(""politices/Liberal""), 15)",,,,2022-04-21 13:00:32,2022-04-21 13:00:34,1.300s,PASSED
+"tap(findTestObject(""politices/Moderate""), 15)",,,,2022-04-21 13:00:34,2022-04-21 13:00:35,1.300s,PASSED
+"tap(findTestObject(""politices/Apolitical""), 15)",,,,2022-04-21 13:00:35,2022-04-21 13:00:36,1.346s,PASSED
+"tap(findTestObject(""politices/forword""), 15)",,,,2022-04-21 13:00:36,2022-04-21 13:00:38,1.323s,PASSED
+,,,,,,,
+Test Cases/testing/Upload Picture,,,,2022-04-21 13:00:41,2022-04-21 13:00:56,14.536s,PASSED
+"checkElement(findTestObject(""Upload Picture/ABOUT YOU""), 15)",,,,2022-04-21 13:00:41,2022-04-21 13:00:43,1.510s,PASSED
+"checkElement(findTestObject(""Upload Picture/Show us your best side label text""), 15)",,,,2022-04-21 13:00:43,2022-04-21 13:00:43,0.895s,PASSED
+"tap(findTestObject(""Upload Picture/Upload Picture Button""), 15)",,,,2022-04-21 13:00:43,2022-04-21 13:00:44,0.835s,PASSED
+"tap(findTestObject(""Upload Picture/Choose From Gallery Button""), 15)",,,,2022-04-21 13:00:44,2022-04-21 13:00:46,1.254s,PASSED
+"tap(findTestObject(""Upload Picture/Photo By Gallary""), 15)",,,,2022-04-21 13:00:46,2022-04-21 13:00:54,8.083s,PASSED
+"tap(findTestObject(""Upload Picture/forword button""), 15)",,,,2022-04-21 13:00:54,2022-04-21 13:00:56,1.951s,PASSED
+,,,,,,,
+Test Cases/testing/Partner Start Info,,,,2022-04-21 13:00:56,2022-04-21 13:01:15,19.699s,PASSED
+"checkElement(findTestObject(""Have Fun Time/Now for the fun part  label text""), 15)",,,,2022-04-21 13:00:56,2022-04-21 13:01:15,18.665s,PASSED
+"tap(findTestObject(""Have Fun Time/Forword""), 15)",,,,2022-04-21 13:01:15,2022-04-21 13:01:15,0.486s,PASSED
+,,,,,,,
+Test Cases/testing/Partner Gender,,,,2022-04-21 13:01:15,2022-04-21 13:01:24,8.345s,PASSED
+"checkElement(findTestObject(""Partner Gender/YOUR MATCH""), 15)",,,,2022-04-21 13:01:16,2022-04-21 13:01:17,1.545s,PASSED
+"checkElement(findTestObject(""Partner Gender/Choose on""), 15)",,,,2022-04-21 13:01:17,2022-04-21 13:01:18,0.567s,PASSED
+"tap(findTestObject(""Partner Gender/Open to All""), 15)",,,,2022-04-21 13:01:18,2022-04-21 13:01:18,0.571s,PASSED
+"tap(findTestObject(""Partner Gender/Female Checkbox""), 15)",,,,2022-04-21 13:01:18,2022-04-21 13:01:20,1.082s,PASSED
+"tap(findTestObject(""Partner Gender/Male CheckBox""), 15)",,,,2022-04-21 13:01:20,2022-04-21 13:01:21,0.982s,PASSED
+"tap(findTestObject(""Partner Gender/Non-Binary Checkbox""), 15)",,,,2022-04-21 13:01:21,2022-04-21 13:01:22,0.941s,PASSED
+"tap(findTestObject(""Partner Gender/Open to All""), 15)",,,,2022-04-21 13:01:22,2022-04-21 13:01:23,1.110s,PASSED
+"tap(findTestObject(""Partner Gender/forword""), 15)",,,,2022-04-21 13:01:23,2022-04-21 13:01:24,1.071s,PASSED
+,,,,,,,
+Test Cases/testing/Partner ethnicity,,,,2022-04-21 13:01:24,2022-04-21 13:01:35,11.241s,PASSED
+"checkElement(findTestObject(""Partner Ethnicity/YOUR MATCH""), 15)",,,,2022-04-21 13:01:24,2022-04-21 13:01:26,1.545s,PASSED
+"checkElement(findTestObject(""Partner Ethnicity/ETHNICITY label Text""), 15)",,,,2022-04-21 13:01:26,2022-04-21 13:01:26,0.567s,PASSED
+"tap(findTestObject(""Partner Ethnicity/Open To All""), 15)",,,,2022-04-21 13:01:26,2022-04-21 13:01:27,0.584s,PASSED
+"tap(findTestObject(""Partner Ethnicity/East Asian""), 15)",,,,2022-04-21 13:01:27,2022-04-21 13:01:28,1.081s,PASSED
+"tap(findTestObject(""Partner Ethnicity/Middle Eastern""), 15)",,,,2022-04-21 13:01:28,2022-04-21 13:01:29,1.035s,PASSED
+"tap(findTestObject(""Partner Ethnicity/Hispanic""), 15)",,,,2022-04-21 13:01:29,2022-04-21 13:01:30,0.987s,PASSED
+"tap(findTestObject(""Partner Ethnicity/Multiracial""), 15)",,,,2022-04-21 13:01:30,2022-04-21 13:01:31,0.998s,PASSED
+"tap(findTestObject(""Partner Ethnicity/White caucasian""), 15)",,,,2022-04-21 13:01:31,2022-04-21 13:01:32,1.019s,PASSED
+"tap(findTestObject(""Partner Ethnicity/Pacific Islander""), 15)",,,,2022-04-21 13:01:32,2022-04-21 13:01:33,0.983s,PASSED
+"tap(findTestObject(""Partner Ethnicity/South Asian""), 15)",,,,2022-04-21 13:01:33,2022-04-21 13:01:34,0.979s,PASSED
+"tap(findTestObject(""Partner Ethnicity/forword""), 15)",,,,2022-04-21 13:01:34,2022-04-21 13:01:35,1.005s,PASSED
+,,,,,,,
+Test Cases/testing/Partner Religion,,,,2022-04-21 13:02:02,2022-04-21 13:02:35,33.302s,PASSED
+"checkElement(findTestObject(""Partner Religion/YOUR MATCH""), 15)",,,,2022-04-21 13:02:02,2022-04-21 13:02:03,0.706s,PASSED
+"checkElement(findTestObject(""Partner Religion/The answer to""), 15)",,,,2022-04-21 13:02:03,2022-04-21 13:02:03,0.695s,PASSED
+"checkElement(findTestObject(""Partner Religion/RELIGION label Text""), 15)",,,,2022-04-21 13:02:03,2022-04-21 13:02:04,0.754s,PASSED
+"tap(findTestObject(""Partner Religion/Open To All""), 15)",,,,2022-04-21 13:02:04,2022-04-21 13:02:20,15.439s,PASSED
+"tap(findTestObject(""Partner Religion/Hindu""), 15)",,,,2022-04-21 13:02:20,2022-04-21 13:02:21,1.181s,PASSED
+"tap(findTestObject(""Partner Religion/Buddhist""), 15)",,,,2022-04-21 13:02:21,2022-04-21 13:02:22,1.084s,PASSED
+"tap(findTestObject(""Partner Religion/LDS""), 15)",,,,2022-04-21 13:02:22,2022-04-21 13:02:23,1.097s,PASSED
+"tap(findTestObject(""Partner Religion/Muslim""), 15)",,,,2022-04-21 13:02:23,2022-04-21 13:02:24,0.984s,PASSED
+"tap(findTestObject(""Partner Religion/Sikh""), 15)",,,,2022-04-21 13:02:24,2022-04-21 13:02:25,1.035s,PASSED
+"tap(findTestObject(""Partner Religion/Spiritual""), 15)",,,,2022-04-21 13:02:25,2022-04-21 13:02:26,1.016s,PASSED
+"tap(findTestObject(""Partner Religion/Open To All""), 15)",,,,2022-04-21 13:02:26,2022-04-21 13:02:34,8.171s,PASSED
+"tap(findTestObject(""Partner Religion/Forword""), 15)",,,,2022-04-21 13:02:34,2022-04-21 13:02:35,1.132s,PASSED
+,,,,,,,
+Test Cases/testing/Partner Marital Status,,,,2022-04-21 13:02:35,2022-04-21 13:02:49,13.783s,PASSED
+"checkElement(findTestObject(""Partner Marital Status/YOUR MATCH""), 15)",,,,2022-04-21 13:02:37,2022-04-21 13:02:38,1.115s,PASSED
+"checkElement(findTestObject(""Partner Marital Status/Obviously your""), 15)",,,,2022-04-21 13:02:38,2022-04-21 13:02:42,3.604s,PASSED
+"checkElement(findTestObject(""Partner Marital Status/MARITAL STATUS label Text""), 15)",,,,2022-04-21 13:02:42,2022-04-21 13:02:42,0.617s,PASSED
+"tap(findTestObject(""Partner Religion/Open To All""), 15)",,,,2022-04-21 13:02:42,2022-04-21 13:02:43,0.662s,PASSED
+"tap(findTestObject(""Partner Marital Status/Never Married""), 15)",,,,2022-04-21 13:02:43,2022-04-21 13:02:44,1.068s,PASSED
+"tap(findTestObject(""Partner Marital Status/Divorced""), 15)",,,,2022-04-21 13:02:44,2022-04-21 13:02:45,0.967s,PASSED
+"tap(findTestObject(""Partner Marital Status/Separated""), 15)",,,,2022-04-21 13:02:45,2022-04-21 13:02:46,0.968s,PASSED
+"tap(findTestObject(""Partner Marital Status/divorce in Progress""), 15)",,,,2022-04-21 13:02:46,2022-04-21 13:02:47,0.984s,PASSED
+"tap(findTestObject(""Partner Marital Status/Widowed""), 15)",,,,2022-04-21 13:02:47,2022-04-21 13:02:48,0.987s,PASSED
+"tap(findTestObject(""Partner Marital Status/Forword""), 15)",,,,2022-04-21 13:02:48,2022-04-21 13:02:49,1.152s,PASSED
+,,,,,,,
+Test Cases/testing/partner Family Plan,,,,2022-04-21 13:02:49,2022-04-21 13:03:01,11.831s,PASSED
+"checkElement(findTestObject(""partner Family Plans/YOUR MATCH""), 15)",,,,2022-04-21 13:02:50,2022-04-21 13:02:52,1.484s,PASSED
+"checkElement(findTestObject(""partner Family Plans/You can""), 15)",,,,2022-04-21 13:02:52,2022-04-21 13:02:52,0.669s,PASSED
+"checkElement(findTestObject(""partner Family Plans/CHILDREN label Text""), 15)",,,,2022-04-21 13:02:52,2022-04-21 13:02:53,0.668s,PASSED
+"tap(findTestObject(""partner Family Plans/Open To All""), 15)",,,,2022-04-21 13:02:53,2022-04-21 13:02:54,0.640s,PASSED
+"tap(findTestObject(""partner Family Plans/I have Children""), 15)",,,,2022-04-21 13:02:54,2022-04-21 13:02:55,1.089s,PASSED
+"tap(findTestObject(""partner Family Plans/I dont want Children""), 15)",,,,2022-04-21 13:02:55,2022-04-21 13:02:56,1.018s,PASSED
+"tap(findTestObject(""partner Family Plans/I want children""), 15)",,,,2022-04-21 13:02:56,2022-04-21 13:02:57,0.982s,PASSED
+"tap(findTestObject(""partner Family Plans/Open To All""), 15)",,,,2022-04-21 13:02:57,2022-04-21 13:02:57,0.617s,PASSED
+"tap(findTestObject(""partner Family Plans/I dont Have Children""), 15)",,,,2022-04-21 13:02:57,2022-04-21 13:02:59,1.427s,PASSED
+"tap(findTestObject(""partner Family Plans/I want children""), 15)",,,,2022-04-21 13:02:59,2022-04-21 13:02:59,0.608s,PASSED
+"tap(findTestObject(""partner Family Plans/I m open To children""), 15)",,,,2022-04-21 13:02:59,2022-04-21 13:03:00,1.183s,PASSED
+"tap(findTestObject(""partner Family Plans/forword""), 15)",,,,2022-04-21 13:03:00,2022-04-21 13:03:01,0.583s,PASSED
+,,,,,,,
+Test Cases/testing/Partner Education,,,,2022-04-21 13:03:01,2022-04-21 13:03:12,11.425s,PASSED
+"checkElement(findTestObject(""Partner Education/YOUR MATCH""), 15)",,,,2022-04-21 13:03:02,2022-04-21 13:03:03,1.792s,PASSED
+"checkElement(findTestObject(""Partner Education/Who gets an A in your book label text""), 15)",,,,2022-04-21 13:03:03,2022-04-21 13:03:04,1.101s,PASSED
+"checkElement(findTestObject(""Partner Education/EDUCATION label text""), 15)",,,,2022-04-21 13:03:04,2022-04-21 13:03:05,0.666s,PASSED
+"tap(findTestObject(""Partner Education/Open To All""), 15)",,,,2022-04-21 13:03:05,2022-04-21 13:03:06,1.298s,PASSED
+"tap(findTestObject(""Partner Education/PHD Doctor""), 15)",,,,2022-04-21 13:03:06,2022-04-21 13:03:07,0.586s,PASSED
+"tap(findTestObject(""Partner Education/Some College""), 15)",,,,2022-04-21 13:03:07,2022-04-21 13:03:08,1.037s,PASSED
+"tap(findTestObject(""Partner Education/HS Diploma CheckBox""), 15)",,,,2022-04-21 13:03:08,2022-04-21 13:03:09,1.232s,PASSED
+"tap(findTestObject(""Partner Education/PHD Doctor""), 15)",,,,2022-04-21 13:03:09,2022-04-21 13:03:10,1.083s,PASSED
+"tap(findTestObject(""Partner Education/Graduation Professtional Degree""), 15)",,,,2022-04-21 13:03:10,2022-04-21 13:03:11,1.047s,PASSED
+"tap(findTestObject(""Partner Education/forword""), 15)",,,,2022-04-21 13:03:11,2022-04-21 13:03:12,1.048s,PASSED
+,,,,,,,
+Test Cases/testing/Partner Vices,,,,2022-04-21 13:03:12,2022-04-21 13:03:32,19.390s,PASSED
+"checkElement(findTestObject(""Partner Vices/YOUR MATCH""), 15)",,,,2022-04-21 13:03:13,2022-04-21 13:03:14,0.705s,PASSED
+"checkElement(findTestObject(""Partner Vices/No judgement here label text""), 15)",,,,2022-04-21 13:03:14,2022-04-21 13:03:15,1.635s,PASSED
+"checkElement(findTestObject(""Partner Vices/SMOKING Label Text""), 15)",,,,2022-04-21 13:03:15,2022-04-21 13:03:16,0.766s,PASSED
+"tap(findTestObject(""Partner Vices/Open To All SM""), 15)",,,,2022-04-21 13:03:16,2022-04-21 13:03:17,0.704s,PASSED
+"tap(findTestObject(""Partner Vices/Often Checkbox""), 15)",,,,2022-04-21 13:03:17,2022-04-21 13:03:18,0.974s,PASSED
+"tap(findTestObject(""Partner Vices/Never Checkbox""), 15)",,,,2022-04-21 13:03:18,2022-04-21 13:03:19,1.090s,PASSED
+"tap(findTestObject(""Partner Vices/socially Checkbox""), 15)",,,,2022-04-21 13:03:19,2022-04-21 13:03:20,1.084s,PASSED
+"checkElement(findTestObject(""Partner Vices/ALCOHOL label text""), 15)",,,,2022-04-21 13:03:20,2022-04-21 13:03:21,1.251s,PASSED
+"tap(findTestObject(""Partner Vices/Open to all AL""), 15)",,,,2022-04-21 13:03:21,2022-04-21 13:03:22,0.623s,PASSED
+"tap(findTestObject(""Partner Vices/Often checkbox AL""), 15)",,,,2022-04-21 13:03:22,2022-04-21 13:03:23,1.196s,PASSED
+"tap(findTestObject(""Partner Vices/Socially checkbox AL""), 15)",,,,2022-04-21 13:03:23,2022-04-21 13:03:24,1.097s,PASSED
+"tap(findTestObject(""Partner Vices/Never checkbox AL""), 15)",,,,2022-04-21 13:03:24,2022-04-21 13:03:25,1.120s,PASSED
+"checkElement(findTestObject(""Partner Vices/MARIJUANA""), 15)",,,,2022-04-21 13:03:25,2022-04-21 13:03:27,1.279s,PASSED
+"tap(findTestObject(""Partner Vices/open To All Mari""), 15)",,,,2022-04-21 13:03:27,2022-04-21 13:03:27,0.685s,PASSED
+"tap(findTestObject(""Partner Vices/Socially checkbox Mari""), 15)",,,,2022-04-21 13:03:27,2022-04-21 13:03:28,1.218s,PASSED
+"tap(findTestObject(""Partner Vices/Never checkbox Mari""), 15)",,,,2022-04-21 13:03:28,2022-04-21 13:03:30,1.131s,PASSED
+"tap(findTestObject(""Partner Vices/Ofter checkbox Mari""), 15)",,,,2022-04-21 13:03:30,2022-04-21 13:03:31,1.099s,PASSED
+"tap(findTestObject(""Partner Vices/forword""), 15)",,,,2022-04-21 13:03:31,2022-04-21 13:03:32,1.204s,PASSED
+,,,,,,,
+Test Cases/testing/Partner Politics,,,,2022-04-21 13:04:46,2022-04-21 13:05:18,31.808s,FAILED
+"checkElement(findTestObject(""Partner Politices/YOUR MATCH""), 15)",,,,2022-04-21 13:04:46,2022-04-21 13:05:18,31.797s,FAILED
+,,,,,,,
+Test Cases/testing/completed App,,,,2022-04-21 13:06:53,2022-04-21 13:07:25,31.765s,FAILED
+"checkElement(findTestObject(""Completed App/CONGRATS""), 15)",,,,2022-04-21 13:06:53,2022-04-21 13:07:25,31.756s,FAILED
+,,,,,,,
+Test Cases/testing/Matches Tab,,,,2022-04-21 13:08:16,2022-04-21 13:08:32,16.772s,FAILED
+"tap(findTestObject(""Matches Tab/matches tab""), 15)",,,,2022-04-21 13:08:16,2022-04-21 13:08:32,16.757s,FAILED
+,,,,,,,
+Test Cases/testing/Liked Me Tab,,,,2022-04-21 13:08:33,2022-04-21 13:09:13,40.057s,PASSED
+"tap(findTestObject(""Liked Me Tab/Liked Me Tab""), 15)",,,,2022-04-21 13:08:33,2022-04-21 13:08:34,0.505s,PASSED
+"checkElement(findTestObject(""Liked Me Tab/SPOTTED LIKING YOU label text""), 15)",,,,2022-04-21 13:08:34,2022-04-21 13:08:35,1.734s,PASSED
+"checkElement(findTestObject(""Liked Me Tab/profile Button""), 15)",,,,2022-04-21 13:08:35,2022-04-21 13:08:38,2.236s,PASSED
+"checkElement(findTestObject(""Liked Me Tab/Centered Spotlove with heart icon""), 15)",,,,2022-04-21 13:08:38,2022-04-21 13:09:01,23.268s,PASSED
+"checkElement(findTestObject(""Liked Me Tab/Finding the right person label Text""), 15)",,,,2022-04-21 13:09:01,2022-04-21 13:09:11,9.739s,PASSED
+"tap(findTestObject(""Liked Me Tab/profile Button""), 15)",,,,2022-04-21 13:09:11,2022-04-21 13:09:11,0.482s,PASSED
+"tap(findTestObject(""Settings/Back Button""), 15)",,,,2022-04-21 13:09:11,2022-04-21 13:09:13,1.468s,PASSED
+,,,,,,,
+Test Cases/testing/Mutual Matches Tab,,,,2022-04-21 13:09:13,2022-04-21 13:09:26,12.981s,PASSED
+"tap(findTestObject(""Mutual Matches Tab/Mutual Tab""), 15)",,,,2022-04-21 13:09:13,2022-04-21 13:09:14,0.811s,PASSED
+"checkElement(findTestObject(""Mutual Matches Tab/Profile Button""), 15)",,,,2022-04-21 13:09:14,2022-04-21 13:09:16,2.364s,PASSED
+"checkElement(findTestObject(""Mutual Matches Tab/THE FEELING IS MUTUAL label text""), 15)",,,,2022-04-21 13:09:16,2022-04-21 13:09:24,7.253s,PASSED
+"tap(findTestObject(""Mutual Matches Tab/Profile Button""), 15)",,,,2022-04-21 13:09:24,2022-04-21 13:09:24,0.518s,PASSED
+"tap(findTestObject(""Settings/Back Button""), 15)",,,,2022-04-21 13:09:24,2022-04-21 13:09:26,1.451s,PASSED
+,,,,,,,
+Test Cases/testing/Settings,,,,2022-04-21 13:10:45,2022-04-21 13:11:34,48.612s,FAILED
+"checkElement(findTestObject(""Settings/Back Button""), 15)",,,,2022-04-21 13:10:45,2022-04-21 13:10:56,10.897s,PASSED
+"checkElement(findTestObject(""Settings/SETTINGS label text""), 15)",,,,2022-04-21 13:10:56,2022-04-21 13:11:02,6.437s,PASSED
+"checkElement(findTestObject(""Settings/User Profile Name""), 15)",,,,2022-04-21 13:11:02,2022-04-21 13:11:34,31.270s,FAILED

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Education</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc1d6fb0-b9af-46a5-89cc-3ec603457510</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90098a17-eee1-4711-a1ac-83af3cede30c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5284924c-8bfd-4c2b-8dad-635bc92d669d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c0feea6-319d-4b64-8b30-439c48110e60</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90098a17-eee1-4711-a1ac-83af3cede30c</id>
+      <masked>false</masked>
+      <name>E_Education</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/Educationn/btn save')</defaultValue>
+      <description></description>
+      <id>5284924c-8bfd-4c2b-8dad-635bc92d669d</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/Educationn/Education')</defaultValue>
+      <description></description>
+      <id>9c0feea6-319d-4b64-8b30-439c48110e60</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+</TestCaseEntity>

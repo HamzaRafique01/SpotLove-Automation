@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Political Views Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f909f0b-24a0-4a61-ac11-c0d6b0b3b936</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fdafbb43-22e2-48ef-bb04-8068ee7b49c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1ecd5ca-04bf-489f-ba09-51bcd0fdeb0d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f34ceca7-0208-464f-8880-bfebc9b2a531</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Political Views/Political Views')</defaultValue>
+      <description></description>
+      <id>fdafbb43-22e2-48ef-bb04-8068ee7b49c9</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1ecd5ca-04bf-489f-ba09-51bcd0fdeb0d</id>
+      <masked>false</masked>
+      <name>PoliticalViews</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Political Views/btn Save')</defaultValue>
+      <description></description>
+      <id>f34ceca7-0208-464f-8880-bfebc9b2a531</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>

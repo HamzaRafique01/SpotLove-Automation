@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>intro 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49684455-8ea4-4f4d-94b3-7a6d1b68ea22</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df0ea07d-2f0e-4fa2-8bc6-c40da6590434</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56749910-9216-4ff5-a72f-3cfa77b1d712</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f347b4aa-28de-423c-8813-d13bc78ff906</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eeb75203-6f0e-45ec-bab0-b6178adc8eb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8639833-b8a7-496f-abd3-8de3e87b4f6b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cecc3f31-00e9-4767-b80e-2db2455eaa54</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Second intro/Heart icon')</defaultValue>
+      <description></description>
+      <id>df0ea07d-2f0e-4fa2-8bc6-c40da6590434</id>
+      <masked>false</masked>
+      <name>hearticon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Second intro/Connect On Video label text')</defaultValue>
+      <description></description>
+      <id>56749910-9216-4ff5-a72f-3cfa77b1d712</id>
+      <masked>false</masked>
+      <name>Connect</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Second intro/Dates Label text')</defaultValue>
+      <description></description>
+      <id>f347b4aa-28de-423c-8813-d13bc78ff906</id>
+      <masked>false</masked>
+      <name>Dates</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Second intro/We believe in connecting with people through video chat Label text')</defaultValue>
+      <description></description>
+      <id>eeb75203-6f0e-45ec-bab0-b6178adc8eb1</id>
+      <masked>false</masked>
+      <name>We</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Second intro/Background Image')</defaultValue>
+      <description></description>
+      <id>f8639833-b8a7-496f-abd3-8de3e87b4f6b</id>
+      <masked>false</masked>
+      <name>background</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Second intro/Continue button')</defaultValue>
+      <description></description>
+      <id>cecc3f31-00e9-4767-b80e-2db2455eaa54</id>
+      <masked>false</masked>
+      <name>Continuebutton</name>
+   </variable>
+</TestCaseEntity>

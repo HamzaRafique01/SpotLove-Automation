@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="230.073" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke" tests="2" failures="0" errors="0" time="230.073" skipped="0" timestamp="2022-12-02 17:19:28" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221202_171912/Smoke/20221202_171913"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221202_171912/Smoke/20221202_171913/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221202_171912/Smoke/20221202_171913/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="107.36" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-12-02 17:19:28 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-12-02 17:19:29 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-02 17:19:29 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-12-02 17:19:33 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-12-02 17:19:35 - [MESSAGE][INFO] - Appium server started on port 56,332
+
+2022-12-02 17:19:46 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-02 17:19:46 - [TEST_STEP][PASSED] - check_image = findTestObject("Object Repository/Smoke/Verify Login Sign Up/Intro screen image"): null
+
+2022-12-02 17:19:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(check_image, 10)): null
+
+2022-12-02 17:19:50 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Verify Login Sign Up/Intro screen image' is present
+
+2022-12-02 17:19:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens' successfully
+
+2022-12-02 17:19:51 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens: Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens
+
+2022-12-02 17:19:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue1, 10)): null
+
+2022-12-02 17:19:51 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1' is present
+
+2022-12-02 17:19:51 - [TEST_STEP][PASSED] - tap(btn_Continue1, 5): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1'
+
+2022-12-02 17:19:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1'
+
+2022-12-02 17:19:52 - [TEST_STEP][PASSED] - print("First Intro Screen Verified Successfully......."): null
+
+2022-12-02 17:19:52 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue2, 10)): null
+
+2022-12-02 17:19:54 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2' is present
+
+2022-12-02 17:19:54 - [TEST_STEP][PASSED] - tap(btn_Continue2, 5): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2'
+
+2022-12-02 17:19:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2'
+
+2022-12-02 17:19:54 - [TEST_STEP][PASSED] - print("Second Intro Screen Verified Successfully......."): null
+
+2022-12-02 17:19:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue3, 10)): null
+
+2022-12-02 17:19:55 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3' is present
+
+2022-12-02 17:19:55 - [TEST_STEP][PASSED] - tap(btn_Continue3, 5): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3'
+
+2022-12-02 17:19:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3'
+
+2022-12-02 17:19:56 - [TEST_STEP][PASSED] - print("Third Intro Screen Verified Successfully......."): null
+
+2022-12-02 17:19:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens' successfully
+
+2022-12-02 17:19:56 - [TEST_STEP][PASSED] - markPassed("Screen1_Intro Passed Successfully"): Screen1_Intro Passed Successfully
+
+2022-12-02 17:19:56 - [MESSAGE][PASSED] - Screen1_Intro Passed Successfully
+
+2022-12-02 17:19:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue_WPN, 10, STOP_ON_FAILURE)): null
+
+2022-12-02 17:19:58 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Sign In Selection/btn Continue with phone number' is present
+
+2022-12-02 17:19:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-12-02 17:19:58 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen: Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen
+
+2022-12-02 17:19:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue_WPN, 30)): null
+
+2022-12-02 17:19:59 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Sign In Selection/btn Continue with phone number' is present
+
+2022-12-02 17:19:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-02 17:20:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-02 17:20:04 - [TEST_STEP][PASSED] - tap(btn_Continue_WPN, 15): Tapped on element 'Object Repository/Smoke/Sign In Selection/btn Continue with phone number'
+
+2022-12-02 17:20:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Sign In Selection/btn Continue with phone number'
+
+2022-12-02 17:20:04 - [TEST_STEP][PASSED] - markPassed("Phone number selected......"): Phone number selected......
+
+2022-12-02 17:20:04 - [MESSAGE][PASSED] - Phone number selected......
+
+2022-12-02 17:20:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-12-02 17:20:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)"), ["CName":CName, "PNumber":PNumber], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)' successfully
+
+2022-12-02 17:20:04 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number): Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)
+
+2022-12-02 17:20:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu' successfully
+
+2022-12-02 17:20:05 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu
+
+2022-12-02 17:20:05 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Insertion of phone number/list_dropdown": null
+
+2022-12-02 17:20:05 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5): Tapped on element 'Object Repository/Smoke/Insertion of phone number/list_dropdown'
+
+2022-12-02 17:20:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/list_dropdown'
+
+2022-12-02 17:20:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-02 17:20:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-02 17:20:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu' successfully
+
+2022-12-02 17:20:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name"), ["CName":CName], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name' successfully
+
+2022-12-02 17:20:11 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name
+
+2022-12-02 17:20:11 - [TEST_STEP][PASSED] - Name_f = "Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)": null
+
+2022-12-02 17:20:11 - [TEST_STEP][PASSED] - tap(findTestObject(Name_f), 5): Tapped on element 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)'
+
+2022-12-02 17:20:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)'
+
+2022-12-02 17:20:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject(Name_f), CName): Send keys 'US' on test object 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)' successfully.
+
+2022-12-02 17:20:14 - [MESSAGE][PASSED] - Send keys 'US' on test object 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)' successfully.
+
+2022-12-02 17:20:14 - [TEST_STEP][PASSED] - CName1 = "Object Repository/Smoke/Insertion of phone number/First_index search list": null
+
+2022-12-02 17:20:14 - [TEST_STEP][PASSED] - tap(findTestObject(CName1), 5): Tapped on element 'Object Repository/Smoke/Insertion of phone number/First_index search list'
+
+2022-12-02 17:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/First_index search list'
+
+2022-12-02 17:20:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name' successfully
+
+2022-12-02 17:20:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number"), ["PNumber":PNumber], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number' successfully
+
+2022-12-02 17:20:15 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number
+
+2022-12-02 17:20:15 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Insertion of phone number/Phone Number": null
+
+2022-12-02 17:20:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject(btn), PNumber): Send keys '6505557654' on test object 'Object Repository/Smoke/Insertion of phone number/Phone Number' successfully.
+
+2022-12-02 17:20:17 - [MESSAGE][PASSED] - Send keys '6505557654' on test object 'Object Repository/Smoke/Insertion of phone number/Phone Number' successfully.
+
+2022-12-02 17:20:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number' successfully
+
+2022-12-02 17:20:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button' successfully
+
+2022-12-02 17:20:17 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button
+
+2022-12-02 17:20:17 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Insertion of phone number/btn_Continue": null
+
+2022-12-02 17:20:17 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5): Tapped on element 'Object Repository/Smoke/Insertion of phone number/btn_Continue'
+
+2022-12-02 17:20:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/btn_Continue'
+
+2022-12-02 17:20:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-02 17:20:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-02 17:20:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button' successfully
+
+2022-12-02 17:20:23 - [TEST_STEP][PASSED] - delay(30, STOP_ON_FAILURE): Delayed 30 second(s)
+
+2022-12-02 17:20:53 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2022-12-02 17:20:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)' successfully
+
+2022-12-02 17:20:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP' successfully
+
+2022-12-02 17:20:53 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP: Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP
+
+2022-12-02 17:20:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - -"), 15): Tapped on element 'Object Repository/Smoke/OTP/android.widget.EditText - -'
+
+2022-12-02 17:20:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/OTP/android.widget.EditText - -'
+
+2022-12-02 17:20:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (1)"), "1", 2): Text '1' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (1)'
+
+2022-12-02 17:20:56 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (1)'
+
+2022-12-02 17:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (2)"), "2", 2): Text '2' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (2)'
+
+2022-12-02 17:20:59 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (2)'
+
+2022-12-02 17:20:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (3)"), "3", 2): Text '3' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (3)'
+
+2022-12-02 17:21:02 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (3)'
+
+2022-12-02 17:21:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (4)"), "4", 2): Text '4' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (4)'
+
+2022-12-02 17:21:04 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (4)'
+
+2022-12-02 17:21:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (5)"), "5", 2): Text '5' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (5)'
+
+2022-12-02 17:21:07 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (5)'
+
+2022-12-02 17:21:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (6)"), "6", 2): Text '6' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (6)'
+
+2022-12-02 17:21:09 - [MESSAGE][PASSED] - Text '6' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (6)'
+
+2022-12-02 17:21:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP' successfully
+
+2022-12-02 17:21:09 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP: Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP
+
+2022-12-02 17:21:10 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/OTP/btn_Verify": null
+
+2022-12-02 17:21:10 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5): Tapped on element 'Object Repository/Smoke/OTP/btn_Verify'
+
+2022-12-02 17:21:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/OTP/btn_Verify'
+
+2022-12-02 17:21:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-12-02 17:21:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-02 17:21:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP' successfully
+
+2022-12-02 17:21:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP' successfully
+
+2022-12-02 17:21:16 - [TEST_STEP][PASSED] - markPassed("OTP Verified......!"): OTP Verified......!
+
+2022-12-02 17:21:16 - [MESSAGE][PASSED] - OTP Verified......!]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC_002 Onboard" time="122.236" classname="Test Cases/Smoke/TC_002 Onboard" status="PASSED">
+         <system-out><![CDATA[2022-12-02 17:21:16 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_002 Onboard: Test Cases/Smoke/TC_002 Onboard
+
+2022-12-02 17:21:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap on I agree button"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-12-02 17:21:16 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap on I agree button: Test Cases/Smoke/LookUp For Onboard/Tap on I agree button
+
+2022-12-02 17:21:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_I_Agree, 10)): null
+
+2022-12-02 17:21:17 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-02 17:21:17 - [TEST_STEP][PASSED] - tap(btn_I_Agree, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-12-02 17:21:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-12-02 17:21:17 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate SOURCE Screen......!"): Passed! User Navigate SOURCE Screen......!
+
+2022-12-02 17:21:17 - [MESSAGE][PASSED] - Passed! User Navigate SOURCE Screen......!
+
+2022-12-02 17:21:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-12-02 17:21:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-12-02 17:21:17 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen: Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen
+
+2022-12-02 17:21:17 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:18 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Source Screen' is present
+
+2022-12-02 17:21:18 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-12-02 17:21:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-12-02 17:21:19 - [TEST_STEP][PASSED] - markPassed("User Successfully Navigate to the First Name Screen......!"): User Successfully Navigate to the First Name Screen......!
+
+2022-12-02 17:21:19 - [MESSAGE][PASSED] - User Successfully Navigate to the First Name Screen......!
+
+2022-12-02 17:21:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-12-02 17:21:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue"), ["FName":FName], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-12-02 17:21:19 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue: Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue
+
+2022-12-02 17:21:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(input_UserName, 10)): null
+
+2022-12-02 17:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' is present
+
+2022-12-02 17:21:20 - [TEST_STEP][PASSED] - markPassed("User Name field tapped Successfully......!"): User Name field tapped Successfully......!
+
+2022-12-02 17:21:20 - [MESSAGE][PASSED] - User Name field tapped Successfully......!
+
+2022-12-02 17:21:20 - [TEST_STEP][PASSED] - sendKeys(input_UserName, FName): Send keys 'Umar' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-12-02 17:21:21 - [MESSAGE][PASSED] - Send keys 'Umar' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-12-02 17:21:21 - [TEST_STEP][PASSED] - markPassed("User Name Entered Successfully......!"): User Name Entered Successfully......!
+
+2022-12-02 17:21:21 - [MESSAGE][PASSED] - User Name Entered Successfully......!
+
+2022-12-02 17:21:21 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-12-02 17:21:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-12-02 17:21:22 - [TEST_STEP][PASSED] - markPassed("User Navigate to the Birth Screen......!"): User Navigate to the Birth Screen......!
+
+2022-12-02 17:21:22 - [MESSAGE][PASSED] - User Navigate to the Birth Screen......!
+
+2022-12-02 17:21:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-12-02 17:21:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-12-02 17:21:22 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen
+
+2022-12-02 17:21:22 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:24 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Birth date' is present
+
+2022-12-02 17:21:24 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-02 17:21:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-02 17:21:25 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to POPUP Sheet to confirm birth date......!"): Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-02 17:21:25 - [MESSAGE][PASSED] - Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-02 17:21:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_edit, 10)): null
+
+2022-12-02 17:21:27 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)' is present
+
+2022-12-02 17:21:27 - [TEST_STEP][PASSED] - tap(btn_edit, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-12-02 17:21:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-12-02 17:21:27 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate birth date......!"): Passed! User Navigate birth date......!
+
+2022-12-02 17:21:27 - [MESSAGE][PASSED] - Passed! User Navigate birth date......!
+
+2022-12-02 17:21:27 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-02 17:21:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-02 17:21:29 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to POPUP Sheet to confirm birth date......!"): Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-02 17:21:29 - [MESSAGE][PASSED] - Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-02 17:21:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Confirm_birth, 10)): null
+
+2022-12-02 17:21:30 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)' is present
+
+2022-12-02 17:21:30 - [TEST_STEP][PASSED] - tap(btn_Confirm_birth, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-12-02 17:21:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-12-02 17:21:30 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate First Name Screen......!"): Passed! User Navigate First Name Screen......!
+
+2022-12-02 17:21:30 - [MESSAGE][PASSED] - Passed! User Navigate First Name Screen......!
+
+2022-12-02 17:21:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-12-02 17:21:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen"), ["Gender":Gender], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-12-02 17:21:30 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen
+
+2022-12-02 17:21:30 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Gender): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:32 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:32 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen' is present
+
+2022-12-02 17:21:32 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-12-02 17:21:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-12-02 17:21:32 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate INTO Screen......!"): Passed! User Navigate INTO Screen......!
+
+2022-12-02 17:21:32 - [MESSAGE][PASSED] - Passed! User Navigate INTO Screen......!
+
+2022-12-02 17:21:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-12-02 17:21:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen"), ["Into":Into], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-12-02 17:21:32 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen: Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen
+
+2022-12-02 17:21:32 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Into): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:34 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:34 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Into Screen' is present
+
+2022-12-02 17:21:34 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-12-02 17:21:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-12-02 17:21:35 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate HEIGHT Screen......!"): Passed! User Navigate HEIGHT Screen......!
+
+2022-12-02 17:21:35 - [MESSAGE][PASSED] - Passed! User Navigate HEIGHT Screen......!
+
+2022-12-02 17:21:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-12-02 17:21:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' successfully
+
+2022-12-02 17:21:35 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen
+
+2022-12-02 17:21:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:37 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on height Screen' is present
+
+2022-12-02 17:21:37 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on height Screen'
+
+2022-12-02 17:21:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on height Screen'
+
+2022-12-02 17:21:37 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate ETHNICITY Screen......!"): Passed! User Navigate ETHNICITY Screen......!
+
+2022-12-02 17:21:37 - [MESSAGE][PASSED] - Passed! User Navigate ETHNICITY Screen......!
+
+2022-12-02 17:21:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' successfully
+
+2022-12-02 17:21:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen"), ["Ethnicity":Ethnicity], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen' successfully
+
+2022-12-02 17:21:37 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen
+
+2022-12-02 17:21:38 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Ethnicity): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:39 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:40 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen' is present
+
+2022-12-02 17:21:40 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen'
+
+2022-12-02 17:21:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen'
+
+2022-12-02 17:21:40 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate RELIGION Screen......!"): Passed! User Navigate RELIGION Screen......!
+
+2022-12-02 17:21:40 - [MESSAGE][PASSED] - Passed! User Navigate RELIGION Screen......!
+
+2022-12-02 17:21:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen' successfully
+
+2022-12-02 17:21:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen"), ["Religion":Religion], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen' successfully
+
+2022-12-02 17:21:40 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen
+
+2022-12-02 17:21:41 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Religion): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:42 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:43 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen' is present
+
+2022-12-02 17:21:43 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen'
+
+2022-12-02 17:21:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen'
+
+2022-12-02 17:21:43 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Relationship Status Screen......!"): Passed! User Navigate Relationship Status Screen......!
+
+2022-12-02 17:21:43 - [MESSAGE][PASSED] - Passed! User Navigate Relationship Status Screen......!
+
+2022-12-02 17:21:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen' successfully
+
+2022-12-02 17:21:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen"), ["Relationship":Relationship], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen' successfully
+
+2022-12-02 17:21:44 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen
+
+2022-12-02 17:21:44 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Relationship): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:45 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:45 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:46 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen' is present
+
+2022-12-02 17:21:46 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen'
+
+2022-12-02 17:21:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen'
+
+2022-12-02 17:21:47 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Children and Family Plan Screen......!"): Passed! User Navigate Children and Family Plan Screen......!
+
+2022-12-02 17:21:47 - [MESSAGE][PASSED] - Passed! User Navigate Children and Family Plan Screen......!
+
+2022-12-02 17:21:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen' successfully
+
+2022-12-02 17:21:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan"), ["Children":Children, "Plan":Plan], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan' successfully
+
+2022-12-02 17:21:47 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan
+
+2022-12-02 17:21:47 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Children): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:48 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:48 - [TEST_STEP][PASSED] - com.spotlove.Utility.comma_sprt_value(Plan): com.spotlove.Utility.comma_sprt_value is PASSED
+
+2022-12-02 17:21:49 - [MESSAGE][PASSED] - com.spotlove.Utility.comma_sprt_value is PASSED
+
+2022-12-02 17:21:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:49 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen' is present
+
+2022-12-02 17:21:49 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen'
+
+2022-12-02 17:21:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen'
+
+2022-12-02 17:21:50 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate EDUCATION Screen......!"): Passed! User Navigate EDUCATION Screen......!
+
+2022-12-02 17:21:50 - [MESSAGE][PASSED] - Passed! User Navigate EDUCATION Screen......!
+
+2022-12-02 17:21:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan' successfully
+
+2022-12-02 17:21:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen"), ["Education":Education], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen' successfully
+
+2022-12-02 17:21:50 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen
+
+2022-12-02 17:21:50 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Education): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:51 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:21:52 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen' is present
+
+2022-12-02 17:21:52 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen'
+
+2022-12-02 17:21:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen'
+
+2022-12-02 17:21:53 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate VICES Screen......!"): Passed! User Navigate VICES Screen......!
+
+2022-12-02 17:21:53 - [MESSAGE][PASSED] - Passed! User Navigate VICES Screen......!
+
+2022-12-02 17:21:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen' successfully
+
+2022-12-02 17:21:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen"), ["Smoking":Smoking, "Marijuana":Marijuana, "Alcohol":Alcohol], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen' successfully
+
+2022-12-02 17:21:53 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen
+
+2022-12-02 17:21:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Alcohol_toggle, 10)): null
+
+2022-12-02 17:21:54 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol' is present
+
+2022-12-02 17:21:54 - [TEST_STEP][PASSED] - tap(btn_Alcohol_toggle, 5): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol'
+
+2022-12-02 17:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol'
+
+2022-12-02 17:21:55 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Alcohol): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:57 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:57 - [TEST_STEP][PASSED] - markPassed("Passed! User Tapped on the Alcohol "): Passed! User Tapped on the Alcohol 
+
+2022-12-02 17:21:57 - [MESSAGE][PASSED] - Passed! User Tapped on the Alcohol 
+
+2022-12-02 17:21:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Smoking_toggle, 10)): null
+
+2022-12-02 17:21:57 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking' is present
+
+2022-12-02 17:21:57 - [TEST_STEP][PASSED] - tap(btn_Smoking_toggle, 5): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking'
+
+2022-12-02 17:21:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking'
+
+2022-12-02 17:21:57 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Smoking): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:58 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:21:58 - [TEST_STEP][PASSED] - markPassed("Passed! User Tapped on the Smoking "): Passed! User Tapped on the Smoking 
+
+2022-12-02 17:21:58 - [MESSAGE][PASSED] - Passed! User Tapped on the Smoking 
+
+2022-12-02 17:21:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Marijuana_toggle, 10)): null
+
+2022-12-02 17:21:59 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana' is present
+
+2022-12-02 17:21:59 - [TEST_STEP][PASSED] - tap(btn_Marijuana_toggle, 5): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana'
+
+2022-12-02 17:21:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana'
+
+2022-12-02 17:21:59 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Marijuana): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:22:00 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:22:00 - [TEST_STEP][PASSED] - markPassed("Passed! User Tapped on the Marijuana "): Passed! User Tapped on the Marijuana 
+
+2022-12-02 17:22:00 - [MESSAGE][PASSED] - Passed! User Tapped on the Marijuana 
+
+2022-12-02 17:22:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:22:01 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen' is present
+
+2022-12-02 17:22:01 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen'
+
+2022-12-02 17:22:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen'
+
+2022-12-02 17:22:01 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate POLITICAL Screen......!"): Passed! User Navigate POLITICAL Screen......!
+
+2022-12-02 17:22:01 - [MESSAGE][PASSED] - Passed! User Navigate POLITICAL Screen......!
+
+2022-12-02 17:22:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen' successfully
+
+2022-12-02 17:22:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen"), ["Political":Political], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen' successfully
+
+2022-12-02 17:22:01 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen
+
+2022-12-02 17:22:02 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Political): com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:22:03 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-02 17:22:03 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:22:03 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Political Views' is present
+
+2022-12-02 17:22:03 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Political Views'
+
+2022-12-02 17:22:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Political Views'
+
+2022-12-02 17:22:04 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Permission POPUP......!"): Passed! User Navigate Permission POPUP......!
+
+2022-12-02 17:22:04 - [MESSAGE][PASSED] - Passed! User Navigate Permission POPUP......!
+
+2022-12-02 17:22:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(Only_this_time, 10)): null
+
+2022-12-02 17:22:05 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Permissions/Gallery/Only this time  (For Galery)' is present
+
+2022-12-02 17:22:05 - [TEST_STEP][PASSED] - tap(Only_this_time, 5): Tapped on element 'Object Repository/Smoke/Permissions/Gallery/Only this time  (For Galery)'
+
+2022-12-02 17:22:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Permissions/Gallery/Only this time  (For Galery)'
+
+2022-12-02 17:22:05 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate GALLERY Screen......!"): Passed! User Navigate GALLERY Screen......!
+
+2022-12-02 17:22:05 - [MESSAGE][PASSED] - Passed! User Navigate GALLERY Screen......!
+
+2022-12-02 17:22:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen' successfully
+
+2022-12-02 17:22:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue' successfully
+
+2022-12-02 17:22:05 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue: Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue
+
+2022-12-02 17:22:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Photo_Placeholder_2, 10)): null
+
+2022-12-02 17:22:07 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2' is present
+
+2022-12-02 17:22:07 - [TEST_STEP][PASSED] - tap(btn_Photo_Placeholder_2, 5): Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2'
+
+2022-12-02 17:22:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2'
+
+2022-12-02 17:22:07 - [TEST_STEP][PASSED] - markPassed("Passed! Second Placeholder tapped successfully......!"): Passed! Second Placeholder tapped successfully......!
+
+2022-12-02 17:22:07 - [MESSAGE][PASSED] - Passed! Second Placeholder tapped successfully......!
+
+2022-12-02 17:22:07 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Take_Photo, 10)): null
+
+2022-12-02 17:22:08 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo' is present
+
+2022-12-02 17:22:08 - [TEST_STEP][PASSED] - tap(btn_Take_Photo, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo'
+
+2022-12-02 17:22:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo'
+
+2022-12-02 17:22:08 - [TEST_STEP][PASSED] - markPassed("Passed! Take Photo button tapped successfully......!"): Passed! Take Photo button tapped successfully......!
+
+2022-12-02 17:22:08 - [MESSAGE][PASSED] - Passed! Take Photo button tapped successfully......!
+
+2022-12-02 17:22:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Capture_Photo, 10)): null
+
+2022-12-02 17:22:10 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera' is present
+
+2022-12-02 17:22:10 - [TEST_STEP][PASSED] - tap(btn_Capture_Photo, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera'
+
+2022-12-02 17:22:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera'
+
+2022-12-02 17:22:12 - [TEST_STEP][PASSED] - markPassed("Passed! Photo Captured successfully......!"): Passed! Photo Captured successfully......!
+
+2022-12-02 17:22:12 - [MESSAGE][PASSED] - Passed! Photo Captured successfully......!
+
+2022-12-02 17:22:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_OK, 10)): null
+
+2022-12-02 17:22:14 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo' is present
+
+2022-12-02 17:22:14 - [TEST_STEP][PASSED] - tap(btn_OK, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo'
+
+2022-12-02 17:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo'
+
+2022-12-02 17:22:14 - [TEST_STEP][PASSED] - markPassed("Passed! Okay button tapped successfully......!"): Passed! Okay button tapped successfully......!
+
+2022-12-02 17:22:14 - [MESSAGE][PASSED] - Passed! Okay button tapped successfully......!
+
+2022-12-02 17:22:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-12-02 17:22:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-02 17:22:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Done_Camera, 10)): null
+
+2022-12-02 17:22:24 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Permissions/Gallery/btn Done (For Camera)' is present
+
+2022-12-02 17:22:24 - [TEST_STEP][PASSED] - tap(btn_Done_Camera, 5): Tapped on element 'Object Repository/Smoke/Permissions/Gallery/btn Done (For Camera)'
+
+2022-12-02 17:22:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Permissions/Gallery/btn Done (For Camera)'
+
+2022-12-02 17:22:24 - [TEST_STEP][PASSED] - markPassed("Passed! Done button tapped successfully......!"): Passed! Done button tapped successfully......!
+
+2022-12-02 17:22:24 - [MESSAGE][PASSED] - Passed! Done button tapped successfully......!
+
+2022-12-02 17:22:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-12-02 17:22:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-02 17:22:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(Photo_Placeholder_1, 10)): null
+
+2022-12-02 17:22:35 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 1' is present
+
+2022-12-02 17:22:35 - [TEST_STEP][PASSED] - tap(Photo_Placeholder_1, 5): Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 1'
+
+2022-12-02 17:22:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 1'
+
+2022-12-02 17:22:35 - [TEST_STEP][PASSED] - markPassed("Passed! First Placeholder tapped successfully......!"): Passed! First Placeholder tapped successfully......!
+
+2022-12-02 17:22:35 - [MESSAGE][PASSED] - Passed! First Placeholder tapped successfully......!
+
+2022-12-02 17:22:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(Photo_Gallery, 10)): null
+
+2022-12-02 17:22:36 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/Photo Gallery' is present
+
+2022-12-02 17:22:36 - [TEST_STEP][PASSED] - tap(Photo_Gallery, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Photo Gallery'
+
+2022-12-02 17:22:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Photo Gallery'
+
+2022-12-02 17:22:37 - [TEST_STEP][PASSED] - markPassed("Passed! Photo Gallery tapped successfully......!"): Passed! Photo Gallery tapped successfully......!
+
+2022-12-02 17:22:37 - [MESSAGE][PASSED] - Passed! Photo Gallery tapped successfully......!
+
+2022-12-02 17:22:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(Existing_Photo, 10)): null
+
+2022-12-02 17:22:38 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/First Existing Photo From Gallery' is present
+
+2022-12-02 17:22:38 - [TEST_STEP][PASSED] - tap(Existing_Photo, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/First Existing Photo From Gallery'
+
+2022-12-02 17:22:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/First Existing Photo From Gallery'
+
+2022-12-02 17:22:38 - [TEST_STEP][PASSED] - markPassed("Passed! Select Photo from Gallery successfully......!"): Passed! Select Photo from Gallery successfully......!
+
+2022-12-02 17:22:38 - [MESSAGE][PASSED] - Passed! Select Photo from Gallery successfully......!
+
+2022-12-02 17:22:38 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Done_Gallery, 10)): null
+
+2022-12-02 17:22:39 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/btn Done' is present
+
+2022-12-02 17:22:39 - [TEST_STEP][PASSED] - tap(btn_Done_Gallery, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn Done'
+
+2022-12-02 17:22:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn Done'
+
+2022-12-02 17:22:40 - [TEST_STEP][PASSED] - markPassed("Passed! Done Button tapped successfully......!"): Passed! Done Button tapped successfully......!
+
+2022-12-02 17:22:40 - [MESSAGE][PASSED] - Passed! Done Button tapped successfully......!
+
+2022-12-02 17:22:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-12-02 17:22:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-02 17:22:50 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:22:50 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen' is present
+
+2022-12-02 17:22:50 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen'
+
+2022-12-02 17:22:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen'
+
+2022-12-02 17:22:50 - [TEST_STEP][PASSED] - markPassed("Passed! Continue Button tapped successfully......!"): Passed! Continue Button tapped successfully......!
+
+2022-12-02 17:22:50 - [MESSAGE][PASSED] - Passed! Continue Button tapped successfully......!
+
+2022-12-02 17:22:50 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to the One-liner Screen......!"): Passed! User Navigate to the One-liner Screen......!
+
+2022-12-02 17:22:50 - [MESSAGE][PASSED] - Passed! User Navigate to the One-liner Screen......!
+
+2022-12-02 17:22:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue' successfully
+
+2022-12-02 17:22:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' successfully
+
+2022-12-02 17:22:50 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen
+
+2022-12-02 17:22:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-02 17:22:52 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on One-liner Screen' is present
+
+2022-12-02 17:22:52 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on One-liner Screen'
+
+2022-12-02 17:22:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on One-liner Screen'
+
+2022-12-02 17:22:53 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate LOCATION Screen......!"): Passed! User Navigate LOCATION Screen......!
+
+2022-12-02 17:22:53 - [MESSAGE][PASSED] - Passed! User Navigate LOCATION Screen......!
+
+2022-12-02 17:22:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' successfully
+
+2022-12-02 17:22:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Enable Location on location screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Enable Location on location screen' successfully
+
+2022-12-02 17:22:53 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Enable Location on location screen: Test Cases/Smoke/LookUp For Onboard/Tap to Enable Location on location screen
+
+2022-12-02 17:22:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Enable_Location, 10)): null
+
+2022-12-02 17:22:55 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Enable Location on Enable location Screen' is present
+
+2022-12-02 17:22:55 - [TEST_STEP][PASSED] - tap(btn_Enable_Location, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Enable Location on Enable location Screen'
+
+2022-12-02 17:22:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Enable Location on Enable location Screen'
+
+2022-12-02 17:22:55 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Permission POPUP......!"): Passed! User Navigate Permission POPUP......!
+
+2022-12-02 17:22:55 - [MESSAGE][PASSED] - Passed! User Navigate Permission POPUP......!
+
+2022-12-02 17:22:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(Only_this_time, 10)): null
+
+2022-12-02 17:22:56 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Permissions/Location/Only this time (For Enable Location)' is present
+
+2022-12-02 17:22:56 - [TEST_STEP][PASSED] - tap(Only_this_time, 5): Tapped on element 'Object Repository/Smoke/Permissions/Location/Only this time (For Enable Location)'
+
+2022-12-02 17:22:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Permissions/Location/Only this time (For Enable Location)'
+
+2022-12-02 17:22:56 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Location Screen......!"): Passed! User Navigate Location Screen......!
+
+2022-12-02 17:22:56 - [MESSAGE][PASSED] - Passed! User Navigate Location Screen......!
+
+2022-12-02 17:22:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_submit, 10)): null
+
+2022-12-02 17:23:01 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Submit Location' is present
+
+2022-12-02 17:23:01 - [TEST_STEP][PASSED] - tap(btn_submit, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Submit Location'
+
+2022-12-02 17:23:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Submit Location'
+
+2022-12-02 17:23:01 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Sit tight Screen......!"): Passed! User Navigate Sit tight Screen......!
+
+2022-12-02 17:23:01 - [MESSAGE][PASSED] - Passed! User Navigate Sit tight Screen......!
+
+2022-12-02 17:23:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(lb_txt, 10)): null
+
+2022-12-02 17:23:03 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Label Text Sit Tight' is present
+
+2022-12-02 17:23:03 - [TEST_STEP][PASSED] - tap(lb_txt, 5): Tapped on element 'Object Repository/Smoke/Onboard/Label Text Sit Tight'
+
+2022-12-02 17:23:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Label Text Sit Tight'
+
+2022-12-02 17:23:03 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2022-12-02 17:23:18 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2022-12-02 17:23:18 - [TEST_STEP][PASSED] - markPassed("Passed! Label Text Present on Sit Tight Screen......!"): Passed! Label Text Present on Sit Tight Screen......!
+
+2022-12-02 17:23:18 - [MESSAGE][PASSED] - Passed! Label Text Present on Sit Tight Screen......!
+
+2022-12-02 17:23:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Enable Location on location screen' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-02 17:19:28 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Smoke/TC_002 Onboard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

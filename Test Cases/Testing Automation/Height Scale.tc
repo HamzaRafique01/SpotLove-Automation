@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Height Scale</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44aa3472-b3e3-4a59-a22c-a06df9ef95f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcead416-9fcf-4732-8cb1-61daab912c1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6e96fcb-2848-4b1d-80e3-ba2206f4bff5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27b1f87d-6ffd-4dab-88f4-cb0f6b420665</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d828c3d-3df5-4389-9673-f89b302f9f7a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Height scale/Back')</defaultValue>
+      <description></description>
+      <id>dcead416-9fcf-4732-8cb1-61daab912c1f</id>
+      <masked>false</masked>
+      <name>Back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Height scale/Scale icon')</defaultValue>
+      <description></description>
+      <id>c6e96fcb-2848-4b1d-80e3-ba2206f4bff5</id>
+      <masked>false</masked>
+      <name>Scale_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Height scale/How tall are you label text')</defaultValue>
+      <description></description>
+      <id>27b1f87d-6ffd-4dab-88f4-cb0f6b420665</id>
+      <masked>false</masked>
+      <name>How</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Height scale/Continue Button')</defaultValue>
+      <description></description>
+      <id>1d828c3d-3df5-4389-9673-f89b302f9f7a</id>
+      <masked>false</masked>
+      <name>Continue</name>
+   </variable>
+</TestCaseEntity>

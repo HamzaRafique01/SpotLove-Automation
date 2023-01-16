@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-12-01 13:25:00,2022-12-01 13:27:19,2m - 19.056s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-12-01 13:25:00,2022-12-01 13:27:19,2m - 18.713s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-12-01 13:25:01,2022-12-01 13:25:56,55.060s,PASSED
+"check_image = findTestObject(""Object Repository/Smoke/Verify Login Sign Up/Intro screen image"")",,,,2022-12-01 13:25:56,2022-12-01 13:25:56,0.048s,PASSED
+"if (waitForElementPresent(check_image, 10))",,,,2022-12-01 13:25:56,2022-12-01 13:27:19,1m - 23.197s,PASSED

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="36.688" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="36.688" skipped="0" timestamp="2022-12-05 17:04:16" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221205_170406/Smoke/20221205_170406"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221205_170406/Smoke/20221205_170406/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221205_170406/Smoke/20221205_170406/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="36.42" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-12-05 17:04:16 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-12-05 17:04:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-12-05 17:04:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-05 17:04:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-05 17:04:17 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-05 17:04:17 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-12-05 17:04:19 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-12-05 17:04:21 - [MESSAGE][INFO] - Appium server started on port 58,323
+
+2022-12-05 17:04:32 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-05 17:04:32 - [TEST_STEP][PASSED] - check_image = findTestObject("Object Repository/Smoke/Verify Login Sign Up/Intro screen image"): null
+
+2022-12-05 17:04:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(check_image, 10)): Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-05 17:04:42 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-05 17:04:42 - [TEST_STEP][PASSED] - else: Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 17:04:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue_WPN, 10, STOP_ON_FAILURE)): Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-05 17:04:52 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Sign In Selection/btn Continue with phone number not found
+
+2022-12-05 17:04:53 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-05 17:04:53 - [TEST_STEP][PASSED] - else if (waitForElementPresent(Agree, 10, STOP_ON_FAILURE)): Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 17:04:53 - [TEST_STEP][PASSED] - markPassed("Please Create Your SpotLove Account..(Else)....!"): Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 17:04:53 - [MESSAGE][PASSED] - Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 17:04:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-12-05 17:04:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-05 17:04:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-05 17:04:16 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Smoke/TC_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

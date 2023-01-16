@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dating Preferences (Religion)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a38e17cf-b270-4f75-95d6-674f62055c28</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b5a3a16-71ec-402d-abb4-8e4c162ad4c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd2cbff7-6dc8-450d-b852-388dd4b255e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a375e425-ce30-4776-a09b-263c3ebef129</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>497c9270-0aa5-41ff-abc7-fe13b2ff4728</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ab9c897-009c-4372-bafd-c16e8ad6b81b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11fbf535-e59e-4930-8842-de76630a33dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2dfbc9b6-5189-4292-9a95-34bf46140366</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a1b275e-8a97-4d68-befa-fe4e3c67113b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21562b0e-918c-45f9-b191-49dd0978d3be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>43120f70-9539-4e12-88e0-cfadd71ab0ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47c1a051-f815-433d-94ef-0b8773a32631</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>122c79b8-0770-4ebc-afb7-d737c9dfca83</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d182fbe7-de6f-4b55-8048-6eca48472a15</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Preferences header textttt')</defaultValue>
+      <description></description>
+      <id>4b5a3a16-71ec-402d-abb4-8e4c162ad4c4</id>
+      <masked>false</masked>
+      <name>Dating_Header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Religion')</defaultValue>
+      <description></description>
+      <id>dd2cbff7-6dc8-450d-b852-388dd4b255e8</id>
+      <masked>false</masked>
+      <name>Religion</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Religion popup header')</defaultValue>
+      <description></description>
+      <id>a375e425-ce30-4776-a09b-263c3ebef129</id>
+      <masked>false</masked>
+      <name>Religion_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Open to All')</defaultValue>
+      <description></description>
+      <id>497c9270-0aa5-41ff-abc7-fe13b2ff4728</id>
+      <masked>false</masked>
+      <name>Open_to_All</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Catholic')</defaultValue>
+      <description></description>
+      <id>7ab9c897-009c-4372-bafd-c16e8ad6b81b</id>
+      <masked>false</masked>
+      <name>Catholic</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Jewish')</defaultValue>
+      <description></description>
+      <id>11fbf535-e59e-4930-8842-de76630a33dd</id>
+      <masked>false</masked>
+      <name>Jewish</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Sikh')</defaultValue>
+      <description></description>
+      <id>2dfbc9b6-5189-4292-9a95-34bf46140366</id>
+      <masked>false</masked>
+      <name>Sikh</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Atheist')</defaultValue>
+      <description></description>
+      <id>2a1b275e-8a97-4d68-befa-fe4e3c67113b</id>
+      <masked>false</masked>
+      <name>Atheist</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Close Popup')</defaultValue>
+      <description></description>
+      <id>21562b0e-918c-45f9-b191-49dd0978d3be</id>
+      <masked>false</masked>
+      <name>Close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Hindu')</defaultValue>
+      <description></description>
+      <id>43120f70-9539-4e12-88e0-cfadd71ab0ae</id>
+      <masked>false</masked>
+      <name>Hindu</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Agnostic')</defaultValue>
+      <description></description>
+      <id>47c1a051-f815-433d-94ef-0b8773a32631</id>
+      <masked>false</masked>
+      <name>Agnostic</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Muslim')</defaultValue>
+      <description></description>
+      <id>122c79b8-0770-4ebc-afb7-d737c9dfca83</id>
+      <masked>false</masked>
+      <name>Muslim</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Religion/Save Button')</defaultValue>
+      <description></description>
+      <id>d182fbe7-de6f-4b55-8048-6eca48472a15</id>
+      <masked>false</masked>
+      <name>Save</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-25 17:31:01,2022-11-25 17:32:28,1m - 26.592s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-11-25 17:31:02,2022-11-25 17:31:59,56.979s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-25 17:31:02,2022-11-25 17:31:15,13.169s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens""), null, STOP_ON_FAILURE)",,,,2022-11-25 17:31:15,2022-11-25 17:31:23,7.409s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen""), null, STOP_ON_FAILURE)",,,,2022-11-25 17:31:23,2022-11-25 17:31:24,1.346s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)""), [""CName"":CName, ""PNumber"":PNumber], STOP_ON_FAILURE)",,,,2022-11-25 17:31:24,2022-11-25 17:31:41,17.474s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP""), null, STOP_ON_FAILURE)",,,,2022-11-25 17:31:41,2022-11-25 17:31:59,17.293s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-25 17:31:59,2022-11-25 17:32:06,7.199s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-25 17:31:59,2022-11-25 17:32:06,6.908s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-25 17:32:06,2022-11-25 17:32:19,12.545s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-25 17:32:06,2022-11-25 17:32:12,5.679s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-11-25 17:32:12,2022-11-25 17:32:19,6.851s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-25 17:32:19,2022-11-25 17:32:28,9.274s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-25 17:32:19,2022-11-25 17:32:28,9.261s,FAILED

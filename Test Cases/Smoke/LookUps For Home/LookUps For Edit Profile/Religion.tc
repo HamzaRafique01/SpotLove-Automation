@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Religion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4bee9ed-d12a-4e41-a0e6-ad73c9bb3cfe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7d587bf-91c1-4c4a-8b01-a5c7e28b0e37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>722a87a8-20cb-4682-baea-4ead32b25fe2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a164a2c9-eaf5-4d55-96ba-5c070be247f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7d587bf-91c1-4c4a-8b01-a5c7e28b0e37</id>
+      <masked>false</masked>
+      <name>E_Religion</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/Religionn/btn save')</defaultValue>
+      <description></description>
+      <id>722a87a8-20cb-4682-baea-4ead32b25fe2</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/Religionn/Religion')</defaultValue>
+      <description></description>
+      <id>a164a2c9-eaf5-4d55-96ba-5c070be247f8</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+</TestCaseEntity>

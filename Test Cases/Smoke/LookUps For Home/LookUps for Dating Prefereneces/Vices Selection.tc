@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Vices Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0538c663-7fe1-4a36-9c7e-4080ff9eba9a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b358f2b1-f158-4171-b392-cb21e5d4bc5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e89a8818-c647-490c-9641-3aa929809b45</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cce5e0b-2e9b-411b-954e-7256602816ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Vices/Vices')</defaultValue>
+      <description></description>
+      <id>b358f2b1-f158-4171-b392-cb21e5d4bc5b</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Vices/btn Save')</defaultValue>
+      <description></description>
+      <id>e89a8818-c647-490c-9641-3aa929809b45</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0cce5e0b-2e9b-411b-954e-7256602816ca</id>
+      <masked>false</masked>
+      <name>Vices</name>
+   </variable>
+</TestCaseEntity>

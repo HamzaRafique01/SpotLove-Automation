@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Explore Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50671edd-56c1-422f-85e1-d690bb51b8a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc7fd3a0-0e6e-4f34-8a41-50cd8c66dc5f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4719478b-3c09-4c28-9c38-b3927bd59dcb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e57678bb-9a21-491c-899a-1b5b7bf8b680</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78428d65-2f55-4843-a2bb-6238b35cf622</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7fd70be-e396-4c76-990f-dc7465efb928</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b3df271-abe0-423c-9532-8caa760c3a98</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6431ef7-680c-486b-91b5-f0b83c7b454b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e591df0c-dd9e-4981-b343-842afe7e5b8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0fd8420-bb6a-4d16-9077-036e1cb7a1fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eabf9abd-e6f2-4d24-a46e-7ad48f4bef69</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>482f1a8b-4be1-4a27-a9a8-5e53a05754f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>549a6349-a312-4002-8355-8207feb66eb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56f80fa8-63a4-4b02-9d45-5074ceec1ac0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9652b4c0-36bc-472e-aaec-a93bdf3fa31a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>105a56fd-44ae-44b3-aff8-633811f727b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c23d5ee-59fb-416c-9040-951b8e03fcd3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Explore Label Text')</defaultValue>
+      <description></description>
+      <id>fc7fd3a0-0e6e-4f34-8a41-50cd8c66dc5f</id>
+      <masked>false</masked>
+      <name>Explore_Label</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Preferences Button')</defaultValue>
+      <description></description>
+      <id>4719478b-3c09-4c28-9c38-b3927bd59dcb</id>
+      <masked>false</masked>
+      <name>Preferences_Button</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Dating Back')</defaultValue>
+      <description></description>
+      <id>e57678bb-9a21-491c-899a-1b5b7bf8b680</id>
+      <masked>false</masked>
+      <name>home_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/User name1')</defaultValue>
+      <description></description>
+      <id>78428d65-2f55-4843-a2bb-6238b35cf622</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Be the change you want to see in the world Label text')</defaultValue>
+      <description></description>
+      <id>a7fd70be-e396-4c76-990f-dc7465efb928</id>
+      <masked>false</masked>
+      <name>Be_The</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Like Button')</defaultValue>
+      <description></description>
+      <id>1b3df271-abe0-423c-9532-8caa760c3a98</id>
+      <masked>false</masked>
+      <name>Like_Button</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Disliked Button')</defaultValue>
+      <description></description>
+      <id>e6431ef7-680c-486b-91b5-f0b83c7b454b</id>
+      <masked>false</masked>
+      <name>Dislike_Button</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Liked You Tab')</defaultValue>
+      <description></description>
+      <id>e591df0c-dd9e-4981-b343-842afe7e5b8b</id>
+      <masked>false</masked>
+      <name>Like_You</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Liked You label text')</defaultValue>
+      <description></description>
+      <id>f0fd8420-bb6a-4d16-9077-036e1cb7a1fc</id>
+      <masked>false</masked>
+      <name>Liked_You</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Square Heart icon')</defaultValue>
+      <description></description>
+      <id>eabf9abd-e6f2-4d24-a46e-7ad48f4bef69</id>
+      <masked>false</masked>
+      <name>Square_Heart</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Youve got no likes right now. Check back later label text')</defaultValue>
+      <description></description>
+      <id>482f1a8b-4be1-4a27-a9a8-5e53a05754f6</id>
+      <masked>false</masked>
+      <name>Youve</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Matches Tab')</defaultValue>
+      <description></description>
+      <id>549a6349-a312-4002-8355-8207feb66eb1</id>
+      <masked>false</masked>
+      <name>Matches</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Matual Match icon')</defaultValue>
+      <description></description>
+      <id>56f80fa8-63a4-4b02-9d45-5074ceec1ac0</id>
+      <masked>false</masked>
+      <name>Mutaul_Match_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Check back to see who youve matched with label text')</defaultValue>
+      <description></description>
+      <id>9652b4c0-36bc-472e-aaec-a93bdf3fa31a</id>
+      <masked>false</masked>
+      <name>Check_Back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Start Exploring Button')</defaultValue>
+      <description></description>
+      <id>105a56fd-44ae-44b3-aff8-633811f727b1</id>
+      <masked>false</masked>
+      <name>Start</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Explore Screen/Profile Tab')</defaultValue>
+      <description></description>
+      <id>4c23d5ee-59fb-416c-9040-951b8e03fcd3</id>
+      <masked>false</masked>
+      <name>Profile_Tab</name>
+   </variable>
+</TestCaseEntity>

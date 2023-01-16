@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search country by name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e39a5825-ca32-40a1-b33a-6ec84852e7b0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01e58a4e-c1ea-47c6-a89e-d35abc5e76ba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01e58a4e-c1ea-47c6-a89e-d35abc5e76ba</id>
+      <masked>false</masked>
+      <name>CName</name>
+   </variable>
+</TestCaseEntity>

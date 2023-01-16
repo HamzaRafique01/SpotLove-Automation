@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="55.643" tests="2" failures="0" errors="1">
+   <testsuite name="Smoke" tests="2" failures="0" errors="1" time="55.643" skipped="0" timestamp="2022-12-01 15:49:00" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221201_154852/Smoke/20221201_154852"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221201_154852/Smoke/20221201_154852/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221201_154852/Smoke/20221201_154852/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="36.0" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-12-01 15:49:01 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-12-01 15:49:01 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-01 15:49:01 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-12-01 15:49:04 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-12-01 15:49:05 - [MESSAGE][INFO] - Appium server started on port 50,275
+
+2022-12-01 15:49:16 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-01 15:49:16 - [TEST_STEP][PASSED] - check_image = findTestObject("Object Repository/Smoke/Verify Login Sign Up/Intro screen image"): null
+
+2022-12-01 15:49:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(check_image, 10)): Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-01 15:49:26 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-01 15:49:26 - [TEST_STEP][PASSED] - else: Please Create Your SpotLove Account..(Else)....!
+
+2022-12-01 15:49:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue_WPN, 10, STOP_ON_FAILURE)): Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-01 15:49:36 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Sign In Selection/btn Continue with phone number not found
+
+2022-12-01 15:49:37 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-01 15:49:37 - [TEST_STEP][PASSED] - else if (waitForElementPresent(Agree, 10, STOP_ON_FAILURE)): Please Create Your SpotLove Account..(Else)....!
+
+2022-12-01 15:49:37 - [TEST_STEP][PASSED] - markPassed("Please Create Your SpotLove Account..(Else)....!"): Please Create Your SpotLove Account..(Else)....!
+
+2022-12-01 15:49:37 - [MESSAGE][PASSED] - Please Create Your SpotLove Account..(Else)....!]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC_002 Onboard" time="19.209" classname="Test Cases/Smoke/TC_002 Onboard" status="ERROR">
+         <error type="ERROR" message="Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-12-01 15:49:37 - [TEST_CASE][ERROR] - Test Cases/Smoke/TC_002 Onboard: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-12-01 15:49:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap on I agree button"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-12-01 15:49:37 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap on I agree button: Test Cases/Smoke/LookUp For Onboard/Tap on I agree button
+
+2022-12-01 15:49:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_I_Agree, 10)): null
+
+2022-12-01 15:49:38 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-01 15:49:38 - [TEST_STEP][PASSED] - tap(btn_I_Agree, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-12-01 15:49:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-12-01 15:49:38 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate SOURCE Screen......!"): Passed! User Navigate SOURCE Screen......!
+
+2022-12-01 15:49:38 - [MESSAGE][PASSED] - Passed! User Navigate SOURCE Screen......!
+
+2022-12-01 15:49:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-12-01 15:49:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-12-01 15:49:38 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen: Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen
+
+2022-12-01 15:49:38 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-01 15:49:39 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Source Screen' is present
+
+2022-12-01 15:49:39 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-12-01 15:49:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-12-01 15:49:40 - [TEST_STEP][PASSED] - markPassed("User Successfully Navigate to the First Name Screen......!"): User Successfully Navigate to the First Name Screen......!
+
+2022-12-01 15:49:40 - [MESSAGE][PASSED] - User Successfully Navigate to the First Name Screen......!
+
+2022-12-01 15:49:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-12-01 15:49:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue"), ["FName":FName], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-12-01 15:49:40 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue: Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue
+
+2022-12-01 15:49:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(input_UserName, 10)): null
+
+2022-12-01 15:49:41 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' is present
+
+2022-12-01 15:49:41 - [TEST_STEP][PASSED] - markPassed("User Name field tapped Successfully......!"): User Name field tapped Successfully......!
+
+2022-12-01 15:49:41 - [MESSAGE][PASSED] - User Name field tapped Successfully......!
+
+2022-12-01 15:49:41 - [TEST_STEP][PASSED] - sendKeys(input_UserName, FName): Send keys 'Umar' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-12-01 15:49:42 - [MESSAGE][PASSED] - Send keys 'Umar' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-12-01 15:49:42 - [TEST_STEP][PASSED] - markPassed("User Name Entered Successfully......!"): User Name Entered Successfully......!
+
+2022-12-01 15:49:42 - [MESSAGE][PASSED] - User Name Entered Successfully......!
+
+2022-12-01 15:49:42 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-12-01 15:49:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-12-01 15:49:42 - [TEST_STEP][PASSED] - markPassed("User Navigate to the Birth Screen......!"): User Navigate to the Birth Screen......!
+
+2022-12-01 15:49:42 - [MESSAGE][PASSED] - User Navigate to the Birth Screen......!
+
+2022-12-01 15:49:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-12-01 15:49:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-12-01 15:49:43 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen
+
+2022-12-01 15:49:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-01 15:49:45 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Birth date' is present
+
+2022-12-01 15:49:45 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-01 15:49:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-01 15:49:46 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to POPUP Sheet to confirm birth date......!"): Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-01 15:49:46 - [MESSAGE][PASSED] - Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-01 15:49:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_edit, 10)): null
+
+2022-12-01 15:49:47 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)' is present
+
+2022-12-01 15:49:47 - [TEST_STEP][PASSED] - tap(btn_edit, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-12-01 15:49:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-12-01 15:49:48 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate birth date......!"): Passed! User Navigate birth date......!
+
+2022-12-01 15:49:48 - [MESSAGE][PASSED] - Passed! User Navigate birth date......!
+
+2022-12-01 15:49:48 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-01 15:49:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-01 15:49:49 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to POPUP Sheet to confirm birth date......!"): Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-01 15:49:49 - [MESSAGE][PASSED] - Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-01 15:49:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Confirm_birth, 10)): null
+
+2022-12-01 15:49:51 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)' is present
+
+2022-12-01 15:49:51 - [TEST_STEP][PASSED] - tap(btn_Confirm_birth, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-12-01 15:49:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-12-01 15:49:51 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate First Name Screen......!"): Passed! User Navigate First Name Screen......!
+
+2022-12-01 15:49:51 - [MESSAGE][PASSED] - Passed! User Navigate First Name Screen......!
+
+2022-12-01 15:49:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-12-01 15:49:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen"), ["Gender":Gender], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-12-01 15:49:51 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen
+
+2022-12-01 15:49:51 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Gender): com.spotlove.Utility.random_value is PASSED
+
+2022-12-01 15:49:52 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-01 15:49:52 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-01 15:49:53 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen' is present
+
+2022-12-01 15:49:53 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-12-01 15:49:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-12-01 15:49:53 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate INTO Screen......!"): Passed! User Navigate INTO Screen......!
+
+2022-12-01 15:49:53 - [MESSAGE][PASSED] - Passed! User Navigate INTO Screen......!
+
+2022-12-01 15:49:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-12-01 15:49:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen"), ["Into":Into], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-12-01 15:49:53 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen: Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen
+
+2022-12-01 15:49:53 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Into): com.spotlove.Utility.random_value is PASSED
+
+2022-12-01 15:49:55 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-01 15:49:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-01 15:49:55 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Into Screen' is present
+
+2022-12-01 15:49:55 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-12-01 15:49:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-12-01 15:49:56 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate HEIGHT Screen......!"): Passed! User Navigate HEIGHT Screen......!
+
+2022-12-01 15:49:56 - [MESSAGE][PASSED] - Passed! User Navigate HEIGHT Screen......!
+
+2022-12-01 15:49:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-12-01 15:49:56 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen"), null, STOP_ON_FAILURE): Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-12-01 15:49:56 - [TEST_CASE][ERROR] - Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+
+
+2022-12-01 15:49:56 - [TEST_STEP][ERROR] - if (waitForElementPresent(findTestObject(btn_Continue))): Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+
+
+2022-12-01 15:49:56 - [MESSAGE][ERROR] - Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+
+
+2022-12-01 15:49:56 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-12-01 15:49:56 - [MESSAGE][ERROR] - Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+         <system-err><![CDATA[2022-12-01 15:49:37 - [TEST_CASE][ERROR] - Test Cases/Smoke/TC_002 Onboard: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-01 15:49:00 - [TEST_SUITE][ERROR] - Smoke: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2022-12-01 15:49:00 - [TEST_SUITE][ERROR] - Smoke: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669891732300.run(TempTestSuite1669891732300.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Smoke/Onboard/btn Continue on height Screen']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at Tap to continue btn n Height screen.run(Tap to continue btn n Height screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Staging,,,,2022-09-19 15:21:23,2022-09-19 15:22:30,1m - 7.197s,PASSED
+,,,,,,,
+Test Cases/testing/Welcome OnBoarding,,,,2022-09-19 15:21:23,2022-09-19 15:21:49,26.151s,PASSED
+"startExistingApplication(packageID, STOP_ON_FAILURE)",,,,2022-09-19 15:21:24,2022-09-19 15:21:39,15.207s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-19 15:21:39,2022-09-19 15:21:49,9.889s,PASSED
+,,,,,,,
+Test Cases/testing/Referral Screen,,,,2022-09-19 15:21:49,2022-09-19 15:21:51,1.975s,PASSED
+"if (waitForElementPresent(Heart_Icon, 30))",,,,2022-09-19 15:21:50,2022-09-19 15:21:51,1.346s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-19 15:21:54,2022-09-19 15:21:59,4.748s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-19 15:21:55,2022-09-19 15:21:59,4.430s,PASSED
+,,,,,,,
+Test Cases/testing/Birthday,,,,2022-09-19 15:21:59,2022-09-19 15:22:12,12.355s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 15:22:00,2022-09-19 15:22:12,11.831s,PASSED
+,,,,,,,
+Test Cases/testing/Identifications,,,,2022-09-19 15:22:12,2022-09-19 15:22:15,3.129s,PASSED
+androidDriver = getDriver(),,,,2022-09-19 15:22:12,2022-09-19 15:22:12,0.000s,PASSED
+driver = getDriver(),,,,2022-09-19 15:22:12,2022-09-19 15:22:12,0.001s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-19 15:22:12,2022-09-19 15:22:12,0.005s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 15:22:12,2022-09-19 15:22:15,2.491s,PASSED
+,,,,,,,
+Test Cases/testing/Into,,,,2022-09-19 15:22:15,2022-09-19 15:22:17,2.320s,PASSED
+androidDriver = getDriver(),,,,2022-09-19 15:22:15,2022-09-19 15:22:15,0.000s,PASSED
+driver = getDriver(),,,,2022-09-19 15:22:15,2022-09-19 15:22:15,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-19 15:22:15,2022-09-19 15:22:15,0.000s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-19 15:22:15,2022-09-19 15:22:17,1.649s,PASSED
+,,,,,,,
+Test Cases/testing/Height Scale,,,,2022-09-19 15:22:17,2022-09-19 15:22:20,2.599s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 15:22:17,2022-09-19 15:22:20,2.297s,PASSED
+,,,,,,,
+Test Cases/testing/Ethnicity,,,,2022-09-19 15:22:20,2022-09-19 15:22:23,3.189s,PASSED
+androidDriver = getDriver(),,,,2022-09-19 15:22:20,2022-09-19 15:22:20,0.000s,PASSED
+driver = getDriver(),,,,2022-09-19 15:22:20,2022-09-19 15:22:20,0.001s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-19 15:22:20,2022-09-19 15:22:20,0.000s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 15:22:20,2022-09-19 15:22:23,2.366s,PASSED
+,,,,,,,
+Test Cases/testing/Religion,,,,2022-09-19 15:22:23,2022-09-19 15:22:26,3.391s,PASSED
+androidDriver = getDriver(),,,,2022-09-19 15:22:24,2022-09-19 15:22:24,0.000s,PASSED
+driver = getDriver(),,,,2022-09-19 15:22:24,2022-09-19 15:22:24,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-19 15:22:24,2022-09-19 15:22:24,0.000s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 15:22:24,2022-09-19 15:22:26,2.552s,PASSED
+,,,,,,,
+Test Cases/testing/Relationship,,,,2022-09-19 15:22:26,2022-09-19 15:22:30,3.470s,PASSED
+androidDriver = getDriver(),,,,2022-09-19 15:22:27,2022-09-19 15:22:27,0.000s,PASSED
+driver = getDriver(),,,,2022-09-19 15:22:27,2022-09-19 15:22:27,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-19 15:22:27,2022-09-19 15:22:27,0.000s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 15:22:27,2022-09-19 15:22:30,2.803s,PASSED

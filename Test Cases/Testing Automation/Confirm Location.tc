@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Confirm Location</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df948444-4db9-4082-bc5b-54e34a28cb9d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91b1faea-f3e6-4e5a-b62d-491f9939c9e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7a65320-0857-465f-b22b-670a4e72fff0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a058721-41f8-4985-b049-37d1939e7a8c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba6bd840-87a3-47b1-be86-ecf7d6b6a065</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Confirm loaction/Back')</defaultValue>
+      <description></description>
+      <id>91b1faea-f3e6-4e5a-b62d-491f9939c9e2</id>
+      <masked>false</masked>
+      <name>Back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Confirm loaction/Location icon')</defaultValue>
+      <description></description>
+      <id>d7a65320-0857-465f-b22b-670a4e72fff0</id>
+      <masked>false</masked>
+      <name>icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Confirm loaction/Submit Button')</defaultValue>
+      <description></description>
+      <id>4a058721-41f8-4985-b049-37d1939e7a8c</id>
+      <masked>false</masked>
+      <name>Submit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Confirm loaction/Confirm you location label text')</defaultValue>
+      <description></description>
+      <id>ba6bd840-87a3-47b1-be86-ecf7d6b6a065</id>
+      <masked>false</masked>
+      <name>Your</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Children Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea511099-e7b7-4975-8c8f-bd6c41e5417e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d6a0167-3a35-492a-a8b1-be3626fd6bc8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf789bf1-bdd2-4409-b45f-4720dd521872</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e48adda-e6a6-4ac0-99ab-a77ee6576627</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Children/Children')</defaultValue>
+      <description></description>
+      <id>3d6a0167-3a35-492a-a8b1-be3626fd6bc8</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf789bf1-bdd2-4409-b45f-4720dd521872</id>
+      <masked>false</masked>
+      <name>Children</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Children/btn Save')</defaultValue>
+      <description></description>
+      <id>5e48adda-e6a6-4ac0-99ab-a77ee6576627</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>

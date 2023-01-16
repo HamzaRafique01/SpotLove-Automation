@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OneLiner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33cf4e32-3028-49df-ae90-84e01bff0046</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b62a9641-f5fc-4380-97f5-ddd4d15601f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc073cc7-a8a9-4c56-bbdc-2d330f7711cd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83439d5d-91af-4d3c-8334-2f08253ea941</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2842e07d-6e03-408f-8f42-b95286020b0d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b585191-e36d-4c20-a392-08afb6d8eb06</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c269ba3e-cbee-4129-a910-a06dd341177c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7aad9683-c534-4f6b-b4e4-4da27a310038</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05fcbff3-3972-4e44-8b9f-b37e385435ce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Text Data')</defaultValue>
+      <description></description>
+      <id>b62a9641-f5fc-4380-97f5-ddd4d15601f1</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('One Linerrr/This is my catch phrase text area')</defaultValue>
+      <description></description>
+      <id>bc073cc7-a8a9-4c56-bbdc-2d330f7711cd</id>
+      <masked>false</masked>
+      <name>Enter_Text</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('One Linerrr/Continue Button')</defaultValue>
+      <description></description>
+      <id>83439d5d-91af-4d3c-8334-2f08253ea941</id>
+      <masked>false</masked>
+      <name>Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('One Linerrr/Back Button')</defaultValue>
+      <description></description>
+      <id>2842e07d-6e03-408f-8f42-b95286020b0d</id>
+      <masked>false</masked>
+      <name>Back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('One Linerrr/Chat Icon')</defaultValue>
+      <description></description>
+      <id>2b585191-e36d-4c20-a392-08afb6d8eb06</id>
+      <masked>false</masked>
+      <name>icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('One Linerrr/Give us your best one liner label text')</defaultValue>
+      <description></description>
+      <id>c269ba3e-cbee-4129-a910-a06dd341177c</id>
+      <masked>false</masked>
+      <name>Give</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('One Linerrr/Lets help you stand out label text')</defaultValue>
+      <description></description>
+      <id>7aad9683-c534-4f6b-b4e4-4da27a310038</id>
+      <masked>false</masked>
+      <name>Let</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('One Linerrr/Skip Button')</defaultValue>
+      <description></description>
+      <id>05fcbff3-3972-4e44-8b9f-b37e385435ce</id>
+      <masked>false</masked>
+      <name>Skip</name>
+   </variable>
+</TestCaseEntity>

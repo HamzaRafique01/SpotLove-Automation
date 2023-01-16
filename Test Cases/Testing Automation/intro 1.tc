@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>intro 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b249c9b-d68c-4cd8-9246-563a769d0ca2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ee75759-eb09-4d8d-ba22-02a7e08a9714</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8166c939-62c0-49f5-ac67-766ef9d36e94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>afcd4d7b-a2e6-4d20-97c6-24966615f088</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a4de517-ac63-4843-a1f2-79c607b9b163</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f64b4af-a72b-44fe-b0e7-4e61130fbc43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89737ea9-debd-4801-b281-f79cdd6207f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Intro first/Heart icon')</defaultValue>
+      <description></description>
+      <id>6ee75759-eb09-4d8d-ba22-02a7e08a9714</id>
+      <masked>false</masked>
+      <name>hearticon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Intro first/Access to label text')</defaultValue>
+      <description></description>
+      <id>8166c939-62c0-49f5-ac67-766ef9d36e94</id>
+      <masked>false</masked>
+      <name>Access</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Intro first/Matchmakers label text')</defaultValue>
+      <description></description>
+      <id>afcd4d7b-a2e6-4d20-97c6-24966615f088</id>
+      <masked>false</masked>
+      <name>Matchmakers</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Intro first/We have matchmakers that will help you find your perfect match label text')</defaultValue>
+      <description></description>
+      <id>1a4de517-ac63-4843-a1f2-79c607b9b163</id>
+      <masked>false</masked>
+      <name>Berief_Labeltext</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Intro first/Continue Button')</defaultValue>
+      <description></description>
+      <id>2f64b4af-a72b-44fe-b0e7-4e61130fbc43</id>
+      <masked>false</masked>
+      <name>continuebutton</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Intro first/Background image')</defaultValue>
+      <description></description>
+      <id>89737ea9-debd-4801-b281-f79cdd6207f8</id>
+      <masked>false</masked>
+      <name>background</name>
+   </variable>
+</TestCaseEntity>

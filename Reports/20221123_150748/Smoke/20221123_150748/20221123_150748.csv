@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-23 15:07:57,2022-11-23 15:08:45,48.327s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-11-23 15:07:57,2022-11-23 15:08:29,32.174s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-23 15:07:58,2022-11-23 15:08:13,15.058s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen""), null, STOP_ON_FAILURE)",,,,2022-11-23 15:08:13,2022-11-23 15:08:23,9.916s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)""), null, STOP_ON_FAILURE)",,,,2022-11-23 15:08:23,2022-11-23 15:08:29,6.903s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-23 15:08:29,2022-11-23 15:08:45,15.887s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-23 15:08:30,2022-11-23 15:08:38,8.163s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-23 15:08:38,2022-11-23 15:08:39,0.863s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-11-23 15:08:39,2022-11-23 15:08:45,6.691s,FAILED

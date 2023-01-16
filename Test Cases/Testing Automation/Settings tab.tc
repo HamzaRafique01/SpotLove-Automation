@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Settings tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53328186-d417-446b-845e-67816cc5b617</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>049a47f6-9282-4ea7-8443-95eace543595</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d94cb977-1cb0-463a-8297-c7c3980be7ed</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99d4c772-ed5a-4a2a-be2f-632789c448fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3484c209-a6e7-4577-b750-39c12400b243</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7aed1087-5563-440e-a2d1-2bbbf28e833e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e300974b-2e5b-4e4c-a0f0-16b4eba8f4c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28671e07-680d-4e25-83bd-7fead50ccf06</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>432dbf3a-1e7d-41f4-91c2-57976040b60c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Settings Tab')</defaultValue>
+      <description></description>
+      <id>049a47f6-9282-4ea7-8443-95eace543595</id>
+      <masked>false</masked>
+      <name>Setting_Tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Settings tab/Push Toggle button')</defaultValue>
+      <description></description>
+      <id>d94cb977-1cb0-463a-8297-c7c3980be7ed</id>
+      <masked>false</masked>
+      <name>Push_Button</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Settings tab/Push Notifications label text')</defaultValue>
+      <description></description>
+      <id>99d4c772-ed5a-4a2a-be2f-632789c448fd</id>
+      <masked>false</masked>
+      <name>Push_notification</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Settings tab/App SoundsVibrations label text')</defaultValue>
+      <description></description>
+      <id>3484c209-a6e7-4577-b750-39c12400b243</id>
+      <masked>false</masked>
+      <name>App_Sounds_text</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Settings tab/App Sounds Toggle button')</defaultValue>
+      <description></description>
+      <id>7aed1087-5563-440e-a2d1-2bbbf28e833e</id>
+      <masked>false</masked>
+      <name>App_Sounds_Toggle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Settings tab/Feedback Label text')</defaultValue>
+      <description></description>
+      <id>e300974b-2e5b-4e4c-a0f0-16b4eba8f4c4</id>
+      <masked>false</masked>
+      <name>Feedback</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Settings tab/Terms Of service label text')</defaultValue>
+      <description></description>
+      <id>28671e07-680d-4e25-83bd-7fead50ccf06</id>
+      <masked>false</masked>
+      <name>Terms</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Settings tab/Settings back Button')</defaultValue>
+      <description></description>
+      <id>432dbf3a-1e7d-41f4-91c2-57976040b60c</id>
+      <masked>false</masked>
+      <name>Setting_Back</name>
+   </variable>
+</TestCaseEntity>

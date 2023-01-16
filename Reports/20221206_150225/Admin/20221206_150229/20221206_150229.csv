@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin,Chrome 108.0.0.0,,,2022-12-06 15:08:12,2022-12-06 15:08:34,21.122s,PASSED
+,,,,,,,
+Test Cases/Smoke/Web Portal/Login,Chrome 108.0.0.0,,,2022-12-06 15:08:13,2022-12-06 15:08:34,20.706s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2022-12-06 15:08:13,2022-12-06 15:08:13,0.008s,PASSED
+"openBrowser(""https://spotlove-production.web.app/spotlove/memberlist"", STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2022-12-06 15:08:14,2022-12-06 15:08:17,3.716s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2022-12-06 15:08:17,2022-12-06 15:08:18,0.427s,PASSED
+"if (waitForElementPresent(User_Name, 10))",Chrome 108.0.0.0,,,2022-12-06 15:08:18,2022-12-06 15:08:34,15.751s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2022-12-06 15:08:34,2022-12-06 15:08:34,0.002s,PASSED

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0dc6da6-31aa-46ca-9b04-32e0c730ed64</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16ac837f-489d-4b07-9cc2-096a7cae8135</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7119425a-5750-45c1-b3ea-aa455a41b2df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79334d1a-e722-4ef9-aedf-568553e66f84</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52ffe88b-d915-4524-805d-94b8f628c5de</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16ac837f-489d-4b07-9cc2-096a7cae8135</id>
+      <masked>false</masked>
+      <name>CName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7119425a-5750-45c1-b3ea-aa455a41b2df</id>
+      <masked>false</masked>
+      <name>PNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn I Agree')</defaultValue>
+      <description></description>
+      <id>79334d1a-e722-4ef9-aedf-568553e66f84</id>
+      <masked>false</masked>
+      <name>Agree</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Sign In Selection/btn Continue with phone number')</defaultValue>
+      <description></description>
+      <id>52ffe88b-d915-4524-805d-94b8f628c5de</id>
+      <masked>false</masked>
+      <name>btn_Continue_WPN</name>
+   </variable>
+</TestCaseEntity>

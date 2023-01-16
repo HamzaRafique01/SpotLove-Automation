@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Screen2_Welcome Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54c00f0b-8b20-491b-8d68-32eba56cd525</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d49382a-a767-4c92-b01f-81d738cdf45b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Sign In Selection/btn Continue with phone number')</defaultValue>
+      <description></description>
+      <id>3d49382a-a767-4c92-b01f-81d738cdf45b</id>
+      <masked>false</masked>
+      <name>btn_Continue_WPN</name>
+   </variable>
+</TestCaseEntity>

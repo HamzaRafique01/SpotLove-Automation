@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tap to continue on Politics Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83e568d4-571b-4340-99be-22d1f0e6d843</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0396178d-f7b9-4962-9ca2-593ff5417f78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>190ff13f-9a49-4c8c-856f-46862cdaebb7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d45d4a4a-6a59-47a7-a7af-3ea66cd5bd93</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3aa14f60-8946-4e62-ae1c-42e5d5d03d5c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0396178d-f7b9-4962-9ca2-593ff5417f78</id>
+      <masked>false</masked>
+      <name>Political</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue on Political Views')</defaultValue>
+      <description></description>
+      <id>190ff13f-9a49-4c8c-856f-46862cdaebb7</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Permissions/Gallery/Only this time  (For Galery)')</defaultValue>
+      <description></description>
+      <id>d45d4a4a-6a59-47a7-a7af-3ea66cd5bd93</id>
+      <masked>false</masked>
+      <name>Only_this_time</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Permissions/Gallery/Gallery Icon')</defaultValue>
+      <description></description>
+      <id>3aa14f60-8946-4e62-ae1c-42e5d5d03d5c</id>
+      <masked>false</masked>
+      <name>Gallery_icon</name>
+   </variable>
+</TestCaseEntity>

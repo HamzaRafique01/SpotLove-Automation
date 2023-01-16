@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tap to Continue on Family Plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3df99589-0079-46bc-adc5-650cc0c1f193</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c7167e2-2267-480c-a620-778592567b78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a938123-08d8-45e7-8f72-1de0296496f0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08770fbf-333c-49b1-83d9-8bf209e1035d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8c7167e2-2267-480c-a620-778592567b78</id>
+      <masked>false</masked>
+      <name>Children</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a938123-08d8-45e7-8f72-1de0296496f0</id>
+      <masked>false</masked>
+      <name>Plan</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue on Family plan screen')</defaultValue>
+      <description></description>
+      <id>08770fbf-333c-49b1-83d9-8bf209e1035d</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+</TestCaseEntity>

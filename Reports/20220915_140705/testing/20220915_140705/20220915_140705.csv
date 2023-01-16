@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testing,,,,2022-09-15 14:07:16,2022-09-15 14:08:34,1m - 18.213s,FAILED
+,,,,,,,
+Test Cases/testing/Welcome OnBoarding,,,,2022-09-15 14:07:16,2022-09-15 14:07:41,25.520s,PASSED
+"startExistingApplication(packageID, STOP_ON_FAILURE)",,,,2022-09-15 14:07:17,2022-09-15 14:07:31,14.098s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-15 14:07:31,2022-09-15 14:07:41,10.322s,PASSED
+,,,,,,,
+Test Cases/testing/Referral Screen,,,,2022-09-15 14:07:41,2022-09-15 14:07:43,1.956s,PASSED
+"if (waitForElementPresent(Heart_Icon, 30))",,,,2022-09-15 14:07:42,2022-09-15 14:07:43,1.395s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-15 14:07:43,2022-09-15 14:07:47,3.431s,FAILED
+"if (waitForElementPresent(back, 30))",,,,2022-09-15 14:07:44,2022-09-15 14:07:47,2.987s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-15 14:07:47,2022-09-15 14:07:51,4.570s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-15 14:07:47,2022-09-15 14:07:51,4.325s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-15 14:07:51,2022-09-15 14:07:54,2.749s,FAILED
+"if (waitForElementPresent(back, 30))",,,,2022-09-15 14:07:52,2022-09-15 14:07:54,2.506s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-15 14:07:54,2022-09-15 14:07:59,4.556s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-15 14:07:54,2022-09-15 14:07:59,4.328s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-15 14:07:59,2022-09-15 14:08:02,2.984s,FAILED
+"if (waitForElementPresent(back, 30))",,,,2022-09-15 14:07:59,2022-09-15 14:08:02,2.761s,PASSED
+,,,,,,,
+Test Cases/testing/Birthday,,,,2022-09-15 14:08:02,2022-09-15 14:08:28,26.081s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-15 14:08:02,2022-09-15 14:08:28,25.565s,PASSED
+,,,,,,,
+Test Cases/testing/Identifications,,,,2022-09-15 14:08:28,2022-09-15 14:08:34,6.050s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-15 14:08:28,2022-09-15 14:08:34,5.585s,PASSED

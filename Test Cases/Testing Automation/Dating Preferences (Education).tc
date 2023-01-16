@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dating Preferences (Education)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cfb25a6-5747-4d04-abd3-a1b427a234d9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0eb85309-9cf1-473f-9491-49f07e1098ba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec9041e2-1f5a-478d-8a85-1475b4123282</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcddc3dd-fd96-48f4-a432-a2828c5b5a20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b5a9aad-62b1-4617-b5dd-056205e64bc3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b270b8b-0e95-4834-9494-e2eb78a2fdef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ab33de5-5c26-40b3-b0d8-8d92279a6a32</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d169425-b24a-4db0-8ff3-bc33d8071194</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba25a036-48e7-464a-8921-543d361e994e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b60467e2-3340-4780-a052-d0d55f0e5bbf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9cdc222-04fe-44c1-aa14-6bbb75037484</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Preferences header textttt')</defaultValue>
+      <description></description>
+      <id>0eb85309-9cf1-473f-9491-49f07e1098ba</id>
+      <masked>false</masked>
+      <name>Dating_Header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/Education')</defaultValue>
+      <description></description>
+      <id>ec9041e2-1f5a-478d-8a85-1475b4123282</id>
+      <masked>false</masked>
+      <name>Education</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/Education Header text')</defaultValue>
+      <description></description>
+      <id>dcddc3dd-fd96-48f4-a432-a2828c5b5a20</id>
+      <masked>false</masked>
+      <name>Education_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/Some College')</defaultValue>
+      <description></description>
+      <id>4b5a9aad-62b1-4617-b5dd-056205e64bc3</id>
+      <masked>false</masked>
+      <name>Some_College</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/Open to all')</defaultValue>
+      <description></description>
+      <id>4b270b8b-0e95-4834-9494-e2eb78a2fdef</id>
+      <masked>false</masked>
+      <name>Open_to_All</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/PHD Doctoral')</defaultValue>
+      <description></description>
+      <id>9ab33de5-5c26-40b3-b0d8-8d92279a6a32</id>
+      <masked>false</masked>
+      <name>PHD_Doctoral</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/Close Button')</defaultValue>
+      <description></description>
+      <id>3d169425-b24a-4db0-8ff3-bc33d8071194</id>
+      <masked>false</masked>
+      <name>Close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/HS Diploma')</defaultValue>
+      <description></description>
+      <id>ba25a036-48e7-464a-8921-543d361e994e</id>
+      <masked>false</masked>
+      <name>High_School</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/College Degree')</defaultValue>
+      <description></description>
+      <id>b60467e2-3340-4780-a052-d0d55f0e5bbf</id>
+      <masked>false</masked>
+      <name>College_Degree</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Education/Save Button')</defaultValue>
+      <description></description>
+      <id>f9cdc222-04fe-44c1-aa14-6bbb75037484</id>
+      <masked>false</masked>
+      <name>Save</name>
+   </variable>
+</TestCaseEntity>

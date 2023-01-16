@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="35.328" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="35.328" skipped="0" timestamp="2022-11-28 19:55:17" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_195508/Smoke/20221128_195508"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_195508/Smoke/20221128_195508/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_195508/Smoke/20221128_195508/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="35.0" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-11-28 19:55:17 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-11-28 19:55:18 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-11-28 19:55:18 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-28 19:55:21 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-11-28 19:55:22 - [MESSAGE][INFO] - Appium server started on port 57,756
+
+2022-11-28 19:55:32 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-11-28 19:55:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Smoke/Verify Login Sign Up/Intro screen image"), 10, STOP_ON_FAILURE)): Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-11-28 19:55:42 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-11-28 19:55:42 - [TEST_STEP][PASSED] - else: Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-11-28 19:55:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-11-28 19:55:42 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen: Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen
+
+2022-11-28 19:55:42 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Sign In Selection/btn Continue with phone number": null
+
+2022-11-28 19:55:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject(btn), 10, STOP_ON_FAILURE)): Object Object Repository/Smoke/Sign In Selection/btn Continue with phone number not found
+
+2022-11-28 19:55:52 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Sign In Selection/btn Continue with phone number not found
+
+2022-11-28 19:55:52 - [TEST_STEP][PASSED] - else: null
+
+2022-11-28 19:55:52 - [TEST_STEP][PASSED] - print("No Selected for Log-in"): null
+
+2022-11-28 19:55:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-28 19:55:17 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Smoke/TC_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

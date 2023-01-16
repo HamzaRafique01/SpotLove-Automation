@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tap Continue on Gender Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f00347bd-73fb-4e12-acab-19eaab713c58</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>def2ccda-8cb3-4f94-92a9-b0e7adbb36f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8ac0684-ab1e-4025-882d-506ad2438a7f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>def2ccda-8cb3-4f94-92a9-b0e7adbb36f7</id>
+      <masked>false</masked>
+      <name>Gender</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue Gender Screen')</defaultValue>
+      <description></description>
+      <id>d8ac0684-ab1e-4025-882d-506ad2438a7f</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+</TestCaseEntity>

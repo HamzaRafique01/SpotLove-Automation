@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ethnicity Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da6f62f5-377b-4ec5-9836-9040c7325edb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff9eca8a-2705-458a-a28b-830be29a8d55</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51d5d4e0-8fff-429d-bbcc-01652a9648c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>630dc8d9-34e5-44a4-a489-22ea3bf1cedc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff9eca8a-2705-458a-a28b-830be29a8d55</id>
+      <masked>false</masked>
+      <name>Ethnicity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Ethnicity/btn Save')</defaultValue>
+      <description></description>
+      <id>51d5d4e0-8fff-429d-bbcc-01652a9648c0</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Ethnicity/Ethnicity')</defaultValue>
+      <description></description>
+      <id>630dc8d9-34e5-44a4-a489-22ea3bf1cedc</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+</TestCaseEntity>

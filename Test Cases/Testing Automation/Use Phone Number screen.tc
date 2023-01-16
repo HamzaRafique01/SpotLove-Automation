@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Use Phone Number screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e5e0cbd-1dfb-4035-ab01-a7c53cf03c35</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a977cd4-0395-4c55-849d-6f2a0b86438e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>41a602b0-6b30-4a47-8306-f8cb1f51a2a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>670e78c8-7d92-439e-af82-ee9455ee04e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ad1bf08-15e5-47c3-a00e-ed6bd47a5f2c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36683b2e-ea81-4205-bf29-1dcda544ef3a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Select screen/logo')</defaultValue>
+      <description></description>
+      <id>2a977cd4-0395-4c55-849d-6f2a0b86438e</id>
+      <masked>false</masked>
+      <name>logo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Select screen/Spot Love at First Sight Login or create an account label text')</defaultValue>
+      <description></description>
+      <id>41a602b0-6b30-4a47-8306-f8cb1f51a2a0</id>
+      <masked>false</masked>
+      <name>Spotlove</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Select screen/Continue with Phone number')</defaultValue>
+      <description></description>
+      <id>670e78c8-7d92-439e-af82-ee9455ee04e8</id>
+      <masked>false</masked>
+      <name>Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Phone_number_data')</defaultValue>
+      <description></description>
+      <id>7ad1bf08-15e5-47c3-a00e-ed6bd47a5f2c</id>
+      <masked>false</masked>
+      <name>Phone_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36683b2e-ea81-4205-bf29-1dcda544ef3a</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+</TestCaseEntity>

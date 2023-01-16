@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Relationship Status Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15e0b52f-84b7-4392-8dee-0b9684cda002</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4196f9b-da51-443f-b125-b0a9199dee72</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e804f02-16cc-4010-8f9d-d2bb20e27cbd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76193135-35c7-4a79-b6a6-fe37db12b1c2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b4196f9b-da51-443f-b125-b0a9199dee72</id>
+      <masked>false</masked>
+      <name>RelationshipStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Relationship Status/Relationship Status')</defaultValue>
+      <description></description>
+      <id>1e804f02-16cc-4010-8f9d-d2bb20e27cbd</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Relationship Status/btn Save')</defaultValue>
+      <description></description>
+      <id>76193135-35c7-4a79-b6a6-fe37db12b1c2</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,37 @@
+{"testCaseName":"Test Cases/Regression/intro 1","testCaseId":"Test Cases/Regression/intro 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/intro 2","testCaseId":"Test Cases/Regression/intro 2","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/intro 3","testCaseId":"Test Cases/Regression/intro 3","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Use Phone Number screen","testCaseId":"Test Cases/Regression/Use Phone Number screen","iterationVariableName":"","bindedValues":{"Country":"\u0027US\u0027"}}
+{"testCaseName":"Test Cases/Regression/Use Phone Number screen","testCaseId":"Test Cases/Regression/Use Phone Number screen","iterationVariableName":"","bindedValues":{"Country":"\u0027Pakistan\u0027"}}
+{"testCaseName":"Test Cases/Regression/Use Phone Number screen","testCaseId":"Test Cases/Regression/Use Phone Number screen","iterationVariableName":"","bindedValues":{"Country":"\u0027US\u0027"}}
+{"testCaseName":"Test Cases/Regression/Use Phone Number screen","testCaseId":"Test Cases/Regression/Use Phone Number screen","iterationVariableName":"","bindedValues":{"Country":"\u0027US\u0027"}}
+{"testCaseName":"Test Cases/Regression/Enter Phone Number","testCaseId":"Test Cases/Regression/Enter Phone Number","iterationVariableName":"","bindedValues":{"PNumber":"\u00276505557654\u0027","Country":"\u0027US\u0027"}}
+{"testCaseName":"Test Cases/Regression/OTP","testCaseId":"Test Cases/Regression/OTP","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Welcome OnBoarding","testCaseId":"Test Cases/Regression/Welcome OnBoarding","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Referral Screen","testCaseId":"Test Cases/Regression/Referral Screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/First Name","testCaseId":"Test Cases/Regression/First Name","iterationVariableName":"","bindedValues":{"FName":"\u0027Umar\u0027"}}
+{"testCaseName":"Test Cases/Regression/Birthday","testCaseId":"Test Cases/Regression/Birthday","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Identifications","testCaseId":"Test Cases/Regression/Identifications","iterationVariableName":"","bindedValues":{"Gender":"\u0027Male\u0027"}}
+{"testCaseName":"Test Cases/Regression/Into","testCaseId":"Test Cases/Regression/Into","iterationVariableName":"","bindedValues":{"Into":"\u0027Women\u0027"}}
+{"testCaseName":"Test Cases/Regression/Height Scale","testCaseId":"Test Cases/Regression/Height Scale","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Religion","testCaseId":"Test Cases/Regression/Religion","iterationVariableName":"","bindedValues":{"Religion":"\u0027Catholic\u0027"}}
+{"testCaseName":"Test Cases/Regression/Relationship","testCaseId":"Test Cases/Regression/Relationship","iterationVariableName":"","bindedValues":{"Relationship":"\u0027Never Married\u0027"}}
+{"testCaseName":"Test Cases/Regression/Family Plan","testCaseId":"Test Cases/Regression/Family Plan","iterationVariableName":"","bindedValues":{"Children":"\u0027I have children\u0027","Plan":"\u0027I\\\u0027m open to children\u0027"}}
+{"testCaseName":"Test Cases/Regression/Education","testCaseId":"Test Cases/Regression/Education","iterationVariableName":"","bindedValues":{"Education":"\u0027Phd/Doctoral\u0027"}}
+{"testCaseName":"Test Cases/Regression/Vices","testCaseId":"Test Cases/Regression/Vices","iterationVariableName":"","bindedValues":{"Marijuana":"\u0027Often\u0027","Alcohol":"\u0027Often\u0027","Smoking":"\u0027Never\u0027"}}
+{"testCaseName":"Test Cases/Regression/Gallery","testCaseId":"Test Cases/Regression/Gallery","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/OneLiner","testCaseId":"Test Cases/Regression/OneLiner","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Location Screen","testCaseId":"Test Cases/Regression/Location Screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Confirm Location","testCaseId":"Test Cases/Regression/Confirm Location","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Site Tight","testCaseId":"Test Cases/Regression/Site Tight","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Explore Screen","testCaseId":"Test Cases/Regression/Explore Screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Settings tab","testCaseId":"Test Cases/Regression/Settings tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Profile Tab","testCaseId":"Test Cases/Regression/Profile Tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences (Gender)","testCaseId":"Test Cases/Regression/Dating Preferences (Gender)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences(Ethnicity)","testCaseId":"Test Cases/Regression/Dating Preferences(Ethnicity)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences (Religion)","testCaseId":"Test Cases/Regression/Dating Preferences (Religion)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences (Relationship Status)","testCaseId":"Test Cases/Regression/Dating Preferences (Relationship Status)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences (Children)","testCaseId":"Test Cases/Regression/Dating Preferences (Children)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences (Education)","testCaseId":"Test Cases/Regression/Dating Preferences (Education)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences (Vices)","testCaseId":"Test Cases/Regression/Dating Preferences (Vices)","iterationVariableName":""}
+{"testCaseName":"Test Cases/Regression/Dating Preferences (Political Views)","testCaseId":"Test Cases/Regression/Dating Preferences (Political Views)","iterationVariableName":""}

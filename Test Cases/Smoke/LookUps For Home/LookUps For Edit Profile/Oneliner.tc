@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Oneliner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6be2ac6-96a0-41a7-bbc9-64f8c6a72f6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>256e77df-4f7b-456e-b726-75104ad0527e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d46a5df-4e06-4fe2-9149-6909b19a8a4a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2abbd06-02a1-407f-ac0e-474a64eec3f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>256e77df-4f7b-456e-b726-75104ad0527e</id>
+      <masked>false</masked>
+      <name>E_oneliner</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/One linerr/One liner')</defaultValue>
+      <description></description>
+      <id>1d46a5df-4e06-4fe2-9149-6909b19a8a4a</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/One linerr/btn save')</defaultValue>
+      <description></description>
+      <id>a2abbd06-02a1-407f-ac0e-474a64eec3f5</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>

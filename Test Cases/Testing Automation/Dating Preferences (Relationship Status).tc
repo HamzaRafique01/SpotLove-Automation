@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dating Preferences (Relationship Status)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0536c810-cf94-4af5-914b-43595dac8ee6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9cdc3fa-cf39-4dfc-a3fd-87b4b2d98c37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2482f096-4ef3-4b4e-988b-b93290b94680</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd09c2a3-6bab-48a0-8442-ca6f38b5bc77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8103957f-0caa-4167-a06e-d2500144c382</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45f06415-f382-49e5-b5bf-6e950f5ab5a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8bf43bcf-78f6-4346-bc10-d98a01970cfe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb813fd3-7cbd-4735-9119-44f1c7585875</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2889d210-6071-481c-be2f-e0b8ae74d2f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>695e6cae-b01f-4ec3-900d-639e0769b983</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2b7dd62-b64f-4693-8cf8-aaa2be88959d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1cf92f94-00c2-48a3-a24f-299e53512a86</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Preferences header textttt')</defaultValue>
+      <description></description>
+      <id>e9cdc3fa-cf39-4dfc-a3fd-87b4b2d98c37</id>
+      <masked>false</masked>
+      <name>Dating_Header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Relationship Status')</defaultValue>
+      <description></description>
+      <id>2482f096-4ef3-4b4e-988b-b93290b94680</id>
+      <masked>false</masked>
+      <name>Relationship</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Relationship status Header text')</defaultValue>
+      <description></description>
+      <id>dd09c2a3-6bab-48a0-8442-ca6f38b5bc77</id>
+      <masked>false</masked>
+      <name>Relationship_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Widowed')</defaultValue>
+      <description></description>
+      <id>8103957f-0caa-4167-a06e-d2500144c382</id>
+      <masked>false</masked>
+      <name>Widowed</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Open to All')</defaultValue>
+      <description></description>
+      <id>45f06415-f382-49e5-b5bf-6e950f5ab5a2</id>
+      <masked>false</masked>
+      <name>Open_to_All</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Separated')</defaultValue>
+      <description></description>
+      <id>8bf43bcf-78f6-4346-bc10-d98a01970cfe</id>
+      <masked>false</masked>
+      <name>Separated</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Divorced')</defaultValue>
+      <description></description>
+      <id>eb813fd3-7cbd-4735-9119-44f1c7585875</id>
+      <masked>false</masked>
+      <name>Divorced</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Never Married')</defaultValue>
+      <description></description>
+      <id>2889d210-6071-481c-be2f-e0b8ae74d2f6</id>
+      <masked>false</masked>
+      <name>Never_Married</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Close PopUp')</defaultValue>
+      <description></description>
+      <id>695e6cae-b01f-4ec3-900d-639e0769b983</id>
+      <masked>false</masked>
+      <name>Close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Divorce in Progress')</defaultValue>
+      <description></description>
+      <id>a2b7dd62-b64f-4693-8cf8-aaa2be88959d</id>
+      <masked>false</masked>
+      <name>Divorce_In_Progress</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Relationship Status/Save Button')</defaultValue>
+      <description></description>
+      <id>1cf92f94-00c2-48a3-a24f-299e53512a86</id>
+      <masked>false</masked>
+      <name>Save</name>
+   </variable>
+</TestCaseEntity>

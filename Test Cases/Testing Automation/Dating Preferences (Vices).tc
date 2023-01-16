@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dating Preferences (Vices)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1cab47e-b035-4d51-83a8-478217caf8a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ba8466c-ab30-436f-80b5-e7b462499da0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4bdcf0af-0228-44ac-b815-f668fbbfcc08</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0918e69c-d2f7-491c-a047-3468609d938d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de803ad3-f3c1-454b-afca-06597af3b4ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0dbd6dd-9d8e-4928-9878-f889dfb198d2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05081e22-cfb4-4e61-8756-4848a83bdf92</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>348fc7af-52f9-4157-b2b0-1f39069ecf80</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9326c083-4958-43c0-875f-6d49117ba522</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a130ac7-3665-48a8-8006-1bd737e79961</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d7035ce-d265-49b6-ad6d-0258b9140114</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef986e78-982e-49d1-95b5-b86a933d2866</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e61ed234-a628-4475-a550-ac02ae7be493</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc98e262-bfdb-4052-bb8b-e3a12ab879b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a36d1d4-1a22-41d8-8080-28c2e55eb6ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Preferences header textttt')</defaultValue>
+      <description></description>
+      <id>6ba8466c-ab30-436f-80b5-e7b462499da0</id>
+      <masked>false</masked>
+      <name>Dating_Header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/Vices')</defaultValue>
+      <description></description>
+      <id>4bdcf0af-0228-44ac-b815-f668fbbfcc08</id>
+      <masked>false</masked>
+      <name>Vices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/Vices header')</defaultValue>
+      <description></description>
+      <id>0918e69c-d2f7-491c-a047-3468609d938d</id>
+      <masked>false</masked>
+      <name>Vices_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/Smoking Often')</defaultValue>
+      <description></description>
+      <id>de803ad3-f3c1-454b-afca-06597af3b4ce</id>
+      <masked>false</masked>
+      <name>S_often</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/Smoking Never')</defaultValue>
+      <description></description>
+      <id>d0dbd6dd-9d8e-4928-9878-f889dfb198d2</id>
+      <masked>false</masked>
+      <name>S_Never</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/Smoking Socially')</defaultValue>
+      <description></description>
+      <id>05081e22-cfb4-4e61-8756-4848a83bdf92</id>
+      <masked>false</masked>
+      <name>S_Socially</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/Close Button')</defaultValue>
+      <description></description>
+      <id>348fc7af-52f9-4157-b2b0-1f39069ecf80</id>
+      <masked>false</masked>
+      <name>Close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/MARIJUANA Socially')</defaultValue>
+      <description></description>
+      <id>9326c083-4958-43c0-875f-6d49117ba522</id>
+      <masked>false</masked>
+      <name>Mari_Socially</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/MARIJUANA never')</defaultValue>
+      <description></description>
+      <id>7a130ac7-3665-48a8-8006-1bd737e79961</id>
+      <masked>false</masked>
+      <name>Mari_Never</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/MARIJUANA open to all')</defaultValue>
+      <description></description>
+      <id>8d7035ce-d265-49b6-ad6d-0258b9140114</id>
+      <masked>false</masked>
+      <name>Mari_All</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/MARIJUANA Often')</defaultValue>
+      <description></description>
+      <id>ef986e78-982e-49d1-95b5-b86a933d2866</id>
+      <masked>false</masked>
+      <name>Mari_Often</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/ALCOHOL Never')</defaultValue>
+      <description></description>
+      <id>e61ed234-a628-4475-a550-ac02ae7be493</id>
+      <masked>false</masked>
+      <name>Al_Never</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/ALCOHOL Socially')</defaultValue>
+      <description></description>
+      <id>cc98e262-bfdb-4052-bb8b-e3a12ab879b4</id>
+      <masked>false</masked>
+      <name>Al_Socially</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Vices/Save Button')</defaultValue>
+      <description></description>
+      <id>3a36d1d4-1a22-41d8-8080-28c2e55eb6ad</id>
+      <masked>false</masked>
+      <name>Save</name>
+   </variable>
+</TestCaseEntity>

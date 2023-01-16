@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SpotLove Sanity" time="29.877" tests="4" failures="0" errors="0">
+   <testsuite name="SpotLove Sanity" tests="4" failures="0" errors="0" time="29.877" skipped="0" timestamp="2022-06-16 13:31:31" hostname="pc - localhost" id="Test Suites/SpotLove Sanity">
+      <properties>
+         <property name="deviceName" value="samsung SM-A025F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220616_133119/SpotLove Sanity/20220616_133119"/>
+         <property name="logFiles" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220616_133119/SpotLove Sanity/20220616_133119/execution0.log, /Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220616_133119/SpotLove Sanity/20220616_133119/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A025F"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9JNC0DKDXJ"/>
+         <property name="deviceName" value="samsung SM-A025F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/testing/intro 1" time="23.543" classname="Test Cases/testing/intro 1" status="PASSED">
+         <system-out><![CDATA[2022-06-16 13:31:31 - [TEST_CASE][PASSED] - Test Cases/testing/intro 1: Test Cases/testing/intro 1
+
+2022-06-16 13:31:32 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-06-16 13:31:32 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-06-16 13:31:32 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-06-16 13:31:33 - [MESSAGE][INFO] - Appium server started on port 60,236
+
+2022-06-16 13:31:46 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-06-16 13:31:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(hearticon, 30)): null
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Heart icon' is present
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - markPassed("PASSED: App is launched successfully"): PASSED: App is launched successfully
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - PASSED: App is launched successfully
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(Access, 30)): null
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Access to label text' is present
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - markPassed("PASSED: Access label text is present on the screen"): PASSED: Access label text is present on the screen
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - PASSED: Access label text is present on the screen
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(Matchmakers, 30)): null
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Matchmakers label text' is present
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - markPassed("PASSED: Matchmakers label text is present on the screen"): PASSED: Matchmakers label text is present on the screen
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - PASSED: Matchmakers label text is present on the screen
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(Berief_Labeltext, 30)): null
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/We have matchmakers that will help you find your perfect match label text' is present
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - markPassed("PASSED: We have.... label text is present on the screen"): PASSED: We have.... label text is present on the screen
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - PASSED: We have.... label text is present on the screen
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(background, 30)): null
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Background image' is present
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - markPassed("PASSED: background Image is present on the screen"): PASSED: background Image is present on the screen
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - PASSED: background Image is present on the screen
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(continuebutton, 30)): null
+
+2022-06-16 13:31:54 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Continue Button' is present
+
+2022-06-16 13:31:54 - [TEST_STEP][PASSED] - tap(continuebutton, 30): Tapped on element 'Object Repository/intro screens/Intro first/Continue Button'
+
+2022-06-16 13:31:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/intro screens/Intro first/Continue Button'
+
+2022-06-16 13:31:55 - [TEST_STEP][PASSED] - markPassed("Passed: continue button Element is present"): Passed: continue button Element is present
+
+2022-06-16 13:31:55 - [MESSAGE][PASSED] - Passed: continue button Element is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/intro 2" time="2.179" classname="Test Cases/testing/intro 2" status="PASSED">
+         <system-out><![CDATA[2022-06-16 13:31:55 - [TEST_CASE][PASSED] - Test Cases/testing/intro 2: Test Cases/testing/intro 2
+
+2022-06-16 13:31:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(hearticon, 30)): null
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Heart icon' is present
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart icon is present in the screen"): PASSED: Heart icon is present in the screen
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - PASSED: Heart icon is present in the screen
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(Connect, 30)): null
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Connect On Video label text' is present
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - markPassed("PASSED: Connect label text is present on the screen"): PASSED: Connect label text is present on the screen
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - PASSED: Connect label text is present on the screen
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(Dates, 30)): null
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Dates Label text' is present
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - markPassed("PASSED: Dates label text is present on the screen"): PASSED: Dates label text is present on the screen
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - PASSED: Dates label text is present on the screen
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(We, 30)): null
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/We believe in connecting with people through video chat Label text' is present
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - markPassed("PASSED: We.... label text is present on the screen"): PASSED: We.... label text is present on the screen
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - PASSED: We.... label text is present on the screen
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(background, 30)): null
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Background Image' is present
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - markPassed("PASSED: background Image is present on the screen"): PASSED: background Image is present on the screen
+
+2022-06-16 13:31:56 - [MESSAGE][PASSED] - PASSED: background Image is present on the screen
+
+2022-06-16 13:31:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continuebutton, 30)): null
+
+2022-06-16 13:31:57 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Continue button' is present
+
+2022-06-16 13:31:57 - [TEST_STEP][PASSED] - tap(Continuebutton, 30): Tapped on element 'Object Repository/intro screens/Second intro/Continue button'
+
+2022-06-16 13:31:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/intro screens/Second intro/Continue button'
+
+2022-06-16 13:31:57 - [TEST_STEP][PASSED] - markPassed("Passed: continue button Element is present"): Passed: continue button Element is present
+
+2022-06-16 13:31:57 - [MESSAGE][PASSED] - Passed: continue button Element is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/intro 3" time="2.159" classname="Test Cases/testing/intro 3" status="PASSED">
+         <system-out><![CDATA[2022-06-16 13:31:57 - [TEST_CASE][PASSED] - Test Cases/testing/intro 3: Test Cases/testing/intro 3
+
+2022-06-16 13:31:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(hearticon, 30)): null
+
+2022-06-16 13:31:58 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Heart icon' is present
+
+2022-06-16 13:31:58 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart icon is present in the screen"): PASSED: Heart icon is present in the screen
+
+2022-06-16 13:31:58 - [MESSAGE][PASSED] - PASSED: Heart icon is present in the screen
+
+2022-06-16 13:31:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(Meet_your, 30)): null
+
+2022-06-16 13:31:58 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Meet Your label text' is present
+
+2022-06-16 13:31:58 - [TEST_STEP][PASSED] - markPassed("PASSED: Meet your label text is present on the screen"): PASSED: Meet your label text is present on the screen
+
+2022-06-16 13:31:58 - [MESSAGE][PASSED] - PASSED: Meet your label text is present on the screen
+
+2022-06-16 13:31:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(Soulmate, 30)): null
+
+2022-06-16 13:31:58 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Soulmate label text' is present
+
+2022-06-16 13:31:58 - [TEST_STEP][PASSED] - markPassed("PASSED: Soulmate label text is present on the screen"): PASSED: Soulmate label text is present on the screen
+
+2022-06-16 13:31:58 - [MESSAGE][PASSED] - PASSED: Soulmate label text is present on the screen
+
+2022-06-16 13:31:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(Plenty, 30)): null
+
+2022-06-16 13:31:59 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Plenty of opportunities to find the person that checks all your boxes label text' is present
+
+2022-06-16 13:31:59 - [TEST_STEP][PASSED] - markPassed("PASSED: Plenty.... label text is present on the screen"): PASSED: Plenty.... label text is present on the screen
+
+2022-06-16 13:31:59 - [MESSAGE][PASSED] - PASSED: Plenty.... label text is present on the screen
+
+2022-06-16 13:31:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(background, 30)): null
+
+2022-06-16 13:31:59 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Background image' is present
+
+2022-06-16 13:31:59 - [TEST_STEP][PASSED] - markPassed("PASSED: background Image is present on the screen"): PASSED: background Image is present on the screen
+
+2022-06-16 13:31:59 - [MESSAGE][PASSED] - PASSED: background Image is present on the screen
+
+2022-06-16 13:31:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continuebutton, 30)): null
+
+2022-06-16 13:31:59 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Continue Button' is present
+
+2022-06-16 13:31:59 - [TEST_STEP][PASSED] - tap(Continuebutton, 30): Tapped on element 'Object Repository/intro screens/Third intro/Continue Button'
+
+2022-06-16 13:31:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/intro screens/Third intro/Continue Button'
+
+2022-06-16 13:31:59 - [TEST_STEP][PASSED] - markPassed("Passed: continue button Element is present"): Passed: continue button Element is present
+
+2022-06-16 13:31:59 - [MESSAGE][PASSED] - Passed: continue button Element is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Use Phone Number screen" time="1.731" classname="Test Cases/testing/Use Phone Number screen" status="PASSED">
+         <system-out><![CDATA[2022-06-16 13:31:59 - [TEST_CASE][PASSED] - Test Cases/testing/Use Phone Number screen: Test Cases/testing/Use Phone Number screen
+
+2022-06-16 13:31:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(logo, 30)): null
+
+2022-06-16 13:32:00 - [MESSAGE][PASSED] - Element 'Object Repository/Select screen/logo' is present
+
+2022-06-16 13:32:00 - [TEST_STEP][PASSED] - markPassed("PASSED: SignIn Screen launch successfully"): PASSED: SignIn Screen launch successfully
+
+2022-06-16 13:32:00 - [MESSAGE][PASSED] - PASSED: SignIn Screen launch successfully
+
+2022-06-16 13:32:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(Spotlove, 30)): null
+
+2022-06-16 13:32:00 - [MESSAGE][PASSED] - Element 'Object Repository/Select screen/Spot Love at First Sight Login or create an account label text' is present
+
+2022-06-16 13:32:00 - [TEST_STEP][PASSED] - markPassed("PASSED: SpotLove At First Sight label text is present on the screen."): PASSED: SpotLove At First Sight label text is present on the screen.
+
+2022-06-16 13:32:00 - [MESSAGE][PASSED] - PASSED: SpotLove At First Sight label text is present on the screen.
+
+2022-06-16 13:32:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-16 13:32:01 - [MESSAGE][PASSED] - Element 'Object Repository/Select screen/Continue with Phone number' is present
+
+2022-06-16 13:32:01 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Select screen/Continue with Phone number'
+
+2022-06-16 13:32:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select screen/Continue with Phone number'
+
+2022-06-16 13:32:01 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue With phone is not present on the screen."): PASSED: Continue With phone is not present on the screen.
+
+2022-06-16 13:32:01 - [MESSAGE][PASSED] - PASSED: Continue With phone is not present on the screen.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-16 13:31:31 - [TEST_SUITE][PASSED] - SpotLove Sanity: Test Cases/testing/Use Phone Number screen]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

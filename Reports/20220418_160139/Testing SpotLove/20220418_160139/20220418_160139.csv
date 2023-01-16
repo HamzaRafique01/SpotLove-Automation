@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing SpotLove,,,,2022-04-18 16:01:52,2022-04-18 16:02:16,23.899s,FAILED
+,,,,,,,
+Test Cases/testing/Use Phone Number screen,,,,2022-04-18 16:01:54,2022-04-18 16:01:54,0.045s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-04-18 16:01:54,2022-04-18 16:01:54,0.021s,FAILED
+,,,,,,,
+Test Cases/testing/Whats Your phone number,,,,2022-04-18 16:01:55,2022-04-18 16:01:55,0.138s,FAILED
+"checkElement(findTestObject(""Whats Your Phone Number/YOUR DEETS label text""), 2)",,,,2022-04-18 16:01:55,2022-04-18 16:01:55,0.118s,PASSED
+,,,,,,,
+Test Cases/testing/Verify phone Number,,,,2022-04-18 16:01:56,2022-04-18 16:01:56,0.129s,FAILED
+"checkElement(findTestObject(""Verify Your Number/YOUR DEETS label text""), 2)",,,,2022-04-18 16:01:56,2022-04-18 16:01:56,0.118s,PASSED
+,,,,,,,
+Test Cases/testing/Create spotLove account,,,,2022-04-18 16:01:57,2022-04-18 16:01:57,0.103s,FAILED
+"checkElement(findTestObject(""Account Creation/Youre verified""), 30)",,,,2022-04-18 16:01:57,2022-04-18 16:01:57,0.092s,PASSED
+,,,,,,,
+Test Cases/testing/Email verification,,,,2022-04-18 16:01:58,2022-04-18 16:01:58,0.155s,FAILED
+"checkElement(findTestObject(""Whats Your Email Screen/YOUR DEETS label text""), 5)",,,,2022-04-18 16:01:58,2022-04-18 16:01:58,0.137s,PASSED
+,,,,,,,
+Test Cases/testing/First Name Verfication,,,,2022-04-18 16:01:59,2022-04-18 16:01:59,0.101s,FAILED
+"checkElement(findTestObject(""First Name Screen/YOUR DEETS label text""), 5)",,,,2022-04-18 16:01:59,2022-04-18 16:01:59,0.079s,PASSED
+,,,,,,,
+Test Cases/testing/DOB Verification,,,,2022-04-18 16:02:00,2022-04-18 16:02:00,0.150s,FAILED
+"checkElement(findTestObject(""DOB/YOUR DEETS""), 5)",,,,2022-04-18 16:02:00,2022-04-18 16:02:00,0.098s,PASSED
+,,,,,,,
+Test Cases/testing/About You,,,,2022-04-18 16:02:01,2022-04-18 16:02:01,0.084s,FAILED
+"checkElement(findTestObject(""About YOU/Heart Icon""), 5)",,,,2022-04-18 16:02:01,2022-04-18 16:02:01,0.074s,PASSED
+,,,,,,,
+Test Cases/testing/Location Verification,,,,2022-04-18 16:02:02,2022-04-18 16:02:02,0.104s,FAILED
+"checkElement(findTestObject(""Location screen/ABOUT YOU label text""), 5)",,,,2022-04-18 16:02:02,2022-04-18 16:02:02,0.092s,PASSED
+,,,,,,,
+Test Cases/testing/Brutal Honesty,,,,2022-04-18 16:02:03,2022-04-18 16:02:04,0.233s,FAILED
+"checkElement(findTestObject(""Brutal Honesty/ABOUT YOU label text""), 5)",,,,2022-04-18 16:02:03,2022-04-18 16:02:04,0.186s,PASSED
+,,,,,,,
+Test Cases/testing/Black White Brown,,,,2022-04-18 16:02:05,2022-04-18 16:02:05,0.142s,FAILED
+"checkElement(findTestObject(""Black White Brown/ABOUT YOU""), 5)",,,,2022-04-18 16:02:05,2022-04-18 16:02:05,0.128s,PASSED
+,,,,,,,
+Test Cases/testing/Religion,,,,2022-04-18 16:02:06,2022-04-18 16:02:06,0.153s,FAILED
+"checkElement(findTestObject(""Religion/ABOUT YOU""), 0)",,,,2022-04-18 16:02:06,2022-04-18 16:02:06,0.135s,PASSED
+,,,,,,,
+Test Cases/testing/One Liner,,,,2022-04-18 16:02:08,2022-04-18 16:02:08,0.109s,FAILED
+"checkElement(findTestObject(""One Liner/PROFILE""), 5)",,,,2022-04-18 16:02:08,2022-04-18 16:02:08,0.097s,PASSED
+,,,,,,,
+Test Cases/testing/Relationship Status,,,,2022-04-18 16:02:09,2022-04-18 16:02:09,0.183s,FAILED
+"checkElement(findTestObject(""Relationship Status/ABOUT YOU""), 5)",,,,2022-04-18 16:02:09,2022-04-18 16:02:09,0.164s,PASSED
+,,,,,,,
+Test Cases/testing/Family Plans,,,,2022-04-18 16:02:10,2022-04-18 16:02:10,0.124s,FAILED
+"checkElement(findTestObject(""Family Plain/ABOUT YOU""), 5)",,,,2022-04-18 16:02:10,2022-04-18 16:02:10,0.113s,PASSED
+,,,,,,,
+Test Cases/testing/Education,,,,2022-04-18 16:02:11,2022-04-18 16:02:12,0.174s,FAILED
+"checkElement(findTestObject(""Education/ABOUT YOU""), 5)",,,,2022-04-18 16:02:11,2022-04-18 16:02:12,0.162s,PASSED
+,,,,,,,
+Test Cases/testing/Vices,,,,2022-04-18 16:02:13,2022-04-18 16:02:13,0.101s,FAILED
+"checkElement(findTestObject(""VICES/ABOUT YOU""), 5)",,,,2022-04-18 16:02:13,2022-04-18 16:02:13,0.090s,PASSED
+,,,,,,,
+Test Cases/testing/politics,,,,2022-04-18 16:02:14,2022-04-18 16:02:14,0.145s,FAILED
+"checkElement(findTestObject(""politics/ABOUT YOU""), 5)",,,,2022-04-18 16:02:14,2022-04-18 16:02:14,0.130s,PASSED
+,,,,,,,
+Test Cases/testing/Upload Picture,,,,2022-04-18 16:02:15,2022-04-18 16:02:16,0.177s,FAILED
+"checkElement(findTestObject(""Upload Picture/ABOUT YOU""), 5)",,,,2022-04-18 16:02:16,2022-04-18 16:02:16,0.162s,PASSED

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Home Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bf741f6-3ecf-49ba-b9a0-1e3940777a63</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5474805-0028-43c9-8cdf-dedad9f6950f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d252605-0ba0-4877-ade9-5bf9638a7e7a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d2ed0f4-ca96-4a66-a165-659ea5ed8743</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ccf3abe-83bf-4ad5-bf36-012775df1615</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d20d5d88-086c-4264-9c69-15b6b9a09089</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d142a50b-5688-40c0-bcb1-3d8b22db239d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1aa28dc2-d44b-49be-85e3-34b40eda9360</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/Navigation Bar')</defaultValue>
+      <description></description>
+      <id>e5474805-0028-43c9-8cdf-dedad9f6950f</id>
+      <masked>false</masked>
+      <name>Navigation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/Explore Tab')</defaultValue>
+      <description></description>
+      <id>5d252605-0ba0-4877-ade9-5bf9638a7e7a</id>
+      <masked>false</masked>
+      <name>Tab_Explore</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/Liked You Tab')</defaultValue>
+      <description></description>
+      <id>7d2ed0f4-ca96-4a66-a165-659ea5ed8743</id>
+      <masked>false</masked>
+      <name>Tab_LikedYou</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/Matches Tab')</defaultValue>
+      <description></description>
+      <id>9ccf3abe-83bf-4ad5-bf36-012775df1615</id>
+      <masked>false</masked>
+      <name>Tab_Matches</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/Profile Tab')</defaultValue>
+      <description></description>
+      <id>d20d5d88-086c-4264-9c69-15b6b9a09089</id>
+      <masked>false</masked>
+      <name>Tab_Profile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/btn Preferences')</defaultValue>
+      <description></description>
+      <id>d142a50b-5688-40c0-bcb1-3d8b22db239d</id>
+      <masked>false</masked>
+      <name>btn_Preferneces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/PreferenesTab/btn_Back (Prefrences Tab)')</defaultValue>
+      <description></description>
+      <id>1aa28dc2-d44b-49be-85e3-34b40eda9360</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-30 13:54:54,2022-11-30 13:55:36,41.395s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-30 13:54:55,2022-11-30 13:55:24,29.876s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-30 13:54:55,2022-11-30 13:55:09,14.024s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-30 13:55:09,2022-11-30 13:55:13,3.689s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-11-30 13:55:13,2022-11-30 13:55:14,1.300s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-11-30 13:55:14,2022-11-30 13:55:24,10.385s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_003 Home,,,,2022-11-30 13:55:24,2022-11-30 13:55:36,11.105s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Home/Home Flow""), null, STOP_ON_FAILURE)",,,,2022-11-30 13:55:25,2022-11-30 13:55:35,10.673s,PASSED
+"markPassed(""Passed! Home Flow is verified Successfully.....!"")",,,,2022-11-30 13:55:35,2022-11-30 13:55:35,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Home/Explore Tab Verification""), null, STOP_ON_FAILURE)",,,,2022-11-30 13:55:35,2022-11-30 13:55:36,0.230s,PASSED
+"markPassed(""Passed! Explore Tab is verified Successfully.....!"")",,,,2022-11-30 13:55:36,2022-11-30 13:55:36,0.001s,PASSED

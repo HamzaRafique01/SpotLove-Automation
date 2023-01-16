@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tap Continue button on birth screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87c7aafd-810c-44d8-a2a4-07249fa66327</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d0a4bfd-3044-4e68-a663-39be8dd0d010</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec906d22-64e0-4528-ba8b-280799ad8675</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80b4d9cb-fb56-42ef-9df1-1bac36dd7439</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue Birth date')</defaultValue>
+      <description></description>
+      <id>6d0a4bfd-3044-4e68-a663-39be8dd0d010</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Edit (Change Birth date)')</defaultValue>
+      <description></description>
+      <id>ec906d22-64e0-4528-ba8b-280799ad8675</id>
+      <masked>false</masked>
+      <name>btn_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue (Confirm birth date)')</defaultValue>
+      <description></description>
+      <id>80b4d9cb-fb56-42ef-9df1-1bac36dd7439</id>
+      <masked>false</masked>
+      <name>btn_Confirm_birth</name>
+   </variable>
+</TestCaseEntity>

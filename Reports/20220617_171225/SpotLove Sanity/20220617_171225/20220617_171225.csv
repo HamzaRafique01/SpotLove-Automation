@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Sanity,,,,2022-06-17 17:12:35,2022-06-17 17:13:19,43.874s,PASSED
+,,,,,,,
+Test Cases/testing/intro 1,,,,2022-06-17 17:12:35,2022-06-17 17:13:00,25.104s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-06-17 17:12:36,2022-06-17 17:12:52,15.330s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-06-17 17:12:52,2022-06-17 17:13:00,8.724s,PASSED
+,,,,,,,
+Test Cases/testing/intro 2,,,,2022-06-17 17:13:00,2022-06-17 17:13:03,2.703s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-06-17 17:13:01,2022-06-17 17:13:03,2.147s,PASSED
+,,,,,,,
+Test Cases/testing/intro 3,,,,2022-06-17 17:13:03,2022-06-17 17:13:05,2.269s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-06-17 17:13:04,2022-06-17 17:13:05,1.846s,PASSED
+,,,,,,,
+Test Cases/testing/Use Phone Number screen,,,,2022-06-17 17:13:05,2022-06-17 17:13:07,1.798s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-06-17 17:13:06,2022-06-17 17:13:07,1.506s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-06-17 17:13:07,2022-06-17 17:13:19,11.686s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-06-17 17:13:08,2022-06-17 17:13:19,11.055s,PASSED

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="24.095" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="24.095" skipped="0" timestamp="2022-11-30 11:23:30" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221130_112321/Smoke/20221130_112321"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221130_112321/Smoke/20221130_112321/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221130_112321/Smoke/20221130_112321/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="23.757" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-11-30 11:23:30 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-11-30 11:23:31 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-11-30 11:23:31 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-30 11:23:34 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-11-30 11:23:35 - [MESSAGE][INFO] - Appium server started on port 62,860
+
+2022-11-30 11:23:47 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-11-30 11:23:47 - [TEST_STEP][PASSED] - check_image = false: null
+
+2022-11-30 11:23:47 - [TEST_STEP][PASSED] - check_image = waitForElementPresent(findTestObject("Object Repository/Smoke/Verify Login Sign Up/Intro screen image"), 10, OPTIONAL): Element 'Object Repository/Smoke/Verify Login Sign Up/Intro screen image' is present
+
+2022-11-30 11:23:48 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Verify Login Sign Up/Intro screen image' is present
+
+2022-11-30 11:23:48 - [TEST_STEP][PASSED] - if (check_image == true): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-11-30 11:23:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens' successfully
+
+2022-11-30 11:23:48 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens: Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens
+
+2022-11-30 11:23:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue1, 10)): null
+
+2022-11-30 11:23:49 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1' is present
+
+2022-11-30 11:23:49 - [TEST_STEP][PASSED] - tap(btn_Continue1, 5): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1'
+
+2022-11-30 11:23:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1'
+
+2022-11-30 11:23:49 - [TEST_STEP][PASSED] - print("First Intro Screen Verified Successfully......."): null
+
+2022-11-30 11:23:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue2, 10)): null
+
+2022-11-30 11:23:50 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2' is present
+
+2022-11-30 11:23:50 - [TEST_STEP][PASSED] - tap(btn_Continue2, 5): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2'
+
+2022-11-30 11:23:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2'
+
+2022-11-30 11:23:51 - [TEST_STEP][PASSED] - print("Second Intro Screen Verified Successfully......."): null
+
+2022-11-30 11:23:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue3, 10)): null
+
+2022-11-30 11:23:52 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3' is present
+
+2022-11-30 11:23:52 - [TEST_STEP][PASSED] - tap(btn_Continue3, 5): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3'
+
+2022-11-30 11:23:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3'
+
+2022-11-30 11:23:52 - [TEST_STEP][PASSED] - print("Third Intro Screen Verified Successfully......."): null
+
+2022-11-30 11:23:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens' successfully
+
+2022-11-30 11:23:52 - [TEST_STEP][PASSED] - print("Screen1_Intro Passed Successfully"): null
+
+2022-11-30 11:23:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-11-30 11:23:52 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen: Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen
+
+2022-11-30 11:23:52 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Sign In Selection/btn Continue with phone number": null
+
+2022-11-30 11:23:52 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject(btn), 10)): null
+
+2022-11-30 11:23:54 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Sign In Selection/btn Continue with phone number' is present
+
+2022-11-30 11:23:54 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 15): Tapped on element 'Object Repository/Smoke/Sign In Selection/btn Continue with phone number'
+
+2022-11-30 11:23:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Sign In Selection/btn Continue with phone number'
+
+2022-11-30 11:23:54 - [TEST_STEP][PASSED] - markPassed("Phone number selected......"): Phone number selected......
+
+2022-11-30 11:23:54 - [MESSAGE][PASSED] - Phone number selected......
+
+2022-11-30 11:23:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-30 11:23:30 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Smoke/TC_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

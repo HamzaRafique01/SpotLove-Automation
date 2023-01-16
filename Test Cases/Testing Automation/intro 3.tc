@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>intro 3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40cd48d8-129a-4743-8a9f-3dd651071195</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6be56a9f-90ce-4d46-a26d-8011575999c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a18d7f2-b07f-478a-9bb1-8993006a1e5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>884990aa-909e-467c-a191-bdd48de903d2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c5ca2f3-71e9-4f70-abbd-f7bc1fb0452a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71f9f531-89fe-4352-a503-aa690a1368d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd0e1f6c-bc16-4bb6-bcaf-046a95caab4a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Third intro/Heart icon')</defaultValue>
+      <description></description>
+      <id>6be56a9f-90ce-4d46-a26d-8011575999c8</id>
+      <masked>false</masked>
+      <name>hearticon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Third intro/Meet Your label text')</defaultValue>
+      <description></description>
+      <id>0a18d7f2-b07f-478a-9bb1-8993006a1e5b</id>
+      <masked>false</masked>
+      <name>Meet_your</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Third intro/Soulmate label text')</defaultValue>
+      <description></description>
+      <id>884990aa-909e-467c-a191-bdd48de903d2</id>
+      <masked>false</masked>
+      <name>Soulmate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Third intro/Plenty of opportunities to find the person that checks all your boxes label text')</defaultValue>
+      <description></description>
+      <id>7c5ca2f3-71e9-4f70-abbd-f7bc1fb0452a</id>
+      <masked>false</masked>
+      <name>Plenty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Third intro/Background image')</defaultValue>
+      <description></description>
+      <id>71f9f531-89fe-4352-a503-aa690a1368d6</id>
+      <masked>false</masked>
+      <name>background</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('intro screens/Third intro/Continue Button')</defaultValue>
+      <description></description>
+      <id>bd0e1f6c-bc16-4bb6-bcaf-046a95caab4a</id>
+      <masked>false</masked>
+      <name>Continuebutton</name>
+   </variable>
+</TestCaseEntity>

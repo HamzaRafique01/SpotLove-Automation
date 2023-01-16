@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Sanity,,,,2022-06-15 16:27:58,2022-06-15 16:28:41,42.937s,ERROR
+,,,,,,,
+Test Cases/testing/intro 1,,,,2022-06-15 16:27:58,2022-06-15 16:28:16,18.081s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-06-15 16:27:59,2022-06-15 16:28:12,13.064s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-06-15 16:28:12,2022-06-15 16:28:16,4.342s,PASSED
+,,,,,,,
+Test Cases/testing/intro2,,,,2022-06-15 16:28:40,2022-06-15 16:28:41,0.941s,ERROR
+"if (waitForElementPresent(hearticon, 30))",,,,2022-06-15 16:28:40,2022-06-15 16:28:41,0.703s,PASSED

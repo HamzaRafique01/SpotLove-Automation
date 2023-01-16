@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-12-01 16:19:50,2022-12-01 16:21:03,1m - 12.645s,ERROR
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-12-01 16:19:50,2022-12-01 16:20:26,35.948s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-12-01 16:19:51,2022-12-01 16:20:06,15.059s,PASSED
+"check_image = findTestObject(""Object Repository/Smoke/Verify Login Sign Up/Intro screen image"")",,,,2022-12-01 16:20:06,2022-12-01 16:20:06,0.041s,PASSED
+"if (waitForElementPresent(check_image, 10))",,,,2022-12-01 16:20:06,2022-12-01 16:20:16,10.041s,PASSED
+else,,,,2022-12-01 16:20:16,2022-12-01 16:20:26,10.360s,PASSED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-12-01 16:20:27,2022-12-01 16:21:03,36.273s,ERROR
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-12-01 16:20:27,2022-12-01 16:20:28,0.772s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 16:20:28,2022-12-01 16:20:29,1.541s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-12-01 16:20:29,2022-12-01 16:20:32,2.899s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 16:20:32,2022-12-01 16:20:40,8.092s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen""), [""Gender"":Gender], STOP_ON_FAILURE)",,,,2022-12-01 16:20:40,2022-12-01 16:20:42,2.177s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen""), [""Into"":Into], STOP_ON_FAILURE)",,,,2022-12-01 16:20:42,2022-12-01 16:20:45,2.699s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 16:20:45,2022-12-01 16:20:47,2.145s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen""), [""Ethnicity"":Ethnicity], STOP_ON_FAILURE)",,,,2022-12-01 16:20:47,2022-12-01 16:20:50,2.832s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen""), [""Religion"":Religion], STOP_ON_FAILURE)",,,,2022-12-01 16:20:50,2022-12-01 16:20:53,3.183s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen""), [""Relationship"":Relationship], STOP_ON_FAILURE)",,,,2022-12-01 16:20:53,2022-12-01 16:20:56,2.982s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan""), [""Children"":Children, ""Plan"":Plan], STOP_ON_FAILURE)",,,,2022-12-01 16:20:56,2022-12-01 16:20:59,2.841s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen""), [""Education"":Education], STOP_ON_FAILURE)",,,,2022-12-01 16:20:59,2022-12-01 16:21:02,3.273s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen""), [""Smoking"":Smoking, ""Marijuana"":Marijuana, ""Alcohol"":Alcohol], STOP_ON_FAILURE)",,,,2022-12-01 16:21:02,2022-12-01 16:21:03,0.458s,ERROR

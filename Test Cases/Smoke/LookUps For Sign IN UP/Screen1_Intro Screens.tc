@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Screen1_Intro Screens</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d72640dc-e0d9-4ae7-bed1-605ac32a217e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0f0ca67-d073-4d77-be0a-021648d6cea2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ef31374-4cd0-477a-b8e4-436986516bce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dda6e75e-e6d8-4773-b7eb-5ad8f11ffac0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Intro Screen/Continue button ON intro1')</defaultValue>
+      <description></description>
+      <id>d0f0ca67-d073-4d77-be0a-021648d6cea2</id>
+      <masked>false</masked>
+      <name>btn_Continue1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Intro Screen/Continue button ON intro2')</defaultValue>
+      <description></description>
+      <id>2ef31374-4cd0-477a-b8e4-436986516bce</id>
+      <masked>false</masked>
+      <name>btn_Continue2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Intro Screen/Continue button ON intro3')</defaultValue>
+      <description></description>
+      <id>dda6e75e-e6d8-4773-b7eb-5ad8f11ffac0</id>
+      <masked>false</masked>
+      <name>btn_Continue3</name>
+   </variable>
+</TestCaseEntity>

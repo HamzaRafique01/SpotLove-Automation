@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-30 13:54:20,2022-11-30 13:54:23,2.544s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-30 13:54:21,2022-11-30 13:54:22,1.322s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-30 13:54:21,2022-11-30 13:54:22,0.860s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_003 Home,,,,2022-11-30 13:54:22,2022-11-30 13:54:23,0.813s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Home/Home Flow""), null, STOP_ON_FAILURE)",,,,2022-11-30 13:54:22,2022-11-30 13:54:23,0.580s,FAILED

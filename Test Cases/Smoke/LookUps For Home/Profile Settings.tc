@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profile Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c50f00c-614a-4832-995c-c1ebb6cbf9f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e518cdfc-0afc-45a6-b8fa-ada72214bc1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e758fc1d-a802-4783-9fab-4e0a62e84d39</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7d7c55d-e57b-4742-9955-5cb4e167bc26</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Settings/btn toggle Switch App')</defaultValue>
+      <description></description>
+      <id>e518cdfc-0afc-45a6-b8fa-ada72214bc1f</id>
+      <masked>false</masked>
+      <name>Switch_App</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Settings/btn toggle Switch push')</defaultValue>
+      <description></description>
+      <id>e758fc1d-a802-4783-9fab-4e0a62e84d39</id>
+      <masked>false</masked>
+      <name>Push_notification</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/btn back')</defaultValue>
+      <description></description>
+      <id>a7d7c55d-e57b-4742-9955-5cb4e167bc26</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+</TestCaseEntity>

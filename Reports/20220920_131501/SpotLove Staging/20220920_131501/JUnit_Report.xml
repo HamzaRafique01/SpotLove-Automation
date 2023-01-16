@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SpotLove Staging" time="82.72" tests="13" failures="0" errors="3">
+   <testsuite name="SpotLove Staging" tests="13" failures="0" errors="3" time="82.72" skipped="0" timestamp="2022-09-20 13:15:13" hostname="pc - 192.168.88.3" id="Test Suites/SpotLove Staging">
+      <properties>
+         <property name="deviceName" value="samsung SM-A025F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220920_131501/SpotLove Staging/20220920_131501"/>
+         <property name="logFiles" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220920_131501/SpotLove Staging/20220920_131501/execution0.log, /Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220920_131501/SpotLove Staging/20220920_131501/appium.log"/>
+         <property name="attachments" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220920_131501/SpotLove Staging/20220920_131501/1663661745596.png"/>
+         <property name="hostName" value="pc - 192.168.88.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A025F"/>
+         <property name="hostAddress" value="192.168.88.3"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9JNC0DKDXJ"/>
+         <property name="deviceName" value="samsung SM-A025F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/testing/Welcome OnBoarding" time="27.652" classname="Test Cases/testing/Welcome OnBoarding" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:15:13 - [TEST_CASE][PASSED] - Test Cases/testing/Welcome OnBoarding: Test Cases/testing/Welcome OnBoarding
+
+2022-09-20 13:15:14 - [TEST_STEP][PASSED] - startExistingApplication(packageID, STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove'
+
+2022-09-20 13:15:14 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-09-20 13:15:14 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-09-20 13:15:16 - [MESSAGE][INFO] - Appium server started on port 50,016
+
+2022-09-20 13:15:29 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove'
+
+2022-09-20 13:15:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(logo, 30)): null
+
+2022-09-20 13:15:38 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Logo' is present
+
+2022-09-20 13:15:38 - [TEST_STEP][PASSED] - markPassed("PASSED: SpotLove logo is present on the screen."): PASSED: SpotLove logo is present on the screen.
+
+2022-09-20 13:15:38 - [MESSAGE][PASSED] - PASSED: SpotLove logo is present on the screen.
+
+2022-09-20 13:15:38 - [TEST_STEP][PASSED] - if (waitForElementPresent(welcome, 30)): null
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Welcome to Spot.Love label text' is present
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - markPassed("PASSED: Welcome... label text is present on the screen."): PASSED: Welcome... label text is present on the screen.
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - PASSED: Welcome... label text is present on the screen.
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Please, 30)): null
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Please follow these house rules label text' is present
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - markPassed("PASSED: Please... label text is present on the screen."): PASSED: Please... label text is present on the screen.
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - PASSED: Please... label text is present on the screen.
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart1, 30)): null
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/heart icon first' is present
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon... is present on the screen."): PASSED: Heart Icon... is present on the screen.
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - PASSED: Heart Icon... is present on the screen.
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be, 30)): null
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be kind label text' is present
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Kind... label text is present on the screen."): PASSED: Be Kind... label text is present on the screen.
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - PASSED: Be Kind... label text is present on the screen.
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Treat, 30)): null
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Treat everyone with respect and kindness label text' is present
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - markPassed("PASSED: Treat... label text is present on the screen."): PASSED: Treat... label text is present on the screen.
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - PASSED: Treat... label text is present on the screen.
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart2, 30)): null
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/heart icon second' is present
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon... is present on the screen."): PASSED: Heart Icon... is present on the screen.
+
+2022-09-20 13:15:39 - [MESSAGE][PASSED] - PASSED: Heart Icon... is present on the screen.
+
+2022-09-20 13:15:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_You, 30)): null
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be yourself label text' is present
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Your... label text is present on the screen."): PASSED: Be Your... label text is present on the screen.
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - PASSED: Be Your... label text is present on the screen.
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_honest, 30)): null
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be honest about your age, phots, and bio label text' is present
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Honest... label text is present on the screen."): PASSED: Be Honest... label text is present on the screen.
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - PASSED: Be Honest... label text is present on the screen.
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart3, 30)): null
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/heart icon third' is present
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon... is present on the screen."): PASSED: Heart Icon... is present on the screen.
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - PASSED: Heart Icon... is present on the screen.
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_Out, 30)): null
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be outspoken label text' is present
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Out... label text is present on the screen."): PASSED: Be Out... label text is present on the screen.
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - PASSED: Be Out... label text is present on the screen.
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Always, 30)): null
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Always report bad behavior label text' is present
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - markPassed("PASSED: Always... label text is present on the screen."): PASSED: Always... label text is present on the screen.
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - PASSED: Always... label text is present on the screen.
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Terms, 30)): null
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/View terms and Conditions' is present
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - markPassed("PASSED: View Terms and Conditions are show on the screen"): PASSED: View Terms and Conditions are show on the screen
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - PASSED: View Terms and Conditions are show on the screen
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Agree, 30)): null
+
+2022-09-20 13:15:40 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/I Agree Button' is present
+
+2022-09-20 13:15:40 - [TEST_STEP][PASSED] - tap(Agree, 30): Tapped on element 'Object Repository/Onboarding_One/I Agree Button'
+
+2022-09-20 13:15:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_One/I Agree Button'
+
+2022-09-20 13:15:41 - [TEST_STEP][PASSED] - markPassed("PASSED: I Agree Button ise show on the screen"): PASSED: I Agree Button ise show on the screen
+
+2022-09-20 13:15:41 - [MESSAGE][PASSED] - PASSED: I Agree Button ise show on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Referral Screen" time="1.907" classname="Test Cases/testing/Referral Screen" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:15:41 - [TEST_CASE][PASSED] - Test Cases/testing/Referral Screen: Test Cases/testing/Referral Screen
+
+2022-09-20 13:15:41 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart_Icon, 30)): null
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/heart Icon' is present
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon is present on the screen"): PASSED: Heart Icon is present on the screen
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - PASSED: Heart Icon is present on the screen
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(Howdi, 30)): null
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/How did you hear about us label text' is present
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - markPassed("PASSED: How did... label text is present on the screen"): PASSED: How did... label text is present on the screen
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - PASSED: How did... label text is present on the screen
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(dropdown, 30)): null
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Referral dropdown' is present
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - markPassed("PASSED: Dropdown menu is present on the screen"): PASSED: Dropdown menu is present on the screen
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - PASSED: Dropdown menu is present on the screen
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(Text_box, 30)): null
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Referral Code text box' is present
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - markPassed("PASSED: Do you... is present on the screen"): PASSED: Do you... is present on the screen
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - PASSED: Do you... is present on the screen
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Continue button' is present
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-09-20 13:15:42 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button is present on the screen"): PASSED: Continue Button is present on the screen
+
+2022-09-20 13:15:42 - [MESSAGE][PASSED] - PASSED: Continue Button is present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/First Name" time="4.55" classname="Test Cases/testing/First Name" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:15:46 - [TEST_CASE][PASSED] - Test Cases/testing/First Name: Test Cases/testing/First Name
+
+2022-09-20 13:15:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(back, 30)): null
+
+2022-09-20 13:15:46 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Back' is present
+
+2022-09-20 13:15:46 - [TEST_STEP][PASSED] - tap(back, 30): Tapped on element 'Object Repository/First name Screen/Back'
+
+2022-09-20 13:15:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First name Screen/Back'
+
+2022-09-20 13:15:47 - [TEST_STEP][PASSED] - markPassed("PASSED: Back Button is present on the screen"): PASSED: Back Button is present on the screen
+
+2022-09-20 13:15:47 - [MESSAGE][PASSED] - PASSED: Back Button is present on the screen
+
+2022-09-20 13:15:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(Previous_Continue, 30)): null
+
+2022-09-20 13:15:47 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Continue button' is present
+
+2022-09-20 13:15:47 - [TEST_STEP][PASSED] - tap(Previous_Continue, 30): Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button is present on the screen"): PASSED: Continue Button is present on the screen
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - PASSED: Continue Button is present on the screen
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(card_icon, 30)): null
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Card Icon' is present
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - markPassed("PASSED: Card Icon is present on the screen"): PASSED: Card Icon is present on the screen
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - PASSED: Card Icon is present on the screen
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(What, 30)): null
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/What should we call you label text' is present
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - markPassed("PASSED: What should... label text is present on the screen"): PASSED: What should... label text is present on the screen
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - PASSED: What should... label text is present on the screen
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(Tell_us, 30)): null
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Tell us your first name label Text' is present
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - markPassed("PASSED: Tell us... label text is present on the screen"): PASSED: Tell us... label text is present on the screen
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - PASSED: Tell us... label text is present on the screen
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(Name, 30)): null
+
+2022-09-20 13:15:48 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Name text text box' is present
+
+2022-09-20 13:15:48 - [TEST_STEP][PASSED] - setText(Name, F_Name, 30): Text 'Umar' has been set to element 'Object Repository/First name Screen/Name text text box'
+
+2022-09-20 13:15:50 - [MESSAGE][PASSED] - Text 'Umar' has been set to element 'Object Repository/First name Screen/Name text text box'
+
+2022-09-20 13:15:50 - [TEST_STEP][PASSED] - markPassed("PASSED: Name Enter s Successfully"): PASSED: Name Enter s Successfully
+
+2022-09-20 13:15:50 - [MESSAGE][PASSED] - PASSED: Name Enter s Successfully
+
+2022-09-20 13:15:50 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:15:50 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Continue Button' is present
+
+2022-09-20 13:15:50 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-09-20 13:15:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-09-20 13:15:50 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button is present on the screen"): PASSED: Continue button is present on the screen
+
+2022-09-20 13:15:50 - [MESSAGE][PASSED] - PASSED: Continue button is present on the screen
+
+2022-09-20 13:15:50 - [TEST_STEP][PASSED] - if (waitForElementPresent(Cake, 30)): null
+
+2022-09-20 13:15:50 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Cake icon' is present
+
+2022-09-20 13:15:50 - [TEST_STEP][PASSED] - markPassed("PASSED: Successfully Moved to birthday Screen"): PASSED: Successfully Moved to birthday Screen
+
+2022-09-20 13:15:50 - [MESSAGE][PASSED] - PASSED: Successfully Moved to birthday Screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Birthday" time="13.517" classname="Test Cases/testing/Birthday" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:15:50 - [TEST_CASE][PASSED] - Test Cases/testing/Birthday: Test Cases/testing/Birthday
+
+2022-09-20 13:15:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:15:56 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Back' is present
+
+2022-09-20 13:15:56 - [TEST_STEP][PASSED] - tap(Back, 30): Tapped on element 'Object Repository/DOB/Back'
+
+2022-09-20 13:15:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/Back'
+
+2022-09-20 13:15:56 - [TEST_STEP][PASSED] - markPassed("PASSED: Back Button is present on the screen"): PASSED: Back Button is present on the screen
+
+2022-09-20 13:15:56 - [MESSAGE][PASSED] - PASSED: Back Button is present on the screen
+
+2022-09-20 13:15:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(Pervious_Continue, 30)): null
+
+2022-09-20 13:15:57 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Continue Button' is present
+
+2022-09-20 13:15:57 - [TEST_STEP][PASSED] - tap(Pervious_Continue, 30): Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-09-20 13:15:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-09-20 13:15:57 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button is present on the screen"): PASSED: Continue Button is present on the screen
+
+2022-09-20 13:15:57 - [MESSAGE][PASSED] - PASSED: Continue Button is present on the screen
+
+2022-09-20 13:15:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(cake_icon, 30)): null
+
+2022-09-20 13:15:58 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Cake icon' is present
+
+2022-09-20 13:15:58 - [TEST_STEP][PASSED] - markPassed("PASSED: Card Icon is present on the screen"): PASSED: Card Icon is present on the screen
+
+2022-09-20 13:15:58 - [MESSAGE][PASSED] - PASSED: Card Icon is present on the screen
+
+2022-09-20 13:15:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whatsyour, 30)): null
+
+2022-09-20 13:16:01 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Whats your date of birth label Text' is present
+
+2022-09-20 13:16:01 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text is present on the screen"): PASSED: Whats your... label text is present on the screen
+
+2022-09-20 13:16:01 - [MESSAGE][PASSED] - PASSED: Whats your... label text is present on the screen
+
+2022-09-20 13:16:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(Year, 30)): null
+
+2022-09-20 13:16:01 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Year Picker' is present
+
+2022-09-20 13:16:01 - [TEST_STEP][PASSED] - tap(Year, 30): Tapped on element 'Object Repository/DOB/Year Picker'
+
+2022-09-20 13:16:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/Year Picker'
+
+2022-09-20 13:16:02 - [TEST_STEP][PASSED] - markPassed("PASSED: Year is present on the screen"): PASSED: Year is present on the screen
+
+2022-09-20 13:16:02 - [MESSAGE][PASSED] - PASSED: Year is present on the screen
+
+2022-09-20 13:16:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:16:02 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Continue Button' is present
+
+2022-09-20 13:16:02 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/DOB/Continue Button'
+
+2022-09-20 13:16:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/Continue Button'
+
+2022-09-20 13:16:02 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button is present on the screen"): PASSED: Continue button is present on the screen
+
+2022-09-20 13:16:02 - [MESSAGE][PASSED] - PASSED: Continue button is present on the screen
+
+2022-09-20 13:16:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(Please, 30)): null
+
+2022-09-20 13:16:04 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Please confirm your birthdate label text' is present
+
+2022-09-20 13:16:04 - [TEST_STEP][PASSED] - markPassed("PASSED: Please Confirm... label text is present on the screen"): PASSED: Please Confirm... label text is present on the screen
+
+2022-09-20 13:16:04 - [MESSAGE][PASSED] - PASSED: Please Confirm... label text is present on the screen
+
+2022-09-20 13:16:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(Thiscant, 30)): null
+
+2022-09-20 13:16:04 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/This cant be changed later label text' is present
+
+2022-09-20 13:16:04 - [TEST_STEP][PASSED] - markPassed("PASSED: This cant... label text is present on the screen"): PASSED: This cant... label text is present on the screen
+
+2022-09-20 13:16:04 - [MESSAGE][PASSED] - PASSED: This cant... label text is present on the screen
+
+2022-09-20 13:16:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(C_Continue, 30)): null
+
+2022-09-20 13:16:04 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/C_Continue' is present
+
+2022-09-20 13:16:04 - [TEST_STEP][PASSED] - tap(C_Continue, 30): Tapped on element 'Object Repository/DOB/C_Continue'
+
+2022-09-20 13:16:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/C_Continue'
+
+2022-09-20 13:16:04 - [TEST_STEP][PASSED] - markPassed("PASSED: C_Continue button present on the screen"): PASSED: C_Continue button present on the screen
+
+2022-09-20 13:16:04 - [MESSAGE][PASSED] - PASSED: C_Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Identifications" time="2.987" classname="Test Cases/testing/Identifications" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:16:04 - [TEST_CASE][PASSED] - Test Cases/testing/Identifications: Test Cases/testing/Identifications
+
+2022-09-20 13:16:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:06 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Back' is present
+
+2022-09-20 13:16:06 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:06 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(Mirror_icon, 30)): null
+
+2022-09-20 13:16:06 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Mirror Icon' is present
+
+2022-09-20 13:16:06 - [TEST_STEP][PASSED] - markPassed("PASSED: Mirror Icon present on the screen"): PASSED: Mirror Icon present on the screen
+
+2022-09-20 13:16:06 - [MESSAGE][PASSED] - PASSED: Mirror Icon present on the screen
+
+2022-09-20 13:16:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(How_do, 30)): null
+
+2022-09-20 13:16:06 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/How do you identify label text' is present
+
+2022-09-20 13:16:06 - [TEST_STEP][PASSED] - markPassed("PASSED: How do... label text present on the screen"): PASSED: How do... label text present on the screen
+
+2022-09-20 13:16:06 - [MESSAGE][PASSED] - PASSED: How do... label text present on the screen
+
+2022-09-20 13:16:06 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Gender): com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:06 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:16:07 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Continue Button' is present
+
+2022-09-20 13:16:07 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Identify/Continue Button'
+
+2022-09-20 13:16:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Identify/Continue Button'
+
+2022-09-20 13:16:07 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-09-20 13:16:07 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Into" time="2.292" classname="Test Cases/testing/Into" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:16:07 - [TEST_CASE][PASSED] - Test Cases/testing/Into: Test Cases/testing/Into
+
+2022-09-20 13:16:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(back, 30)): null
+
+2022-09-20 13:16:08 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Back' is present
+
+2022-09-20 13:16:08 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:08 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(Profile_icon, 30)): null
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Profile icon' is present
+
+2022-09-20 13:16:09 - [TEST_STEP][PASSED] - markPassed("PASSED: Profile icon present on the screen"): PASSED: Profile icon present on the screen
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - PASSED: Profile icon present on the screen
+
+2022-09-20 13:16:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Who, 30)): null
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Who are you into label text' is present
+
+2022-09-20 13:16:09 - [TEST_STEP][PASSED] - markPassed("PASSED: Who are... label text present on the screen"): PASSED: Who are... label text present on the screen
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - PASSED: Who are... label text present on the screen
+
+2022-09-20 13:16:09 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Into): com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Continue Button' is present
+
+2022-09-20 13:16:09 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/INTO/Continue Button'
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INTO/Continue Button'
+
+2022-09-20 13:16:09 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-09-20 13:16:09 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Height Scale" time="2.869" classname="Test Cases/testing/Height Scale" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:16:09 - [TEST_CASE][PASSED] - Test Cases/testing/Height Scale: Test Cases/testing/Height Scale
+
+2022-09-20 13:16:10 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:11 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/Back' is present
+
+2022-09-20 13:16:11 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:11 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(Scale_icon, 30)): null
+
+2022-09-20 13:16:12 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/Scale icon' is present
+
+2022-09-20 13:16:12 - [TEST_STEP][PASSED] - markPassed("PASSED: Scale icon present on the screen"): PASSED: Scale icon present on the screen
+
+2022-09-20 13:16:12 - [MESSAGE][PASSED] - PASSED: Scale icon present on the screen
+
+2022-09-20 13:16:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(How, 30)): null
+
+2022-09-20 13:16:12 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/How tall are you label text' is present
+
+2022-09-20 13:16:12 - [TEST_STEP][PASSED] - markPassed("PASSED: How tall... label text present on the screen"): PASSED: How tall... label text present on the screen
+
+2022-09-20 13:16:12 - [MESSAGE][PASSED] - PASSED: How tall... label text present on the screen
+
+2022-09-20 13:16:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:16:12 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/Continue Button' is present
+
+2022-09-20 13:16:12 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Height scale/Continue Button'
+
+2022-09-20 13:16:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Height scale/Continue Button'
+
+2022-09-20 13:16:12 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button present on the screen"): PASSED: Continue Button present on the screen
+
+2022-09-20 13:16:12 - [MESSAGE][PASSED] - PASSED: Continue Button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Ethnicity" time="3.073" classname="Test Cases/testing/Ethnicity" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:16:12 - [TEST_CASE][PASSED] - Test Cases/testing/Ethnicity: Test Cases/testing/Ethnicity
+
+2022-09-20 13:16:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:14 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Back' is present
+
+2022-09-20 13:16:14 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:14 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(Megnifying_icon, 30)): null
+
+2022-09-20 13:16:14 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Megnifying icon' is present
+
+2022-09-20 13:16:14 - [TEST_STEP][PASSED] - markPassed("PASSED: Megnifying icon present on the screen"): PASSED: Megnifying icon present on the screen
+
+2022-09-20 13:16:14 - [MESSAGE][PASSED] - PASSED: Megnifying icon present on the screen
+
+2022-09-20 13:16:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-09-20 13:16:14 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Whats your ethnicity label text' is present
+
+2022-09-20 13:16:14 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text present on the screen"): PASSED: Whats your... label text present on the screen
+
+2022-09-20 13:16:14 - [MESSAGE][PASSED] - PASSED: Whats your... label text present on the screen
+
+2022-09-20 13:16:14 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Ethnicity): com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:14 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:16:15 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Continue Button' is present
+
+2022-09-20 13:16:15 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Ethnicity/Continue Button'
+
+2022-09-20 13:16:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Continue Button'
+
+2022-09-20 13:16:15 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-09-20 13:16:15 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Religion" time="3.335" classname="Test Cases/testing/Religion" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:16:15 - [TEST_CASE][PASSED] - Test Cases/testing/Religion: Test Cases/testing/Religion
+
+2022-09-20 13:16:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:17 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Back' is present
+
+2022-09-20 13:16:17 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:17 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:17 - [TEST_STEP][PASSED] - if (waitForElementPresent(Book, 30)): null
+
+2022-09-20 13:16:17 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Book Icon' is present
+
+2022-09-20 13:16:17 - [TEST_STEP][PASSED] - markPassed("PASSED: Book icon present on the screen"): PASSED: Book icon present on the screen
+
+2022-09-20 13:16:17 - [MESSAGE][PASSED] - PASSED: Book icon present on the screen
+
+2022-09-20 13:16:17 - [TEST_STEP][PASSED] - if (waitForElementPresent(What, 30)): null
+
+2022-09-20 13:16:17 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Whats your religion label text' is present
+
+2022-09-20 13:16:17 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text present on the screen"): PASSED: Whats your... label text present on the screen
+
+2022-09-20 13:16:17 - [MESSAGE][PASSED] - PASSED: Whats your... label text present on the screen
+
+2022-09-20 13:16:17 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Religion): com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:18 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:18 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:16:18 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/continue Button' is present
+
+2022-09-20 13:16:18 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Religion/continue Button'
+
+2022-09-20 13:16:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/continue Button'
+
+2022-09-20 13:16:19 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-09-20 13:16:19 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Relationship" time="3.457" classname="Test Cases/testing/Relationship" status="PASSED">
+         <system-out><![CDATA[2022-09-20 13:16:19 - [TEST_CASE][PASSED] - Test Cases/testing/Relationship: Test Cases/testing/Relationship
+
+2022-09-20 13:16:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:21 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Back' is present
+
+2022-09-20 13:16:21 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:21 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart_Icon, 30)): null
+
+2022-09-20 13:16:21 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Heart icon' is present
+
+2022-09-20 13:16:21 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon present on the screen"): PASSED: Heart Icon present on the screen
+
+2022-09-20 13:16:21 - [MESSAGE][PASSED] - PASSED: Heart Icon present on the screen
+
+2022-09-20 13:16:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-09-20 13:16:21 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Whats your relationship status label text' is present
+
+2022-09-20 13:16:21 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text present on the screen"): PASSED: Whats your... label text present on the screen
+
+2022-09-20 13:16:21 - [MESSAGE][PASSED] - PASSED: Whats your... label text present on the screen
+
+2022-09-20 13:16:21 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Relationship): com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:21 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-09-20 13:16:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-09-20 13:16:22 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Continue Button' is present
+
+2022-09-20 13:16:22 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Relationship/Continue Button'
+
+2022-09-20 13:16:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship/Continue Button'
+
+2022-09-20 13:16:22 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-09-20 13:16:22 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Family Plan" time="1.302" classname="Test Cases/testing/Family Plan" status="ERROR">
+         <error type="ERROR" message="Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+"/>
+         <system-out><![CDATA[2022-09-20 13:16:28 - [TEST_CASE][ERROR] - Test Cases/testing/Family Plan: Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+
+
+2022-09-20 13:16:28 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:28 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Back' is present
+
+2022-09-20 13:16:28 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:28 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:28 - [TEST_STEP][PASSED] - if (waitForElementPresent(Smile_Icon, 30)): null
+
+2022-09-20 13:16:29 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Face icon' is present
+
+2022-09-20 13:16:29 - [TEST_STEP][PASSED] - markPassed("PASSED: Smile Icon present on the screen"): PASSED: Smile Icon present on the screen
+
+2022-09-20 13:16:29 - [MESSAGE][PASSED] - PASSED: Smile Icon present on the screen
+
+2022-09-20 13:16:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-09-20 13:16:29 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/What are your thoughts on children label text' is present
+
+2022-09-20 13:16:29 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats are... label text present on the screen"): PASSED: Whats are... label text present on the screen
+
+2022-09-20 13:16:29 - [MESSAGE][PASSED] - PASSED: Whats are... label text present on the screen
+
+2022-09-20 13:16:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(Do, 30)): null
+
+2022-09-20 13:16:29 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Do you have children label text' is present
+
+2022-09-20 13:16:29 - [TEST_STEP][PASSED] - markPassed("PASSED: Do you... label text present on the screen"): PASSED: Do you... label text present on the screen
+
+2022-09-20 13:16:29 - [MESSAGE][PASSED] - PASSED: Do you... label text present on the screen
+
+2022-09-20 13:16:29 - [TEST_STEP][ERROR] - com.spotlove.Utility.comma_sprt_value(): Test Cases/testing/Family Plan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 17 more
+
+
+2022-09-20 13:16:29 - [MESSAGE][ERROR] - org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+
+2022-09-20 13:16:29 - [MESSAGE][ERROR] - Test Cases/testing/Family Plan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 17 more]]></system-out>
+         <system-err><![CDATA[2022-09-20 13:16:28 - [TEST_CASE][ERROR] - Test Cases/testing/Family Plan: Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Family Plan" time="1.224" classname="Test Cases/testing/Family Plan" status="ERROR">
+         <error type="ERROR" message="Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+"/>
+         <system-out><![CDATA[2022-09-20 13:16:33 - [TEST_CASE][ERROR] - Test Cases/testing/Family Plan: Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+
+
+2022-09-20 13:16:33 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:33 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Back' is present
+
+2022-09-20 13:16:33 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:33 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:33 - [TEST_STEP][PASSED] - if (waitForElementPresent(Smile_Icon, 30)): null
+
+2022-09-20 13:16:34 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Face icon' is present
+
+2022-09-20 13:16:34 - [TEST_STEP][PASSED] - markPassed("PASSED: Smile Icon present on the screen"): PASSED: Smile Icon present on the screen
+
+2022-09-20 13:16:34 - [MESSAGE][PASSED] - PASSED: Smile Icon present on the screen
+
+2022-09-20 13:16:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-09-20 13:16:34 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/What are your thoughts on children label text' is present
+
+2022-09-20 13:16:34 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats are... label text present on the screen"): PASSED: Whats are... label text present on the screen
+
+2022-09-20 13:16:34 - [MESSAGE][PASSED] - PASSED: Whats are... label text present on the screen
+
+2022-09-20 13:16:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(Do, 30)): null
+
+2022-09-20 13:16:34 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Do you have children label text' is present
+
+2022-09-20 13:16:34 - [TEST_STEP][PASSED] - markPassed("PASSED: Do you... label text present on the screen"): PASSED: Do you... label text present on the screen
+
+2022-09-20 13:16:34 - [MESSAGE][PASSED] - PASSED: Do you... label text present on the screen
+
+2022-09-20 13:16:34 - [TEST_STEP][ERROR] - com.spotlove.Utility.comma_sprt_value(): Test Cases/testing/Family Plan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 17 more
+
+
+2022-09-20 13:16:34 - [MESSAGE][ERROR] - org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+
+2022-09-20 13:16:34 - [MESSAGE][ERROR] - Test Cases/testing/Family Plan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 17 more]]></system-out>
+         <system-err><![CDATA[2022-09-20 13:16:33 - [TEST_CASE][ERROR] - Test Cases/testing/Family Plan: Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Family Plan" time="1.245" classname="Test Cases/testing/Family Plan" status="ERROR">
+         <error type="ERROR" message="Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+"/>
+         <system-out><![CDATA[2022-09-20 13:16:34 - [TEST_CASE][ERROR] - Test Cases/testing/Family Plan: Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+
+
+2022-09-20 13:16:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Back' is present
+
+2022-09-20 13:16:35 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-09-20 13:16:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(Smile_Icon, 30)): null
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Face icon' is present
+
+2022-09-20 13:16:35 - [TEST_STEP][PASSED] - markPassed("PASSED: Smile Icon present on the screen"): PASSED: Smile Icon present on the screen
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - PASSED: Smile Icon present on the screen
+
+2022-09-20 13:16:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/What are your thoughts on children label text' is present
+
+2022-09-20 13:16:35 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats are... label text present on the screen"): PASSED: Whats are... label text present on the screen
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - PASSED: Whats are... label text present on the screen
+
+2022-09-20 13:16:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(Do, 30)): null
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Do you have children label text' is present
+
+2022-09-20 13:16:35 - [TEST_STEP][PASSED] - markPassed("PASSED: Do you... label text present on the screen"): PASSED: Do you... label text present on the screen
+
+2022-09-20 13:16:35 - [MESSAGE][PASSED] - PASSED: Do you... label text present on the screen
+
+2022-09-20 13:16:35 - [TEST_STEP][ERROR] - com.spotlove.Utility.comma_sprt_value(): Test Cases/testing/Family Plan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-09-20 13:16:35 - [MESSAGE][ERROR] - org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+
+2022-09-20 13:16:35 - [MESSAGE][ERROR] - Test Cases/testing/Family Plan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2022-09-20 13:16:34 - [TEST_CASE][ERROR] - Test Cases/testing/Family Plan: Test Cases/testing/Family Plan FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 23: don
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Hamza-Mac-Book.local', ip: '169.254.162.64', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 50017, deviceId: , deviceName: samsung SM-A025F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8261, udid: R9JNC0DKDXJ}, deviceApiLevel: 30, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A025F, deviceName: R9JNC0DKDXJ, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: R9JNC0DKDXJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 45, systemPort: 8261, takesScreenshot: true, udid: R9JNC0DKDXJ, viewportRect: {height: 1426, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6713eb5c-4264-419e-b3c3-459b75de5db0
+*** Element info: {Using=xpath, value=//*[contains(@text, I don't have Children )]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.comma_sprt_value(Utility.groovy:78)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Family Plan.run(Family Plan:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663661701407.run(TempTestSuite1663661701407.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-20 13:15:13 - [TEST_SUITE][INCOMPLETE] - SpotLove Staging: null]]></system-out>
+      <system-err><![CDATA[2022-09-20 13:15:13 - [TEST_SUITE][INCOMPLETE] - SpotLove Staging: null]]></system-err>
+   </testsuite>
+</testsuites>

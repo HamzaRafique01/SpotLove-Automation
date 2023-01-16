@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-28 13:10:23,2022-11-28 13:13:13,2m - 50.555s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-11-28 13:10:23,2022-11-28 13:11:56,1m - 33.189s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-28 13:10:23,2022-11-28 13:10:38,14.394s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:10:38,2022-11-28 13:10:45,7.687s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:10:45,2022-11-28 13:10:47,1.405s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)""), [""CName"":CName, ""PNumber"":PNumber], STOP_ON_FAILURE)",,,,2022-11-28 13:10:47,2022-11-28 13:11:34,47.614s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:11:34,2022-11-28 13:11:56,21.718s,PASSED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-28 13:11:56,2022-11-28 13:13:13,1m - 16.944s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:11:57,2022-11-28 13:11:57,0.562s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:11:57,2022-11-28 13:11:58,1.311s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-11-28 13:11:58,2022-11-28 13:12:02,3.477s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:12:02,2022-11-28 13:12:09,7.147s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen""), [""Gender"":Gender], STOP_ON_FAILURE)",,,,2022-11-28 13:12:09,2022-11-28 13:12:12,2.509s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen""), [""Into"":Into], STOP_ON_FAILURE)",,,,2022-11-28 13:12:12,2022-11-28 13:12:14,2.354s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:12:14,2022-11-28 13:12:16,1.788s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen""), [""Ethnicity"":Ethnicity], STOP_ON_FAILURE)",,,,2022-11-28 13:12:16,2022-11-28 13:12:18,2.811s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen""), [""Religion"":Religion], STOP_ON_FAILURE)",,,,2022-11-28 13:12:18,2022-11-28 13:12:22,3.085s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen""), [""Relationship"":Relationship], STOP_ON_FAILURE)",,,,2022-11-28 13:12:22,2022-11-28 13:12:24,2.142s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan""), [""Children"":Children, ""Plan"":Plan], STOP_ON_FAILURE)",,,,2022-11-28 13:12:24,2022-11-28 13:12:27,3.000s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen""), [""Education"":Education], STOP_ON_FAILURE)",,,,2022-11-28 13:12:27,2022-11-28 13:12:30,2.898s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen""), [""Smoking"":Smoking, ""Marijuana"":Marijuana, ""Alcohol"":Alcohol], STOP_ON_FAILURE)",,,,2022-11-28 13:12:30,2022-11-28 13:12:42,12.043s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen""), [""Political"":Political], STOP_ON_FAILURE)",,,,2022-11-28 13:12:42,2022-11-28 13:12:45,3.595s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue""), null, STOP_ON_FAILURE)",,,,2022-11-28 13:12:45,2022-11-28 13:13:13,27.919s,FAILED

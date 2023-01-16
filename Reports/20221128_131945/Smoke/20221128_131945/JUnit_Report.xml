@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="155.518" tests="2" failures="1" errors="0">
+   <testsuite name="Smoke" tests="2" failures="1" errors="0" time="155.518" skipped="0" timestamp="2022-11-28 13:19:54" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_131945/Smoke/20221128_131945"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_131945/Smoke/20221128_131945/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_131945/Smoke/20221128_131945/appium.log"/>
+         <property name="attachments" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_131945/Smoke/20221128_131945/1669623749432.png"/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="91.817" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-11-28 13:19:55 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-11-28 13:19:55 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-11-28 13:19:55 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-28 13:19:58 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-11-28 13:19:59 - [MESSAGE][INFO] - Appium server started on port 50,227
+
+2022-11-28 13:20:09 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-11-28 13:20:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens' successfully
+
+2022-11-28 13:20:09 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens: Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens
+
+2022-11-28 13:20:09 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Intro Screen/Continue button ON intro1": null
+
+2022-11-28 13:20:09 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1'
+
+2022-11-28 13:20:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro1'
+
+2022-11-28 13:20:14 - [TEST_STEP][PASSED] - btn1 = "Object Repository/Smoke/Intro Screen/Continue button ON intro2": null
+
+2022-11-28 13:20:14 - [TEST_STEP][PASSED] - tap(findTestObject(btn1), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2'
+
+2022-11-28 13:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro2'
+
+2022-11-28 13:20:15 - [TEST_STEP][PASSED] - btn2 = "Object Repository/Smoke/Intro Screen/Continue button ON intro3": null
+
+2022-11-28 13:20:15 - [TEST_STEP][PASSED] - tap(findTestObject(btn2), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3'
+
+2022-11-28 13:20:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Intro Screen/Continue button ON intro3'
+
+2022-11-28 13:20:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens' successfully
+
+2022-11-28 13:20:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-11-28 13:20:16 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen: Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen
+
+2022-11-28 13:20:17 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Sign In Selection/btn_Continue with phone number": null
+
+2022-11-28 13:20:17 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 15, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Sign In Selection/btn_Continue with phone number'
+
+2022-11-28 13:20:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Sign In Selection/btn_Continue with phone number'
+
+2022-11-28 13:20:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen' successfully
+
+2022-11-28 13:20:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)"), ["CName":CName, "PNumber":PNumber], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)' successfully
+
+2022-11-28 13:20:18 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number): Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)
+
+2022-11-28 13:20:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu' successfully
+
+2022-11-28 13:20:18 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu
+
+2022-11-28 13:20:18 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Insertion of phone number/list_dropdown": null
+
+2022-11-28 13:20:18 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Insertion of phone number/list_dropdown'
+
+2022-11-28 13:20:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/list_dropdown'
+
+2022-11-28 13:20:19 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-11-28 13:20:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-28 13:20:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on dropdown Menu' successfully
+
+2022-11-28 13:20:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name"), ["CName":CName], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name' successfully
+
+2022-11-28 13:20:24 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name
+
+2022-11-28 13:20:24 - [TEST_STEP][PASSED] - Name_f = "Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)": null
+
+2022-11-28 13:20:24 - [TEST_STEP][PASSED] - tap(findTestObject(Name_f), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)'
+
+2022-11-28 13:20:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)'
+
+2022-11-28 13:20:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject(Name_f), CName, STOP_ON_FAILURE): Send keys 'US' on test object 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)' successfully.
+
+2022-11-28 13:20:27 - [MESSAGE][PASSED] - Send keys 'US' on test object 'Object Repository/Smoke/Insertion of phone number/Enter country name (searchbox)' successfully.
+
+2022-11-28 13:20:27 - [TEST_STEP][PASSED] - CName1 = "Object Repository/Smoke/Insertion of phone number/First_index search list": null
+
+2022-11-28 13:20:27 - [TEST_STEP][PASSED] - tap(findTestObject(CName1), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Insertion of phone number/First_index search list'
+
+2022-11-28 13:20:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/First_index search list'
+
+2022-11-28 13:20:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Search country by name' successfully
+
+2022-11-28 13:20:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number"), ["PNumber":PNumber], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number' successfully
+
+2022-11-28 13:20:28 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number
+
+2022-11-28 13:20:28 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Insertion of phone number/Phone Number": null
+
+2022-11-28 13:20:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject(btn), PNumber, STOP_ON_FAILURE): Send keys '6505557654' on test object 'Object Repository/Smoke/Insertion of phone number/Phone Number' successfully.
+
+2022-11-28 13:20:29 - [MESSAGE][PASSED] - Send keys '6505557654' on test object 'Object Repository/Smoke/Insertion of phone number/Phone Number' successfully.
+
+2022-11-28 13:20:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Enter Phone number' successfully
+
+2022-11-28 13:20:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button' successfully
+
+2022-11-28 13:20:29 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button: Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button
+
+2022-11-28 13:20:30 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Insertion of phone number/btn_Continue": null
+
+2022-11-28 13:20:30 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Insertion of phone number/btn_Continue'
+
+2022-11-28 13:20:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Insertion of phone number/btn_Continue'
+
+2022-11-28 13:20:30 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-11-28 13:20:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-28 13:20:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3/Tap on continue button' successfully
+
+2022-11-28 13:20:35 - [TEST_STEP][PASSED] - delay(30, STOP_ON_FAILURE): Delayed 30 second(s)
+
+2022-11-28 13:21:05 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2022-11-28 13:21:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)' successfully
+
+2022-11-28 13:21:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP' successfully
+
+2022-11-28 13:21:05 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP: Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP
+
+2022-11-28 13:21:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - -"), 15): Tapped on element 'Object Repository/Smoke/OTP/android.widget.EditText - -'
+
+2022-11-28 13:21:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/OTP/android.widget.EditText - -'
+
+2022-11-28 13:21:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (1)"), "1", 2): Text '1' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (1)'
+
+2022-11-28 13:21:08 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (1)'
+
+2022-11-28 13:21:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (2)"), "2", 2): Text '2' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (2)'
+
+2022-11-28 13:21:11 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (2)'
+
+2022-11-28 13:21:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (3)"), "3", 2): Text '3' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (3)'
+
+2022-11-28 13:21:13 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (3)'
+
+2022-11-28 13:21:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (4)"), "4", 2): Text '4' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (4)'
+
+2022-11-28 13:21:16 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (4)'
+
+2022-11-28 13:21:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (5)"), "5", 2): Text '5' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (5)'
+
+2022-11-28 13:21:18 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (5)'
+
+2022-11-28 13:21:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (6)"), "6", 2): Text '6' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (6)'
+
+2022-11-28 13:21:20 - [MESSAGE][PASSED] - Text '6' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (6)'
+
+2022-11-28 13:21:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP' successfully
+
+2022-11-28 13:21:21 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP: Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP
+
+2022-11-28 13:21:21 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/OTP/btn_Verify": null
+
+2022-11-28 13:21:21 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/OTP/btn_Verify'
+
+2022-11-28 13:21:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/OTP/btn_Verify'
+
+2022-11-28 13:21:21 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-11-28 13:21:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-28 13:21:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4/Tap to verify OTP' successfully
+
+2022-11-28 13:21:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUps For Sign IN UP/Screen4_OTP' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC_002 Onboard" time="63.282" classname="Test Cases/Smoke/TC_002 Onboard" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-11-28 13:21:27 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC_002 Onboard: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-11-28 13:21:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap on I agree button"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-11-28 13:21:27 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap on I agree button: Test Cases/Smoke/LookUp For Onboard/Tap on I agree button
+
+2022-11-28 13:21:27 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn I Agree": null
+
+2022-11-28 13:21:27 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 10, OPTIONAL): Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-11-28 13:21:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-11-28 13:21:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-11-28 13:21:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-11-28 13:21:27 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen: Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen
+
+2022-11-28 13:21:28 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue Source Screen": null
+
+2022-11-28 13:21:28 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-11-28 13:21:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-11-28 13:21:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-11-28 13:21:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue"), ["FName":FName], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-11-28 13:21:29 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue: Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue
+
+2022-11-28 13:21:29 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/Text Field Enter User First Name": null
+
+2022-11-28 13:21:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject(btn), FName, STOP_ON_FAILURE): Send keys 'Umar' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-11-28 13:21:31 - [MESSAGE][PASSED] - Send keys 'Umar' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-11-28 13:21:31 - [TEST_STEP][PASSED] - btn1 = "Object Repository/Smoke/Onboard/btn Continue First Name Screen": null
+
+2022-11-28 13:21:31 - [TEST_STEP][PASSED] - tap(findTestObject(btn1), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-11-28 13:21:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-11-28 13:21:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-11-28 13:21:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-11-28 13:21:31 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen
+
+2022-11-28 13:21:32 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue Birth date": null
+
+2022-11-28 13:21:32 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-11-28 13:21:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-11-28 13:21:34 - [TEST_STEP][PASSED] - btn1 = "Object Repository/Smoke/Onboard/btn Edit (Change Birth date)": null
+
+2022-11-28 13:21:34 - [TEST_STEP][PASSED] - tap(findTestObject(btn1), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-11-28 13:21:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-11-28 13:21:35 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-11-28 13:21:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-11-28 13:21:37 - [TEST_STEP][PASSED] - btn2 = "Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)": null
+
+2022-11-28 13:21:37 - [TEST_STEP][PASSED] - tap(findTestObject(btn2), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-11-28 13:21:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-11-28 13:21:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-11-28 13:21:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen"), ["Gender":Gender], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-11-28 13:21:39 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen
+
+2022-11-28 13:21:39 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Gender): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:40 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:40 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue Gender Screen": null
+
+2022-11-28 13:21:40 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-11-28 13:21:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-11-28 13:21:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-11-28 13:21:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen"), ["Into":Into], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-11-28 13:21:41 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen: Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen
+
+2022-11-28 13:21:41 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Into): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:42 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:42 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue Into Screen": null
+
+2022-11-28 13:21:42 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-11-28 13:21:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-11-28 13:21:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-11-28 13:21:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' successfully
+
+2022-11-28 13:21:43 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen
+
+2022-11-28 13:21:43 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on height Screen": null
+
+2022-11-28 13:21:43 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on height Screen'
+
+2022-11-28 13:21:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on height Screen'
+
+2022-11-28 13:21:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' successfully
+
+2022-11-28 13:21:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen"), ["Ethnicity":Ethnicity], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen' successfully
+
+2022-11-28 13:21:45 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen
+
+2022-11-28 13:21:45 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Ethnicity): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:46 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:46 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen": null
+
+2022-11-28 13:21:46 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen'
+
+2022-11-28 13:21:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen'
+
+2022-11-28 13:21:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen' successfully
+
+2022-11-28 13:21:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen"), ["Religion":Religion], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen' successfully
+
+2022-11-28 13:21:48 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen
+
+2022-11-28 13:21:48 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Religion): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:49 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:49 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on Religion Screen": null
+
+2022-11-28 13:21:49 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen'
+
+2022-11-28 13:21:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen'
+
+2022-11-28 13:21:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen' successfully
+
+2022-11-28 13:21:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen"), ["Relationship":Relationship], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen' successfully
+
+2022-11-28 13:21:50 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen
+
+2022-11-28 13:21:50 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Relationship): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:52 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:52 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on Relationship screen": null
+
+2022-11-28 13:21:52 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen'
+
+2022-11-28 13:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen'
+
+2022-11-28 13:21:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen' successfully
+
+2022-11-28 13:21:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan"), ["Children":Children, "Plan":Plan], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan' successfully
+
+2022-11-28 13:21:52 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan
+
+2022-11-28 13:21:53 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Children): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:54 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:54 - [TEST_STEP][PASSED] - com.spotlove.Utility.comma_sprt_value(Plan): com.spotlove.Utility.comma_sprt_value is PASSED
+
+2022-11-28 13:21:54 - [MESSAGE][PASSED] - com.spotlove.Utility.comma_sprt_value is PASSED
+
+2022-11-28 13:21:54 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on Family plan screen": null
+
+2022-11-28 13:21:54 - [TEST_STEP][PASSED] - a = getText(findTestObject(btn), 10): Text of element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen' is: ''
+
+2022-11-28 13:21:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen' is: ''
+
+2022-11-28 13:21:55 - [TEST_STEP][PASSED] - comment("Text found on btn " + a): Text found on btn 
+
+2022-11-28 13:21:55 - [MESSAGE][INFO] - Text found on btn 
+
+2022-11-28 13:21:55 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen'
+
+2022-11-28 13:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen'
+
+2022-11-28 13:21:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan' successfully
+
+2022-11-28 13:21:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen"), ["Education":Education], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen' successfully
+
+2022-11-28 13:21:55 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen
+
+2022-11-28 13:21:56 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Education): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:57 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:21:57 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on Education Screen": null
+
+2022-11-28 13:21:57 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen'
+
+2022-11-28 13:21:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen'
+
+2022-11-28 13:21:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen' successfully
+
+2022-11-28 13:21:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen"), ["Smoking":Smoking, "Marijuana":Marijuana, "Alcohol":Alcohol], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen' successfully
+
+2022-11-28 13:21:58 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen
+
+2022-11-28 13:21:58 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol": null
+
+2022-11-28 13:21:58 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol'
+
+2022-11-28 13:22:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol'
+
+2022-11-28 13:22:01 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Alcohol): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:01 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:01 - [TEST_STEP][PASSED] - btn1 = "Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking": null
+
+2022-11-28 13:22:01 - [TEST_STEP][PASSED] - tap(findTestObject(btn1), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking'
+
+2022-11-28 13:22:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking'
+
+2022-11-28 13:22:02 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Smoking): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:03 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:03 - [TEST_STEP][PASSED] - btn2 = "Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana": null
+
+2022-11-28 13:22:03 - [TEST_STEP][PASSED] - tap(findTestObject(btn2), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana'
+
+2022-11-28 13:22:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana'
+
+2022-11-28 13:22:04 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Marijuana): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:04 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:04 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-11-28 13:22:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-28 13:22:09 - [TEST_STEP][PASSED] - btn3 = "Object Repository/Smoke/Onboard/btn continue on Vices Screen": null
+
+2022-11-28 13:22:09 - [TEST_STEP][PASSED] - tap(findTestObject(btn3), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen'
+
+2022-11-28 13:22:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen'
+
+2022-11-28 13:22:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen' successfully
+
+2022-11-28 13:22:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen"), ["Political":Political], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen' successfully
+
+2022-11-28 13:22:10 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen
+
+2022-11-28 13:22:10 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Political): com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:12 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-11-28 13:22:12 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on Political Views": null
+
+2022-11-28 13:22:12 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Political Views'
+
+2022-11-28 13:22:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Political Views'
+
+2022-11-28 13:22:12 - [TEST_STEP][PASSED] - btn1 = "Object Repository/Smoke/Onboard/Permissions/While using the app (For Galery)": null
+
+2022-11-28 13:22:12 - [TEST_STEP][PASSED] - tap(findTestObject(btn1), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Permissions/While using the app (For Galery)'
+
+2022-11-28 13:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Permissions/While using the app (For Galery)'
+
+2022-11-28 13:22:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen' successfully
+
+2022-11-28 13:22:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue' successfully
+
+2022-11-28 13:22:14 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue: Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue
+
+2022-11-28 13:22:14 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2": null
+
+2022-11-28 13:22:14 - [TEST_STEP][PASSED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2'
+
+2022-11-28 13:22:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2'
+
+2022-11-28 13:22:15 - [TEST_STEP][PASSED] - btn1 = "Object Repository/Smoke/Onboard/Upload Photo/Take Photo": null
+
+2022-11-28 13:22:15 - [TEST_STEP][PASSED] - tap(findTestObject(btn1), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo'
+
+2022-11-28 13:22:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo'
+
+2022-11-28 13:22:16 - [TEST_STEP][PASSED] - btn2 = "Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera": null
+
+2022-11-28 13:22:16 - [TEST_STEP][PASSED] - tap(findTestObject(btn2), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera'
+
+2022-11-28 13:22:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera'
+
+2022-11-28 13:22:19 - [TEST_STEP][PASSED] - btn3 = "Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo": null
+
+2022-11-28 13:22:19 - [TEST_STEP][PASSED] - tap(findTestObject(btn3), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo'
+
+2022-11-28 13:22:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo'
+
+2022-11-28 13:22:20 - [TEST_STEP][PASSED] - btn9 = "Object Repository/Smoke/Onboard/Permissions/btn Done (For Camera)": null
+
+2022-11-28 13:22:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject(btn9), 10, STOP_ON_FAILURE)): null
+
+2022-11-28 13:22:21 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Permissions/btn Done (For Camera)' is present
+
+2022-11-28 13:22:21 - [TEST_STEP][PASSED] - tap(findTestObject(btn9), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/Permissions/btn Done (For Camera)'
+
+2022-11-28 13:22:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Permissions/btn Done (For Camera)'
+
+2022-11-28 13:22:22 - [TEST_STEP][PASSED] - out.println("Successfully Tapped on Done Button"): null
+
+2022-11-28 13:22:22 - [TEST_STEP][PASSED] - btn8 = "Object Repository/Smoke/Onboard/btn Continue on Gallery Screen": null
+
+2022-11-28 13:22:22 - [TEST_STEP][PASSED] - tap(findTestObject(btn8), 5, STOP_ON_FAILURE): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen'
+
+2022-11-28 13:22:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen'
+
+2022-11-28 13:22:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue' successfully
+
+2022-11-28 13:22:24 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen"), null, STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-11-28 13:22:24 - [TEST_CASE][FAILED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+
+
+2022-11-28 13:22:24 - [TEST_STEP][PASSED] - btn = "Object Repository/Smoke/Onboard/btn Continue on One-liner Screen": null
+
+2022-11-28 13:22:24 - [TEST_STEP][FAILED] - tap(findTestObject(btn), 5, STOP_ON_FAILURE): Failed to tap on element 'Object Repository/Smoke/Onboard/btn Continue on One-liner Screen' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+)
+
+2022-11-28 13:22:29 - [MESSAGE][FAILED] - Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+
+2022-11-28 13:22:30 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Smoke/Onboard/btn Continue on One-liner Screen' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+)
+[[ATTACHMENT|/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221128_131945/Smoke/20221128_131945/1669623749432.png]]
+
+2022-11-28 13:22:30 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)]]></system-out>
+         <system-err><![CDATA[2022-11-28 13:21:27 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC_002 Onboard: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-28 13:19:54 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2022-11-28 13:19:54 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1669623585833.run(TempTestSuite1669623585833.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Smoke/Onboard/btn Continue on One-liner Screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="37.247" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="37.247" skipped="0" timestamp="2022-12-01 15:47:19" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221201_154710/Smoke/20221201_154710"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221201_154710/Smoke/20221201_154710/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221201_154710/Smoke/20221201_154710/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="36.932" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-12-01 15:47:19 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-12-01 15:47:20 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-01 15:47:20 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-12-01 15:47:23 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-12-01 15:47:24 - [MESSAGE][INFO] - Appium server started on port 49,909
+
+2022-12-01 15:47:35 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-01 15:47:35 - [TEST_STEP][PASSED] - check_image = findTestObject("Object Repository/Smoke/Verify Login Sign Up/Intro screen image"): null
+
+2022-12-01 15:47:36 - [TEST_STEP][PASSED] - if (waitForElementPresent(check_image, 10)): Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-01 15:47:46 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-01 15:47:46 - [TEST_STEP][PASSED] - else: Please Create Your SpotLove Account......!
+
+2022-12-01 15:47:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue_WPN, 10, STOP_ON_FAILURE)): Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-01 15:47:56 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Sign In Selection/btn Continue with phone number not found
+
+2022-12-01 15:47:56 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-01 15:47:56 - [TEST_STEP][PASSED] - else if (waitForElementPresent(Agree, 10, STOP_ON_FAILURE)): Please Create Your SpotLove Account......!
+
+2022-12-01 15:47:56 - [TEST_STEP][PASSED] - markPassed("Please Create Your SpotLove Account......!"): Please Create Your SpotLove Account......!
+
+2022-12-01 15:47:56 - [MESSAGE][PASSED] - Please Create Your SpotLove Account......!]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-01 15:47:19 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Smoke/TC_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mixer Creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1919c99-48f7-48ff-ade2-28b352eb5705</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f69e839-5000-4707-8151-382b6a29e639</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>acfe2895-0244-400e-8d4c-b3845b89f7f5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f41ead03-fb6f-4556-bdb3-ddb40b7ed4a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b093a41b-f577-41fa-8852-bd9f91db40c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fb16479-c5a4-499d-ad0e-b57146307942</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7984713-0f73-4556-bcdf-25e70a2cf32f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Web portal/User name')</defaultValue>
+      <description></description>
+      <id>0f69e839-5000-4707-8151-382b6a29e639</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/PAssword')</defaultValue>
+      <description></description>
+      <id>acfe2895-0244-400e-8d4c-b3845b89f7f5</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/btn_login')</defaultValue>
+      <description></description>
+      <id>f41ead03-fb6f-4556-bdb3-ddb40b7ed4a0</id>
+      <masked>false</masked>
+      <name>Login</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/btn_Mixer')</defaultValue>
+      <description></description>
+      <id>b093a41b-f577-41fa-8852-bd9f91db40c9</id>
+      <masked>false</masked>
+      <name>Mixer</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/From Date')</defaultValue>
+      <description></description>
+      <id>3fb16479-c5a4-499d-ad0e-b57146307942</id>
+      <masked>false</masked>
+      <name>From_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/To Date')</defaultValue>
+      <description></description>
+      <id>e7984713-0f73-4556-bcdf-25e70a2cf32f</id>
+      <masked>false</masked>
+      <name>To_Date</name>
+   </variable>
+</TestCaseEntity>

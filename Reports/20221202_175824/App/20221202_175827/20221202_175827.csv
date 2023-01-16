@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+App,,,,2022-12-02 18:01:45,2022-12-02 18:01:46,1.567s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_003 Home,,,,2022-12-02 18:01:45,2022-12-02 18:01:46,1.362s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-12-02 18:01:45,2022-12-02 18:01:45,0.007s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Home/Home Flow""), null, STOP_ON_FAILURE)",,,,2022-12-02 18:01:45,2022-12-02 18:01:46,1.049s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-12-02 18:01:46,2022-12-02 18:01:46,0.004s,PASSED

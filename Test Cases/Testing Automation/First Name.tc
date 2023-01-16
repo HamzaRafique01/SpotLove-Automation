@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>First Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3b61f52-6821-48ee-ae51-8aaa7b3e20df</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6052d565-88a8-45ef-9f29-812fa646af64</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f36fe1e-86c8-4da4-a75e-b6797f224164</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc35eabf-6316-4020-a487-127370155f54</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7c348fd-5d47-437c-91fa-f11969fd9512</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>64115e4d-2cf6-4747-ab62-8e0d81349293</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15c1a6cd-01db-4712-968e-e8a129e7164c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20e048b4-d94a-4fde-b3d4-513952ae1808</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cebc9084-2387-4a15-b573-c2ad89912afd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>43ac8556-bd28-4d87-b528-0e41d907c70a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('First name Screen/Back')</defaultValue>
+      <description></description>
+      <id>6052d565-88a8-45ef-9f29-812fa646af64</id>
+      <masked>false</masked>
+      <name>back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Referral screen/Continue button')</defaultValue>
+      <description></description>
+      <id>0f36fe1e-86c8-4da4-a75e-b6797f224164</id>
+      <masked>false</masked>
+      <name>Previous_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('First name Screen/Card Icon')</defaultValue>
+      <description></description>
+      <id>fc35eabf-6316-4020-a487-127370155f54</id>
+      <masked>false</masked>
+      <name>card_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('First name Screen/What should we call you label text')</defaultValue>
+      <description></description>
+      <id>a7c348fd-5d47-437c-91fa-f11969fd9512</id>
+      <masked>false</masked>
+      <name>What</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('First name Screen/Tell us your first name label Text')</defaultValue>
+      <description></description>
+      <id>64115e4d-2cf6-4747-ab62-8e0d81349293</id>
+      <masked>false</masked>
+      <name>Tell_us</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('First name Screen/Name text text box')</defaultValue>
+      <description></description>
+      <id>15c1a6cd-01db-4712-968e-e8a129e7164c</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('First name Screen/Continue Button')</defaultValue>
+      <description></description>
+      <id>20e048b4-d94a-4fde-b3d4-513952ae1808</id>
+      <masked>false</masked>
+      <name>Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cebc9084-2387-4a15-b573-c2ad89912afd</id>
+      <masked>false</masked>
+      <name>FName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('DOB/Cake icon')</defaultValue>
+      <description></description>
+      <id>43ac8556-bd28-4d87-b528-0e41d907c70a</id>
+      <masked>false</masked>
+      <name>Cake</name>
+   </variable>
+</TestCaseEntity>

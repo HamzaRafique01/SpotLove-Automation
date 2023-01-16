@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-12-01 15:49:00,2022-12-01 15:49:56,55.643s,ERROR
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-12-01 15:49:01,2022-12-01 15:49:37,36.000s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-12-01 15:49:01,2022-12-01 15:49:16,14.927s,PASSED
+"check_image = findTestObject(""Object Repository/Smoke/Verify Login Sign Up/Intro screen image"")",,,,2022-12-01 15:49:16,2022-12-01 15:49:16,0.046s,PASSED
+"if (waitForElementPresent(check_image, 10))",,,,2022-12-01 15:49:16,2022-12-01 15:49:26,10.220s,PASSED
+else,,,,2022-12-01 15:49:26,2022-12-01 15:49:37,10.359s,PASSED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-12-01 15:49:37,2022-12-01 15:49:56,19.209s,ERROR
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:49:37,2022-12-01 15:49:38,0.790s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:49:38,2022-12-01 15:49:40,1.552s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-12-01 15:49:40,2022-12-01 15:49:42,2.982s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:49:42,2022-12-01 15:49:51,8.379s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen""), [""Gender"":Gender], STOP_ON_FAILURE)",,,,2022-12-01 15:49:51,2022-12-01 15:49:53,2.133s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen""), [""Into"":Into], STOP_ON_FAILURE)",,,,2022-12-01 15:49:53,2022-12-01 15:49:56,2.667s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen""), null, STOP_ON_FAILURE)",,,,2022-12-01 15:49:56,2022-12-01 15:49:56,0.327s,ERROR

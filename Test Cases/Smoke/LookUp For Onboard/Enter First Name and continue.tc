@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter First Name and continue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1e84889-b8f6-44ba-b06f-5cca19284119</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93bd4dc8-4e35-4625-a459-060b30915444</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f0e4660-18d2-4786-9fb3-1c0f7eb2c7fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9ad4be1-9566-4944-b8fe-c46cd4eefa3b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93bd4dc8-4e35-4625-a459-060b30915444</id>
+      <masked>false</masked>
+      <name>FName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Text Field Enter User First Name')</defaultValue>
+      <description></description>
+      <id>9f0e4660-18d2-4786-9fb3-1c0f7eb2c7fb</id>
+      <masked>false</masked>
+      <name>input_UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue First Name Screen')</defaultValue>
+      <description></description>
+      <id>b9ad4be1-9566-4944-b8fe-c46cd4eefa3b</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+</TestCaseEntity>

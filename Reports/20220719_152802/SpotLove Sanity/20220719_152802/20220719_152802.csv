@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Sanity,,,,2022-07-19 15:28:19,2022-07-19 15:35:22,7m - 2.653s,FAILED
+,,,,,,,
+Test Cases/testing/intro 1,,,,2022-07-19 15:28:19,2022-07-19 15:28:46,26.531s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-07-19 15:28:20,2022-07-19 15:28:37,16.929s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-07-19 15:28:37,2022-07-19 15:28:46,8.928s,PASSED
+,,,,,,,
+Test Cases/testing/intro 2,,,,2022-07-19 15:28:46,2022-07-19 15:28:48,2.207s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-07-19 15:28:46,2022-07-19 15:28:48,1.697s,PASSED
+,,,,,,,
+Test Cases/testing/intro 3,,,,2022-07-19 15:28:48,2022-07-19 15:28:50,2.146s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-07-19 15:28:48,2022-07-19 15:28:50,1.751s,PASSED
+,,,,,,,
+Test Cases/testing/Use Phone Number screen,,,,2022-07-19 15:28:50,2022-07-19 15:28:52,1.679s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-07-19 15:28:51,2022-07-19 15:28:52,1.002s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-07-19 15:28:52,2022-07-19 15:29:04,12.531s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:28:52,2022-07-19 15:29:04,11.800s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-07-19 15:29:04,2022-07-19 15:29:15,10.257s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:29:05,2022-07-19 15:29:15,9.882s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-07-19 15:29:15,2022-07-19 15:29:25,10.724s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:29:15,2022-07-19 15:29:25,10.340s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-07-19 15:29:25,2022-07-19 15:29:38,12.585s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:29:26,2022-07-19 15:29:38,12.207s,PASSED
+,,,,,,,
+Test Cases/testing/OTP,,,,2022-07-19 15:31:31,2022-07-19 15:32:01,30.300s,FAILED
+"if (waitForElementPresent(logo, 30))",,,,2022-07-19 15:31:31,2022-07-19 15:32:01,30.169s,PASSED
+,,,,,,,
+Test Cases/testing/Welcome OnBoarding,,,,2022-07-19 15:32:01,2022-07-19 15:32:03,2.286s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-07-19 15:32:02,2022-07-19 15:32:03,1.568s,PASSED
+,,,,,,,
+Test Cases/testing/Referral Screen,,,,2022-07-19 15:32:03,2022-07-19 15:32:05,1.676s,PASSED
+"if (waitForElementPresent(Heart_Icon, 30))",,,,2022-07-19 15:32:04,2022-07-19 15:32:05,1.351s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-07-19 15:32:05,2022-07-19 15:32:11,5.683s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-07-19 15:32:06,2022-07-19 15:32:11,5.261s,PASSED
+,,,,,,,
+Test Cases/testing/Birthday,,,,2022-07-19 15:32:11,2022-07-19 15:32:22,11.386s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:32:11,2022-07-19 15:32:22,10.884s,PASSED
+,,,,,,,
+Test Cases/testing/Identifications,,,,2022-07-19 15:32:22,2022-07-19 15:32:28,5.380s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:32:23,2022-07-19 15:32:28,4.952s,PASSED
+,,,,,,,
+Test Cases/testing/Into,,,,2022-07-19 15:32:28,2022-07-19 15:32:34,6.497s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-07-19 15:32:28,2022-07-19 15:32:34,6.038s,PASSED
+,,,,,,,
+Test Cases/testing/Height Scale,,,,2022-07-19 15:32:34,2022-07-19 15:32:37,2.480s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:32:34,2022-07-19 15:32:37,2.183s,PASSED
+,,,,,,,
+Test Cases/testing/Ethnicity,,,,2022-07-19 15:32:37,2022-07-19 15:32:49,12.304s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:32:37,2022-07-19 15:32:49,11.602s,PASSED
+,,,,,,,
+Test Cases/testing/Religion,,,,2022-07-19 15:32:49,2022-07-19 15:33:01,12.635s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:32:50,2022-07-19 15:33:01,11.912s,PASSED
+,,,,,,,
+Test Cases/testing/Relationship,,,,2022-07-19 15:33:01,2022-07-19 15:33:09,7.748s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:33:02,2022-07-19 15:33:09,7.240s,PASSED
+,,,,,,,
+Test Cases/testing/Family Plan,,,,2022-07-19 15:33:09,2022-07-19 15:33:18,9.114s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:33:10,2022-07-19 15:33:18,8.521s,PASSED
+,,,,,,,
+Test Cases/testing/Education,,,,2022-07-19 15:33:18,2022-07-19 15:33:26,8.015s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:33:19,2022-07-19 15:33:26,7.508s,PASSED
+,,,,,,,
+Test Cases/testing/Vices,,,,2022-07-19 15:33:26,2022-07-19 15:33:41,14.301s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:33:27,2022-07-19 15:33:41,13.636s,PASSED
+,,,,,,,
+Test Cases/testing/Politices,,,,2022-07-19 15:33:41,2022-07-19 15:34:02,21.121s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-07-19 15:33:41,2022-07-19 15:34:02,20.620s,PASSED
+,,,,,,,
+Test Cases/testing/Gallery,,,,2022-07-19 15:34:02,2022-07-19 15:35:22,1m - 19.753s,PASSED
+"if (waitForElementPresent(Gallery_Icon, 30))",,,,2022-07-19 15:34:03,2022-07-19 15:35:22,1m - 18.975s,PASSED

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dating Preferences (Political Views)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2417d4b7-fb7c-483c-9a0d-dc7df23730c7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15bde446-10ce-4229-8511-d1794589504f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e8cc2dd-71d1-4d25-b726-cd3b01a2e07b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13184ffa-9e7e-4b21-a26e-2d1e035d2b95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc601414-f2ee-4fe6-b994-f99c7680b3aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>117172fb-56be-4ed5-b47b-c3274e6d7466</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>029f2f4d-8127-413c-8121-311525b5dd7e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04c6d94f-a9ea-4676-a3d4-041ab6523a16</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a80caf20-7aa7-49fc-87f1-ebdabfc448ba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68a741dd-6677-412c-8e8b-15fbdd3a5ec8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7cf8e0d-1e01-4518-9a3d-dadea62064b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>231e9d0a-3ecd-48d6-800e-74a456e41ccd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Preferences header textttt')</defaultValue>
+      <description></description>
+      <id>15bde446-10ce-4229-8511-d1794589504f</id>
+      <masked>false</masked>
+      <name>Dating_Header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/Political Views')</defaultValue>
+      <description></description>
+      <id>5e8cc2dd-71d1-4d25-b726-cd3b01a2e07b</id>
+      <masked>false</masked>
+      <name>Politics</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/Political Views header text')</defaultValue>
+      <description></description>
+      <id>13184ffa-9e7e-4b21-a26e-2d1e035d2b95</id>
+      <masked>false</masked>
+      <name>Politics_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/liberal')</defaultValue>
+      <description></description>
+      <id>dc601414-f2ee-4fe6-b994-f99c7680b3aa</id>
+      <masked>false</masked>
+      <name>Liberal</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/Open to All')</defaultValue>
+      <description></description>
+      <id>117172fb-56be-4ed5-b47b-c3274e6d7466</id>
+      <masked>false</masked>
+      <name>Open_to_All</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/Conservative')</defaultValue>
+      <description></description>
+      <id>029f2f4d-8127-413c-8121-311525b5dd7e</id>
+      <masked>false</masked>
+      <name>Conservative</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/Close button')</defaultValue>
+      <description></description>
+      <id>04c6d94f-a9ea-4676-a3d4-041ab6523a16</id>
+      <masked>false</masked>
+      <name>Close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/Apolitical')</defaultValue>
+      <description></description>
+      <id>a80caf20-7aa7-49fc-87f1-ebdabfc448ba</id>
+      <masked>false</masked>
+      <name>Apolitical</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/moderate')</defaultValue>
+      <description></description>
+      <id>68a741dd-6677-412c-8e8b-15fbdd3a5ec8</id>
+      <masked>false</masked>
+      <name>Moderate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/political/Save Button')</defaultValue>
+      <description></description>
+      <id>d7cf8e0d-1e01-4518-9a3d-dadea62064b5</id>
+      <masked>false</masked>
+      <name>Save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Dating Back')</defaultValue>
+      <description></description>
+      <id>231e9d0a-3ecd-48d6-800e-74a456e41ccd</id>
+      <masked>false</masked>
+      <name>back</name>
+   </variable>
+</TestCaseEntity>

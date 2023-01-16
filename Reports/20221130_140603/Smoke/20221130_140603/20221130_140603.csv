@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-30 14:06:12,2022-11-30 14:07:02,49.872s,ERROR
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-30 14:06:13,2022-11-30 14:06:51,38.131s,ERROR
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-30 14:06:13,2022-11-30 14:06:27,13.566s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-30 14:06:27,2022-11-30 14:06:31,3.688s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-11-30 14:06:31,2022-11-30 14:06:32,1.360s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-11-30 14:06:32,2022-11-30 14:06:40,8.186s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen""), null, STOP_ON_FAILURE)",,,,2022-11-30 14:06:40,2022-11-30 14:06:49,8.881s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen""), [""Gender"":Gender], STOP_ON_FAILURE)",,,,2022-11-30 14:06:49,2022-11-30 14:06:51,1.958s,ERROR
+,,,,,,,
+Test Cases/Smoke/TC_003 Home,,,,2022-11-30 14:06:51,2022-11-30 14:07:02,11.303s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Home/Home Flow""), null, STOP_ON_FAILURE)",,,,2022-11-30 14:06:51,2022-11-30 14:07:02,10.832s,PASSED
+"markPassed(""Passed! Home Flow is verified Successfully.....!"")",,,,2022-11-30 14:07:02,2022-11-30 14:07:02,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Home/Explore Tab Verification""), null, STOP_ON_FAILURE)",,,,2022-11-30 14:07:02,2022-11-30 14:07:02,0.250s,PASSED
+"markPassed(""Passed! Explore Tab is verified Successfully.....!"")",,,,2022-11-30 14:07:02,2022-11-30 14:07:02,0.001s,PASSED

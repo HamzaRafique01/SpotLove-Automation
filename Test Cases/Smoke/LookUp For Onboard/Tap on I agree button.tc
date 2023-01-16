@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tap on I agree button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e81fb298-ac75-4182-b6d3-fb480341058c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6327a40e-b082-4405-b2d7-10f2bd2c9111</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn I Agree')</defaultValue>
+      <description></description>
+      <id>6327a40e-b082-4405-b2d7-10f2bd2c9111</id>
+      <masked>false</masked>
+      <name>btn_I_Agree</name>
+   </variable>
+</TestCaseEntity>

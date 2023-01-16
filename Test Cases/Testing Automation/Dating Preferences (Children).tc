@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dating Preferences (Children)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa72683e-f1b9-41e3-b252-0c6f1b49b8c4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bff5966-de15-4c04-ba1d-dca8b74596ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a72139f-e9be-4662-bb8d-89b94711e26a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c47964c-352e-49d9-b977-37fc9ad06868</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e39d483-1c52-450e-a035-65de8cd3cc1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2ea8635-aee3-462e-90f4-937fe7bed75b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a93de30-38c6-4eea-9274-402b6efdf63d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ac96dd1-2abc-4025-acc6-31c3d80d2e69</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7625d46e-d47c-48e2-868e-e760c016a6a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Preferences header textttt')</defaultValue>
+      <description></description>
+      <id>9bff5966-de15-4c04-ba1d-dca8b74596ad</id>
+      <masked>false</masked>
+      <name>Dating_Header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Children/Kids Infoo')</defaultValue>
+      <description></description>
+      <id>4a72139f-e9be-4662-bb8d-89b94711e26a</id>
+      <masked>false</masked>
+      <name>Children</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Children/Kids Info Header text')</defaultValue>
+      <description></description>
+      <id>9c47964c-352e-49d9-b977-37fc9ad06868</id>
+      <masked>false</masked>
+      <name>Children_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Children/I have Children')</defaultValue>
+      <description></description>
+      <id>7e39d483-1c52-450e-a035-65de8cd3cc1f</id>
+      <masked>false</masked>
+      <name>I_have_Children</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Children/Open to All')</defaultValue>
+      <description></description>
+      <id>a2ea8635-aee3-462e-90f4-937fe7bed75b</id>
+      <masked>false</masked>
+      <name>Open_to_All</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Children/I dont have children')</defaultValue>
+      <description></description>
+      <id>3a93de30-38c6-4eea-9274-402b6efdf63d</id>
+      <masked>false</masked>
+      <name>I_dont_have_Children</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Children/Close Button')</defaultValue>
+      <description></description>
+      <id>6ac96dd1-2abc-4025-acc6-31c3d80d2e69</id>
+      <masked>false</masked>
+      <name>Close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Children/Save Button')</defaultValue>
+      <description></description>
+      <id>7625d46e-d47c-48e2-868e-e760c016a6a1</id>
+      <masked>false</masked>
+      <name>Save</name>
+   </variable>
+</TestCaseEntity>

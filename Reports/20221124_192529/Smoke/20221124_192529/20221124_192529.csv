@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-24 19:25:38,2022-11-24 19:26:10,31.628s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-11-24 19:25:38,2022-11-24 19:26:10,31.323s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-24 19:25:39,2022-11-24 19:25:53,14.184s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen""), null, STOP_ON_FAILURE)",,,,2022-11-24 19:25:53,2022-11-24 19:26:10,16.838s,FAILED

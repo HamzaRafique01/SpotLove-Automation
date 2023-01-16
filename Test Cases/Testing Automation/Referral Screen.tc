@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Referral Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cef537c-a507-4364-90cb-52c79b45aba1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2636124-72f1-4cfa-9885-ace11b8d5e35</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae9dbfb7-0f03-40ad-9a6d-cdd423776150</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d25a53d-057c-445f-8db1-74fa748bc767</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4eb0a177-e736-446b-9d02-90e8ea9254e3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c01c98d4-070a-4eed-a148-fe17b1e49463</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Referral screen/heart Icon')</defaultValue>
+      <description></description>
+      <id>c2636124-72f1-4cfa-9885-ace11b8d5e35</id>
+      <masked>false</masked>
+      <name>Heart_Icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Referral screen/How did you hear about us label text')</defaultValue>
+      <description></description>
+      <id>ae9dbfb7-0f03-40ad-9a6d-cdd423776150</id>
+      <masked>false</masked>
+      <name>Howdi</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Referral screen/Referral dropdown')</defaultValue>
+      <description></description>
+      <id>2d25a53d-057c-445f-8db1-74fa748bc767</id>
+      <masked>false</masked>
+      <name>dropdown</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Referral screen/Referral Code text box')</defaultValue>
+      <description></description>
+      <id>4eb0a177-e736-446b-9d02-90e8ea9254e3</id>
+      <masked>false</masked>
+      <name>Text_box</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Referral screen/Continue button')</defaultValue>
+      <description></description>
+      <id>c01c98d4-070a-4eed-a148-fe17b1e49463</id>
+      <masked>false</masked>
+      <name>Continue</name>
+   </variable>
+</TestCaseEntity>

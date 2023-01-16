@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-30 12:55:07,2022-11-30 12:55:21,13.626s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-11-30 12:55:08,2022-11-30 12:55:19,11.494s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-30 12:55:08,2022-11-30 12:55:19,11.038s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-30 12:55:19,2022-11-30 12:55:20,0.805s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-30 12:55:20,2022-11-30 12:55:20,0.384s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_003 Home,,,,2022-11-30 12:55:20,2022-11-30 12:55:21,0.830s,FAILED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Home/Home Flow""), null, STOP_ON_FAILURE)",,,,2022-11-30 12:55:20,2022-11-30 12:55:21,0.624s,FAILED

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dating Preferences (Gender)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9e8d77a-4ed3-4e55-8a4e-e9cdedb947d1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7059a301-75f7-4c87-a256-8c065d81dfc7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e09b3be-3209-4265-8ccc-26d598c20358</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c71867c0-a6f2-4a74-a1cb-c7f5213049cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b53927a-e269-4e14-8d25-2e1dba7d1c84</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1cfdde15-2d5c-4df0-94ad-d23a32aa3a3d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0163f31d-89d2-44da-b1f8-adeccd72f00c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9adad222-1c4d-481f-882a-3adb302d4659</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c07d4ff-ecec-4777-94cf-d79ab16258e1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7824bd6c-b4f1-4ca5-a13f-7912b5187fdd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44bee0ea-4340-4531-bd9e-af818093ce6b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d83d921-ab92-458f-a09d-c55b1429f6c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8388a0d8-5bbc-46d9-8477-2d93e2ff7da6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Tab')</defaultValue>
+      <description></description>
+      <id>7059a301-75f7-4c87-a256-8c065d81dfc7</id>
+      <masked>false</masked>
+      <name>Dating_preferences</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender')</defaultValue>
+      <description></description>
+      <id>0e09b3be-3209-4265-8ccc-26d598c20358</id>
+      <masked>false</masked>
+      <name>Gender</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Dating Preferences header textttt')</defaultValue>
+      <description></description>
+      <id>c71867c0-a6f2-4a74-a1cb-c7f5213049cf</id>
+      <masked>false</masked>
+      <name>Dating_Header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender Topup')</defaultValue>
+      <description></description>
+      <id>4b53927a-e269-4e14-8d25-2e1dba7d1c84</id>
+      <masked>false</masked>
+      <name>Gender_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/What are you open to label Text')</defaultValue>
+      <description></description>
+      <id>1cfdde15-2d5c-4df0-94ad-d23a32aa3a3d</id>
+      <masked>false</masked>
+      <name>What</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender Male')</defaultValue>
+      <description></description>
+      <id>0163f31d-89d2-44da-b1f8-adeccd72f00c</id>
+      <masked>false</masked>
+      <name>Male</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender Female')</defaultValue>
+      <description></description>
+      <id>9adad222-1c4d-481f-882a-3adb302d4659</id>
+      <masked>false</masked>
+      <name>Female</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender Anything really')</defaultValue>
+      <description></description>
+      <id>1c07d4ff-ecec-4777-94cf-d79ab16258e1</id>
+      <masked>false</masked>
+      <name>Anything</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender Open to All')</defaultValue>
+      <description></description>
+      <id>7824bd6c-b4f1-4ca5-a13f-7912b5187fdd</id>
+      <masked>false</masked>
+      <name>Open_to_All</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender Non-Binary')</defaultValue>
+      <description></description>
+      <id>44bee0ea-4340-4531-bd9e-af818093ce6b</id>
+      <masked>false</masked>
+      <name>Non_binary</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender close Button')</defaultValue>
+      <description></description>
+      <id>0d83d921-ab92-458f-a09d-c55b1429f6c6</id>
+      <masked>false</masked>
+      <name>Close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Dating Preferences/Gender/Gender Save Button')</defaultValue>
+      <description></description>
+      <id>8388a0d8-5bbc-46d9-8477-2d93e2ff7da6</id>
+      <masked>false</masked>
+      <name>Save</name>
+   </variable>
+</TestCaseEntity>

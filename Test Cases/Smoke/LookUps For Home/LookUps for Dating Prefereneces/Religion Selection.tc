@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Religion Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac706cb1-c700-4134-a9b7-18178bc03cab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>247bbd86-2b8f-42e8-952b-b3b78bb02fe8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>460e807e-5917-4891-9a48-637a41f02057</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20654ae4-baea-4136-b464-9b3f578fb071</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Religion/Religion')</defaultValue>
+      <description></description>
+      <id>247bbd86-2b8f-42e8-952b-b3b78bb02fe8</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Religion/btn Save')</defaultValue>
+      <description></description>
+      <id>460e807e-5917-4891-9a48-637a41f02057</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>20654ae4-baea-4136-b464-9b3f578fb071</id>
+      <masked>false</masked>
+      <name>Religion</name>
+   </variable>
+</TestCaseEntity>

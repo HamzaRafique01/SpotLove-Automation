@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Education Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>060363e2-755a-4fc6-956f-181de4885c84</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d141e77-7e2a-4303-9f29-0d335c3733fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec94ccb8-f698-43c6-b000-dcd7f2305231</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0593c1f4-3f60-4d9b-a726-66b1151b201e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Education/Education')</defaultValue>
+      <description></description>
+      <id>2d141e77-7e2a-4303-9f29-0d335c3733fe</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec94ccb8-f698-43c6-b000-dcd7f2305231</id>
+      <masked>false</masked>
+      <name>Education</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Dating Prefernces/Education/btn Save')</defaultValue>
+      <description></description>
+      <id>0593c1f4-3f60-4d9b-a726-66b1151b201e</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>

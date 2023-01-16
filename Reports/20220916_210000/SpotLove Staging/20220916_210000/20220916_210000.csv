@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Staging,,,,2022-09-16 21:00:12,2022-09-16 21:02:38,2m - 26.160s,ERROR
+,,,,,,,
+Test Cases/testing/intro 1,,,,2022-09-16 21:00:12,2022-09-16 21:00:36,23.822s,PASSED
+"startExistingApplication(packageID, STOP_ON_FAILURE)",,,,2022-09-16 21:00:13,2022-09-16 21:00:28,14.623s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-09-16 21:00:28,2022-09-16 21:00:36,8.449s,PASSED
+,,,,,,,
+Test Cases/testing/intro 2,,,,2022-09-16 21:00:36,2022-09-16 21:00:38,2.076s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-09-16 21:00:37,2022-09-16 21:00:38,1.556s,PASSED
+,,,,,,,
+Test Cases/testing/intro 3,,,,2022-09-16 21:00:38,2022-09-16 21:00:40,2.095s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-09-16 21:00:39,2022-09-16 21:00:40,1.649s,PASSED
+,,,,,,,
+Test Cases/testing/Use Phone Number screen,,,,2022-09-16 21:00:40,2022-09-16 21:00:42,1.634s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-16 21:00:41,2022-09-16 21:00:42,1.254s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-09-16 21:00:42,2022-09-16 21:00:53,11.003s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 21:00:43,2022-09-16 21:00:53,10.330s,PASSED
+,,,,,,,
+Test Cases/testing/OTP,,,,2022-09-16 21:00:53,2022-09-16 21:01:40,46.781s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-16 21:00:54,2022-09-16 21:01:40,46.192s,PASSED
+,,,,,,,
+Test Cases/testing/Welcome OnBoarding,,,,2022-09-16 21:01:40,2022-09-16 21:01:46,6.179s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-16 21:01:41,2022-09-16 21:01:46,5.415s,PASSED
+,,,,,,,
+Test Cases/testing/Referral Screen,,,,2022-09-16 21:01:46,2022-09-16 21:01:48,1.695s,PASSED
+"if (waitForElementPresent(Heart_Icon, 30))",,,,2022-09-16 21:01:46,2022-09-16 21:01:48,1.318s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-16 21:01:51,2022-09-16 21:01:55,3.733s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-16 21:01:51,2022-09-16 21:01:55,3.455s,PASSED
+,,,,,,,
+Test Cases/testing/Birthday,,,,2022-09-16 21:01:55,2022-09-16 21:02:06,10.881s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 21:01:55,2022-09-16 21:02:06,10.385s,PASSED
+,,,,,,,
+Test Cases/testing/Identifications,,,,2022-09-16 21:02:06,2022-09-16 21:02:11,5.178s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 21:02:06,2022-09-16 21:02:11,4.690s,PASSED
+,,,,,,,
+Test Cases/testing/Into,,,,2022-09-16 21:02:11,2022-09-16 21:02:17,6.455s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-16 21:02:11,2022-09-16 21:02:17,5.995s,PASSED
+,,,,,,,
+Test Cases/testing/Height Scale,,,,2022-09-16 21:02:17,2022-09-16 21:02:20,2.391s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 21:02:18,2022-09-16 21:02:20,2.077s,PASSED
+,,,,,,,
+Test Cases/testing/Ethnicity-Test,,,,2022-09-16 21:02:24,2022-09-16 21:02:25,1.019s,ERROR
+androidDriver = getDriver(),,,,2022-09-16 21:02:24,2022-09-16 21:02:24,0.001s,PASSED
+driver = getDriver(),,,,2022-09-16 21:02:24,2022-09-16 21:02:24,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-16 21:02:24,2022-09-16 21:02:24,0.000s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 21:02:24,2022-09-16 21:02:25,0.598s,PASSED
+,,,,,,,
+Test Cases/testing/Ethnicity-Test,,,,2022-09-16 21:02:28,2022-09-16 21:02:29,1.043s,ERROR
+androidDriver = getDriver(),,,,2022-09-16 21:02:29,2022-09-16 21:02:29,0.000s,PASSED
+driver = getDriver(),,,,2022-09-16 21:02:29,2022-09-16 21:02:29,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-16 21:02:29,2022-09-16 21:02:29,0.000s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 21:02:29,2022-09-16 21:02:29,0.599s,PASSED
+,,,,,,,
+Test Cases/testing/Ethnicity-Test,,,,2022-09-16 21:02:33,2022-09-16 21:02:38,5.762s,ERROR
+androidDriver = getDriver(),,,,2022-09-16 21:02:33,2022-09-16 21:02:33,0.000s,PASSED
+driver = getDriver(),,,,2022-09-16 21:02:33,2022-09-16 21:02:33,0.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-16 21:02:33,2022-09-16 21:02:33,0.000s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 21:02:33,2022-09-16 21:02:38,5.343s,PASSED

@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="135.326" tests="2" failures="0" errors="1">
+   <testsuite name="Smoke" tests="2" failures="0" errors="1" time="135.326" skipped="0" timestamp="2022-12-05 13:47:33" hostname="pc - hamza-mac-book" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221205_134724/Smoke/20221205_134724"/>
+         <property name="logFiles" value="/Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221205_134724/Smoke/20221205_134724/execution0.log, /Users/pc/Katalon Studio/SpotLove_Stagging/Reports/20221205_134724/Smoke/20221205_134724/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - hamza-mac-book"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC_001" time="36.451" classname="Test Cases/Smoke/TC_001" status="PASSED">
+         <system-out><![CDATA[2022-12-05 13:47:34 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC_001: Test Cases/Smoke/TC_001
+
+2022-12-05 13:47:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-12-05 13:47:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-05 13:47:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-05 13:47:34 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-05 13:47:34 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-12-05 13:47:36 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-12-05 13:47:38 - [MESSAGE][INFO] - Appium server started on port 53,328
+
+2022-12-05 13:47:49 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-12-05 13:47:49 - [TEST_STEP][PASSED] - check_image = findTestObject("Object Repository/Smoke/Verify Login Sign Up/Intro screen image"): null
+
+2022-12-05 13:47:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(check_image, 10)): Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-05 13:48:00 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Verify Login Sign Up/Intro screen image not found
+
+2022-12-05 13:48:00 - [TEST_STEP][PASSED] - else: Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 13:48:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue_WPN, 10, STOP_ON_FAILURE)): Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-05 13:48:10 - [MESSAGE][WARNING] - Object Object Repository/Smoke/Sign In Selection/btn Continue with phone number not found
+
+2022-12-05 13:48:10 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - else if (waitForElementPresent(Agree, 10, STOP_ON_FAILURE)): Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - markPassed("Please Create Your SpotLove Account..(Else)....!"): Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 13:48:10 - [MESSAGE][PASSED] - Please Create Your SpotLove Account..(Else)....!
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC_002 Onboard" time="98.504" classname="Test Cases/Smoke/TC_002 Onboard" status="ERROR">
+         <error type="ERROR" message="Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-12-05 13:48:10 - [TEST_CASE][ERROR] - Test Cases/Smoke/TC_002 Onboard: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-05 13:48:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap on I agree button"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-12-05 13:48:11 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap on I agree button: Test Cases/Smoke/LookUp For Onboard/Tap on I agree button
+
+2022-12-05 13:48:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_I_Agree, 10)): null
+
+2022-12-05 13:48:11 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn I Agree' is present
+
+2022-12-05 13:48:11 - [TEST_STEP][PASSED] - tap(btn_I_Agree, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-12-05 13:48:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn I Agree'
+
+2022-12-05 13:48:11 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate SOURCE Screen......!"): Passed! User Navigate SOURCE Screen......!
+
+2022-12-05 13:48:11 - [MESSAGE][PASSED] - Passed! User Navigate SOURCE Screen......!
+
+2022-12-05 13:48:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap on I agree button' successfully
+
+2022-12-05 13:48:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-12-05 13:48:11 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen: Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen
+
+2022-12-05 13:48:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:13 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Source Screen' is present
+
+2022-12-05 13:48:13 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-12-05 13:48:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Source Screen'
+
+2022-12-05 13:48:13 - [TEST_STEP][PASSED] - markPassed("User Successfully Navigate to the First Name Screen......!"): User Successfully Navigate to the First Name Screen......!
+
+2022-12-05 13:48:13 - [MESSAGE][PASSED] - User Successfully Navigate to the First Name Screen......!
+
+2022-12-05 13:48:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen' successfully
+
+2022-12-05 13:48:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue"), ["FName":FName], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-12-05 13:48:13 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue: Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue
+
+2022-12-05 13:48:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(input_UserName, 10)): null
+
+2022-12-05 13:48:14 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' is present
+
+2022-12-05 13:48:14 - [TEST_STEP][PASSED] - markPassed("User Name field tapped Successfully......!"): User Name field tapped Successfully......!
+
+2022-12-05 13:48:14 - [MESSAGE][PASSED] - User Name field tapped Successfully......!
+
+2022-12-05 13:48:14 - [TEST_STEP][PASSED] - sendKeys(input_UserName, FName): Send keys 'Joggnu' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-12-05 13:48:15 - [MESSAGE][PASSED] - Send keys 'Joggnu' on test object 'Object Repository/Smoke/Onboard/Text Field Enter User First Name' successfully.
+
+2022-12-05 13:48:15 - [TEST_STEP][PASSED] - markPassed("User Name Entered Successfully......!"): User Name Entered Successfully......!
+
+2022-12-05 13:48:15 - [MESSAGE][PASSED] - User Name Entered Successfully......!
+
+2022-12-05 13:48:15 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-12-05 13:48:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue First Name Screen'
+
+2022-12-05 13:48:16 - [TEST_STEP][PASSED] - markPassed("User Navigate to the Birth Screen......!"): User Navigate to the Birth Screen......!
+
+2022-12-05 13:48:16 - [MESSAGE][PASSED] - User Navigate to the Birth Screen......!
+
+2022-12-05 13:48:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue' successfully
+
+2022-12-05 13:48:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-12-05 13:48:16 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen
+
+2022-12-05 13:48:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:19 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Birth date' is present
+
+2022-12-05 13:48:19 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-05 13:48:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-05 13:48:19 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to POPUP Sheet to confirm birth date......!"): Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-05 13:48:19 - [MESSAGE][PASSED] - Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-05 13:48:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_edit, 10)): null
+
+2022-12-05 13:48:20 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)' is present
+
+2022-12-05 13:48:20 - [TEST_STEP][PASSED] - tap(btn_edit, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-12-05 13:48:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Edit (Change Birth date)'
+
+2022-12-05 13:48:21 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate birth date......!"): Passed! User Navigate birth date......!
+
+2022-12-05 13:48:21 - [MESSAGE][PASSED] - Passed! User Navigate birth date......!
+
+2022-12-05 13:48:21 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-05 13:48:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Birth date'
+
+2022-12-05 13:48:23 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to POPUP Sheet to confirm birth date......!"): Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-05 13:48:23 - [MESSAGE][PASSED] - Passed! User Navigate to POPUP Sheet to confirm birth date......!
+
+2022-12-05 13:48:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Confirm_birth, 10)): null
+
+2022-12-05 13:48:24 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)' is present
+
+2022-12-05 13:48:24 - [TEST_STEP][PASSED] - tap(btn_Confirm_birth, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-12-05 13:48:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue (Confirm birth date)'
+
+2022-12-05 13:48:24 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate First Name Screen......!"): Passed! User Navigate First Name Screen......!
+
+2022-12-05 13:48:24 - [MESSAGE][PASSED] - Passed! User Navigate First Name Screen......!
+
+2022-12-05 13:48:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen' successfully
+
+2022-12-05 13:48:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen"), ["Gender":Gender], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-12-05 13:48:24 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen: Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen
+
+2022-12-05 13:48:24 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Gender): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:26 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:27 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen' is present
+
+2022-12-05 13:48:27 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-12-05 13:48:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Gender Screen'
+
+2022-12-05 13:48:27 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate INTO Screen......!"): Passed! User Navigate INTO Screen......!
+
+2022-12-05 13:48:27 - [MESSAGE][PASSED] - Passed! User Navigate INTO Screen......!
+
+2022-12-05 13:48:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen' successfully
+
+2022-12-05 13:48:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen"), ["Into":Into], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-12-05 13:48:27 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen: Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen
+
+2022-12-05 13:48:27 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Into): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:29 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:30 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue Into Screen' is present
+
+2022-12-05 13:48:30 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-12-05 13:48:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue Into Screen'
+
+2022-12-05 13:48:30 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate HEIGHT Screen......!"): Passed! User Navigate HEIGHT Screen......!
+
+2022-12-05 13:48:30 - [MESSAGE][PASSED] - Passed! User Navigate HEIGHT Screen......!
+
+2022-12-05 13:48:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen' successfully
+
+2022-12-05 13:48:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' successfully
+
+2022-12-05 13:48:30 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen
+
+2022-12-05 13:48:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:32 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on height Screen' is present
+
+2022-12-05 13:48:32 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on height Screen'
+
+2022-12-05 13:48:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on height Screen'
+
+2022-12-05 13:48:32 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate ETHNICITY Screen......!"): Passed! User Navigate ETHNICITY Screen......!
+
+2022-12-05 13:48:32 - [MESSAGE][PASSED] - Passed! User Navigate ETHNICITY Screen......!
+
+2022-12-05 13:48:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen' successfully
+
+2022-12-05 13:48:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen"), ["Ethnicity":Ethnicity], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen' successfully
+
+2022-12-05 13:48:32 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen
+
+2022-12-05 13:48:32 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Ethnicity): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:34 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:35 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen' is present
+
+2022-12-05 13:48:35 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen'
+
+2022-12-05 13:48:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Ethnicity Screen'
+
+2022-12-05 13:48:36 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate RELIGION Screen......!"): Passed! User Navigate RELIGION Screen......!
+
+2022-12-05 13:48:36 - [MESSAGE][PASSED] - Passed! User Navigate RELIGION Screen......!
+
+2022-12-05 13:48:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen' successfully
+
+2022-12-05 13:48:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen"), ["Religion":Religion], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen' successfully
+
+2022-12-05 13:48:36 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen
+
+2022-12-05 13:48:37 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Religion): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:37 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:38 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen' is present
+
+2022-12-05 13:48:38 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen'
+
+2022-12-05 13:48:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Religion Screen'
+
+2022-12-05 13:48:38 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Relationship Status Screen......!"): Passed! User Navigate Relationship Status Screen......!
+
+2022-12-05 13:48:38 - [MESSAGE][PASSED] - Passed! User Navigate Relationship Status Screen......!
+
+2022-12-05 13:48:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen' successfully
+
+2022-12-05 13:48:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen"), ["Relationship":Relationship], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen' successfully
+
+2022-12-05 13:48:39 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen
+
+2022-12-05 13:48:39 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Relationship): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:40 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:41 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen' is present
+
+2022-12-05 13:48:41 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen'
+
+2022-12-05 13:48:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Relationship screen'
+
+2022-12-05 13:48:41 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Children and Family Plan Screen......!"): Passed! User Navigate Children and Family Plan Screen......!
+
+2022-12-05 13:48:41 - [MESSAGE][PASSED] - Passed! User Navigate Children and Family Plan Screen......!
+
+2022-12-05 13:48:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen' successfully
+
+2022-12-05 13:48:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan"), ["Children":Children, "Plan":Plan], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan' successfully
+
+2022-12-05 13:48:42 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan
+
+2022-12-05 13:48:42 - [TEST_STEP][PASSED] - com.spotlove.Utility.comma_sprt_value(Children): com.spotlove.Utility.comma_sprt_value is PASSED
+
+2022-12-05 13:48:43 - [MESSAGE][PASSED] - com.spotlove.Utility.comma_sprt_value is PASSED
+
+2022-12-05 13:48:43 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Plan): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:44 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:44 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:45 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen' is present
+
+2022-12-05 13:48:45 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen'
+
+2022-12-05 13:48:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Family plan screen'
+
+2022-12-05 13:48:45 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate EDUCATION Screen......!"): Passed! User Navigate EDUCATION Screen......!
+
+2022-12-05 13:48:45 - [MESSAGE][PASSED] - Passed! User Navigate EDUCATION Screen......!
+
+2022-12-05 13:48:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan' successfully
+
+2022-12-05 13:48:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen"), ["Education":Education], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen' successfully
+
+2022-12-05 13:48:45 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen
+
+2022-12-05 13:48:45 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Education): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:47 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:47 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen' is present
+
+2022-12-05 13:48:47 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen'
+
+2022-12-05 13:48:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Education Screen'
+
+2022-12-05 13:48:48 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate VICES Screen......!"): Passed! User Navigate VICES Screen......!
+
+2022-12-05 13:48:48 - [MESSAGE][PASSED] - Passed! User Navigate VICES Screen......!
+
+2022-12-05 13:48:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen' successfully
+
+2022-12-05 13:48:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen"), ["Smoking":Smoking, "Marijuana":Marijuana, "Alcohol":Alcohol], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen' successfully
+
+2022-12-05 13:48:48 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen
+
+2022-12-05 13:48:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Alcohol_toggle, 10)): null
+
+2022-12-05 13:48:50 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol' is present
+
+2022-12-05 13:48:50 - [TEST_STEP][PASSED] - tap(btn_Alcohol_toggle, 5): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol'
+
+2022-12-05 13:48:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Alcohol'
+
+2022-12-05 13:48:50 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Alcohol): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:51 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:51 - [TEST_STEP][PASSED] - markPassed("Passed! User Tapped on the Alcohol "): Passed! User Tapped on the Alcohol 
+
+2022-12-05 13:48:51 - [MESSAGE][PASSED] - Passed! User Tapped on the Alcohol 
+
+2022-12-05 13:48:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Smoking_toggle, 10)): null
+
+2022-12-05 13:48:52 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking' is present
+
+2022-12-05 13:48:52 - [TEST_STEP][PASSED] - tap(btn_Smoking_toggle, 5): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking'
+
+2022-12-05 13:48:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Smoking'
+
+2022-12-05 13:48:52 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Smoking): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:53 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:53 - [TEST_STEP][PASSED] - markPassed("Passed! User Tapped on the Smoking "): Passed! User Tapped on the Smoking 
+
+2022-12-05 13:48:53 - [MESSAGE][PASSED] - Passed! User Tapped on the Smoking 
+
+2022-12-05 13:48:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Marijuana_toggle, 10)): null
+
+2022-12-05 13:48:54 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana' is present
+
+2022-12-05 13:48:54 - [TEST_STEP][PASSED] - tap(btn_Marijuana_toggle, 5): Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana'
+
+2022-12-05 13:48:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Toggle Btn/btn toggle Switch - OFF Marijuana'
+
+2022-12-05 13:48:54 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Marijuana): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:56 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:56 - [TEST_STEP][PASSED] - markPassed("Passed! User Tapped on the Marijuana "): Passed! User Tapped on the Marijuana 
+
+2022-12-05 13:48:56 - [MESSAGE][PASSED] - Passed! User Tapped on the Marijuana 
+
+2022-12-05 13:48:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:56 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen' is present
+
+2022-12-05 13:48:56 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen'
+
+2022-12-05 13:48:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn continue on Vices Screen'
+
+2022-12-05 13:48:57 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate POLITICAL Screen......!"): Passed! User Navigate POLITICAL Screen......!
+
+2022-12-05 13:48:57 - [MESSAGE][PASSED] - Passed! User Navigate POLITICAL Screen......!
+
+2022-12-05 13:48:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen' successfully
+
+2022-12-05 13:48:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen"), ["Political":Political], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen' successfully
+
+2022-12-05 13:48:57 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen: Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen
+
+2022-12-05 13:48:57 - [TEST_STEP][PASSED] - com.spotlove.Utility.random_value(Political): com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:58 - [MESSAGE][PASSED] - com.spotlove.Utility.random_value is PASSED
+
+2022-12-05 13:48:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:48:59 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Political Views' is present
+
+2022-12-05 13:48:59 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Political Views'
+
+2022-12-05 13:49:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Political Views'
+
+2022-12-05 13:49:00 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate Permission POPUP......!"): Passed! User Navigate Permission POPUP......!
+
+2022-12-05 13:49:00 - [MESSAGE][PASSED] - Passed! User Navigate Permission POPUP......!
+
+2022-12-05 13:49:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(Only_this_time, 10)): null
+
+2022-12-05 13:49:01 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Permissions/Gallery/Only this time  (For Galery)' is present
+
+2022-12-05 13:49:01 - [TEST_STEP][PASSED] - tap(Only_this_time, 5): Tapped on element 'Object Repository/Smoke/Permissions/Gallery/Only this time  (For Galery)'
+
+2022-12-05 13:49:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Permissions/Gallery/Only this time  (For Galery)'
+
+2022-12-05 13:49:02 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate GALLERY Screen......!"): Passed! User Navigate GALLERY Screen......!
+
+2022-12-05 13:49:02 - [MESSAGE][PASSED] - Passed! User Navigate GALLERY Screen......!
+
+2022-12-05 13:49:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen' successfully
+
+2022-12-05 13:49:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue' successfully
+
+2022-12-05 13:49:02 - [TEST_CASE][PASSED] - Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue: Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue
+
+2022-12-05 13:49:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Photo_Placeholder_2, 10)): null
+
+2022-12-05 13:49:02 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2' is present
+
+2022-12-05 13:49:02 - [TEST_STEP][PASSED] - tap(btn_Photo_Placeholder_2, 5): Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2'
+
+2022-12-05 13:49:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 2'
+
+2022-12-05 13:49:03 - [TEST_STEP][PASSED] - markPassed("Passed! Second Placeholder tapped successfully......!"): Passed! Second Placeholder tapped successfully......!
+
+2022-12-05 13:49:03 - [MESSAGE][PASSED] - Passed! Second Placeholder tapped successfully......!
+
+2022-12-05 13:49:03 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Take_Photo, 10)): null
+
+2022-12-05 13:49:04 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo' is present
+
+2022-12-05 13:49:04 - [TEST_STEP][PASSED] - tap(btn_Take_Photo, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo'
+
+2022-12-05 13:49:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Take Photo'
+
+2022-12-05 13:49:04 - [TEST_STEP][PASSED] - markPassed("Passed! Take Photo button tapped successfully......!"): Passed! Take Photo button tapped successfully......!
+
+2022-12-05 13:49:04 - [MESSAGE][PASSED] - Passed! Take Photo button tapped successfully......!
+
+2022-12-05 13:49:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Capture_Photo, 10)): null
+
+2022-12-05 13:49:07 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera' is present
+
+2022-12-05 13:49:07 - [TEST_STEP][PASSED] - tap(btn_Capture_Photo, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera'
+
+2022-12-05 13:49:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Capture Photo From Camera'
+
+2022-12-05 13:49:07 - [TEST_STEP][PASSED] - markPassed("Passed! Photo Captured successfully......!"): Passed! Photo Captured successfully......!
+
+2022-12-05 13:49:07 - [MESSAGE][PASSED] - Passed! Photo Captured successfully......!
+
+2022-12-05 13:49:07 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_OK, 10)): null
+
+2022-12-05 13:49:11 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo' is present
+
+2022-12-05 13:49:11 - [TEST_STEP][PASSED] - tap(btn_OK, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo'
+
+2022-12-05 13:49:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn OK from capture camera photo'
+
+2022-12-05 13:49:11 - [TEST_STEP][PASSED] - markPassed("Passed! Okay button tapped successfully......!"): Passed! Okay button tapped successfully......!
+
+2022-12-05 13:49:11 - [MESSAGE][PASSED] - Passed! Okay button tapped successfully......!
+
+2022-12-05 13:49:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-12-05 13:49:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-05 13:49:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Done_Camera, 10)): null
+
+2022-12-05 13:49:21 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Permissions/Gallery/btn Done (For Camera)' is present
+
+2022-12-05 13:49:21 - [TEST_STEP][PASSED] - tap(btn_Done_Camera, 5): Tapped on element 'Object Repository/Smoke/Permissions/Gallery/btn Done (For Camera)'
+
+2022-12-05 13:49:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Permissions/Gallery/btn Done (For Camera)'
+
+2022-12-05 13:49:21 - [TEST_STEP][PASSED] - markPassed("Passed! Done button tapped successfully......!"): Passed! Done button tapped successfully......!
+
+2022-12-05 13:49:21 - [MESSAGE][PASSED] - Passed! Done button tapped successfully......!
+
+2022-12-05 13:49:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-12-05 13:49:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-05 13:49:31 - [TEST_STEP][PASSED] - if (waitForElementPresent(Photo_Placeholder_1, 10)): null
+
+2022-12-05 13:49:32 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 1' is present
+
+2022-12-05 13:49:32 - [TEST_STEP][PASSED] - tap(Photo_Placeholder_1, 5): Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 1'
+
+2022-12-05 13:49:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Photo Placeholders/Photo Placeholder 1'
+
+2022-12-05 13:49:32 - [TEST_STEP][PASSED] - markPassed("Passed! First Placeholder tapped successfully......!"): Passed! First Placeholder tapped successfully......!
+
+2022-12-05 13:49:32 - [MESSAGE][PASSED] - Passed! First Placeholder tapped successfully......!
+
+2022-12-05 13:49:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(Photo_Gallery, 10)): null
+
+2022-12-05 13:49:33 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/Photo Gallery' is present
+
+2022-12-05 13:49:33 - [TEST_STEP][PASSED] - tap(Photo_Gallery, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Photo Gallery'
+
+2022-12-05 13:49:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/Photo Gallery'
+
+2022-12-05 13:49:34 - [TEST_STEP][PASSED] - markPassed("Passed! Photo Gallery tapped successfully......!"): Passed! Photo Gallery tapped successfully......!
+
+2022-12-05 13:49:34 - [MESSAGE][PASSED] - Passed! Photo Gallery tapped successfully......!
+
+2022-12-05 13:49:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(Existing_Photo, 10)): null
+
+2022-12-05 13:49:35 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/First Existing Photo From Gallery' is present
+
+2022-12-05 13:49:35 - [TEST_STEP][PASSED] - tap(Existing_Photo, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/First Existing Photo From Gallery'
+
+2022-12-05 13:49:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/First Existing Photo From Gallery'
+
+2022-12-05 13:49:35 - [TEST_STEP][PASSED] - markPassed("Passed! Select Photo from Gallery successfully......!"): Passed! Select Photo from Gallery successfully......!
+
+2022-12-05 13:49:35 - [MESSAGE][PASSED] - Passed! Select Photo from Gallery successfully......!
+
+2022-12-05 13:49:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Done_Gallery, 10)): null
+
+2022-12-05 13:49:36 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/Upload Photo/btn Done' is present
+
+2022-12-05 13:49:36 - [TEST_STEP][PASSED] - tap(btn_Done_Gallery, 5): Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn Done'
+
+2022-12-05 13:49:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/Upload Photo/btn Done'
+
+2022-12-05 13:49:37 - [TEST_STEP][PASSED] - markPassed("Passed! Done Button tapped successfully......!"): Passed! Done Button tapped successfully......!
+
+2022-12-05 13:49:37 - [MESSAGE][PASSED] - Passed! Done Button tapped successfully......!
+
+2022-12-05 13:49:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-12-05 13:49:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-05 13:49:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2022-12-05 13:49:48 - [MESSAGE][PASSED] - Element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen' is present
+
+2022-12-05 13:49:48 - [TEST_STEP][PASSED] - tap(btn_Continue, 5): Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen'
+
+2022-12-05 13:49:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/Onboard/btn Continue on Gallery Screen'
+
+2022-12-05 13:49:48 - [TEST_STEP][PASSED] - markPassed("Passed! Continue Button tapped successfully......!"): Passed! Continue Button tapped successfully......!
+
+2022-12-05 13:49:48 - [MESSAGE][PASSED] - Passed! Continue Button tapped successfully......!
+
+2022-12-05 13:49:48 - [TEST_STEP][PASSED] - markPassed("Passed! User Navigate to the One-liner Screen......!"): Passed! User Navigate to the One-liner Screen......!
+
+2022-12-05 13:49:48 - [MESSAGE][PASSED] - Passed! User Navigate to the One-liner Screen......!
+
+2022-12-05 13:49:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue' successfully
+
+2022-12-05 13:49:48 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen"), ["One_liner":One_liner], STOP_ON_FAILURE): Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-12-05 13:49:48 - [TEST_CASE][ERROR] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen: Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen FAILED.
+Reason:
+org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+
+
+2022-12-05 13:49:48 - [TEST_STEP][ERROR] - com.spotlove.Utility.One_liner(One_liner): Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 30 more
+
+
+2022-12-05 13:49:49 - [MESSAGE][ERROR] - org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+
+2022-12-05 13:49:49 - [MESSAGE][ERROR] - Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 30 more
+
+
+2022-12-05 13:49:49 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-12-05 13:49:49 - [MESSAGE][ERROR] - Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-12-05 13:49:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-12-05 13:49:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-05 13:49:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2022-12-05 13:48:10 - [TEST_CASE][ERROR] - Test Cases/Smoke/TC_002 Onboard: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-05 13:47:33 - [TEST_SUITE][ERROR] - Smoke: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2022-12-05 13:47:33 - [TEST_SUITE][ERROR] - Smoke: Test Cases/Smoke/TC_002 Onboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC_002 Onboard.run(TC_002 Onboard:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1670230044580.run(TempTestSuite1670230044580.groovy:36)
+Caused by: org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 163: s
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'hamza-mac-book', ip: 'fe80:0:0:0:8f:d59c:f721:79a7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 53332, deviceId: , deviceName: samsung SM-A325F (Android 12), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 12, systemPort: 8288, udid: RF8RC109TVZ}, deviceApiLevel: 31, deviceId: , deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 12, statBarHeight: 78, systemPort: 8288, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 44ff9e27-5fcb-430b-872b-178d6ce7fc58
+*** Element info: {Using=xpath, value=//*[@class = 'android.widget.EditText' and (@text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElement.call(Unknown Source)
+	at com.spotlove.Utility.One_liner(Utility.groovy:38)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Tap to Continue on One-liner Screen.run(Tap to Continue on One-liner Screen:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Children</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>496309bd-6808-40ed-a84a-1f1eb66ed030</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42fd2465-2415-4c45-90b1-834e54dea739</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d8e8e96-7819-43f3-8c60-a3d1a15f4814</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8ae551b-a415-4162-a066-a2f1fa7ddbad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42fd2465-2415-4c45-90b1-834e54dea739</id>
+      <masked>false</masked>
+      <name>E_Children</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/childrenn/btn save')</defaultValue>
+      <description></description>
+      <id>7d8e8e96-7819-43f3-8c60-a3d1a15f4814</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/childrenn/Children')</defaultValue>
+      <description></description>
+      <id>d8ae551b-a415-4162-a066-a2f1fa7ddbad</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+</TestCaseEntity>

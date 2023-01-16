@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0d960fc-81e0-431e-a3ef-a6002731991d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0324edb-c270-4bf0-bece-e978036232f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>535ec836-a255-402a-961c-a63bd43a7290</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ebacf87-01d3-4906-bf05-684f1c8b62c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8018c45-5c77-467d-9f96-7a9efcd64875</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7ae7c87-c6ef-43b9-a8b1-49bc03f66bb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efbaaf5b-5a0a-4843-b889-7c11a8dd5e0d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>831bbf22-b56b-4a66-b751-b2806fc12e1c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9bfa7f6-7488-4770-8ff3-f67a187dcfe7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65d53614-4f98-4e5d-9217-7ceb4b810bc2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3f0a15f-eda8-4171-9544-4133139591eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c6d3fe8-8769-4d36-96e2-4b00f38f17ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6eb0cf0f-7f89-4874-8ef8-109f841c3195</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Gallery Icon')</defaultValue>
+      <description></description>
+      <id>f0324edb-c270-4bf0-bece-e978036232f6</id>
+      <masked>false</masked>
+      <name>Gallery_Icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Label Text Add profile photos')</defaultValue>
+      <description></description>
+      <id>535ec836-a255-402a-961c-a63bd43a7290</id>
+      <masked>false</masked>
+      <name>Add</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Label Text Add 3 photos to continue')</defaultValue>
+      <description></description>
+      <id>7ebacf87-01d3-4906-bf05-684f1c8b62c2</id>
+      <masked>false</masked>
+      <name>Add3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/label text MAIN PHOTO')</defaultValue>
+      <description></description>
+      <id>d8018c45-5c77-467d-9f96-7a9efcd64875</id>
+      <masked>false</masked>
+      <name>Main</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Image Picker 1')</defaultValue>
+      <description></description>
+      <id>d7ae7c87-c6ef-43b9-a8b1-49bc03f66bb1</id>
+      <masked>false</masked>
+      <name>Pic_Picker1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Btn Take Photo')</defaultValue>
+      <description></description>
+      <id>efbaaf5b-5a0a-4843-b889-7c11a8dd5e0d</id>
+      <masked>false</masked>
+      <name>Take_Photo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Btn Capture Image')</defaultValue>
+      <description></description>
+      <id>831bbf22-b56b-4a66-b751-b2806fc12e1c</id>
+      <masked>false</masked>
+      <name>Capture</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Btn OK')</defaultValue>
+      <description></description>
+      <id>d9bfa7f6-7488-4770-8ff3-f67a187dcfe7</id>
+      <masked>false</masked>
+      <name>OK</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Btn Upload image')</defaultValue>
+      <description></description>
+      <id>65d53614-4f98-4e5d-9217-7ceb4b810bc2</id>
+      <masked>false</masked>
+      <name>Upload_image</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Label Text 3 photos required')</defaultValue>
+      <description></description>
+      <id>a3f0a15f-eda8-4171-9544-4133139591eb</id>
+      <masked>false</masked>
+      <name>Photo3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Label text Drag to reorder')</defaultValue>
+      <description></description>
+      <id>6c6d3fe8-8769-4d36-96e2-4b00f38f17ab</id>
+      <masked>false</masked>
+      <name>Drag</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Gallery screen/Btn Continue')</defaultValue>
+      <description></description>
+      <id>6eb0cf0f-7f89-4874-8ef8-109f841c3195</id>
+      <masked>false</masked>
+      <name>Continue</name>
+   </variable>
+</TestCaseEntity>

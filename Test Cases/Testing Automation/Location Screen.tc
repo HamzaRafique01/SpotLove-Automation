@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Location Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>244e79ce-eae0-4bdc-917f-146511508567</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48a39380-8e93-4293-9027-a071f638ea3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>612ad239-2d01-4d33-aee4-921a859e3759</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1a8740b-95b0-4907-a0d3-ba7c0a848ebe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7097e541-f38f-421d-9106-fc98aa654804</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d7157d8-51a3-41d1-850b-54ed04c66c3a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99d4de71-92cd-47f5-8a09-8bf4714bbd3e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Location screen/back')</defaultValue>
+      <description></description>
+      <id>48a39380-8e93-4293-9027-a071f638ea3b</id>
+      <masked>false</masked>
+      <name>Back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Location screen/Location icon')</defaultValue>
+      <description></description>
+      <id>612ad239-2d01-4d33-aee4-921a859e3759</id>
+      <masked>false</masked>
+      <name>icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Location screen/Enable Location label text')</defaultValue>
+      <description></description>
+      <id>b1a8740b-95b0-4907-a0d3-ba7c0a848ebe</id>
+      <masked>false</masked>
+      <name>Enable</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Location screen/Well use your location to match you to people in your area label text')</defaultValue>
+      <description></description>
+      <id>7097e541-f38f-421d-9106-fc98aa654804</id>
+      <masked>false</masked>
+      <name>Well</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Location screen/Enable Location Button')</defaultValue>
+      <description></description>
+      <id>3d7157d8-51a3-41d1-850b-54ed04c66c3a</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Location screen/While using the app Permission')</defaultValue>
+      <description></description>
+      <id>99d4de71-92cd-47f5-8a09-8bf4714bbd3e</id>
+      <masked>false</masked>
+      <name>Permission</name>
+   </variable>
+</TestCaseEntity>

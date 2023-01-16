@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing SpotLove" time="215.007" tests="19" failures="0" errors="0">
+   <testsuite name="Testing SpotLove" tests="19" failures="0" errors="0" time="215.007" skipped="0" timestamp="2022-04-18 16:14:10" hostname="Dev - DESKTOP-3CP89AN" id="Test Suites/Testing SpotLove">
+      <properties>
+         <property name="deviceName" value="samsung SM-M115F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dev\\Katalon Studio\\SpotLove_Stagging\\Reports\\20220418_161359\\Testing SpotLove\\20220418_161359"/>
+         <property name="logFiles" value="C:\\Users\\Dev\\Katalon Studio\\SpotLove_Stagging\\Reports\\20220418_161359\\Testing SpotLove\\20220418_161359\\appium.log, C:\\Users\\Dev\\Katalon Studio\\SpotLove_Stagging\\Reports\\20220418_161359\\Testing SpotLove\\20220418_161359\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dev\\Katalon Studio\\SpotLove_Stagging\\Reports\\20220418_161359\\Testing SpotLove\\20220418_161359\\1650280654234.png"/>
+         <property name="hostName" value="Dev - DESKTOP-3CP89AN"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-M115F"/>
+         <property name="hostAddress" value="192.168.88.65"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9JN713GGNJ"/>
+         <property name="deviceName" value="samsung SM-M115F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/testing/Use Phone Number screen" time="33.592" classname="Test Cases/testing/Use Phone Number screen" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:14:11 - [TEST_CASE][PASSED] - Test Cases/testing/Use Phone Number screen: Test Cases/testing/Use Phone Number screen
+
+2022-04-18 16:14:11 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-04-18 16:14:14 - [MESSAGE][INFO] - Appium server started on port 57,307
+
+2022-04-18 16:14:32 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-04-18 16:14:32 - [TEST_STEP][PASSED] - checkElement(findTestObject("Use Phone Number Screen/SPOT"), 2): Element 'Object Repository/Use Phone Number Screen/SPOT' is checked
+
+2022-04-18 16:14:41 - [MESSAGE][PASSED] - Element 'Object Repository/Use Phone Number Screen/SPOT' is checked
+
+2022-04-18 16:14:41 - [TEST_STEP][PASSED] - checkElement(findTestObject("Use Phone Number Screen/heart icon"), 2): Element 'Object Repository/Use Phone Number Screen/heart icon' is checked
+
+2022-04-18 16:14:41 - [MESSAGE][PASSED] - Element 'Object Repository/Use Phone Number Screen/heart icon' is checked
+
+2022-04-18 16:14:41 - [TEST_STEP][PASSED] - checkElement(findTestObject("Use Phone Number Screen/LOVE label text"), 2): Element 'Object Repository/Use Phone Number Screen/LOVE label text' is checked
+
+2022-04-18 16:14:42 - [MESSAGE][PASSED] - Element 'Object Repository/Use Phone Number Screen/LOVE label text' is checked
+
+2022-04-18 16:14:42 - [TEST_STEP][PASSED] - checkElement(findTestObject("Use Phone Number Screen/AT FIRST SIGHT label text"), 2): Element 'Object Repository/Use Phone Number Screen/AT FIRST SIGHT label text' is checked
+
+2022-04-18 16:14:42 - [MESSAGE][PASSED] - Element 'Object Repository/Use Phone Number Screen/AT FIRST SIGHT label text' is checked
+
+2022-04-18 16:14:42 - [TEST_STEP][PASSED] - checkElement(findTestObject("Use Phone Number Screen/Privacy Policy label text"), 2): Element 'Object Repository/Use Phone Number Screen/Privacy Policy label text' is checked
+
+2022-04-18 16:14:43 - [MESSAGE][PASSED] - Element 'Object Repository/Use Phone Number Screen/Privacy Policy label text' is checked
+
+2022-04-18 16:14:43 - [TEST_STEP][PASSED] - checkElement(findTestObject("Use Phone Number Screen/MATCHMAKERS label text"), 2): Element 'Object Repository/Use Phone Number Screen/MATCHMAKERS label text' is checked
+
+2022-04-18 16:14:44 - [MESSAGE][PASSED] - Element 'Object Repository/Use Phone Number Screen/MATCHMAKERS label text' is checked
+
+2022-04-18 16:14:44 - [TEST_STEP][PASSED] - tap(findTestObject("Use Phone Number Screen/usePhoneNUmber"), 2): Tapped on element 'Object Repository/Use Phone Number Screen/usePhoneNUmber'
+
+2022-04-18 16:14:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Use Phone Number Screen/usePhoneNUmber']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Whats Your phone number" time="10.575" classname="Test Cases/testing/Whats Your phone number" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:14:44 - [TEST_CASE][PASSED] - Test Cases/testing/Whats Your phone number: Test Cases/testing/Whats Your phone number
+
+2022-04-18 16:14:45 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Phone Number/YOUR DEETS label text"), 2): Element 'Object Repository/Whats Your Phone Number/YOUR DEETS label text' is checked
+
+2022-04-18 16:14:46 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Phone Number/YOUR DEETS label text' is checked
+
+2022-04-18 16:14:46 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Phone Number/Whats your  phone number label text"), 2): Element 'Object Repository/Whats Your Phone Number/Whats your  phone number label text' is checked
+
+2022-04-18 16:14:47 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Phone Number/Whats your  phone number label text' is checked
+
+2022-04-18 16:14:47 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Phone Number/We protect label text"), 2): Element 'Object Repository/Whats Your Phone Number/We protect label text' is checked
+
+2022-04-18 16:14:47 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Phone Number/We protect label text' is checked
+
+2022-04-18 16:14:47 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Phone Number/flag"), 2): Element 'Object Repository/Whats Your Phone Number/flag' is checked
+
+2022-04-18 16:14:48 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Phone Number/flag' is checked
+
+2022-04-18 16:14:48 - [TEST_STEP][PASSED] - setText(findTestObject("Whats Your Phone Number/Enter country name"), "US", 2): Text 'US' has been set to element 'Object Repository/Whats Your Phone Number/Enter country name'
+
+2022-04-18 16:14:50 - [MESSAGE][PASSED] - Text 'US' has been set to element 'Object Repository/Whats Your Phone Number/Enter country name'
+
+2022-04-18 16:14:50 - [TEST_STEP][PASSED] - tap(findTestObject("Whats Your Phone Number/Selected Country"), 2): Tapped on element 'Object Repository/Whats Your Phone Number/Selected Country'
+
+2022-04-18 16:14:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Whats Your Phone Number/Selected Country'
+
+2022-04-18 16:14:51 - [TEST_STEP][PASSED] - setText(findTestObject("Whats Your Phone Number/Enter Phone Number"), "5597124958", 2): Text '5597124958' has been set to element 'Object Repository/Whats Your Phone Number/Enter Phone Number'
+
+2022-04-18 16:14:53 - [MESSAGE][PASSED] - Text '5597124958' has been set to element 'Object Repository/Whats Your Phone Number/Enter Phone Number'
+
+2022-04-18 16:14:53 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Phone Number/We never share label text"), 2): Element 'Object Repository/Whats Your Phone Number/We never share label text' is checked
+
+2022-04-18 16:14:54 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Phone Number/We never share label text' is checked
+
+2022-04-18 16:14:54 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Phone Number/black lock icon"), 2): Element 'Object Repository/Whats Your Phone Number/black lock icon' is checked
+
+2022-04-18 16:14:54 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Phone Number/black lock icon' is checked
+
+2022-04-18 16:14:54 - [TEST_STEP][PASSED] - tap(findTestObject("Whats Your Phone Number/Whats your phone forward (button)"), 2): Tapped on element 'Object Repository/Whats Your Phone Number/Whats your phone forward (button)'
+
+2022-04-18 16:14:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Whats Your Phone Number/Whats your phone forward (button)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Verify phone Number" time="27.384" classname="Test Cases/testing/Verify phone Number" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:14:55 - [TEST_CASE][PASSED] - Test Cases/testing/Verify phone Number: Test Cases/testing/Verify phone Number
+
+2022-04-18 16:14:55 - [TEST_STEP][PASSED] - checkElement(findTestObject("Verify Your Number/YOUR DEETS label text"), 2): Element 'Object Repository/Verify Your Number/YOUR DEETS label text' is checked
+
+2022-04-18 16:14:56 - [MESSAGE][PASSED] - Element 'Object Repository/Verify Your Number/YOUR DEETS label text' is checked
+
+2022-04-18 16:14:56 - [TEST_STEP][PASSED] - checkElement(findTestObject("Verify Your Number/Verify your number label text"), 60): Element 'Object Repository/Verify Your Number/Verify your number label text' is checked
+
+2022-04-18 16:15:22 - [MESSAGE][PASSED] - Element 'Object Repository/Verify Your Number/Verify your number label text' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Create spotLove account" time="26.816" classname="Test Cases/testing/Create spotLove account" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:15:22 - [TEST_CASE][PASSED] - Test Cases/testing/Create spotLove account: Test Cases/testing/Create spotLove account
+
+2022-04-18 16:15:23 - [TEST_STEP][PASSED] - checkElement(findTestObject("Account Creation/Youre verified"), 30): Element 'Object Repository/Account Creation/Youre verified' is checked
+
+2022-04-18 16:15:49 - [MESSAGE][PASSED] - Element 'Object Repository/Account Creation/Youre verified' is checked
+
+2022-04-18 16:15:49 - [TEST_STEP][PASSED] - checkElement(findTestObject("Account Creation/create spot lve acc"), 2): Element 'Object Repository/Account Creation/create spot lve acc' is checked
+
+2022-04-18 16:15:49 - [MESSAGE][PASSED] - Element 'Object Repository/Account Creation/create spot lve acc' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Email verification" time="4.247" classname="Test Cases/testing/Email verification" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:15:49 - [TEST_CASE][PASSED] - Test Cases/testing/Email verification: Test Cases/testing/Email verification
+
+2022-04-18 16:15:49 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Email Screen/YOUR DEETS label text"), 5): Element 'Object Repository/Whats Your Email Screen/YOUR DEETS label text' is checked
+
+2022-04-18 16:15:50 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Email Screen/YOUR DEETS label text' is checked
+
+2022-04-18 16:15:50 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Email Screen/Whats your email address label text"), 5): Element 'Object Repository/Whats Your Email Screen/Whats your email address label text' is checked
+
+2022-04-18 16:15:51 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Email Screen/Whats your email address label text' is checked
+
+2022-04-18 16:15:51 - [TEST_STEP][PASSED] - checkElement(findTestObject("Whats Your Email Screen/We use this to recover label text"), 5): Element 'Object Repository/Whats Your Email Screen/We use this to recover label text' is checked
+
+2022-04-18 16:15:51 - [MESSAGE][PASSED] - Element 'Object Repository/Whats Your Email Screen/We use this to recover label text' is checked
+
+2022-04-18 16:15:51 - [TEST_STEP][PASSED] - setText(findTestObject("Whats Your Email Screen/Add recovery email (field)"), "Test@testing.com", 5): Text 'Test@testing.com' has been set to element 'Object Repository/Whats Your Email Screen/Add recovery email (field)'
+
+2022-04-18 16:15:52 - [MESSAGE][PASSED] - Text 'Test@testing.com' has been set to element 'Object Repository/Whats Your Email Screen/Add recovery email (field)'
+
+2022-04-18 16:15:52 - [TEST_STEP][PASSED] - tap(findTestObject("Whats Your Email Screen/Email Forword Button"), 5): Tapped on element 'Object Repository/Whats Your Email Screen/Email Forword Button'
+
+2022-04-18 16:15:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Whats Your Email Screen/Email Forword Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/First Name Verfication" time="4.856" classname="Test Cases/testing/First Name Verfication" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:15:53 - [TEST_CASE][PASSED] - Test Cases/testing/First Name Verfication: Test Cases/testing/First Name Verfication
+
+2022-04-18 16:15:54 - [TEST_STEP][PASSED] - checkElement(findTestObject("First Name Screen/YOUR DEETS label text"), 5): Element 'Object Repository/First Name Screen/YOUR DEETS label text' is checked
+
+2022-04-18 16:15:55 - [MESSAGE][PASSED] - Element 'Object Repository/First Name Screen/YOUR DEETS label text' is checked
+
+2022-04-18 16:15:55 - [TEST_STEP][PASSED] - checkElement(findTestObject("First Name Screen/Whats your first name label text"), 5): Element 'Object Repository/First Name Screen/Whats your first name label text' is checked
+
+2022-04-18 16:15:55 - [MESSAGE][PASSED] - Element 'Object Repository/First Name Screen/Whats your first name label text' is checked
+
+2022-04-18 16:15:55 - [TEST_STEP][PASSED] - checkElement(findTestObject("First Name Screen/This will be shown on your profile"), 5): Element 'Object Repository/First Name Screen/This will be shown on your profile' is checked
+
+2022-04-18 16:15:56 - [MESSAGE][PASSED] - Element 'Object Repository/First Name Screen/This will be shown on your profile' is checked
+
+2022-04-18 16:15:56 - [TEST_STEP][PASSED] - checkElement(findTestObject("First Name Screen/You wont be able to change this later"), 5): Element 'Object Repository/First Name Screen/You wont be able to change this later' is checked
+
+2022-04-18 16:15:56 - [MESSAGE][PASSED] - Element 'Object Repository/First Name Screen/You wont be able to change this later' is checked
+
+2022-04-18 16:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("First Name Screen/First Name"), "Test", 5): Text 'Test' has been set to element 'Object Repository/First Name Screen/First Name'
+
+2022-04-18 16:15:57 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/First Name Screen/First Name'
+
+2022-04-18 16:15:57 - [TEST_STEP][PASSED] - tap(findTestObject("First Name Screen/First Name Forword Button"), 5): Tapped on element 'Object Repository/First Name Screen/First Name Forword Button'
+
+2022-04-18 16:15:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First Name Screen/First Name Forword Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/DOB Verification" time="7.932" classname="Test Cases/testing/DOB Verification" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:15:58 - [TEST_CASE][PASSED] - Test Cases/testing/DOB Verification: Test Cases/testing/DOB Verification
+
+2022-04-18 16:15:59 - [TEST_STEP][PASSED] - checkElement(findTestObject("DOB/YOUR DEETS"), 5): Element 'Object Repository/DOB/YOUR DEETS' is checked
+
+2022-04-18 16:16:00 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/YOUR DEETS' is checked
+
+2022-04-18 16:16:00 - [TEST_STEP][PASSED] - checkElement(findTestObject("DOB/Whens your birthday label text"), 5): Element 'Object Repository/DOB/Whens your birthday label text' is checked
+
+2022-04-18 16:16:01 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Whens your birthday label text' is checked
+
+2022-04-18 16:16:01 - [TEST_STEP][PASSED] - checkElement(findTestObject("DOB/We only show label text"), 5): Element 'Object Repository/DOB/We only show label text' is checked
+
+2022-04-18 16:16:01 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/We only show label text' is checked
+
+2022-04-18 16:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("DOB/Month"), "05", 5): Text '05' has been set to element 'Object Repository/DOB/Month'
+
+2022-04-18 16:16:02 - [MESSAGE][PASSED] - Text '05' has been set to element 'Object Repository/DOB/Month'
+
+2022-04-18 16:16:02 - [TEST_STEP][PASSED] - setText(findTestObject("DOB/Day"), "25", 5): Text '25' has been set to element 'Object Repository/DOB/Day'
+
+2022-04-18 16:16:03 - [MESSAGE][PASSED] - Text '25' has been set to element 'Object Repository/DOB/Day'
+
+2022-04-18 16:16:03 - [TEST_STEP][PASSED] - setText(findTestObject("DOB/Year"), "1995", 5): Text '1995' has been set to element 'Object Repository/DOB/Year'
+
+2022-04-18 16:16:05 - [MESSAGE][PASSED] - Text '1995' has been set to element 'Object Repository/DOB/Year'
+
+2022-04-18 16:16:05 - [TEST_STEP][PASSED] - tap(findTestObject("DOB/DOB Forword"), 5): Tapped on element 'Object Repository/DOB/DOB Forword'
+
+2022-04-18 16:16:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/DOB Forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/About You" time="2.212" classname="Test Cases/testing/About You" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:06 - [TEST_CASE][PASSED] - Test Cases/testing/About You: Test Cases/testing/About You
+
+2022-04-18 16:16:07 - [TEST_STEP][PASSED] - checkElement(findTestObject("About YOU/Heart Icon"), 5): Element 'Object Repository/About YOU/Heart Icon' is checked
+
+2022-04-18 16:16:08 - [MESSAGE][PASSED] - Element 'Object Repository/About YOU/Heart Icon' is checked
+
+2022-04-18 16:16:08 - [TEST_STEP][PASSED] - checkElement(findTestObject("About YOU/About You label text"), 5): Element 'Object Repository/About YOU/About You label text' is checked
+
+2022-04-18 16:16:08 - [MESSAGE][PASSED] - Element 'Object Repository/About YOU/About You label text' is checked
+
+2022-04-18 16:16:08 - [TEST_STEP][PASSED] - tap(findTestObject("About YOU/About forword Button"), 5): Tapped on element 'Object Repository/About YOU/About forword Button'
+
+2022-04-18 16:16:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/About YOU/About forword Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Location Verification" time="12.93" classname="Test Cases/testing/Location Verification" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:08 - [TEST_CASE][PASSED] - Test Cases/testing/Location Verification: Test Cases/testing/Location Verification
+
+2022-04-18 16:16:09 - [TEST_STEP][PASSED] - checkElement(findTestObject("Location screen/ABOUT YOU label text"), 5): Element 'Object Repository/Location screen/ABOUT YOU label text' is checked
+
+2022-04-18 16:16:12 - [MESSAGE][PASSED] - Element 'Object Repository/Location screen/ABOUT YOU label text' is checked
+
+2022-04-18 16:16:12 - [TEST_STEP][PASSED] - checkElement(findTestObject("Location screen/So, do you label text"), 5): Element 'Object Repository/Location screen/So, do you label text' is checked
+
+2022-04-18 16:16:14 - [MESSAGE][PASSED] - Element 'Object Repository/Location screen/So, do you label text' is checked
+
+2022-04-18 16:16:14 - [TEST_STEP][PASSED] - checkElement(findTestObject("Location screen/Tell us where you live label text"), 5): Element 'Object Repository/Location screen/Tell us where you live label text' is checked
+
+2022-04-18 16:16:15 - [MESSAGE][PASSED] - Element 'Object Repository/Location screen/Tell us where you live label text' is checked
+
+2022-04-18 16:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("Location screen/country field"), "US", 5): Text 'US' has been set to element 'Object Repository/Location screen/country field'
+
+2022-04-18 16:16:16 - [MESSAGE][PASSED] - Text 'US' has been set to element 'Object Repository/Location screen/country field'
+
+2022-04-18 16:16:16 - [TEST_STEP][PASSED] - setText(findTestObject("Location screen/State field"), "California", 5): Text 'California' has been set to element 'Object Repository/Location screen/State field'
+
+2022-04-18 16:16:17 - [MESSAGE][PASSED] - Text 'California' has been set to element 'Object Repository/Location screen/State field'
+
+2022-04-18 16:16:17 - [TEST_STEP][PASSED] - setText(findTestObject("Location screen/City Field"), "Los Angless", 5): Text 'Los Angless' has been set to element 'Object Repository/Location screen/City Field'
+
+2022-04-18 16:16:19 - [MESSAGE][PASSED] - Text 'Los Angless' has been set to element 'Object Repository/Location screen/City Field'
+
+2022-04-18 16:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Location screen/Zip Field"), "90001", 5): Text '90001' has been set to element 'Object Repository/Location screen/Zip Field'
+
+2022-04-18 16:16:20 - [MESSAGE][PASSED] - Text '90001' has been set to element 'Object Repository/Location screen/Zip Field'
+
+2022-04-18 16:16:20 - [TEST_STEP][PASSED] - tap(findTestObject("Location screen/loc Forword"), 5): Tapped on element 'Object Repository/Location screen/loc Forword'
+
+2022-04-18 16:16:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Location screen/loc Forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Brutal Honesty" time="4.253" classname="Test Cases/testing/Brutal Honesty" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:21 - [TEST_CASE][PASSED] - Test Cases/testing/Brutal Honesty: Test Cases/testing/Brutal Honesty
+
+2022-04-18 16:16:22 - [TEST_STEP][PASSED] - checkElement(findTestObject("Brutal Honesty/ABOUT YOU label text"), 5): Element 'Object Repository/Brutal Honesty/ABOUT YOU label text' is checked
+
+2022-04-18 16:16:24 - [MESSAGE][PASSED] - Element 'Object Repository/Brutal Honesty/ABOUT YOU label text' is checked
+
+2022-04-18 16:16:24 - [TEST_STEP][PASSED] - checkElement(findTestObject("Brutal Honesty/We want you to find label text"), 5): Element 'Object Repository/Brutal Honesty/We want you to find label text' is checked
+
+2022-04-18 16:16:24 - [MESSAGE][PASSED] - Element 'Object Repository/Brutal Honesty/We want you to find label text' is checked
+
+2022-04-18 16:16:24 - [TEST_STEP][PASSED] - tap(findTestObject("Brutal Honesty/Male Radio Button"), 5): Tapped on element 'Object Repository/Brutal Honesty/Male Radio Button'
+
+2022-04-18 16:16:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Brutal Honesty/Male Radio Button'
+
+2022-04-18 16:16:24 - [TEST_STEP][PASSED] - tap(findTestObject("Brutal Honesty/forword"), 5): Tapped on element 'Object Repository/Brutal Honesty/forword'
+
+2022-04-18 16:16:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Brutal Honesty/forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Black White Brown" time="6.323" classname="Test Cases/testing/Black White Brown" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:26 - [TEST_CASE][PASSED] - Test Cases/testing/Black White Brown: Test Cases/testing/Black White Brown
+
+2022-04-18 16:16:26 - [TEST_STEP][PASSED] - checkElement(findTestObject("Black White Brown/ABOUT YOU"), 5): Element 'Object Repository/Black White Brown/ABOUT YOU' is checked
+
+2022-04-18 16:16:28 - [MESSAGE][PASSED] - Element 'Object Repository/Black White Brown/ABOUT YOU' is checked
+
+2022-04-18 16:16:28 - [TEST_STEP][PASSED] - checkElement(findTestObject("Black White Brown/Black. White. Brown. Purple label text"), 5): Element 'Object Repository/Black White Brown/Black. White. Brown. Purple label text' is checked
+
+2022-04-18 16:16:28 - [MESSAGE][PASSED] - Element 'Object Repository/Black White Brown/Black. White. Brown. Purple label text' is checked
+
+2022-04-18 16:16:28 - [TEST_STEP][PASSED] - tap(findTestObject("Black White Brown/Middle Eastern Radio button"), 5): Tapped on element 'Object Repository/Black White Brown/Middle Eastern Radio button'
+
+2022-04-18 16:16:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Black White Brown/Middle Eastern Radio button'
+
+2022-04-18 16:16:29 - [TEST_STEP][PASSED] - tap(findTestObject("Black White Brown/Pacific Islander Radio button"), 5): Tapped on element 'Object Repository/Black White Brown/Pacific Islander Radio button'
+
+2022-04-18 16:16:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Black White Brown/Pacific Islander Radio button'
+
+2022-04-18 16:16:30 - [TEST_STEP][PASSED] - tap(findTestObject("Black White Brown/Multiracial Radio button"), 5): Tapped on element 'Object Repository/Black White Brown/Multiracial Radio button'
+
+2022-04-18 16:16:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Black White Brown/Multiracial Radio button'
+
+2022-04-18 16:16:31 - [TEST_STEP][PASSED] - tap(findTestObject("Black White Brown/Forword"), 5): Tapped on element 'Object Repository/Black White Brown/Forword'
+
+2022-04-18 16:16:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Black White Brown/Forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Religion" time="8.431" classname="Test Cases/testing/Religion" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:32 - [TEST_CASE][PASSED] - Test Cases/testing/Religion: Test Cases/testing/Religion
+
+2022-04-18 16:16:32 - [TEST_STEP][PASSED] - checkElement(findTestObject("Religion/ABOUT YOU"), 0): Element 'Object Repository/Religion/ABOUT YOU' is checked
+
+2022-04-18 16:16:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-18 16:16:34 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/ABOUT YOU' is checked
+
+2022-04-18 16:16:34 - [TEST_STEP][PASSED] - checkElement(findTestObject("Religion/Well find Lebel Text"), 0): Element 'Object Repository/Religion/Well find Lebel Text' is checked
+
+2022-04-18 16:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-18 16:16:34 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Well find Lebel Text' is checked
+
+2022-04-18 16:16:34 - [TEST_STEP][PASSED] - tap(findTestObject("Religion/LDS Radio button"), 5): Tapped on element 'Object Repository/Religion/LDS Radio button'
+
+2022-04-18 16:16:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/LDS Radio button'
+
+2022-04-18 16:16:35 - [TEST_STEP][PASSED] - tap(findTestObject("Religion/Christian Radio button"), 5): Tapped on element 'Object Repository/Religion/Christian Radio button'
+
+2022-04-18 16:16:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Christian Radio button'
+
+2022-04-18 16:16:36 - [TEST_STEP][PASSED] - tap(findTestObject("Religion/Spiritual Radio button"), 5): Tapped on element 'Object Repository/Religion/Spiritual Radio button'
+
+2022-04-18 16:16:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Spiritual Radio button'
+
+2022-04-18 16:16:37 - [TEST_STEP][PASSED] - tap(findTestObject("Religion/Muslim Radio button"), 5): Tapped on element 'Object Repository/Religion/Muslim Radio button'
+
+2022-04-18 16:16:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Muslim Radio button'
+
+2022-04-18 16:16:38 - [TEST_STEP][PASSED] - tap(findTestObject("Religion/Buddhist taoist Radio button"), 5): Tapped on element 'Object Repository/Religion/Buddhist taoist Radio button'
+
+2022-04-18 16:16:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Buddhist taoist Radio button'
+
+2022-04-18 16:16:39 - [TEST_STEP][PASSED] - tap(findTestObject("Religion/forword"), 5): Tapped on element 'Object Repository/Religion/forword'
+
+2022-04-18 16:16:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/One Liner" time="5.432" classname="Test Cases/testing/One Liner" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:40 - [TEST_CASE][PASSED] - Test Cases/testing/One Liner: Test Cases/testing/One Liner
+
+2022-04-18 16:16:41 - [TEST_STEP][PASSED] - checkElement(findTestObject("One Liner/PROFILE"), 5): Element 'Object Repository/One Liner/PROFILE' is checked
+
+2022-04-18 16:16:42 - [MESSAGE][PASSED] - Element 'Object Repository/One Liner/PROFILE' is checked
+
+2022-04-18 16:16:42 - [TEST_STEP][PASSED] - checkElement(findTestObject("One Liner/Got a personal one-liner or catch phrase"), 5): Element 'Object Repository/One Liner/Got a personal one-liner or catch phrase' is checked
+
+2022-04-18 16:16:43 - [MESSAGE][PASSED] - Element 'Object Repository/One Liner/Got a personal one-liner or catch phrase' is checked
+
+2022-04-18 16:16:43 - [TEST_STEP][PASSED] - checkElement(findTestObject("One Liner/No pressure label text"), 5): Element 'Object Repository/One Liner/No pressure label text' is checked
+
+2022-04-18 16:16:43 - [MESSAGE][PASSED] - Element 'Object Repository/One Liner/No pressure label text' is checked
+
+2022-04-18 16:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("One Liner/My catch phrase"), "This is only for testing purpose one Liner", 5): Text 'This is only for testing purpose one Liner' has been set to element 'Object Repository/One Liner/My catch phrase'
+
+2022-04-18 16:16:45 - [MESSAGE][PASSED] - Text 'This is only for testing purpose one Liner' has been set to element 'Object Repository/One Liner/My catch phrase'
+
+2022-04-18 16:16:45 - [TEST_STEP][PASSED] - tap(findTestObject("One Liner/forword"), 5): Tapped on element 'Object Repository/One Liner/forword'
+
+2022-04-18 16:16:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/One Liner/forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Relationship Status" time="7.027" classname="Test Cases/testing/Relationship Status" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:46 - [TEST_CASE][PASSED] - Test Cases/testing/Relationship Status: Test Cases/testing/Relationship Status
+
+2022-04-18 16:16:46 - [TEST_STEP][PASSED] - checkElement(findTestObject("Relationship Status/ABOUT YOU"), 5): Element 'Object Repository/Relationship Status/ABOUT YOU' is checked
+
+2022-04-18 16:16:48 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship Status/ABOUT YOU' is checked
+
+2022-04-18 16:16:48 - [TEST_STEP][PASSED] - checkElement(findTestObject("Relationship Status/Check one label Text"), 5): Element 'Object Repository/Relationship Status/Check one label Text' is checked
+
+2022-04-18 16:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship Status/Check one label Text' is checked
+
+2022-04-18 16:16:49 - [TEST_STEP][PASSED] - tap(findTestObject("Relationship Status/Separated Radio button"), 5): Tapped on element 'Object Repository/Relationship Status/Separated Radio button'
+
+2022-04-18 16:16:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship Status/Separated Radio button'
+
+2022-04-18 16:16:49 - [TEST_STEP][PASSED] - tap(findTestObject("Relationship Status/Divorce in Pogress Radio button"), 5): Tapped on element 'Object Repository/Relationship Status/Divorce in Pogress Radio button'
+
+2022-04-18 16:16:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship Status/Divorce in Pogress Radio button'
+
+2022-04-18 16:16:51 - [TEST_STEP][PASSED] - tap(findTestObject("Relationship Status/Widowed Radio button"), 5): Tapped on element 'Object Repository/Relationship Status/Widowed Radio button'
+
+2022-04-18 16:16:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship Status/Widowed Radio button'
+
+2022-04-18 16:16:52 - [TEST_STEP][PASSED] - tap(findTestObject("Relationship Status/Forword"), 5): Tapped on element 'Object Repository/Relationship Status/Forword'
+
+2022-04-18 16:16:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship Status/Forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Family Plans" time="7.947" classname="Test Cases/testing/Family Plans" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:16:53 - [TEST_CASE][PASSED] - Test Cases/testing/Family Plans: Test Cases/testing/Family Plans
+
+2022-04-18 16:16:53 - [TEST_STEP][PASSED] - checkElement(findTestObject("Family Plain/ABOUT YOU"), 5): Element 'Object Repository/Family Plain/ABOUT YOU' is checked
+
+2022-04-18 16:16:55 - [MESSAGE][PASSED] - Element 'Object Repository/Family Plain/ABOUT YOU' is checked
+
+2022-04-18 16:16:55 - [TEST_STEP][PASSED] - checkElement(findTestObject("Family Plain/As long as label text"), 5): Element 'Object Repository/Family Plain/As long as label text' is checked
+
+2022-04-18 16:16:55 - [MESSAGE][PASSED] - Element 'Object Repository/Family Plain/As long as label text' is checked
+
+2022-04-18 16:16:55 - [TEST_STEP][PASSED] - tap(findTestObject("Family Plain/I dont want children Radio button"), 5): Tapped on element 'Object Repository/Family Plain/I dont want children Radio button'
+
+2022-04-18 16:16:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family Plain/I dont want children Radio button'
+
+2022-04-18 16:16:56 - [TEST_STEP][PASSED] - tap(findTestObject("Family Plain/I dont have children Radio button"), 5): Tapped on element 'Object Repository/Family Plain/I dont have children Radio button'
+
+2022-04-18 16:16:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family Plain/I dont have children Radio button'
+
+2022-04-18 16:16:57 - [TEST_STEP][PASSED] - tap(findTestObject("Family Plain/I want children Radio button"), 5): Tapped on element 'Object Repository/Family Plain/I want children Radio button'
+
+2022-04-18 16:16:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family Plain/I want children Radio button'
+
+2022-04-18 16:16:58 - [TEST_STEP][PASSED] - tap(findTestObject("Family Plain/I m open to children Radio button"), 5): Tapped on element 'Object Repository/Family Plain/I m open to children Radio button'
+
+2022-04-18 16:17:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family Plain/I m open to children Radio button'
+
+2022-04-18 16:17:00 - [TEST_STEP][PASSED] - tap(findTestObject("Family Plain/forword"), 5): Tapped on element 'Object Repository/Family Plain/forword'
+
+2022-04-18 16:17:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family Plain/forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Education" time="8.03" classname="Test Cases/testing/Education" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:17:01 - [TEST_CASE][PASSED] - Test Cases/testing/Education: Test Cases/testing/Education
+
+2022-04-18 16:17:01 - [TEST_STEP][PASSED] - checkElement(findTestObject("Education/ABOUT YOU"), 5): Element 'Object Repository/Education/ABOUT YOU' is checked
+
+2022-04-18 16:17:02 - [MESSAGE][PASSED] - Element 'Object Repository/Education/ABOUT YOU' is checked
+
+2022-04-18 16:17:02 - [TEST_STEP][PASSED] - checkElement(findTestObject("Education/All we label text"), 5): Element 'Object Repository/Education/All we label text' is checked
+
+2022-04-18 16:17:03 - [MESSAGE][PASSED] - Element 'Object Repository/Education/All we label text' is checked
+
+2022-04-18 16:17:03 - [TEST_STEP][PASSED] - tap(findTestObject("Education/Graduate Professional Degree Radio button"), 5): Tapped on element 'Object Repository/Education/Graduate Professional Degree Radio button'
+
+2022-04-18 16:17:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Graduate Professional Degree Radio button'
+
+2022-04-18 16:17:04 - [TEST_STEP][PASSED] - tap(findTestObject("Education/Some Collage Radio button"), 5): Tapped on element 'Object Repository/Education/Some Collage Radio button'
+
+2022-04-18 16:17:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Some Collage Radio button'
+
+2022-04-18 16:17:05 - [TEST_STEP][PASSED] - tap(findTestObject("Education/HS Diploma Radio button"), 5): Tapped on element 'Object Repository/Education/HS Diploma Radio button'
+
+2022-04-18 16:17:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/HS Diploma Radio button'
+
+2022-04-18 16:17:06 - [TEST_STEP][PASSED] - tap(findTestObject("Education/Phd Doctoral Radio button"), 5): Tapped on element 'Object Repository/Education/Phd Doctoral Radio button'
+
+2022-04-18 16:17:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Phd Doctoral Radio button'
+
+2022-04-18 16:17:08 - [TEST_STEP][PASSED] - tap(findTestObject("Education/Forword"), 5): Tapped on element 'Object Repository/Education/Forword'
+
+2022-04-18 16:17:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Vices" time="14.018" classname="Test Cases/testing/Vices" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:17:09 - [TEST_CASE][PASSED] - Test Cases/testing/Vices: Test Cases/testing/Vices
+
+2022-04-18 16:17:09 - [TEST_STEP][PASSED] - checkElement(findTestObject("VICES/ABOUT YOU"), 5): Element 'Object Repository/VICES/ABOUT YOU' is checked
+
+2022-04-18 16:17:11 - [MESSAGE][PASSED] - Element 'Object Repository/VICES/ABOUT YOU' is checked
+
+2022-04-18 16:17:11 - [TEST_STEP][PASSED] - checkElement(findTestObject("VICES/In our eyes label Text"), 5): Element 'Object Repository/VICES/In our eyes label Text' is checked
+
+2022-04-18 16:17:12 - [MESSAGE][PASSED] - Element 'Object Repository/VICES/In our eyes label Text' is checked
+
+2022-04-18 16:17:12 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Never AL Radio button"), 5): Tapped on element 'Object Repository/VICES/Never AL Radio button'
+
+2022-04-18 16:17:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Never AL Radio button'
+
+2022-04-18 16:17:12 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Socially Radio button"), 5): Tapped on element 'Object Repository/VICES/Socially Radio button'
+
+2022-04-18 16:17:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Socially Radio button'
+
+2022-04-18 16:17:13 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Socially AL Radio button"), 5): Tapped on element 'Object Repository/VICES/Socially AL Radio button'
+
+2022-04-18 16:17:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Socially AL Radio button'
+
+2022-04-18 16:17:14 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Often Mari Radio button"), 5): Tapped on element 'Object Repository/VICES/Often Mari Radio button'
+
+2022-04-18 16:17:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Often Mari Radio button'
+
+2022-04-18 16:17:15 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Socially Mari Radio button"), 5): Tapped on element 'Object Repository/VICES/Socially Mari Radio button'
+
+2022-04-18 16:17:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Socially Mari Radio button'
+
+2022-04-18 16:17:17 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Never Radio button"), 5): Tapped on element 'Object Repository/VICES/Never Radio button'
+
+2022-04-18 16:17:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Never Radio button'
+
+2022-04-18 16:17:18 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Often Radio button"), 5): Tapped on element 'Object Repository/VICES/Often Radio button'
+
+2022-04-18 16:17:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Often Radio button'
+
+2022-04-18 16:17:19 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Never Mari Radio button"), 5): Tapped on element 'Object Repository/VICES/Never Mari Radio button'
+
+2022-04-18 16:17:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Never Mari Radio button'
+
+2022-04-18 16:17:20 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Often AL Radio button"), 5): Tapped on element 'Object Repository/VICES/Often AL Radio button'
+
+2022-04-18 16:17:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Often AL Radio button'
+
+2022-04-18 16:17:22 - [TEST_STEP][PASSED] - tap(findTestObject("VICES/Forword"), 5): Tapped on element 'Object Repository/VICES/Forword'
+
+2022-04-18 16:17:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VICES/Forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/politics" time="8.578" classname="Test Cases/testing/politics" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:17:23 - [TEST_CASE][PASSED] - Test Cases/testing/politics: Test Cases/testing/politics
+
+2022-04-18 16:17:23 - [TEST_STEP][PASSED] - checkElement(findTestObject("politics/ABOUT YOU"), 5): Element 'Object Repository/politics/ABOUT YOU' is checked
+
+2022-04-18 16:17:24 - [MESSAGE][PASSED] - Element 'Object Repository/politics/ABOUT YOU' is checked
+
+2022-04-18 16:17:24 - [TEST_STEP][PASSED] - checkElement(findTestObject("politics/We plead the fifth label text"), 5): Element 'Object Repository/politics/We plead the fifth label text' is checked
+
+2022-04-18 16:17:26 - [MESSAGE][PASSED] - Element 'Object Repository/politics/We plead the fifth label text' is checked
+
+2022-04-18 16:17:26 - [TEST_STEP][PASSED] - tap(findTestObject("politics/Conservative Radio button"), 5): Tapped on element 'Object Repository/politics/Conservative Radio button'
+
+2022-04-18 16:17:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/politics/Conservative Radio button'
+
+2022-04-18 16:17:26 - [TEST_STEP][PASSED] - tap(findTestObject("politics/Liberal Radio button"), 5): Tapped on element 'Object Repository/politics/Liberal Radio button'
+
+2022-04-18 16:17:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/politics/Liberal Radio button'
+
+2022-04-18 16:17:28 - [TEST_STEP][PASSED] - tap(findTestObject("politics/Moderate Radio button"), 5): Tapped on element 'Object Repository/politics/Moderate Radio button'
+
+2022-04-18 16:17:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/politics/Moderate Radio button'
+
+2022-04-18 16:17:29 - [TEST_STEP][PASSED] - tap(findTestObject("politics/Apolitical Radio button"), 5): Tapped on element 'Object Repository/politics/Apolitical Radio button'
+
+2022-04-18 16:17:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/politics/Apolitical Radio button'
+
+2022-04-18 16:17:30 - [TEST_STEP][PASSED] - tap(findTestObject("politics/Forword"), 5): Tapped on element 'Object Repository/politics/Forword'
+
+2022-04-18 16:17:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/politics/Forword']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Upload Picture" time="10.513" classname="Test Cases/testing/Upload Picture" status="PASSED">
+         <system-out><![CDATA[2022-04-18 16:17:35 - [TEST_CASE][PASSED] - Test Cases/testing/Upload Picture: Test Cases/testing/Upload Picture
+
+2022-04-18 16:17:35 - [TEST_STEP][PASSED] - checkElement(findTestObject("Upload Picture/ABOUT YOU"), 5): Element 'Object Repository/Upload Picture/ABOUT YOU' is checked
+
+2022-04-18 16:17:37 - [MESSAGE][PASSED] - Element 'Object Repository/Upload Picture/ABOUT YOU' is checked
+
+2022-04-18 16:17:37 - [TEST_STEP][PASSED] - checkElement(findTestObject("Upload Picture/Show us your best side label text"), 5): Element 'Object Repository/Upload Picture/Show us your best side label text' is checked
+
+2022-04-18 16:17:38 - [MESSAGE][PASSED] - Element 'Object Repository/Upload Picture/Show us your best side label text' is checked
+
+2022-04-18 16:17:38 - [TEST_STEP][PASSED] - tap(findTestObject("Upload Picture/Upload Picture Button"), 5): Tapped on element 'Object Repository/Upload Picture/Upload Picture Button'
+
+2022-04-18 16:17:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Upload Picture/Upload Picture Button'
+
+2022-04-18 16:17:39 - [TEST_STEP][PASSED] - tap(findTestObject("Upload Picture/Choose From Gallery Button"), 5): Tapped on element 'Object Repository/Upload Picture/Choose From Gallery Button'
+
+2022-04-18 16:17:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Upload Picture/Choose From Gallery Button'
+
+2022-04-18 16:17:40 - [TEST_STEP][PASSED] - tap(findTestObject("Upload Picture/Photo By Gallary"), 0): Tapped on element 'Object Repository/Upload Picture/Photo By Gallary'
+
+2022-04-18 16:17:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-18 16:17:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Upload Picture/Photo By Gallary'
+
+2022-04-18 16:17:43 - [TEST_STEP][PASSED] - tap(findTestObject("Upload Picture/forword button"), 5): Tapped on element 'Object Repository/Upload Picture/forword button'
+
+2022-04-18 16:17:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Upload Picture/forword button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-18 16:14:10 - [TEST_SUITE][FAILED] - Testing SpotLove: Test Cases/testing/Upload Picture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check element 'Object Repository/Upload Picture/ABOUT YOU' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.view.View' and (@text = 'ABOUT YOU' or . = 'ABOUT YOU')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3CP89AN', ip: '192.168.88.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, deviceName: samsung SM-M115F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8290, udid: R9JN713GGNJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M115F, deviceName: R9JN713GGNJ, deviceScreenDensity: 280, deviceScreenSize: 720x1560, deviceUDID: R9JN713GGNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 65, systemPort: 8290, takesScreenshot: true, udid: R9JN713GGNJ, viewportRect: {height: 1346, left: 0, top: 65, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: df5b6988-684d-4c2d-9ac5-035d0237fdcc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.isElementChecked(MobileElementCommonHelper.java:176)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.checkElement(MobileElementCommonHelper.java:166)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.doCall(CheckElementKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.call(CheckElementKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.checkElement(CheckElementKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.execute(CheckElementKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.checkElement(MobileBuiltInKeywords.groovy:2297)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$checkElement$0.call(Unknown Source)
+	at Upload Picture.run(Upload Picture:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650280439666.run(TempTestSuite1650280439666.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.checkElement(CheckElementKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.execute(CheckElementKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.checkElement(MobileBuiltInKeywords.groovy:2297)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$checkElement$0.call(Unknown Source)
+	at Upload Picture.run(Upload Picture:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650280439666.run(TempTestSuite1650280439666.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.view.View' and (@text = 'ABOUT YOU' or . = 'ABOUT YOU')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3CP89AN', ip: '192.168.88.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, deviceName: samsung SM-M115F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8290, udid: R9JN713GGNJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M115F, deviceName: R9JN713GGNJ, deviceScreenDensity: 280, deviceScreenSize: 720x1560, deviceUDID: R9JN713GGNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 65, systemPort: 8290, takesScreenshot: true, udid: R9JN713GGNJ, viewportRect: {height: 1346, left: 0, top: 65, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: df5b6988-684d-4c2d-9ac5-035d0237fdcc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.isElementChecked(MobileElementCommonHelper.java:176)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.checkElement(MobileElementCommonHelper.java:166)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.doCall(CheckElementKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.call(CheckElementKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-18 16:14:10 - [TEST_SUITE][FAILED] - Testing SpotLove: Test Cases/testing/Upload Picture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check element 'Object Repository/Upload Picture/ABOUT YOU' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.view.View' and (@text = 'ABOUT YOU' or . = 'ABOUT YOU')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3CP89AN', ip: '192.168.88.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, deviceName: samsung SM-M115F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8290, udid: R9JN713GGNJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M115F, deviceName: R9JN713GGNJ, deviceScreenDensity: 280, deviceScreenSize: 720x1560, deviceUDID: R9JN713GGNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 65, systemPort: 8290, takesScreenshot: true, udid: R9JN713GGNJ, viewportRect: {height: 1346, left: 0, top: 65, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: df5b6988-684d-4c2d-9ac5-035d0237fdcc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.isElementChecked(MobileElementCommonHelper.java:176)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.checkElement(MobileElementCommonHelper.java:166)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.doCall(CheckElementKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.call(CheckElementKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.checkElement(CheckElementKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.execute(CheckElementKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.checkElement(MobileBuiltInKeywords.groovy:2297)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$checkElement$0.call(Unknown Source)
+	at Upload Picture.run(Upload Picture:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650280439666.run(TempTestSuite1650280439666.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.checkElement(CheckElementKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword.execute(CheckElementKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.checkElement(MobileBuiltInKeywords.groovy:2297)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$checkElement$0.call(Unknown Source)
+	at Upload Picture.run(Upload Picture:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650280439666.run(TempTestSuite1650280439666.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.view.View' and (@text = 'ABOUT YOU' or . = 'ABOUT YOU')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3CP89AN', ip: '192.168.88.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 57309, deviceName: samsung SM-M115F (Android 11), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 8290, udid: R9JN713GGNJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M115F, deviceName: R9JN713GGNJ, deviceScreenDensity: 280, deviceScreenSize: 720x1560, deviceUDID: R9JN713GGNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 1.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 65, systemPort: 8290, takesScreenshot: true, udid: R9JN713GGNJ, viewportRect: {height: 1346, left: 0, top: 65, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: df5b6988-684d-4c2d-9ac5-035d0237fdcc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.isElementChecked(MobileElementCommonHelper.java:176)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.checkElement(MobileElementCommonHelper.java:166)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.doCall(CheckElementKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.CheckElementKeyword$_checkElement_closure1.call(CheckElementKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

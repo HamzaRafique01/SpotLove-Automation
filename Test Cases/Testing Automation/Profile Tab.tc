@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profile Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af02906d-4634-4eeb-9f56-cbe93027e5cf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd2cf074-b42a-4c86-99df-3755d95b9abd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e063bb2-66ae-4f89-bbc6-6b160c67518c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>781cfcf4-5fd1-4629-ad66-41047585188f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>068ea2f1-eccd-4d7c-b981-cf78d12808bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf533316-b33d-4400-9f05-df657d952ec2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbc43192-947d-47a5-b72f-8524566116e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>597c2b9d-7ec2-4f2f-8ff3-e6664e4322d2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f857ed43-698e-4f45-b6b7-efb1fb757a0b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4af505ec-eb66-4faf-963c-2ef439d45fea</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Profile label text')</defaultValue>
+      <description></description>
+      <id>bd2cf074-b42a-4c86-99df-3755d95b9abd</id>
+      <masked>false</masked>
+      <name>Profile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/User name Label text')</defaultValue>
+      <description></description>
+      <id>1e063bb2-66ae-4f89-bbc6-6b160c67518c</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Edit Profile Icon')</defaultValue>
+      <description></description>
+      <id>781cfcf4-5fd1-4629-ad66-41047585188f</id>
+      <masked>false</masked>
+      <name>icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Edit Back Button')</defaultValue>
+      <description></description>
+      <id>068ea2f1-eccd-4d7c-b981-cf78d12808bf</id>
+      <masked>false</masked>
+      <name>Profile_Back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Edit Profile label text')</defaultValue>
+      <description></description>
+      <id>bf533316-b33d-4400-9f05-df657d952ec2</id>
+      <masked>false</masked>
+      <name>Edit_profile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Dating Preferences Tab')</defaultValue>
+      <description></description>
+      <id>cbc43192-947d-47a5-b72f-8524566116e8</id>
+      <masked>false</masked>
+      <name>Dating_Preferences</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Dating Back')</defaultValue>
+      <description></description>
+      <id>597c2b9d-7ec2-4f2f-8ff3-e6664e4322d2</id>
+      <masked>false</masked>
+      <name>Dating_Back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Settings Tab')</defaultValue>
+      <description></description>
+      <id>f857ed43-698e-4f45-b6b7-efb1fb757a0b</id>
+      <masked>false</masked>
+      <name>Setting_Tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Profile Tab/Setting Back Button')</defaultValue>
+      <description></description>
+      <id>4af505ec-eb66-4faf-963c-2ef439d45fea</id>
+      <masked>false</masked>
+      <name>Setting_Back</name>
+   </variable>
+</TestCaseEntity>

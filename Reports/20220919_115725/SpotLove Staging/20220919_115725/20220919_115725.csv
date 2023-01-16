@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Staging,,,,2022-09-19 11:57:33,2022-09-19 11:58:38,1m - 5.239s,PASSED
+,,,,,,,
+Test Cases/testing/Welcome OnBoarding,,,,2022-09-19 11:57:33,2022-09-19 11:57:59,25.707s,PASSED
+"startExistingApplication(packageID, STOP_ON_FAILURE)",,,,2022-09-19 11:57:35,2022-09-19 11:57:49,14.789s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-19 11:57:49,2022-09-19 11:57:59,9.802s,PASSED
+,,,,,,,
+Test Cases/testing/Referral Screen,,,,2022-09-19 11:57:59,2022-09-19 11:58:01,1.925s,PASSED
+"if (waitForElementPresent(Heart_Icon, 30))",,,,2022-09-19 11:58:00,2022-09-19 11:58:01,1.499s,PASSED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-19 11:58:04,2022-09-19 11:58:09,4.676s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-19 11:58:05,2022-09-19 11:58:09,4.393s,PASSED
+,,,,,,,
+Test Cases/testing/Birthday,,,,2022-09-19 11:58:09,2022-09-19 11:58:21,11.873s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 11:58:10,2022-09-19 11:58:21,11.345s,PASSED
+,,,,,,,
+Test Cases/testing/Identifications,,,,2022-09-19 11:58:21,2022-09-19 11:58:26,5.231s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 11:58:22,2022-09-19 11:58:26,4.723s,PASSED
+,,,,,,,
+Test Cases/testing/Into,,,,2022-09-19 11:58:26,2022-09-19 11:58:33,6.483s,PASSED
+"if (waitForElementPresent(back, 30))",,,,2022-09-19 11:58:27,2022-09-19 11:58:33,5.971s,PASSED
+,,,,,,,
+Test Cases/testing/Height Scale,,,,2022-09-19 11:58:33,2022-09-19 11:58:35,2.478s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 11:58:33,2022-09-19 11:58:35,2.115s,PASSED
+,,,,,,,
+Test Cases/testing/Ethnicity-Test,,,,2022-09-19 11:58:35,2022-09-19 11:58:38,3.184s,PASSED
+androidDriver = getDriver(),,,,2022-09-19 11:58:36,2022-09-19 11:58:36,0.000s,PASSED
+driver = getDriver(),,,,2022-09-19 11:58:36,2022-09-19 11:58:36,0.001s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2022-09-19 11:58:36,2022-09-19 11:58:36,0.004s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-19 11:58:36,2022-09-19 11:58:38,2.317s,PASSED

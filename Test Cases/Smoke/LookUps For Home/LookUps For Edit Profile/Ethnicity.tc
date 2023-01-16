@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ethnicity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d150b6a-8edd-4356-afed-42d407da6697</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e4f80c3-5950-4152-bc8e-db9f6a1815b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb9b38ce-028e-4a58-925e-408c3b6b2e51</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2405b813-861c-4f22-830b-a41d047335ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e4f80c3-5950-4152-bc8e-db9f6a1815b8</id>
+      <masked>false</masked>
+      <name>E_Ethnicity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/Ethnicityy/btn save')</defaultValue>
+      <description></description>
+      <id>bb9b38ce-028e-4a58-925e-408c3b6b2e51</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Home/ProfileTab/Edit Profile/Ethnicityy/Ethnicity')</defaultValue>
+      <description></description>
+      <id>2405b813-861c-4f22-830b-a41d047335ae</id>
+      <masked>false</masked>
+      <name>xyz</name>
+   </variable>
+</TestCaseEntity>

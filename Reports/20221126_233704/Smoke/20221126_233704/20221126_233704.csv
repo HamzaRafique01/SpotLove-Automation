@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-26 23:37:28,2022-11-26 23:38:53,1m - 25.036s,ERROR
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-26 23:37:29,2022-11-26 23:38:53,1m - 24.629s,ERROR
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-26 23:37:29,2022-11-26 23:37:43,14.271s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-26 23:37:43,2022-11-26 23:37:48,4.767s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-11-26 23:37:48,2022-11-26 23:37:49,1.101s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-11-26 23:37:49,2022-11-26 23:38:09,20.109s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen""), null, STOP_ON_FAILURE)",,,,2022-11-26 23:38:09,2022-11-26 23:38:19,10.042s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen""), [""Gender"":Gender], STOP_ON_FAILURE)",,,,2022-11-26 23:38:19,2022-11-26 23:38:22,3.110s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen""), [""Into"":Into], STOP_ON_FAILURE)",,,,2022-11-26 23:38:22,2022-11-26 23:38:53,30.785s,ERROR

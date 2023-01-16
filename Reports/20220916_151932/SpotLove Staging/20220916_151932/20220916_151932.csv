@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SpotLove Staging,,,,2022-09-16 15:19:43,2022-09-16 15:24:54,5m - 10.741s,FAILED
+,,,,,,,
+Test Cases/testing/intro 1,,,,2022-09-16 15:19:44,2022-09-16 15:20:08,24.264s,PASSED
+"startExistingApplication(packageID, STOP_ON_FAILURE)",,,,2022-09-16 15:19:44,2022-09-16 15:20:00,15.284s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-09-16 15:20:00,2022-09-16 15:20:08,8.333s,PASSED
+,,,,,,,
+Test Cases/testing/intro 2,,,,2022-09-16 15:20:08,2022-09-16 15:20:10,2.176s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-09-16 15:20:08,2022-09-16 15:20:10,1.720s,PASSED
+,,,,,,,
+Test Cases/testing/intro 3,,,,2022-09-16 15:20:10,2022-09-16 15:20:12,2.131s,PASSED
+"if (waitForElementPresent(hearticon, 30))",,,,2022-09-16 15:20:10,2022-09-16 15:20:12,1.735s,PASSED
+,,,,,,,
+Test Cases/testing/Use Phone Number screen,,,,2022-09-16 15:20:12,2022-09-16 15:20:14,1.771s,PASSED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-16 15:20:13,2022-09-16 15:20:14,1.454s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-09-16 15:20:14,2022-09-16 15:20:25,10.831s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 15:20:15,2022-09-16 15:20:25,10.187s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-09-16 15:20:25,2022-09-16 15:20:35,10.566s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 15:20:25,2022-09-16 15:20:35,10.192s,PASSED
+,,,,,,,
+Test Cases/testing/Enter Phone Number,,,,2022-09-16 15:20:35,2022-09-16 15:20:46,10.503s,PASSED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 15:20:36,2022-09-16 15:20:46,10.113s,PASSED
+,,,,,,,
+Test Cases/testing/OTP,,,,2022-09-16 15:21:13,2022-09-16 15:21:15,2.310s,FAILED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-16 15:21:13,2022-09-16 15:21:15,2.008s,PASSED
+,,,,,,,
+Test Cases/testing/Welcome OnBoarding,,,,2022-09-16 15:22:47,2022-09-16 15:23:17,30.465s,FAILED
+"if (waitForElementPresent(logo, 30))",,,,2022-09-16 15:22:47,2022-09-16 15:23:17,30.053s,PASSED
+else,,,,2022-09-16 15:23:17,2022-09-16 15:23:17,0.001s,FAILED
+,,,,,,,
+Test Cases/testing/Referral Screen,,,,2022-09-16 15:24:11,2022-09-16 15:24:11,0.327s,FAILED
+"if (waitForElementPresent(Heart_Icon, 30))",,,,2022-09-16 15:24:11,2022-09-16 15:24:11,0.128s,FAILED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-16 15:24:13,2022-09-16 15:24:13,0.409s,FAILED
+"if (waitForElementPresent(back, 30))",,,,2022-09-16 15:24:13,2022-09-16 15:24:13,0.149s,FAILED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-16 15:24:14,2022-09-16 15:24:15,0.352s,FAILED
+"if (waitForElementPresent(back, 30))",,,,2022-09-16 15:24:15,2022-09-16 15:24:15,0.116s,FAILED
+,,,,,,,
+Test Cases/testing/First Name,,,,2022-09-16 15:24:29,2022-09-16 15:24:30,0.680s,FAILED
+"if (waitForElementPresent(back, 30))",,,,2022-09-16 15:24:30,2022-09-16 15:24:30,0.215s,FAILED
+,,,,,,,
+Test Cases/testing/Birthday,,,,2022-09-16 15:24:52,2022-09-16 15:24:52,0.428s,FAILED
+"if (waitForElementPresent(Back, 30))",,,,2022-09-16 15:24:52,2022-09-16 15:24:52,0.166s,FAILED
+,,,,,,,
+Test Cases/testing/Identifications,,,,2022-09-16 15:24:52,2022-09-16 15:24:54,2.136s,PASSED
+try,,,,2022-09-16 15:24:52,2022-09-16 15:24:53,0.149s,FAILED
+catch (Exception e),,,,2022-09-16 15:24:53,2022-09-16 15:24:53,0.009s,PASSED
+Finally,,,,2022-09-16 15:24:53,2022-09-16 15:24:54,1.536s,PASSED

@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-12-02 17:58:37,2022-12-02 18:01:23,2m - 45.945s,PASSED
+,,,,,,,
+Test Cases/Smoke/TC_001,,,,2022-12-02 17:58:38,2022-12-02 17:59:15,37.314s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-12-02 17:58:38,2022-12-02 17:58:38,0.015s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-12-02 17:58:38,2022-12-02 17:58:54,16.371s,PASSED
+"check_image = findTestObject(""Object Repository/Smoke/Verify Login Sign Up/Intro screen image"")",,,,2022-12-02 17:58:54,2022-12-02 17:58:54,0.046s,PASSED
+"if (waitForElementPresent(check_image, 10))",,,,2022-12-02 17:58:54,2022-12-02 17:59:04,10.038s,PASSED
+else,,,,2022-12-02 17:59:04,2022-12-02 17:59:15,10.376s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-12-02 17:59:15,2022-12-02 17:59:15,0.002s,PASSED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-12-02 17:59:15,2022-12-02 18:01:23,2m - 8.220s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-12-02 17:59:15,2022-12-02 17:59:15,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-12-02 17:59:15,2022-12-02 17:59:16,0.789s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue btn on source screen""), null, STOP_ON_FAILURE)",,,,2022-12-02 17:59:16,2022-12-02 17:59:18,1.550s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Enter First Name and continue""), [""FName"":FName], STOP_ON_FAILURE)",,,,2022-12-02 17:59:18,2022-12-02 17:59:21,2.986s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue button on birth screen""), null, STOP_ON_FAILURE)",,,,2022-12-02 17:59:21,2022-12-02 17:59:30,8.833s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap Continue on Gender Screen""), [""Gender"":Gender], STOP_ON_FAILURE)",,,,2022-12-02 17:59:30,2022-12-02 17:59:32,2.275s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap continue on Into Screen""), [""Into"":Into], STOP_ON_FAILURE)",,,,2022-12-02 17:59:32,2022-12-02 17:59:35,3.035s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue btn n Height screen""), null, STOP_ON_FAILURE)",,,,2022-12-02 17:59:35,2022-12-02 17:59:37,2.134s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Ethnicity Screen""), [""Ethnicity"":Ethnicity], STOP_ON_FAILURE)",,,,2022-12-02 17:59:37,2022-12-02 17:59:40,2.841s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Religion Screen""), [""Religion"":Religion], STOP_ON_FAILURE)",,,,2022-12-02 17:59:40,2022-12-02 17:59:43,2.855s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Relationship Screen""), [""Relationship"":Relationship], STOP_ON_FAILURE)",,,,2022-12-02 17:59:43,2022-12-02 17:59:45,2.422s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Family Plan""), [""Children"":Children, ""Plan"":Plan], STOP_ON_FAILURE)",,,,2022-12-02 17:59:45,2022-12-02 17:59:48,2.944s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on Education Screen""), [""Education"":Education], STOP_ON_FAILURE)",,,,2022-12-02 17:59:48,2022-12-02 17:59:51,2.931s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Vices Screen""), [""Smoking"":Smoking, ""Marijuana"":Marijuana, ""Alcohol"":Alcohol], STOP_ON_FAILURE)",,,,2022-12-02 17:59:51,2022-12-02 17:59:59,8.076s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to continue on Politics Screen""), [""Political"":Political], STOP_ON_FAILURE)",,,,2022-12-02 17:59:59,2022-12-02 18:00:04,4.816s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Upload Profile Picture And tap Continue""), null, STOP_ON_FAILURE)",,,,2022-12-02 18:00:04,2022-12-02 18:00:52,47.859s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Continue on One-liner Screen""), null, STOP_ON_FAILURE)",,,,2022-12-02 18:00:52,2022-12-02 18:00:54,2.767s,PASSED
+"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap to Enable Location on location screen""), null, STOP_ON_FAILURE)",,,,2022-12-02 18:00:54,2022-12-02 18:01:23,28.724s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-12-02 18:01:23,2022-12-02 18:01:23,0.001s,PASSED

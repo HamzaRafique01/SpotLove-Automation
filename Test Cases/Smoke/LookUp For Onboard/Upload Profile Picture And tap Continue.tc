@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Profile Picture And tap Continue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1728a26-4946-476f-ab61-044a89618737</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba66aa15-dddb-4ab8-b302-84236c571687</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5f5ab8e-c3b5-47c8-ba3e-1ce872795609</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>468d39c1-659c-4b34-885f-9332e2cdb16d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb3e6edf-e7d8-4ddd-8b8e-a76cef5329d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b994ab23-6b42-42c4-bfdb-f83a2077fa86</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e0541a8-8126-4847-a5e0-e993b26db9c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8b1a409-27f5-42f0-9845-5eb7f4edd898</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c98537db-6447-48b7-baf3-c146d15358eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d97fc61-ae38-489a-88fb-9931b4ab4a8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ffb67c6a-7d08-4f78-89d3-c17e1908665a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Photo Placeholders/Photo Placeholder 2')</defaultValue>
+      <description></description>
+      <id>ba66aa15-dddb-4ab8-b302-84236c571687</id>
+      <masked>false</masked>
+      <name>btn_Photo_Placeholder_2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Upload Photo/Take Photo')</defaultValue>
+      <description></description>
+      <id>b5f5ab8e-c3b5-47c8-ba3e-1ce872795609</id>
+      <masked>false</masked>
+      <name>btn_Take_Photo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Upload Photo/Capture Photo From Camera')</defaultValue>
+      <description></description>
+      <id>468d39c1-659c-4b34-885f-9332e2cdb16d</id>
+      <masked>false</masked>
+      <name>btn_Capture_Photo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Upload Photo/btn OK from capture camera photo')</defaultValue>
+      <description></description>
+      <id>cb3e6edf-e7d8-4ddd-8b8e-a76cef5329d6</id>
+      <masked>false</masked>
+      <name>btn_OK</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Permissions/Gallery/btn Done (For Camera)')</defaultValue>
+      <description></description>
+      <id>b994ab23-6b42-42c4-bfdb-f83a2077fa86</id>
+      <masked>false</masked>
+      <name>btn_Done_Camera</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Photo Placeholders/Photo Placeholder 1')</defaultValue>
+      <description></description>
+      <id>4e0541a8-8126-4847-a5e0-e993b26db9c8</id>
+      <masked>false</masked>
+      <name>Photo_Placeholder_1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Upload Photo/Photo Gallery')</defaultValue>
+      <description></description>
+      <id>b8b1a409-27f5-42f0-9845-5eb7f4edd898</id>
+      <masked>false</masked>
+      <name>Photo_Gallery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Upload Photo/First Existing Photo From Gallery')</defaultValue>
+      <description></description>
+      <id>c98537db-6447-48b7-baf3-c146d15358eb</id>
+      <masked>false</masked>
+      <name>Existing_Photo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/Upload Photo/btn Done')</defaultValue>
+      <description></description>
+      <id>7d97fc61-ae38-489a-88fb-9931b4ab4a8b</id>
+      <masked>false</masked>
+      <name>btn_Done_Gallery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Smoke/Onboard/btn Continue on Gallery Screen')</defaultValue>
+      <description></description>
+      <id>ffb67c6a-7d08-4f78-89d3-c17e1908665a</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+</TestCaseEntity>

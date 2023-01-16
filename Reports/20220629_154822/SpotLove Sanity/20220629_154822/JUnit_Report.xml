@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SpotLove Sanity" time="536.102" tests="21" failures="2" errors="0">
+   <testsuite name="SpotLove Sanity" tests="21" failures="2" errors="0" time="536.102" skipped="0" timestamp="2022-06-29 15:48:39" hostname="pc - localhost" id="Test Suites/SpotLove Sanity">
+      <properties>
+         <property name="deviceName" value="OnePlus GM1910 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822"/>
+         <property name="logFiles" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822/execution0.log, /Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822/appium.log"/>
+         <property name="attachments" value="/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822/1656499980821.png, /Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822/1656499981802.png, /Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822/1656499982755.png, /Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822/1656499983769.png"/>
+         <property name="hostName" value="pc - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="GM1910"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="OnePlus"/>
+         <property name="deviceId" value="d84a7321"/>
+         <property name="deviceName" value="OnePlus GM1910 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/testing/intro 1" time="20.274" classname="Test Cases/testing/intro 1" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:48:39 - [TEST_CASE][PASSED] - Test Cases/testing/intro 1: Test Cases/testing/intro 1
+
+2022-06-29 15:48:40 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-06-29 15:48:40 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-06-29 15:48:40 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-06-29 15:48:42 - [MESSAGE][INFO] - Appium server started on port 65,063
+
+2022-06-29 15:48:53 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-06-29 15:48:53 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2022-06-29 15:48:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(hearticon, 30)): null
+
+2022-06-29 15:48:57 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Heart icon' is present
+
+2022-06-29 15:48:57 - [TEST_STEP][PASSED] - markPassed("PASSED: App is launched successfully"): PASSED: App is launched successfully
+
+2022-06-29 15:48:57 - [MESSAGE][PASSED] - PASSED: App is launched successfully
+
+2022-06-29 15:48:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(Access, 30)): null
+
+2022-06-29 15:48:57 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Access to label text' is present
+
+2022-06-29 15:48:57 - [TEST_STEP][PASSED] - markPassed("PASSED: Access label text is present on the screen"): PASSED: Access label text is present on the screen
+
+2022-06-29 15:48:57 - [MESSAGE][PASSED] - PASSED: Access label text is present on the screen
+
+2022-06-29 15:48:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(Matchmakers, 30)): null
+
+2022-06-29 15:48:57 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Matchmakers label text' is present
+
+2022-06-29 15:48:57 - [TEST_STEP][PASSED] - markPassed("PASSED: Matchmakers label text is present on the screen"): PASSED: Matchmakers label text is present on the screen
+
+2022-06-29 15:48:57 - [MESSAGE][PASSED] - PASSED: Matchmakers label text is present on the screen
+
+2022-06-29 15:48:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(Berief_Labeltext, 30)): null
+
+2022-06-29 15:48:58 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/We have matchmakers that will help you find your perfect match label text' is present
+
+2022-06-29 15:48:58 - [TEST_STEP][PASSED] - markPassed("PASSED: We have.... label text is present on the screen"): PASSED: We have.... label text is present on the screen
+
+2022-06-29 15:48:58 - [MESSAGE][PASSED] - PASSED: We have.... label text is present on the screen
+
+2022-06-29 15:48:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(background, 30)): null
+
+2022-06-29 15:48:59 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Background image' is present
+
+2022-06-29 15:48:59 - [TEST_STEP][PASSED] - markPassed("PASSED: background Image is present on the screen"): PASSED: background Image is present on the screen
+
+2022-06-29 15:48:59 - [MESSAGE][PASSED] - PASSED: background Image is present on the screen
+
+2022-06-29 15:48:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(continuebutton, 30)): null
+
+2022-06-29 15:48:59 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Intro first/Continue Button' is present
+
+2022-06-29 15:48:59 - [TEST_STEP][PASSED] - tap(continuebutton, 30): Tapped on element 'Object Repository/intro screens/Intro first/Continue Button'
+
+2022-06-29 15:48:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/intro screens/Intro first/Continue Button'
+
+2022-06-29 15:48:59 - [TEST_STEP][PASSED] - markPassed("Passed: continue button Element is present"): Passed: continue button Element is present
+
+2022-06-29 15:48:59 - [MESSAGE][PASSED] - Passed: continue button Element is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/intro 2" time="3.331" classname="Test Cases/testing/intro 2" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:48:59 - [TEST_CASE][PASSED] - Test Cases/testing/intro 2: Test Cases/testing/intro 2
+
+2022-06-29 15:49:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(hearticon, 30)): null
+
+2022-06-29 15:49:01 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Heart icon' is present
+
+2022-06-29 15:49:01 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart icon is present in the screen"): PASSED: Heart icon is present in the screen
+
+2022-06-29 15:49:01 - [MESSAGE][PASSED] - PASSED: Heart icon is present in the screen
+
+2022-06-29 15:49:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(Connect, 30)): null
+
+2022-06-29 15:49:01 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Connect On Video label text' is present
+
+2022-06-29 15:49:01 - [TEST_STEP][PASSED] - markPassed("PASSED: Connect label text is present on the screen"): PASSED: Connect label text is present on the screen
+
+2022-06-29 15:49:01 - [MESSAGE][PASSED] - PASSED: Connect label text is present on the screen
+
+2022-06-29 15:49:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(Dates, 30)): null
+
+2022-06-29 15:49:02 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Dates Label text' is present
+
+2022-06-29 15:49:02 - [TEST_STEP][PASSED] - markPassed("PASSED: Dates label text is present on the screen"): PASSED: Dates label text is present on the screen
+
+2022-06-29 15:49:02 - [MESSAGE][PASSED] - PASSED: Dates label text is present on the screen
+
+2022-06-29 15:49:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(We, 30)): null
+
+2022-06-29 15:49:02 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/We believe in connecting with people through video chat Label text' is present
+
+2022-06-29 15:49:02 - [TEST_STEP][PASSED] - markPassed("PASSED: We.... label text is present on the screen"): PASSED: We.... label text is present on the screen
+
+2022-06-29 15:49:02 - [MESSAGE][PASSED] - PASSED: We.... label text is present on the screen
+
+2022-06-29 15:49:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(background, 30)): null
+
+2022-06-29 15:49:02 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Background Image' is present
+
+2022-06-29 15:49:02 - [TEST_STEP][PASSED] - markPassed("PASSED: background Image is present on the screen"): PASSED: background Image is present on the screen
+
+2022-06-29 15:49:02 - [MESSAGE][PASSED] - PASSED: background Image is present on the screen
+
+2022-06-29 15:49:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continuebutton, 30)): null
+
+2022-06-29 15:49:03 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Second intro/Continue button' is present
+
+2022-06-29 15:49:03 - [TEST_STEP][PASSED] - tap(Continuebutton, 30): Tapped on element 'Object Repository/intro screens/Second intro/Continue button'
+
+2022-06-29 15:49:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/intro screens/Second intro/Continue button'
+
+2022-06-29 15:49:03 - [TEST_STEP][PASSED] - markPassed("Passed: continue button Element is present"): Passed: continue button Element is present
+
+2022-06-29 15:49:03 - [MESSAGE][PASSED] - Passed: continue button Element is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/intro 3" time="4.731" classname="Test Cases/testing/intro 3" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:49:03 - [TEST_CASE][PASSED] - Test Cases/testing/intro 3: Test Cases/testing/intro 3
+
+2022-06-29 15:49:03 - [TEST_STEP][PASSED] - if (waitForElementPresent(hearticon, 30)): null
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Heart icon' is present
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart icon is present in the screen"): PASSED: Heart icon is present in the screen
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - PASSED: Heart icon is present in the screen
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(Meet_your, 30)): null
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Meet Your label text' is present
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - markPassed("PASSED: Meet your label text is present on the screen"): PASSED: Meet your label text is present on the screen
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - PASSED: Meet your label text is present on the screen
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(Soulmate, 30)): null
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Soulmate label text' is present
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - markPassed("PASSED: Soulmate label text is present on the screen"): PASSED: Soulmate label text is present on the screen
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - PASSED: Soulmate label text is present on the screen
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(Plenty, 30)): null
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Plenty of opportunities to find the person that checks all your boxes label text' is present
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - markPassed("PASSED: Plenty.... label text is present on the screen"): PASSED: Plenty.... label text is present on the screen
+
+2022-06-29 15:49:05 - [MESSAGE][PASSED] - PASSED: Plenty.... label text is present on the screen
+
+2022-06-29 15:49:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(background, 30)): null
+
+2022-06-29 15:49:06 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Background image' is present
+
+2022-06-29 15:49:06 - [TEST_STEP][PASSED] - markPassed("PASSED: background Image is present on the screen"): PASSED: background Image is present on the screen
+
+2022-06-29 15:49:06 - [MESSAGE][PASSED] - PASSED: background Image is present on the screen
+
+2022-06-29 15:49:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continuebutton, 30)): null
+
+2022-06-29 15:49:06 - [MESSAGE][PASSED] - Element 'Object Repository/intro screens/Third intro/Continue Button' is present
+
+2022-06-29 15:49:06 - [TEST_STEP][PASSED] - tap(Continuebutton, 30): Tapped on element 'Object Repository/intro screens/Third intro/Continue Button'
+
+2022-06-29 15:49:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/intro screens/Third intro/Continue Button'
+
+2022-06-29 15:49:08 - [TEST_STEP][PASSED] - markPassed("Passed: continue button Element is present"): Passed: continue button Element is present
+
+2022-06-29 15:49:08 - [MESSAGE][PASSED] - Passed: continue button Element is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Use Phone Number screen" time="3.029" classname="Test Cases/testing/Use Phone Number screen" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:49:08 - [TEST_CASE][PASSED] - Test Cases/testing/Use Phone Number screen: Test Cases/testing/Use Phone Number screen
+
+2022-06-29 15:49:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(logo, 30)): null
+
+2022-06-29 15:49:09 - [MESSAGE][PASSED] - Element 'Object Repository/Select screen/logo' is present
+
+2022-06-29 15:49:09 - [TEST_STEP][PASSED] - markPassed("PASSED: SignIn Screen launch successfully"): PASSED: SignIn Screen launch successfully
+
+2022-06-29 15:49:09 - [MESSAGE][PASSED] - PASSED: SignIn Screen launch successfully
+
+2022-06-29 15:49:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Spotlove, 30)): null
+
+2022-06-29 15:49:09 - [MESSAGE][PASSED] - Element 'Object Repository/Select screen/Spot Love at First Sight Login or create an account label text' is present
+
+2022-06-29 15:49:09 - [TEST_STEP][PASSED] - markPassed("PASSED: SpotLove At First Sight label text is present on the screen."): PASSED: SpotLove At First Sight label text is present on the screen.
+
+2022-06-29 15:49:09 - [MESSAGE][PASSED] - PASSED: SpotLove At First Sight label text is present on the screen.
+
+2022-06-29 15:49:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:49:10 - [MESSAGE][PASSED] - Element 'Object Repository/Select screen/Continue with Phone number' is present
+
+2022-06-29 15:49:10 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Select screen/Continue with Phone number'
+
+2022-06-29 15:49:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select screen/Continue with Phone number'
+
+2022-06-29 15:49:11 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue With phone is present on the screen."): PASSED: Continue With phone is present on the screen.
+
+2022-06-29 15:49:11 - [MESSAGE][PASSED] - PASSED: Continue With phone is present on the screen.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Enter Phone Number" time="15.256" classname="Test Cases/testing/Enter Phone Number" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:49:11 - [TEST_CASE][PASSED] - Test Cases/testing/Enter Phone Number: Test Cases/testing/Enter Phone Number
+
+2022-06-29 15:49:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:49:12 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Back Button' is present
+
+2022-06-29 15:49:12 - [TEST_STEP][PASSED] - tap(Back, 30): Tapped on element 'Object Repository/SignIn To Spot.Love/Back Button'
+
+2022-06-29 15:49:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIn To Spot.Love/Back Button'
+
+2022-06-29 15:49:13 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue With phone is present on the screen."): PASSED: Continue With phone is present on the screen.
+
+2022-06-29 15:49:13 - [MESSAGE][PASSED] - PASSED: Continue With phone is present on the screen.
+
+2022-06-29 15:49:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(cntinue, 30)): null
+
+2022-06-29 15:49:14 - [MESSAGE][PASSED] - Element 'Object Repository/Select screen/Continue with Phone number' is present
+
+2022-06-29 15:49:14 - [TEST_STEP][PASSED] - tap(cntinue, 30): Tapped on element 'Object Repository/Select screen/Continue with Phone number'
+
+2022-06-29 15:49:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select screen/Continue with Phone number'
+
+2022-06-29 15:49:15 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue With phone is present on the screen."): PASSED: Continue With phone is present on the screen.
+
+2022-06-29 15:49:15 - [MESSAGE][PASSED] - PASSED: Continue With phone is present on the screen.
+
+2022-06-29 15:49:15 - [TEST_STEP][PASSED] - if (waitForElementPresent(logo, 30)): null
+
+2022-06-29 15:49:16 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Spotlove Logo' is present
+
+2022-06-29 15:49:16 - [TEST_STEP][PASSED] - markPassed("PASSED: SpotLove logo is present on the screen."): PASSED: SpotLove logo is present on the screen.
+
+2022-06-29 15:49:16 - [MESSAGE][PASSED] - PASSED: SpotLove logo is present on the screen.
+
+2022-06-29 15:49:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(SignIn, 30)): null
+
+2022-06-29 15:49:17 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Sign in to Spot.Love Label Text' is present
+
+2022-06-29 15:49:17 - [TEST_STEP][PASSED] - markPassed("PASSED: signIn to spotlove. is present on the screen."): PASSED: signIn to spotlove. is present on the screen.
+
+2022-06-29 15:49:17 - [MESSAGE][PASSED] - PASSED: signIn to spotlove. is present on the screen.
+
+2022-06-29 15:49:17 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:49:17 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Continue with your phone number Label Text' is present
+
+2022-06-29 15:49:17 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue with... is present on the screen."): PASSED: Continue with... is present on the screen.
+
+2022-06-29 15:49:17 - [MESSAGE][PASSED] - PASSED: Continue with... is present on the screen.
+
+2022-06-29 15:49:17 - [TEST_STEP][PASSED] - if (waitForElementPresent(Country, 30)): null
+
+2022-06-29 15:49:18 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Country dropdown' is present
+
+2022-06-29 15:49:18 - [TEST_STEP][PASSED] - tap(Country, 30): Tapped on element 'Object Repository/SignIn To Spot.Love/Country dropdown'
+
+2022-06-29 15:49:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIn To Spot.Love/Country dropdown'
+
+2022-06-29 15:49:19 - [TEST_STEP][PASSED] - markPassed("PASSED: Country dropdown is present on the screen."): PASSED: Country dropdown is present on the screen.
+
+2022-06-29 15:49:19 - [MESSAGE][PASSED] - PASSED: Country dropdown is present on the screen.
+
+2022-06-29 15:49:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(Search, 30)): null
+
+2022-06-29 15:49:20 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Enter country name' is present
+
+2022-06-29 15:49:20 - [TEST_STEP][PASSED] - setText(Search, "Pakistan", 30): Text 'Pakistan' has been set to element 'Object Repository/SignIn To Spot.Love/Enter country name'
+
+2022-06-29 15:49:21 - [MESSAGE][PASSED] - Text 'Pakistan' has been set to element 'Object Repository/SignIn To Spot.Love/Enter country name'
+
+2022-06-29 15:49:21 - [TEST_STEP][PASSED] - markPassed("PASSED: Search Country is present on the screen."): PASSED: Search Country is present on the screen.
+
+2022-06-29 15:49:21 - [MESSAGE][PASSED] - PASSED: Search Country is present on the screen.
+
+2022-06-29 15:49:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(first_index, 30)): null
+
+2022-06-29 15:49:22 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/First Index of search bar' is present
+
+2022-06-29 15:49:22 - [TEST_STEP][PASSED] - tap(first_index, 30): Tapped on element 'Object Repository/SignIn To Spot.Love/First Index of search bar'
+
+2022-06-29 15:49:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIn To Spot.Love/First Index of search bar'
+
+2022-06-29 15:49:23 - [TEST_STEP][PASSED] - markPassed("PASSED: Your Search in the first index Country is present on the screen."): PASSED: Your Search in the first index Country is present on the screen.
+
+2022-06-29 15:49:23 - [MESSAGE][PASSED] - PASSED: Your Search in the first index Country is present on the screen.
+
+2022-06-29 15:49:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(phone, 30)): null
+
+2022-06-29 15:49:23 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Enter Phone Number' is present
+
+2022-06-29 15:49:23 - [TEST_STEP][PASSED] - setText(phone, "3044662898", 30): Text '3044662898' has been set to element 'Object Repository/SignIn To Spot.Love/Enter Phone Number'
+
+2022-06-29 15:49:25 - [MESSAGE][PASSED] - Text '3044662898' has been set to element 'Object Repository/SignIn To Spot.Love/Enter Phone Number'
+
+2022-06-29 15:49:25 - [TEST_STEP][PASSED] - markPassed("PASSED: Phone number enter successfully."): PASSED: Phone number enter successfully.
+
+2022-06-29 15:49:25 - [MESSAGE][PASSED] - PASSED: Phone number enter successfully.
+
+2022-06-29 15:49:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue_Button, 30)): null
+
+2022-06-29 15:49:26 - [MESSAGE][PASSED] - Element 'Object Repository/SignIn To Spot.Love/Continue Button' is present
+
+2022-06-29 15:49:26 - [TEST_STEP][PASSED] - tap(Continue_Button, 30): Tapped on element 'Object Repository/SignIn To Spot.Love/Continue Button'
+
+2022-06-29 15:49:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIn To Spot.Love/Continue Button'
+
+2022-06-29 15:49:26 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button."): PASSED: Continue button.
+
+2022-06-29 15:49:26 - [MESSAGE][PASSED] - PASSED: Continue button.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/OTP" time="38.525" classname="Test Cases/testing/OTP" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:49:26 - [TEST_CASE][PASSED] - Test Cases/testing/OTP: Test Cases/testing/OTP
+
+2022-06-29 15:49:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(logo, 30)): null
+
+2022-06-29 15:49:27 - [MESSAGE][PASSED] - Element 'Object Repository/OTP Verification/logo' is present
+
+2022-06-29 15:49:27 - [TEST_STEP][PASSED] - markPassed("PASSED: SpotLove logo is present on the screen."): PASSED: SpotLove logo is present on the screen.
+
+2022-06-29 15:49:27 - [MESSAGE][PASSED] - PASSED: SpotLove logo is present on the screen.
+
+2022-06-29 15:49:27 - [TEST_STEP][PASSED] - if (waitForElementPresent(Enter, 30)): null
+
+2022-06-29 15:49:42 - [MESSAGE][PASSED] - Element 'Object Repository/OTP Verification/Enter your verification code label text' is present
+
+2022-06-29 15:49:42 - [TEST_STEP][PASSED] - markPassed("PASSED: Enter Your... label text is present on the screen."): PASSED: Enter Your... label text is present on the screen.
+
+2022-06-29 15:49:42 - [MESSAGE][PASSED] - PASSED: Enter Your... label text is present on the screen.
+
+2022-06-29 15:49:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(We, 30)): null
+
+2022-06-29 15:49:43 - [MESSAGE][PASSED] - Element 'Object Repository/OTP Verification/Weve sent a pin to label text' is present
+
+2022-06-29 15:49:43 - [TEST_STEP][PASSED] - markPassed("PASSED: We have... label text is present on the screen."): PASSED: We have... label text is present on the screen.
+
+2022-06-29 15:49:43 - [MESSAGE][PASSED] - PASSED: We have... label text is present on the screen.
+
+2022-06-29 15:49:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(Verify, 30)): null
+
+2022-06-29 15:49:51 - [MESSAGE][PASSED] - Element 'Object Repository/OTP Verification/Verify' is present
+
+2022-06-29 15:49:51 - [TEST_STEP][PASSED] - markPassed("PASSED: Verify Button is present on the screen."): PASSED: Verify Button is present on the screen.
+
+2022-06-29 15:49:51 - [MESSAGE][PASSED] - PASSED: Verify Button is present on the screen.
+
+2022-06-29 15:49:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-29 15:50:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-29 15:50:01 - [TEST_STEP][PASSED] - tap(Verify, 30): Tapped on element 'Object Repository/OTP Verification/Verify'
+
+2022-06-29 15:50:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP Verification/Verify'
+
+2022-06-29 15:50:04 - [TEST_STEP][PASSED] - markPassed("PASSED: Verify Button Pressed Successfully"): PASSED: Verify Button Pressed Successfully
+
+2022-06-29 15:50:04 - [MESSAGE][PASSED] - PASSED: Verify Button Pressed Successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Welcome OnBoarding" time="8.199" classname="Test Cases/testing/Welcome OnBoarding" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:50:04 - [TEST_CASE][PASSED] - Test Cases/testing/Welcome OnBoarding: Test Cases/testing/Welcome OnBoarding
+
+2022-06-29 15:50:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(logo, 30)): null
+
+2022-06-29 15:50:07 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Logo' is present
+
+2022-06-29 15:50:07 - [TEST_STEP][PASSED] - markPassed("PASSED: SpotLove logo is present on the screen."): PASSED: SpotLove logo is present on the screen.
+
+2022-06-29 15:50:07 - [MESSAGE][PASSED] - PASSED: SpotLove logo is present on the screen.
+
+2022-06-29 15:50:07 - [TEST_STEP][PASSED] - if (waitForElementPresent(welcome, 30)): null
+
+2022-06-29 15:50:08 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Welcome to Spot.Love label text' is present
+
+2022-06-29 15:50:08 - [TEST_STEP][PASSED] - markPassed("PASSED: Welcome... label text is present on the screen."): PASSED: Welcome... label text is present on the screen.
+
+2022-06-29 15:50:08 - [MESSAGE][PASSED] - PASSED: Welcome... label text is present on the screen.
+
+2022-06-29 15:50:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(Please, 30)): null
+
+2022-06-29 15:50:08 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Please follow these house rules label text' is present
+
+2022-06-29 15:50:08 - [TEST_STEP][PASSED] - markPassed("PASSED: Please... label text is present on the screen."): PASSED: Please... label text is present on the screen.
+
+2022-06-29 15:50:08 - [MESSAGE][PASSED] - PASSED: Please... label text is present on the screen.
+
+2022-06-29 15:50:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart1, 30)): null
+
+2022-06-29 15:50:08 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/heart icon first' is present
+
+2022-06-29 15:50:08 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon... is present on the screen."): PASSED: Heart Icon... is present on the screen.
+
+2022-06-29 15:50:08 - [MESSAGE][PASSED] - PASSED: Heart Icon... is present on the screen.
+
+2022-06-29 15:50:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be, 30)): null
+
+2022-06-29 15:50:09 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be kind label text' is present
+
+2022-06-29 15:50:09 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Kind... label text is present on the screen."): PASSED: Be Kind... label text is present on the screen.
+
+2022-06-29 15:50:09 - [MESSAGE][PASSED] - PASSED: Be Kind... label text is present on the screen.
+
+2022-06-29 15:50:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Treat, 30)): null
+
+2022-06-29 15:50:09 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Treat everyone with respect and kindness label text' is present
+
+2022-06-29 15:50:09 - [TEST_STEP][PASSED] - markPassed("PASSED: Treat... label text is present on the screen."): PASSED: Treat... label text is present on the screen.
+
+2022-06-29 15:50:09 - [MESSAGE][PASSED] - PASSED: Treat... label text is present on the screen.
+
+2022-06-29 15:50:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart2, 30)): null
+
+2022-06-29 15:50:09 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/heart icon second' is present
+
+2022-06-29 15:50:09 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon... is present on the screen."): PASSED: Heart Icon... is present on the screen.
+
+2022-06-29 15:50:09 - [MESSAGE][PASSED] - PASSED: Heart Icon... is present on the screen.
+
+2022-06-29 15:50:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_You, 30)): null
+
+2022-06-29 15:50:10 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be yourself label text' is present
+
+2022-06-29 15:50:10 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Your... label text is present on the screen."): PASSED: Be Your... label text is present on the screen.
+
+2022-06-29 15:50:10 - [MESSAGE][PASSED] - PASSED: Be Your... label text is present on the screen.
+
+2022-06-29 15:50:10 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_honest, 30)): null
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be honest about your age, phots, and bio label text' is present
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Honest... label text is present on the screen."): PASSED: Be Honest... label text is present on the screen.
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - PASSED: Be Honest... label text is present on the screen.
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart3, 30)): null
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/heart icon third' is present
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon... is present on the screen."): PASSED: Heart Icon... is present on the screen.
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - PASSED: Heart Icon... is present on the screen.
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_Out, 30)): null
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Be outspoken label text' is present
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - markPassed("PASSED: Be Out... label text is present on the screen."): PASSED: Be Out... label text is present on the screen.
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - PASSED: Be Out... label text is present on the screen.
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(Always, 30)): null
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/Always report bad behavior label text' is present
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - markPassed("PASSED: Always... label text is present on the screen."): PASSED: Always... label text is present on the screen.
+
+2022-06-29 15:50:11 - [MESSAGE][PASSED] - PASSED: Always... label text is present on the screen.
+
+2022-06-29 15:50:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(Terms, 30)): null
+
+2022-06-29 15:50:12 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/View terms and Conditions' is present
+
+2022-06-29 15:50:12 - [TEST_STEP][PASSED] - markPassed("PASSED: View Terms and Conditions are show on the screen"): PASSED: View Terms and Conditions are show on the screen
+
+2022-06-29 15:50:12 - [MESSAGE][PASSED] - PASSED: View Terms and Conditions are show on the screen
+
+2022-06-29 15:50:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(Agree, 30)): null
+
+2022-06-29 15:50:12 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_One/I Agree Button' is present
+
+2022-06-29 15:50:12 - [TEST_STEP][PASSED] - tap(Agree, 30): Tapped on element 'Object Repository/Onboarding_One/I Agree Button'
+
+2022-06-29 15:50:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_One/I Agree Button'
+
+2022-06-29 15:50:13 - [TEST_STEP][PASSED] - markPassed("PASSED: I Agree Button ise show on the screen"): PASSED: I Agree Button ise show on the screen
+
+2022-06-29 15:50:13 - [MESSAGE][PASSED] - PASSED: I Agree Button ise show on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Referral Screen" time="3.018" classname="Test Cases/testing/Referral Screen" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:50:13 - [TEST_CASE][PASSED] - Test Cases/testing/Referral Screen: Test Cases/testing/Referral Screen
+
+2022-06-29 15:50:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart_Icon, 30)): null
+
+2022-06-29 15:50:14 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/heart Icon' is present
+
+2022-06-29 15:50:14 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon is present on the screen"): PASSED: Heart Icon is present on the screen
+
+2022-06-29 15:50:14 - [MESSAGE][PASSED] - PASSED: Heart Icon is present on the screen
+
+2022-06-29 15:50:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(Howdi, 30)): null
+
+2022-06-29 15:50:14 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/How did you hear about us label text' is present
+
+2022-06-29 15:50:14 - [TEST_STEP][PASSED] - markPassed("PASSED: How did... label text is present on the screen"): PASSED: How did... label text is present on the screen
+
+2022-06-29 15:50:14 - [MESSAGE][PASSED] - PASSED: How did... label text is present on the screen
+
+2022-06-29 15:50:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(dropdown, 30)): null
+
+2022-06-29 15:50:15 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Referral dropdown' is present
+
+2022-06-29 15:50:15 - [TEST_STEP][PASSED] - markPassed("PASSED: Dropdown menu is present on the screen"): PASSED: Dropdown menu is present on the screen
+
+2022-06-29 15:50:15 - [MESSAGE][PASSED] - PASSED: Dropdown menu is present on the screen
+
+2022-06-29 15:50:15 - [TEST_STEP][PASSED] - if (waitForElementPresent(Text_box, 30)): null
+
+2022-06-29 15:50:15 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Referral Code text box' is present
+
+2022-06-29 15:50:15 - [TEST_STEP][PASSED] - markPassed("PASSED: Do you... is present on the screen"): PASSED: Do you... is present on the screen
+
+2022-06-29 15:50:15 - [MESSAGE][PASSED] - PASSED: Do you... is present on the screen
+
+2022-06-29 15:50:15 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:50:15 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Continue button' is present
+
+2022-06-29 15:50:15 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-06-29 15:50:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-06-29 15:50:16 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button is present on the screen"): PASSED: Continue Button is present on the screen
+
+2022-06-29 15:50:16 - [MESSAGE][PASSED] - PASSED: Continue Button is present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/First Name" time="9.155" classname="Test Cases/testing/First Name" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:50:16 - [TEST_CASE][PASSED] - Test Cases/testing/First Name: Test Cases/testing/First Name
+
+2022-06-29 15:50:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(back, 30)): null
+
+2022-06-29 15:50:17 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Back' is present
+
+2022-06-29 15:50:17 - [TEST_STEP][PASSED] - tap(back, 30): Tapped on element 'Object Repository/First name Screen/Back'
+
+2022-06-29 15:50:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First name Screen/Back'
+
+2022-06-29 15:50:17 - [TEST_STEP][PASSED] - markPassed("PASSED: Back Button is present on the screen"): PASSED: Back Button is present on the screen
+
+2022-06-29 15:50:17 - [MESSAGE][PASSED] - PASSED: Back Button is present on the screen
+
+2022-06-29 15:50:17 - [TEST_STEP][PASSED] - if (waitForElementPresent(Previous_Continue, 30)): null
+
+2022-06-29 15:50:19 - [MESSAGE][PASSED] - Element 'Object Repository/Referral screen/Continue button' is present
+
+2022-06-29 15:50:19 - [TEST_STEP][PASSED] - tap(Previous_Continue, 30): Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-06-29 15:50:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Referral screen/Continue button'
+
+2022-06-29 15:50:19 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button is present on the screen"): PASSED: Continue Button is present on the screen
+
+2022-06-29 15:50:19 - [MESSAGE][PASSED] - PASSED: Continue Button is present on the screen
+
+2022-06-29 15:50:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(card_icon, 30)): null
+
+2022-06-29 15:50:20 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Card Icon' is present
+
+2022-06-29 15:50:20 - [TEST_STEP][PASSED] - markPassed("PASSED: Card Icon is present on the screen"): PASSED: Card Icon is present on the screen
+
+2022-06-29 15:50:20 - [MESSAGE][PASSED] - PASSED: Card Icon is present on the screen
+
+2022-06-29 15:50:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(What, 30)): null
+
+2022-06-29 15:50:20 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/What should we call you label text' is present
+
+2022-06-29 15:50:20 - [TEST_STEP][PASSED] - markPassed("PASSED: What should... label text is present on the screen"): PASSED: What should... label text is present on the screen
+
+2022-06-29 15:50:20 - [MESSAGE][PASSED] - PASSED: What should... label text is present on the screen
+
+2022-06-29 15:50:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(Tell_us, 30)): null
+
+2022-06-29 15:50:21 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Tell us your first name label Text' is present
+
+2022-06-29 15:50:21 - [TEST_STEP][PASSED] - markPassed("PASSED: Tell us... label text is present on the screen"): PASSED: Tell us... label text is present on the screen
+
+2022-06-29 15:50:21 - [MESSAGE][PASSED] - PASSED: Tell us... label text is present on the screen
+
+2022-06-29 15:50:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(Name, 30)): null
+
+2022-06-29 15:50:21 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Name text text box' is present
+
+2022-06-29 15:50:21 - [TEST_STEP][PASSED] - setText(Name, "Pakistan", 30): Text 'Pakistan' has been set to element 'Object Repository/First name Screen/Name text text box'
+
+2022-06-29 15:50:23 - [MESSAGE][PASSED] - Text 'Pakistan' has been set to element 'Object Repository/First name Screen/Name text text box'
+
+2022-06-29 15:50:23 - [TEST_STEP][PASSED] - markPassed("PASSED: Name Enter s Successfully"): PASSED: Name Enter s Successfully
+
+2022-06-29 15:50:23 - [MESSAGE][PASSED] - PASSED: Name Enter s Successfully
+
+2022-06-29 15:50:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:50:25 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Continue Button' is present
+
+2022-06-29 15:50:25 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-06-29 15:50:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-06-29 15:50:25 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button is present on the screen"): PASSED: Continue button is present on the screen
+
+2022-06-29 15:50:25 - [MESSAGE][PASSED] - PASSED: Continue button is present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Birthday" time="15.014" classname="Test Cases/testing/Birthday" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:50:25 - [TEST_CASE][PASSED] - Test Cases/testing/Birthday: Test Cases/testing/Birthday
+
+2022-06-29 15:50:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:50:27 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Back' is present
+
+2022-06-29 15:50:27 - [TEST_STEP][PASSED] - tap(Back, 30): Tapped on element 'Object Repository/DOB/Back'
+
+2022-06-29 15:50:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/Back'
+
+2022-06-29 15:50:29 - [TEST_STEP][PASSED] - markPassed("PASSED: Back Button is present on the screen"): PASSED: Back Button is present on the screen
+
+2022-06-29 15:50:29 - [MESSAGE][PASSED] - PASSED: Back Button is present on the screen
+
+2022-06-29 15:50:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(Pervious_Continue, 30)): null
+
+2022-06-29 15:50:30 - [MESSAGE][PASSED] - Element 'Object Repository/First name Screen/Continue Button' is present
+
+2022-06-29 15:50:30 - [TEST_STEP][PASSED] - tap(Pervious_Continue, 30): Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-06-29 15:50:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/First name Screen/Continue Button'
+
+2022-06-29 15:50:30 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button is present on the screen"): PASSED: Continue Button is present on the screen
+
+2022-06-29 15:50:30 - [MESSAGE][PASSED] - PASSED: Continue Button is present on the screen
+
+2022-06-29 15:50:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(cake_icon, 30)): null
+
+2022-06-29 15:50:32 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Cake icon' is present
+
+2022-06-29 15:50:32 - [TEST_STEP][PASSED] - markPassed("PASSED: Card Icon is present on the screen"): PASSED: Card Icon is present on the screen
+
+2022-06-29 15:50:32 - [MESSAGE][PASSED] - PASSED: Card Icon is present on the screen
+
+2022-06-29 15:50:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whatsyour, 30)): null
+
+2022-06-29 15:50:32 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Whats your date of birth label Text' is present
+
+2022-06-29 15:50:32 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text is present on the screen"): PASSED: Whats your... label text is present on the screen
+
+2022-06-29 15:50:32 - [MESSAGE][PASSED] - PASSED: Whats your... label text is present on the screen
+
+2022-06-29 15:50:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(Year, 30)): null
+
+2022-06-29 15:50:33 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Year Picker' is present
+
+2022-06-29 15:50:33 - [TEST_STEP][PASSED] - tap(Year, 30): Tapped on element 'Object Repository/DOB/Year Picker'
+
+2022-06-29 15:50:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/Year Picker'
+
+2022-06-29 15:50:35 - [TEST_STEP][PASSED] - markPassed("PASSED: Year is present on the screen"): PASSED: Year is present on the screen
+
+2022-06-29 15:50:35 - [MESSAGE][PASSED] - PASSED: Year is present on the screen
+
+2022-06-29 15:50:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:50:35 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Continue Button' is present
+
+2022-06-29 15:50:35 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/DOB/Continue Button'
+
+2022-06-29 15:50:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/Continue Button'
+
+2022-06-29 15:50:37 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button is present on the screen"): PASSED: Continue button is present on the screen
+
+2022-06-29 15:50:37 - [MESSAGE][PASSED] - PASSED: Continue button is present on the screen
+
+2022-06-29 15:50:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(Please, 30)): null
+
+2022-06-29 15:50:39 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/Please confirm your birthdate label text' is present
+
+2022-06-29 15:50:39 - [TEST_STEP][PASSED] - markPassed("PASSED: Please Confirm... label text is present on the screen"): PASSED: Please Confirm... label text is present on the screen
+
+2022-06-29 15:50:39 - [MESSAGE][PASSED] - PASSED: Please Confirm... label text is present on the screen
+
+2022-06-29 15:50:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Thiscant, 30)): null
+
+2022-06-29 15:50:40 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/This cant be changed later label text' is present
+
+2022-06-29 15:50:40 - [TEST_STEP][PASSED] - markPassed("PASSED: This cant... label text is present on the screen"): PASSED: This cant... label text is present on the screen
+
+2022-06-29 15:50:40 - [MESSAGE][PASSED] - PASSED: This cant... label text is present on the screen
+
+2022-06-29 15:50:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(C_Continue, 30)): null
+
+2022-06-29 15:50:40 - [MESSAGE][PASSED] - Element 'Object Repository/DOB/C_Continue' is present
+
+2022-06-29 15:50:40 - [TEST_STEP][PASSED] - tap(C_Continue, 30): Tapped on element 'Object Repository/DOB/C_Continue'
+
+2022-06-29 15:50:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DOB/C_Continue'
+
+2022-06-29 15:50:40 - [TEST_STEP][PASSED] - markPassed("PASSED: C_Continue button present on the screen"): PASSED: C_Continue button present on the screen
+
+2022-06-29 15:50:40 - [MESSAGE][PASSED] - PASSED: C_Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Identifications" time="9.025" classname="Test Cases/testing/Identifications" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:50:40 - [TEST_CASE][PASSED] - Test Cases/testing/Identifications: Test Cases/testing/Identifications
+
+2022-06-29 15:50:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:50:43 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Back' is present
+
+2022-06-29 15:50:43 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:50:43 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:50:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(Mirror_icon, 30)): null
+
+2022-06-29 15:50:43 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Mirror Icon' is present
+
+2022-06-29 15:50:43 - [TEST_STEP][PASSED] - markPassed("PASSED: Mirror Icon present on the screen"): PASSED: Mirror Icon present on the screen
+
+2022-06-29 15:50:43 - [MESSAGE][PASSED] - PASSED: Mirror Icon present on the screen
+
+2022-06-29 15:50:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(How_do, 30)): null
+
+2022-06-29 15:50:44 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/How do you identify label text' is present
+
+2022-06-29 15:50:44 - [TEST_STEP][PASSED] - markPassed("PASSED: How do... label text present on the screen"): PASSED: How do... label text present on the screen
+
+2022-06-29 15:50:44 - [MESSAGE][PASSED] - PASSED: How do... label text present on the screen
+
+2022-06-29 15:50:44 - [TEST_STEP][PASSED] - if (waitForElementPresent(Female_Chips, 30)): null
+
+2022-06-29 15:50:44 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Female Chips' is present
+
+2022-06-29 15:50:44 - [TEST_STEP][PASSED] - tap(Female_Chips, 30): Tapped on element 'Object Repository/Identify/Female Chips'
+
+2022-06-29 15:50:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Identify/Female Chips'
+
+2022-06-29 15:50:45 - [TEST_STEP][PASSED] - markPassed("PASSED: Female Chips button present on the screen"): PASSED: Female Chips button present on the screen
+
+2022-06-29 15:50:45 - [MESSAGE][PASSED] - PASSED: Female Chips button present on the screen
+
+2022-06-29 15:50:45 - [TEST_STEP][PASSED] - if (waitForElementPresent(Male_Chips, 30)): null
+
+2022-06-29 15:50:45 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Male Chips' is present
+
+2022-06-29 15:50:45 - [TEST_STEP][PASSED] - tap(Male_Chips, 30): Tapped on element 'Object Repository/Identify/Male Chips'
+
+2022-06-29 15:50:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Identify/Male Chips'
+
+2022-06-29 15:50:45 - [TEST_STEP][PASSED] - markPassed("PASSED: Male Chips button present on the screen"): PASSED: Male Chips button present on the screen
+
+2022-06-29 15:50:45 - [MESSAGE][PASSED] - PASSED: Male Chips button present on the screen
+
+2022-06-29 15:50:45 - [TEST_STEP][PASSED] - if (waitForElementPresent(NonBinary, 30)): null
+
+2022-06-29 15:50:46 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Non-Binary Chips' is present
+
+2022-06-29 15:50:46 - [TEST_STEP][PASSED] - tap(NonBinary, 30): Tapped on element 'Object Repository/Identify/Non-Binary Chips'
+
+2022-06-29 15:50:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Identify/Non-Binary Chips'
+
+2022-06-29 15:50:48 - [TEST_STEP][PASSED] - markPassed("PASSED: NonBinary Chips button present on the screen"): PASSED: NonBinary Chips button present on the screen
+
+2022-06-29 15:50:48 - [MESSAGE][PASSED] - PASSED: NonBinary Chips button present on the screen
+
+2022-06-29 15:50:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(Male_Chips, 30)): null
+
+2022-06-29 15:50:49 - [MESSAGE][PASSED] - Element 'Object Repository/Identify/Male Chips' is present
+
+2022-06-29 15:50:49 - [TEST_STEP][PASSED] - tap(Male_Chips, 30): Tapped on element 'Object Repository/Identify/Male Chips'
+
+2022-06-29 15:50:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Identify/Male Chips'
+
+2022-06-29 15:50:49 - [TEST_STEP][PASSED] - markPassed("PASSED: Male Chips button present on the screen"): PASSED: Male Chips button present on the screen
+
+2022-06-29 15:50:49 - [MESSAGE][PASSED] - PASSED: Male Chips button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Into" time="15.947" classname="Test Cases/testing/Into" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:51:20 - [TEST_CASE][PASSED] - Test Cases/testing/Into: Test Cases/testing/Into
+
+2022-06-29 15:51:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(back, 30)): null
+
+2022-06-29 15:51:25 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Back' is present
+
+2022-06-29 15:51:25 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:51:25 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:51:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Profile_icon, 30)): null
+
+2022-06-29 15:51:26 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Profile icon' is present
+
+2022-06-29 15:51:26 - [TEST_STEP][PASSED] - markPassed("PASSED: Profile icon present on the screen"): PASSED: Profile icon present on the screen
+
+2022-06-29 15:51:26 - [MESSAGE][PASSED] - PASSED: Profile icon present on the screen
+
+2022-06-29 15:51:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(Who, 30)): null
+
+2022-06-29 15:51:26 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Who are you into label text' is present
+
+2022-06-29 15:51:26 - [TEST_STEP][PASSED] - markPassed("PASSED: Who are... label text present on the screen"): PASSED: Who are... label text present on the screen
+
+2022-06-29 15:51:26 - [MESSAGE][PASSED] - PASSED: Who are... label text present on the screen
+
+2022-06-29 15:51:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(Women, 30)): null
+
+2022-06-29 15:51:27 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Female Chips' is present
+
+2022-06-29 15:51:27 - [TEST_STEP][PASSED] - tap(Women, 30): Tapped on element 'Object Repository/INTO/Female Chips'
+
+2022-06-29 15:51:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INTO/Female Chips'
+
+2022-06-29 15:51:27 - [TEST_STEP][PASSED] - markPassed("PASSED: Women Chips button present on the screen"): PASSED: Women Chips button present on the screen
+
+2022-06-29 15:51:27 - [MESSAGE][PASSED] - PASSED: Women Chips button present on the screen
+
+2022-06-29 15:51:27 - [TEST_STEP][PASSED] - if (waitForElementPresent(Men, 30)): null
+
+2022-06-29 15:51:29 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Male Chips' is present
+
+2022-06-29 15:51:29 - [TEST_STEP][PASSED] - tap(Men, 30): Tapped on element 'Object Repository/INTO/Male Chips'
+
+2022-06-29 15:51:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INTO/Male Chips'
+
+2022-06-29 15:51:30 - [TEST_STEP][PASSED] - markPassed("PASSED: Men Chips button present on the screen"): PASSED: Men Chips button present on the screen
+
+2022-06-29 15:51:30 - [MESSAGE][PASSED] - PASSED: Men Chips button present on the screen
+
+2022-06-29 15:51:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(NonBinary, 30)): null
+
+2022-06-29 15:51:31 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Non-Binary Chips' is present
+
+2022-06-29 15:51:31 - [TEST_STEP][PASSED] - tap(NonBinary, 30): Tapped on element 'Object Repository/INTO/Non-Binary Chips'
+
+2022-06-29 15:51:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INTO/Non-Binary Chips'
+
+2022-06-29 15:51:31 - [TEST_STEP][PASSED] - markPassed("PASSED: NonBinary Chips button present on the screen"): PASSED: NonBinary Chips button present on the screen
+
+2022-06-29 15:51:31 - [MESSAGE][PASSED] - PASSED: NonBinary Chips button present on the screen
+
+2022-06-29 15:51:31 - [TEST_STEP][PASSED] - if (waitForElementPresent(Men, 30)): null
+
+2022-06-29 15:51:32 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Male Chips' is present
+
+2022-06-29 15:51:32 - [TEST_STEP][PASSED] - tap(Men, 30): Tapped on element 'Object Repository/INTO/Male Chips'
+
+2022-06-29 15:51:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INTO/Male Chips'
+
+2022-06-29 15:51:33 - [TEST_STEP][PASSED] - markPassed("PASSED: Men Chips button present on the screen"): PASSED: Men Chips button present on the screen
+
+2022-06-29 15:51:33 - [MESSAGE][PASSED] - PASSED: Men Chips button present on the screen
+
+2022-06-29 15:51:33 - [TEST_STEP][PASSED] - if (waitForElementPresent(Anything, 30)): null
+
+2022-06-29 15:51:34 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Anything Really' is present
+
+2022-06-29 15:51:34 - [TEST_STEP][PASSED] - tap(Anything, 30): Tapped on element 'Object Repository/INTO/Anything Really'
+
+2022-06-29 15:51:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INTO/Anything Really'
+
+2022-06-29 15:51:34 - [TEST_STEP][PASSED] - markPassed("PASSED: Anything Chips button present on the screen"): PASSED: Anything Chips button present on the screen
+
+2022-06-29 15:51:34 - [MESSAGE][PASSED] - PASSED: Anything Chips button present on the screen
+
+2022-06-29 15:51:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:51:35 - [MESSAGE][PASSED] - Element 'Object Repository/INTO/Continue Button' is present
+
+2022-06-29 15:51:35 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/INTO/Continue Button'
+
+2022-06-29 15:51:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INTO/Continue Button'
+
+2022-06-29 15:51:36 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-06-29 15:51:36 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Height Scale" time="4.114" classname="Test Cases/testing/Height Scale" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:51:36 - [TEST_CASE][PASSED] - Test Cases/testing/Height Scale: Test Cases/testing/Height Scale
+
+2022-06-29 15:51:36 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:51:37 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/Back' is present
+
+2022-06-29 15:51:37 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:51:37 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:51:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(Scale_icon, 30)): null
+
+2022-06-29 15:51:38 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/Scale icon' is present
+
+2022-06-29 15:51:38 - [TEST_STEP][PASSED] - markPassed("PASSED: Scale icon present on the screen"): PASSED: Scale icon present on the screen
+
+2022-06-29 15:51:38 - [MESSAGE][PASSED] - PASSED: Scale icon present on the screen
+
+2022-06-29 15:51:38 - [TEST_STEP][PASSED] - if (waitForElementPresent(How, 30)): null
+
+2022-06-29 15:51:39 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/How tall are you label text' is present
+
+2022-06-29 15:51:39 - [TEST_STEP][PASSED] - markPassed("PASSED: How tall... label text present on the screen"): PASSED: How tall... label text present on the screen
+
+2022-06-29 15:51:39 - [MESSAGE][PASSED] - PASSED: How tall... label text present on the screen
+
+2022-06-29 15:51:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:51:39 - [MESSAGE][PASSED] - Element 'Object Repository/Height scale/Continue Button' is present
+
+2022-06-29 15:51:39 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Height scale/Continue Button'
+
+2022-06-29 15:51:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Height scale/Continue Button'
+
+2022-06-29 15:51:40 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Button present on the screen"): PASSED: Continue Button present on the screen
+
+2022-06-29 15:51:40 - [MESSAGE][PASSED] - PASSED: Continue Button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Ethnicity" time="19.805" classname="Test Cases/testing/Ethnicity" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:51:40 - [TEST_CASE][PASSED] - Test Cases/testing/Ethnicity: Test Cases/testing/Ethnicity
+
+2022-06-29 15:51:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:51:41 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Back' is present
+
+2022-06-29 15:51:41 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:51:41 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:51:41 - [TEST_STEP][PASSED] - if (waitForElementPresent(Megnifying_icon, 30)): null
+
+2022-06-29 15:51:42 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Megnifying icon' is present
+
+2022-06-29 15:51:42 - [TEST_STEP][PASSED] - markPassed("PASSED: Megnifying icon present on the screen"): PASSED: Megnifying icon present on the screen
+
+2022-06-29 15:51:42 - [MESSAGE][PASSED] - PASSED: Megnifying icon present on the screen
+
+2022-06-29 15:51:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-06-29 15:51:42 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Whats your ethnicity label text' is present
+
+2022-06-29 15:51:42 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text present on the screen"): PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:51:42 - [MESSAGE][PASSED] - PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:51:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(other, 30)): null
+
+2022-06-29 15:51:42 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Other' is present
+
+2022-06-29 15:51:42 - [TEST_STEP][PASSED] - tap(other, 30): Tapped on element 'Object Repository/Ethnicity/Other'
+
+2022-06-29 15:51:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Other'
+
+2022-06-29 15:51:43 - [TEST_STEP][PASSED] - markPassed("PASSED: other Chips button present on the screen"): PASSED: other Chips button present on the screen
+
+2022-06-29 15:51:43 - [MESSAGE][PASSED] - PASSED: other Chips button present on the screen
+
+2022-06-29 15:51:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(Hispanic, 30)): null
+
+2022-06-29 15:51:45 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Hispanic Latino' is present
+
+2022-06-29 15:51:45 - [TEST_STEP][PASSED] - tap(Hispanic, 30): Tapped on element 'Object Repository/Ethnicity/Hispanic Latino'
+
+2022-06-29 15:51:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Hispanic Latino'
+
+2022-06-29 15:51:46 - [TEST_STEP][PASSED] - markPassed("PASSED: Hispanic/Latino Chips button present on the screen"): PASSED: Hispanic/Latino Chips button present on the screen
+
+2022-06-29 15:51:46 - [MESSAGE][PASSED] - PASSED: Hispanic/Latino Chips button present on the screen
+
+2022-06-29 15:51:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(East, 30)): null
+
+2022-06-29 15:51:46 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/East Asian' is present
+
+2022-06-29 15:51:46 - [TEST_STEP][PASSED] - tap(East, 30): Tapped on element 'Object Repository/Ethnicity/East Asian'
+
+2022-06-29 15:51:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/East Asian'
+
+2022-06-29 15:51:47 - [TEST_STEP][PASSED] - markPassed("PASSED: East Asian Chips button present on the screen"): PASSED: East Asian Chips button present on the screen
+
+2022-06-29 15:51:47 - [MESSAGE][PASSED] - PASSED: East Asian Chips button present on the screen
+
+2022-06-29 15:51:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(Black, 30)): null
+
+2022-06-29 15:51:48 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Black African Descent' is present
+
+2022-06-29 15:51:48 - [TEST_STEP][PASSED] - tap(Black, 30): Tapped on element 'Object Repository/Ethnicity/Black African Descent'
+
+2022-06-29 15:51:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Black African Descent'
+
+2022-06-29 15:51:49 - [TEST_STEP][PASSED] - markPassed("PASSED: Black/African Descent Chips button present on the screen"): PASSED: Black/African Descent Chips button present on the screen
+
+2022-06-29 15:51:49 - [MESSAGE][PASSED] - PASSED: Black/African Descent Chips button present on the screen
+
+2022-06-29 15:51:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(Pacific_Islander, 30)): null
+
+2022-06-29 15:51:49 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Pacific Islander' is present
+
+2022-06-29 15:51:49 - [TEST_STEP][PASSED] - tap(Pacific_Islander, 30): Tapped on element 'Object Repository/Ethnicity/Pacific Islander'
+
+2022-06-29 15:51:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Pacific Islander'
+
+2022-06-29 15:51:50 - [TEST_STEP][PASSED] - markPassed("PASSED: Pacific_Islander Chips button present on the screen"): PASSED: Pacific_Islander Chips button present on the screen
+
+2022-06-29 15:51:50 - [MESSAGE][PASSED] - PASSED: Pacific_Islander Chips button present on the screen
+
+2022-06-29 15:51:50 - [TEST_STEP][PASSED] - if (waitForElementPresent(White, 30)): null
+
+2022-06-29 15:51:50 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/White Caucasian' is present
+
+2022-06-29 15:51:50 - [TEST_STEP][PASSED] - tap(White, 30): Tapped on element 'Object Repository/Ethnicity/White Caucasian'
+
+2022-06-29 15:51:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/White Caucasian'
+
+2022-06-29 15:51:51 - [TEST_STEP][PASSED] - markPassed("PASSED: White/Caucasian Chips button present on the screen"): PASSED: White/Caucasian Chips button present on the screen
+
+2022-06-29 15:51:51 - [MESSAGE][PASSED] - PASSED: White/Caucasian Chips button present on the screen
+
+2022-06-29 15:51:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(Middle, 30)): null
+
+2022-06-29 15:51:52 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Middle Eastern' is present
+
+2022-06-29 15:51:52 - [TEST_STEP][PASSED] - tap(Middle, 30): Tapped on element 'Object Repository/Ethnicity/Middle Eastern'
+
+2022-06-29 15:51:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Middle Eastern'
+
+2022-06-29 15:51:53 - [TEST_STEP][PASSED] - markPassed("PASSED: Middle Eastren Chips button present on the screen"): PASSED: Middle Eastren Chips button present on the screen
+
+2022-06-29 15:51:53 - [MESSAGE][PASSED] - PASSED: Middle Eastren Chips button present on the screen
+
+2022-06-29 15:51:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(Native, 30)): null
+
+2022-06-29 15:51:54 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Native American' is present
+
+2022-06-29 15:51:54 - [TEST_STEP][PASSED] - tap(Native, 30): Tapped on element 'Object Repository/Ethnicity/Native American'
+
+2022-06-29 15:51:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Native American'
+
+2022-06-29 15:51:55 - [TEST_STEP][PASSED] - markPassed("PASSED: Native American Chips button present on the screen"): PASSED: Native American Chips button present on the screen
+
+2022-06-29 15:51:55 - [MESSAGE][PASSED] - PASSED: Native American Chips button present on the screen
+
+2022-06-29 15:51:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(South, 30)): null
+
+2022-06-29 15:51:55 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/South Asian' is present
+
+2022-06-29 15:51:55 - [TEST_STEP][PASSED] - tap(South, 30): Tapped on element 'Object Repository/Ethnicity/South Asian'
+
+2022-06-29 15:51:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/South Asian'
+
+2022-06-29 15:51:56 - [TEST_STEP][PASSED] - markPassed("PASSED: South Asian Chips button present on the screen"): PASSED: South Asian Chips button present on the screen
+
+2022-06-29 15:51:56 - [MESSAGE][PASSED] - PASSED: South Asian Chips button present on the screen
+
+2022-06-29 15:51:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(Prefer, 30)): null
+
+2022-06-29 15:51:56 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Perfer not to say' is present
+
+2022-06-29 15:51:56 - [TEST_STEP][PASSED] - tap(Prefer, 30): Tapped on element 'Object Repository/Ethnicity/Perfer not to say'
+
+2022-06-29 15:51:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Perfer not to say'
+
+2022-06-29 15:51:57 - [TEST_STEP][PASSED] - markPassed("PASSED: Prefer not to say Chips button present on the screen"): PASSED: Prefer not to say Chips button present on the screen
+
+2022-06-29 15:51:57 - [MESSAGE][PASSED] - PASSED: Prefer not to say Chips button present on the screen
+
+2022-06-29 15:51:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:51:58 - [MESSAGE][PASSED] - Element 'Object Repository/Ethnicity/Continue Button' is present
+
+2022-06-29 15:51:58 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Ethnicity/Continue Button'
+
+2022-06-29 15:51:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Ethnicity/Continue Button'
+
+2022-06-29 15:51:59 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-06-29 15:51:59 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Religion" time="17.99" classname="Test Cases/testing/Religion" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:51:59 - [TEST_CASE][PASSED] - Test Cases/testing/Religion: Test Cases/testing/Religion
+
+2022-06-29 15:52:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:52:01 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Back' is present
+
+2022-06-29 15:52:01 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:52:01 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:52:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(Book, 30)): null
+
+2022-06-29 15:52:02 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Book Icon' is present
+
+2022-06-29 15:52:02 - [TEST_STEP][PASSED] - markPassed("PASSED: Book icon present on the screen"): PASSED: Book icon present on the screen
+
+2022-06-29 15:52:02 - [MESSAGE][PASSED] - PASSED: Book icon present on the screen
+
+2022-06-29 15:52:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(What, 30)): null
+
+2022-06-29 15:52:02 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Whats your religion label text' is present
+
+2022-06-29 15:52:02 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text present on the screen"): PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:52:02 - [MESSAGE][PASSED] - PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:52:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(Sikh, 30)): null
+
+2022-06-29 15:52:03 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Sikh' is present
+
+2022-06-29 15:52:03 - [TEST_STEP][PASSED] - tap(Sikh, 30): Tapped on element 'Object Repository/Religion/Sikh'
+
+2022-06-29 15:52:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Sikh'
+
+2022-06-29 15:52:04 - [TEST_STEP][PASSED] - markPassed("PASSED: Sikh Chips button present on the screen"): PASSED: Sikh Chips button present on the screen
+
+2022-06-29 15:52:04 - [MESSAGE][PASSED] - PASSED: Sikh Chips button present on the screen
+
+2022-06-29 15:52:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(Hindu, 30)): null
+
+2022-06-29 15:52:05 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/hindu' is present
+
+2022-06-29 15:52:05 - [TEST_STEP][PASSED] - tap(Hindu, 30): Tapped on element 'Object Repository/Religion/hindu'
+
+2022-06-29 15:52:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/hindu'
+
+2022-06-29 15:52:06 - [TEST_STEP][PASSED] - markPassed("PASSED: Hindu Chips button present on the screen"): PASSED: Hindu Chips button present on the screen
+
+2022-06-29 15:52:06 - [MESSAGE][PASSED] - PASSED: Hindu Chips button present on the screen
+
+2022-06-29 15:52:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(Atheist, 30)): null
+
+2022-06-29 15:52:07 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Atheist' is present
+
+2022-06-29 15:52:07 - [TEST_STEP][PASSED] - tap(Atheist, 30): Tapped on element 'Object Repository/Religion/Atheist'
+
+2022-06-29 15:52:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Atheist'
+
+2022-06-29 15:52:07 - [TEST_STEP][PASSED] - markPassed("PASSED: Atheist Chips button present on the screen"): PASSED: Atheist Chips button present on the screen
+
+2022-06-29 15:52:07 - [MESSAGE][PASSED] - PASSED: Atheist Chips button present on the screen
+
+2022-06-29 15:52:07 - [TEST_STEP][PASSED] - if (waitForElementPresent(Spiritual, 30)): null
+
+2022-06-29 15:52:09 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Spiritual' is present
+
+2022-06-29 15:52:09 - [TEST_STEP][PASSED] - tap(Spiritual, 30): Tapped on element 'Object Repository/Religion/Spiritual'
+
+2022-06-29 15:52:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Spiritual'
+
+2022-06-29 15:52:09 - [TEST_STEP][PASSED] - markPassed("PASSED: Spiritual Chips button present on the screen"): PASSED: Spiritual Chips button present on the screen
+
+2022-06-29 15:52:09 - [MESSAGE][PASSED] - PASSED: Spiritual Chips button present on the screen
+
+2022-06-29 15:52:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(Christian, 30)): null
+
+2022-06-29 15:52:10 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Christian' is present
+
+2022-06-29 15:52:10 - [TEST_STEP][PASSED] - tap(Christian, 30): Tapped on element 'Object Repository/Religion/Christian'
+
+2022-06-29 15:52:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Christian'
+
+2022-06-29 15:52:10 - [TEST_STEP][PASSED] - markPassed("PASSED: Christian Chips button present on the screen"): PASSED: Christian Chips button present on the screen
+
+2022-06-29 15:52:10 - [MESSAGE][PASSED] - PASSED: Christian Chips button present on the screen
+
+2022-06-29 15:52:10 - [TEST_STEP][PASSED] - if (waitForElementPresent(Agnostic, 30)): null
+
+2022-06-29 15:52:11 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Agnostic' is present
+
+2022-06-29 15:52:11 - [TEST_STEP][PASSED] - tap(Agnostic, 30): Tapped on element 'Object Repository/Religion/Agnostic'
+
+2022-06-29 15:52:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Agnostic'
+
+2022-06-29 15:52:11 - [TEST_STEP][PASSED] - markPassed("PASSED: Agnostic Chips button present on the screen"): PASSED: Agnostic Chips button present on the screen
+
+2022-06-29 15:52:11 - [MESSAGE][PASSED] - PASSED: Agnostic Chips button present on the screen
+
+2022-06-29 15:52:11 - [TEST_STEP][PASSED] - if (waitForElementPresent(Buddhist, 30)): null
+
+2022-06-29 15:52:12 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Buddhist Taoist' is present
+
+2022-06-29 15:52:12 - [TEST_STEP][PASSED] - tap(Buddhist, 30): Tapped on element 'Object Repository/Religion/Buddhist Taoist'
+
+2022-06-29 15:52:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Buddhist Taoist'
+
+2022-06-29 15:52:12 - [TEST_STEP][PASSED] - markPassed("PASSED: Buddhist/Taosit Chips button present on the screen"): PASSED: Buddhist/Taosit Chips button present on the screen
+
+2022-06-29 15:52:12 - [MESSAGE][PASSED] - PASSED: Buddhist/Taosit Chips button present on the screen
+
+2022-06-29 15:52:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(Jewish, 30)): null
+
+2022-06-29 15:52:13 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Jewish' is present
+
+2022-06-29 15:52:13 - [TEST_STEP][PASSED] - tap(Jewish, 30): Tapped on element 'Object Repository/Religion/Jewish'
+
+2022-06-29 15:52:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Jewish'
+
+2022-06-29 15:52:13 - [TEST_STEP][PASSED] - markPassed("PASSED: Jewish Chips button present on the screen"): PASSED: Jewish Chips button present on the screen
+
+2022-06-29 15:52:13 - [MESSAGE][PASSED] - PASSED: Jewish Chips button present on the screen
+
+2022-06-29 15:52:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(Catholic, 30)): null
+
+2022-06-29 15:52:14 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Catholic' is present
+
+2022-06-29 15:52:14 - [TEST_STEP][PASSED] - tap(Catholic, 30): Tapped on element 'Object Repository/Religion/Catholic'
+
+2022-06-29 15:52:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Catholic'
+
+2022-06-29 15:52:15 - [TEST_STEP][PASSED] - markPassed("PASSED: Catholic Chips button present on the screen"): PASSED: Catholic Chips button present on the screen
+
+2022-06-29 15:52:15 - [MESSAGE][PASSED] - PASSED: Catholic Chips button present on the screen
+
+2022-06-29 15:52:15 - [TEST_STEP][PASSED] - if (waitForElementPresent(Muslim, 30)): null
+
+2022-06-29 15:52:15 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/Muslim' is present
+
+2022-06-29 15:52:15 - [TEST_STEP][PASSED] - tap(Muslim, 30): Tapped on element 'Object Repository/Religion/Muslim'
+
+2022-06-29 15:52:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/Muslim'
+
+2022-06-29 15:52:15 - [TEST_STEP][PASSED] - markPassed("PASSED: Muslim Chips button present on the screen"): PASSED: Muslim Chips button present on the screen
+
+2022-06-29 15:52:15 - [MESSAGE][PASSED] - PASSED: Muslim Chips button present on the screen
+
+2022-06-29 15:52:15 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:52:16 - [MESSAGE][PASSED] - Element 'Object Repository/Religion/continue Button' is present
+
+2022-06-29 15:52:16 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Religion/continue Button'
+
+2022-06-29 15:52:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Religion/continue Button'
+
+2022-06-29 15:52:17 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-06-29 15:52:17 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Relationship" time="10.311" classname="Test Cases/testing/Relationship" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:52:17 - [TEST_CASE][PASSED] - Test Cases/testing/Relationship: Test Cases/testing/Relationship
+
+2022-06-29 15:52:18 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:52:19 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Back' is present
+
+2022-06-29 15:52:19 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:52:19 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:52:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(Heart_Icon, 30)): null
+
+2022-06-29 15:52:19 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Heart icon' is present
+
+2022-06-29 15:52:19 - [TEST_STEP][PASSED] - markPassed("PASSED: Heart Icon present on the screen"): PASSED: Heart Icon present on the screen
+
+2022-06-29 15:52:19 - [MESSAGE][PASSED] - PASSED: Heart Icon present on the screen
+
+2022-06-29 15:52:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-06-29 15:52:20 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Whats your relationship status label text' is present
+
+2022-06-29 15:52:20 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text present on the screen"): PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:52:20 - [MESSAGE][PASSED] - PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:52:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(Never, 30)): null
+
+2022-06-29 15:52:20 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Never Married' is present
+
+2022-06-29 15:52:20 - [TEST_STEP][PASSED] - tap(Never, 30): Tapped on element 'Object Repository/Relationship/Never Married'
+
+2022-06-29 15:52:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship/Never Married'
+
+2022-06-29 15:52:21 - [TEST_STEP][PASSED] - markPassed("PASSED: Never Married Chips button present on the screen"): PASSED: Never Married Chips button present on the screen
+
+2022-06-29 15:52:21 - [MESSAGE][PASSED] - PASSED: Never Married Chips button present on the screen
+
+2022-06-29 15:52:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(Separated, 30)): null
+
+2022-06-29 15:52:22 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Separated' is present
+
+2022-06-29 15:52:22 - [TEST_STEP][PASSED] - tap(Separated, 30): Tapped on element 'Object Repository/Relationship/Separated'
+
+2022-06-29 15:52:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship/Separated'
+
+2022-06-29 15:52:23 - [TEST_STEP][PASSED] - markPassed("PASSED: Separated Chips button present on the screen"): PASSED: Separated Chips button present on the screen
+
+2022-06-29 15:52:23 - [MESSAGE][PASSED] - PASSED: Separated Chips button present on the screen
+
+2022-06-29 15:52:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(Divorced, 30)): null
+
+2022-06-29 15:52:23 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Divorced' is present
+
+2022-06-29 15:52:23 - [TEST_STEP][PASSED] - tap(Divorced, 30): Tapped on element 'Object Repository/Relationship/Divorced'
+
+2022-06-29 15:52:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship/Divorced'
+
+2022-06-29 15:52:24 - [TEST_STEP][PASSED] - markPassed("PASSED: Divorced Chips button present on the screen"): PASSED: Divorced Chips button present on the screen
+
+2022-06-29 15:52:24 - [MESSAGE][PASSED] - PASSED: Divorced Chips button present on the screen
+
+2022-06-29 15:52:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(Widowed, 30)): null
+
+2022-06-29 15:52:25 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Widowed' is present
+
+2022-06-29 15:52:25 - [TEST_STEP][PASSED] - tap(Widowed, 30): Tapped on element 'Object Repository/Relationship/Widowed'
+
+2022-06-29 15:52:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship/Widowed'
+
+2022-06-29 15:52:26 - [TEST_STEP][PASSED] - markPassed("PASSED: Widowed Chips button present on the screen"): PASSED: Widowed Chips button present on the screen
+
+2022-06-29 15:52:26 - [MESSAGE][PASSED] - PASSED: Widowed Chips button present on the screen
+
+2022-06-29 15:52:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(D_inProgress, 30)): null
+
+2022-06-29 15:52:26 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Divorce in Progress' is present
+
+2022-06-29 15:52:26 - [TEST_STEP][PASSED] - tap(D_inProgress, 30): Tapped on element 'Object Repository/Relationship/Divorce in Progress'
+
+2022-06-29 15:52:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship/Divorce in Progress'
+
+2022-06-29 15:52:27 - [TEST_STEP][PASSED] - markPassed("PASSED: Divorce in Progress Chips button present on the screen"): PASSED: Divorce in Progress Chips button present on the screen
+
+2022-06-29 15:52:27 - [MESSAGE][PASSED] - PASSED: Divorce in Progress Chips button present on the screen
+
+2022-06-29 15:52:27 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:52:27 - [MESSAGE][PASSED] - Element 'Object Repository/Relationship/Continue Button' is present
+
+2022-06-29 15:52:27 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Relationship/Continue Button'
+
+2022-06-29 15:52:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Relationship/Continue Button'
+
+2022-06-29 15:52:28 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-06-29 15:52:28 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Family Plan" time="17.691" classname="Test Cases/testing/Family Plan" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:52:28 - [TEST_CASE][PASSED] - Test Cases/testing/Family Plan: Test Cases/testing/Family Plan
+
+2022-06-29 15:52:28 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:52:30 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Back' is present
+
+2022-06-29 15:52:30 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:52:30 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:52:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(Smile_Icon, 30)): null
+
+2022-06-29 15:52:30 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Face icon' is present
+
+2022-06-29 15:52:30 - [TEST_STEP][PASSED] - markPassed("PASSED: Smile Icon present on the screen"): PASSED: Smile Icon present on the screen
+
+2022-06-29 15:52:30 - [MESSAGE][PASSED] - PASSED: Smile Icon present on the screen
+
+2022-06-29 15:52:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-06-29 15:52:30 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/What are your thoughts on children label text' is present
+
+2022-06-29 15:52:30 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats are... label text present on the screen"): PASSED: Whats are... label text present on the screen
+
+2022-06-29 15:52:30 - [MESSAGE][PASSED] - PASSED: Whats are... label text present on the screen
+
+2022-06-29 15:52:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(Do, 30)): null
+
+2022-06-29 15:52:31 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Do you have children label text' is present
+
+2022-06-29 15:52:31 - [TEST_STEP][PASSED] - tap(Do, 30): Tapped on element 'Object Repository/Family plan/Do you have children label text'
+
+2022-06-29 15:52:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/Do you have children label text'
+
+2022-06-29 15:52:32 - [TEST_STEP][PASSED] - markPassed("PASSED: Do you... label text present on the screen"): PASSED: Do you... label text present on the screen
+
+2022-06-29 15:52:32 - [MESSAGE][PASSED] - PASSED: Do you... label text present on the screen
+
+2022-06-29 15:52:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(I_dont, 30)): null
+
+2022-06-29 15:52:33 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/I dont have Children chips' is present
+
+2022-06-29 15:52:33 - [TEST_STEP][PASSED] - tap(I_dont, 30): Tapped on element 'Object Repository/Family plan/I dont have Children chips'
+
+2022-06-29 15:52:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/I dont have Children chips'
+
+2022-06-29 15:52:34 - [TEST_STEP][PASSED] - markPassed("PASSED: I dont have Children Chips button present on the screen"): PASSED: I dont have Children Chips button present on the screen
+
+2022-06-29 15:52:34 - [MESSAGE][PASSED] - PASSED: I dont have Children Chips button present on the screen
+
+2022-06-29 15:52:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(I_have, 30)): null
+
+2022-06-29 15:52:34 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/I have Children Chips' is present
+
+2022-06-29 15:52:34 - [TEST_STEP][PASSED] - tap(I_have, 30): Tapped on element 'Object Repository/Family plan/I have Children Chips'
+
+2022-06-29 15:52:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/I have Children Chips'
+
+2022-06-29 15:52:35 - [TEST_STEP][PASSED] - markPassed("PASSED: I have Children Chips button present on the screen"): PASSED: I have Children Chips button present on the screen
+
+2022-06-29 15:52:35 - [MESSAGE][PASSED] - PASSED: I have Children Chips button present on the screen
+
+2022-06-29 15:52:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(What_are, 30)): null
+
+2022-06-29 15:52:36 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/What are your family plans label text' is present
+
+2022-06-29 15:52:36 - [TEST_STEP][PASSED] - tap(What_are, 30): Tapped on element 'Object Repository/Family plan/What are your family plans label text'
+
+2022-06-29 15:52:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/What are your family plans label text'
+
+2022-06-29 15:52:37 - [TEST_STEP][PASSED] - markPassed("PASSED: What are Your Family plans label text present on the screen"): PASSED: What are Your Family plans label text present on the screen
+
+2022-06-29 15:52:37 - [MESSAGE][PASSED] - PASSED: What are Your Family plans label text present on the screen
+
+2022-06-29 15:52:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(I_dont_have, 30)): null
+
+2022-06-29 15:52:37 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/I dont want Children chips' is present
+
+2022-06-29 15:52:37 - [TEST_STEP][PASSED] - tap(I_dont_have, 30): Tapped on element 'Object Repository/Family plan/I dont want Children chips'
+
+2022-06-29 15:52:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/I dont want Children chips'
+
+2022-06-29 15:52:38 - [TEST_STEP][PASSED] - markPassed("PASSED:  I dont want children Chips button present on the screen"): PASSED:  I dont want children Chips button present on the screen
+
+2022-06-29 15:52:38 - [MESSAGE][PASSED] - PASSED:  I dont want children Chips button present on the screen
+
+2022-06-29 15:52:38 - [TEST_STEP][PASSED] - if (waitForElementPresent(Open_to, 30)): null
+
+2022-06-29 15:52:40 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/I m open to Children' is present
+
+2022-06-29 15:52:40 - [TEST_STEP][PASSED] - tap(Open_to, 30): Tapped on element 'Object Repository/Family plan/I m open to Children'
+
+2022-06-29 15:52:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/I m open to Children'
+
+2022-06-29 15:52:40 - [TEST_STEP][PASSED] - markPassed("PASSED: I m open to children Chips button present on the screen"): PASSED: I m open to children Chips button present on the screen
+
+2022-06-29 15:52:40 - [MESSAGE][PASSED] - PASSED: I m open to children Chips button present on the screen
+
+2022-06-29 15:52:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(Want_children, 30)): null
+
+2022-06-29 15:52:41 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/I want Children Chips' is present
+
+2022-06-29 15:52:41 - [TEST_STEP][PASSED] - tap(Want_children, 30): Tapped on element 'Object Repository/Family plan/I want Children Chips'
+
+2022-06-29 15:52:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/I want Children Chips'
+
+2022-06-29 15:52:42 - [TEST_STEP][PASSED] - markPassed("PASSED: I want Children Chips button present on the screen"): PASSED: I want Children Chips button present on the screen
+
+2022-06-29 15:52:42 - [MESSAGE][PASSED] - PASSED: I want Children Chips button present on the screen
+
+2022-06-29 15:52:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:52:43 - [MESSAGE][PASSED] - Element 'Object Repository/Family plan/Continue Button' is present
+
+2022-06-29 15:52:43 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Family plan/Continue Button'
+
+2022-06-29 15:52:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Family plan/Continue Button'
+
+2022-06-29 15:52:45 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-06-29 15:52:45 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Education" time="14.269" classname="Test Cases/testing/Education" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:52:45 - [TEST_CASE][PASSED] - Test Cases/testing/Education: Test Cases/testing/Education
+
+2022-06-29 15:52:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:52:47 - [MESSAGE][PASSED] - Element 'Object Repository/Education/Back Button' is present
+
+2022-06-29 15:52:47 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:52:47 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:52:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(Edu_hut_Icon, 30)): null
+
+2022-06-29 15:52:48 - [MESSAGE][PASSED] - Element 'Object Repository/Education/Hat icon' is present
+
+2022-06-29 15:52:48 - [TEST_STEP][PASSED] - markPassed("PASSED: Hat Icon present on the screen"): PASSED: Hat Icon present on the screen
+
+2022-06-29 15:52:48 - [MESSAGE][PASSED] - PASSED: Hat Icon present on the screen
+
+2022-06-29 15:52:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(Whats, 30)): null
+
+2022-06-29 15:52:48 - [MESSAGE][PASSED] - Element 'Object Repository/Education/Whats your education background label text' is present
+
+2022-06-29 15:52:48 - [TEST_STEP][PASSED] - markPassed("PASSED: Whats your... label text present on the screen"): PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:52:48 - [MESSAGE][PASSED] - PASSED: Whats your... label text present on the screen
+
+2022-06-29 15:52:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(Some, 30)): null
+
+2022-06-29 15:52:49 - [MESSAGE][PASSED] - Element 'Object Repository/Education/Some college Chips' is present
+
+2022-06-29 15:52:49 - [TEST_STEP][PASSED] - tap(Some, 30): Tapped on element 'Object Repository/Education/Some college Chips'
+
+2022-06-29 15:52:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Some college Chips'
+
+2022-06-29 15:52:51 - [TEST_STEP][PASSED] - markPassed("PASSED: Some College Chips button present on the screen"): PASSED: Some College Chips button present on the screen
+
+2022-06-29 15:52:51 - [MESSAGE][PASSED] - PASSED: Some College Chips button present on the screen
+
+2022-06-29 15:52:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(PHD, 30)): null
+
+2022-06-29 15:52:51 - [MESSAGE][PASSED] - Element 'Object Repository/Education/Phd Doctoral Chips' is present
+
+2022-06-29 15:52:51 - [TEST_STEP][PASSED] - tap(PHD, 30): Tapped on element 'Object Repository/Education/Phd Doctoral Chips'
+
+2022-06-29 15:52:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Phd Doctoral Chips'
+
+2022-06-29 15:52:52 - [TEST_STEP][PASSED] - markPassed("PASSED: PHD/Doctoral Chips button present on the screen"): PASSED: PHD/Doctoral Chips button present on the screen
+
+2022-06-29 15:52:52 - [MESSAGE][PASSED] - PASSED: PHD/Doctoral Chips button present on the screen
+
+2022-06-29 15:52:52 - [TEST_STEP][PASSED] - if (waitForElementPresent(High, 30)): null
+
+2022-06-29 15:52:53 - [MESSAGE][PASSED] - Element 'Object Repository/Education/HS Diploma Chips' is present
+
+2022-06-29 15:52:53 - [TEST_STEP][PASSED] - tap(High, 30): Tapped on element 'Object Repository/Education/HS Diploma Chips'
+
+2022-06-29 15:52:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/HS Diploma Chips'
+
+2022-06-29 15:52:54 - [TEST_STEP][PASSED] - markPassed("PASSED: High School Diploma Chips button present on the screen"): PASSED: High School Diploma Chips button present on the screen
+
+2022-06-29 15:52:54 - [MESSAGE][PASSED] - PASSED: High School Diploma Chips button present on the screen
+
+2022-06-29 15:52:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(College, 30)): null
+
+2022-06-29 15:52:55 - [MESSAGE][PASSED] - Element 'Object Repository/Education/College Degree Chips' is present
+
+2022-06-29 15:52:55 - [TEST_STEP][PASSED] - tap(College, 30): Tapped on element 'Object Repository/Education/College Degree Chips'
+
+2022-06-29 15:52:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/College Degree Chips'
+
+2022-06-29 15:52:57 - [TEST_STEP][PASSED] - markPassed("PASSED: College Degree Chips button present on the screen"): PASSED: College Degree Chips button present on the screen
+
+2022-06-29 15:52:57 - [MESSAGE][PASSED] - PASSED: College Degree Chips button present on the screen
+
+2022-06-29 15:52:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(Graduate, 30)): null
+
+2022-06-29 15:52:57 - [MESSAGE][PASSED] - Element 'Object Repository/Education/Graduate Professtional Degree Chips' is present
+
+2022-06-29 15:52:57 - [TEST_STEP][PASSED] - tap(Graduate, 30): Tapped on element 'Object Repository/Education/Graduate Professtional Degree Chips'
+
+2022-06-29 15:52:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Graduate Professtional Degree Chips'
+
+2022-06-29 15:52:58 - [TEST_STEP][PASSED] - markPassed("PASSED: Graduate Professional Degree Chips button present on the screen"): PASSED: Graduate Professional Degree Chips button present on the screen
+
+2022-06-29 15:52:58 - [MESSAGE][PASSED] - PASSED: Graduate Professional Degree Chips button present on the screen
+
+2022-06-29 15:52:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:52:59 - [MESSAGE][PASSED] - Element 'Object Repository/Education/Continue' is present
+
+2022-06-29 15:52:59 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Education/Continue'
+
+2022-06-29 15:53:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Education/Continue'
+
+2022-06-29 15:53:00 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue button present on the screen"): PASSED: Continue button present on the screen
+
+2022-06-29 15:53:00 - [MESSAGE][PASSED] - PASSED: Continue button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Vices" time="1.008" classname="Test Cases/testing/Vices" status="FAILED">
+         <failure type="FAILED" message="Test Cases/testing/Vices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to wait for element ''{0}'' present (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-06-29 15:53:03 - [TEST_CASE][FAILED] - Test Cases/testing/Vices: Test Cases/testing/Vices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to wait for element ''{0}'' present (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 22 more
+
+
+2022-06-29 15:53:03 - [TEST_STEP][FAILED] - if (waitForElementPresent(Back, 30)): Failed to wait for element ''{0}'' present (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+)
+
+2022-06-29 15:53:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-29 15:53:04 - [MESSAGE][FAILED] - Failed to wait for element ''{0}'' present (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+)
+[[ATTACHMENT|/Users/pc/Documents/Katalon Studio/SpotLove_Stagging/Reports/20220629_154822/SpotLove Sanity/20220629_154822/1656499983769.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-29 15:53:03 - [TEST_CASE][FAILED] - Test Cases/testing/Vices: Test Cases/testing/Vices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to wait for element ''{0}'' present (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementPresent(MobileBuiltInKeywords.groovy:1689)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementPresent$0.call(Unknown Source)
+	at Vices.run(Vices:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:70)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Politices" time="20.594" classname="Test Cases/testing/Politices" status="PASSED">
+         <system-out><![CDATA[2022-06-29 15:54:06 - [TEST_CASE][PASSED] - Test Cases/testing/Politices: Test Cases/testing/Politices
+
+2022-06-29 15:54:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(Back, 30)): null
+
+2022-06-29 15:54:12 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/Back' is present
+
+2022-06-29 15:54:12 - [TEST_STEP][PASSED] - markPassed("PASSED: Back button present on the screen"): PASSED: Back button present on the screen
+
+2022-06-29 15:54:12 - [MESSAGE][PASSED] - PASSED: Back button present on the screen
+
+2022-06-29 15:54:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(Politice_Home, 30)): null
+
+2022-06-29 15:54:13 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/Hut Icon' is present
+
+2022-06-29 15:54:13 - [TEST_STEP][PASSED] - markPassed("PASSED: Politice Icon present on the screen"): PASSED: Politice Icon present on the screen
+
+2022-06-29 15:54:13 - [MESSAGE][PASSED] - PASSED: Politice Icon present on the screen
+
+2022-06-29 15:54:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(What, 30)): null
+
+2022-06-29 15:54:14 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/What are your political views label text' is present
+
+2022-06-29 15:54:14 - [TEST_STEP][PASSED] - markPassed("PASSED: What are... label text present on the screen"): PASSED: What are... label text present on the screen
+
+2022-06-29 15:54:14 - [MESSAGE][PASSED] - PASSED: What are... label text present on the screen
+
+2022-06-29 15:54:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(Liberal, 30)): null
+
+2022-06-29 15:54:15 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/Liberal Chips' is present
+
+2022-06-29 15:54:15 - [TEST_STEP][PASSED] - tap(Liberal, 30): Tapped on element 'Object Repository/Politics/Liberal Chips'
+
+2022-06-29 15:54:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Politics/Liberal Chips'
+
+2022-06-29 15:54:16 - [TEST_STEP][PASSED] - markPassed("PASSED: Liberal Chips button present on the screen"): PASSED: Liberal Chips button present on the screen
+
+2022-06-29 15:54:16 - [MESSAGE][PASSED] - PASSED: Liberal Chips button present on the screen
+
+2022-06-29 15:54:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(Conservative, 30)): null
+
+2022-06-29 15:54:17 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/Conservative Chips' is present
+
+2022-06-29 15:54:17 - [TEST_STEP][PASSED] - tap(Conservative, 30): Tapped on element 'Object Repository/Politics/Conservative Chips'
+
+2022-06-29 15:54:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Politics/Conservative Chips'
+
+2022-06-29 15:54:18 - [TEST_STEP][PASSED] - markPassed("PASSED: Conservative Chips button present on the screen"): PASSED: Conservative Chips button present on the screen
+
+2022-06-29 15:54:18 - [MESSAGE][PASSED] - PASSED: Conservative Chips button present on the screen
+
+2022-06-29 15:54:18 - [TEST_STEP][PASSED] - if (waitForElementPresent(Moderate, 30)): null
+
+2022-06-29 15:54:19 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/Moderate Chips' is present
+
+2022-06-29 15:54:19 - [TEST_STEP][PASSED] - tap(Moderate, 30): Tapped on element 'Object Repository/Politics/Moderate Chips'
+
+2022-06-29 15:54:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Politics/Moderate Chips'
+
+2022-06-29 15:54:21 - [TEST_STEP][PASSED] - markPassed("PASSED: Moderate Chips button present on the screen"): PASSED: Moderate Chips button present on the screen
+
+2022-06-29 15:54:21 - [MESSAGE][PASSED] - PASSED: Moderate Chips button present on the screen
+
+2022-06-29 15:54:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(Apolitical, 30)): null
+
+2022-06-29 15:54:22 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/Apolitical Chips' is present
+
+2022-06-29 15:54:22 - [TEST_STEP][PASSED] - tap(Apolitical, 30): Tapped on element 'Object Repository/Politics/Apolitical Chips'
+
+2022-06-29 15:54:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Politics/Apolitical Chips'
+
+2022-06-29 15:54:24 - [TEST_STEP][PASSED] - markPassed("PASSED: Apolitical Chips button present on the screen"): PASSED: Apolitical Chips button present on the screen
+
+2022-06-29 15:54:24 - [MESSAGE][PASSED] - PASSED: Apolitical Chips button present on the screen
+
+2022-06-29 15:54:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(Continue, 30)): null
+
+2022-06-29 15:54:25 - [MESSAGE][PASSED] - Element 'Object Repository/Politics/Continue Button' is present
+
+2022-06-29 15:54:25 - [TEST_STEP][PASSED] - tap(Continue, 30): Tapped on element 'Object Repository/Politics/Continue Button'
+
+2022-06-29 15:54:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Politics/Continue Button'
+
+2022-06-29 15:54:27 - [TEST_STEP][PASSED] - markPassed("PASSED: Continue Chips button present on the screen"): PASSED: Continue Chips button present on the screen
+
+2022-06-29 15:54:27 - [MESSAGE][PASSED] - PASSED: Continue Chips button present on the screen]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/testing/Gallery" time="52.161" classname="Test Cases/testing/Gallery" status="FAILED">
+         <failure type="FAILED" message="Test Cases/testing/Gallery FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAILED: Open Camera Button is not present on the screen
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Gallery.run(Gallery:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-29 15:56:43 - [TEST_CASE][FAILED] - Test Cases/testing/Gallery: Test Cases/testing/Gallery FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAILED: Open Camera Button is not present on the screen
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Gallery.run(Gallery:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)
+
+
+2022-06-29 15:56:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(Gallery_Icon, 30)): null
+
+2022-06-29 15:56:43 - [MESSAGE][PASSED] - Element 'Object Repository/Gallery screen/Gallery Icon' is present
+
+2022-06-29 15:56:43 - [TEST_STEP][PASSED] - markPassed("PASSED: Gallery Icon present on the screen"): PASSED: Gallery Icon present on the screen
+
+2022-06-29 15:56:43 - [MESSAGE][PASSED] - PASSED: Gallery Icon present on the screen
+
+2022-06-29 15:56:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(Add, 30)): null
+
+2022-06-29 15:57:04 - [MESSAGE][PASSED] - Element 'Object Repository/Gallery screen/Add profile photos label text' is present
+
+2022-06-29 15:57:04 - [TEST_STEP][PASSED] - markPassed("PASSED: Add Profile... label text present on the screen"): PASSED: Add Profile... label text present on the screen
+
+2022-06-29 15:57:04 - [MESSAGE][PASSED] - PASSED: Add Profile... label text present on the screen
+
+2022-06-29 15:57:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(Add1, 30)): null
+
+2022-06-29 15:57:04 - [MESSAGE][PASSED] - Element 'Object Repository/Gallery screen/Add 3 photos to continue label text' is present
+
+2022-06-29 15:57:04 - [TEST_STEP][PASSED] - markPassed("PASSED: Add 3 Profile... label text present on the screen"): PASSED: Add 3 Profile... label text present on the screen
+
+2022-06-29 15:57:04 - [MESSAGE][PASSED] - PASSED: Add 3 Profile... label text present on the screen
+
+2022-06-29 15:57:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(Main, 30)): null
+
+2022-06-29 15:57:04 - [MESSAGE][PASSED] - Element 'Object Repository/Gallery screen/MAIN PHOTO label text' is present
+
+2022-06-29 15:57:04 - [TEST_STEP][PASSED] - markPassed("PASSED: Main Photo label text present on the screen"): PASSED: Main Photo label text present on the screen
+
+2022-06-29 15:57:04 - [MESSAGE][PASSED] - PASSED: Main Photo label text present on the screen
+
+2022-06-29 15:57:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(Pic_Picker, 30)): null
+
+2022-06-29 15:57:04 - [MESSAGE][PASSED] - Element 'Object Repository/Gallery screen/Pic picker block' is present
+
+2022-06-29 15:57:04 - [TEST_STEP][PASSED] - tap(Pic_Picker, 30): Tapped on element 'Object Repository/Gallery screen/Pic picker block'
+
+2022-06-29 15:57:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Gallery screen/Pic picker block'
+
+2022-06-29 15:57:05 - [TEST_STEP][PASSED] - markPassed("PASSED: Pic Picker Button present on the screen"): PASSED: Pic Picker Button present on the screen
+
+2022-06-29 15:57:05 - [MESSAGE][PASSED] - PASSED: Pic Picker Button present on the screen
+
+2022-06-29 15:57:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(Open_Camera, 30)): Object Object Repository/Gallery screen/Open Camera button not found
+
+2022-06-29 15:57:35 - [MESSAGE][WARNING] - Object Object Repository/Gallery screen/Open Camera button not found
+
+2022-06-29 15:57:35 - [TEST_STEP][FAILED] - else: FAILED: Open Camera Button is not present on the screen
+
+2022-06-29 15:57:35 - [TEST_STEP][FAILED] - markFailed("FAILED: Open Camera Button is not present on the screen"): FAILED: Open Camera Button is not present on the screen
+
+2022-06-29 15:57:35 - [MESSAGE][FAILED] - FAILED: Open Camera Button is not present on the screen]]></system-out>
+         <system-err><![CDATA[2022-06-29 15:56:43 - [TEST_CASE][FAILED] - Test Cases/testing/Gallery: Test Cases/testing/Gallery FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAILED: Open Camera Button is not present on the screen
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Gallery.run(Gallery:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-29 15:48:39 - [TEST_SUITE][FAILED] - SpotLove Sanity: Test Cases/testing/Into FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAILED: Back button is not present on the screen
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Into.run(Into:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-06-29 15:48:39 - [TEST_SUITE][FAILED] - SpotLove Sanity: Test Cases/testing/Into FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAILED: Back button is not present on the screen
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Into.run(Into:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656499702954.run(TempTestSuite1656499702954.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

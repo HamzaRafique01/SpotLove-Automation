@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2022-11-28 12:16:40,2022-11-28 12:17:27,46.421s,FAILED
+,,,,,,,
+Test Cases/Smoke/TC_002 Onboard,,,,2022-11-28 12:16:41,2022-11-28 12:17:27,46.022s,FAILED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-28 12:16:41,2022-11-28 12:17:27,45.546s,FAILED
