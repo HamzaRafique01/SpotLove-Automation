@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-06 OTP Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72c21c6f-3db3-4392-945a-e040754dc18d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48d5303f-6414-4e52-a0ca-e75cf1805c83</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>416b014e-5099-4a99-a5c6-f39b5b331278</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b22767ec-0a0f-49f9-83ca-27e21897d9df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90e6a263-de8f-45a7-a0e6-4d5c35757453</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e061f9f-54b3-4650-bd0d-9c236cb16f98</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-006 OTP Screen/Logo Spotlove')</defaultValue>
+      <description></description>
+      <id>48d5303f-6414-4e52-a0ca-e75cf1805c83</id>
+      <masked>false</masked>
+      <name>spotlove_logo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-006 OTP Screen/btn back')</defaultValue>
+      <description></description>
+      <id>416b014e-5099-4a99-a5c6-f39b5b331278</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-006 OTP Screen/Lbl text - Enter your verification code')</defaultValue>
+      <description></description>
+      <id>b22767ec-0a0f-49f9-83ca-27e21897d9df</id>
+      <masked>false</masked>
+      <name>lbl_first_text</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-006 OTP Screen/Lbl text - Weve sent a pin to Phone Number')</defaultValue>
+      <description></description>
+      <id>90e6a263-de8f-45a7-a0e6-4d5c35757453</id>
+      <masked>false</masked>
+      <name>lbl_Second_text</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-006 OTP Screen/Lbl text - Resend Code')</defaultValue>
+      <description></description>
+      <id>8e061f9f-54b3-4650-bd0d-9c236cb16f98</id>
+      <masked>false</masked>
+      <name>btn_Resend</name>
+   </variable>
+</TestCaseEntity>

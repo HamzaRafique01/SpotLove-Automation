@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-07 Welcome To SpotLove</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad988b0a-efcd-4750-a7f8-ace6ece72a32</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3923c1d0-4ae4-420e-aa29-ccbdaae4b22d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c2097c8-8937-4c16-a742-b76d0b36a51b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b3b1d82-92b1-4270-95d8-706d72cd3d7f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9d3d14a-cb20-477a-8576-d26370904254</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d9334c8-5b76-4ecd-ad7a-86701f13f090</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4b74215-5e05-4487-b392-ebb80f2e6ca1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42265dea-f1e4-4364-a6ed-9c61327da6a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9505ad08-e731-4f73-965e-a35b9b6e114c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>286ef301-690d-44ad-90e7-022a4a1e070c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>63ef4834-502f-401d-a736-01b1df338753</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9da3a59-c142-4a9d-974c-3bdfdd19769c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2f05f48-89bc-495d-b79c-354deb94d1bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e449956f-f93d-47de-b783-9146b1bf01fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d053db2-3b49-4eb7-82bf-17310835f56c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67761169-1028-49b3-8b20-7f54684b5b45</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Logo spotlove')</defaultValue>
+      <description></description>
+      <id>3923c1d0-4ae4-420e-aa29-ccbdaae4b22d</id>
+      <masked>false</masked>
+      <name>Logo_Spotlove</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl text - Welcome to Spot.Love')</defaultValue>
+      <description></description>
+      <id>8c2097c8-8937-4c16-a742-b76d0b36a51b</id>
+      <masked>false</masked>
+      <name>lbl_txt_first</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl Text - Please follow these house rules')</defaultValue>
+      <description></description>
+      <id>9b3b1d82-92b1-4270-95d8-706d72cd3d7f</id>
+      <masked>false</masked>
+      <name>lbl_txt_Sec</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/First Heart Icon')</defaultValue>
+      <description></description>
+      <id>f9d3d14a-cb20-477a-8576-d26370904254</id>
+      <masked>false</masked>
+      <name>first_heart_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl text - Be kind')</defaultValue>
+      <description></description>
+      <id>0d9334c8-5b76-4ecd-ad7a-86701f13f090</id>
+      <masked>false</masked>
+      <name>Be_kind_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl text - Treat everyone with respect andkindness')</defaultValue>
+      <description></description>
+      <id>b4b74215-5e05-4487-b392-ebb80f2e6ca1</id>
+      <masked>false</masked>
+      <name>Treat_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Second Heart Icon')</defaultValue>
+      <description></description>
+      <id>42265dea-f1e4-4364-a6ed-9c61327da6a5</id>
+      <masked>false</masked>
+      <name>Second_heart_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl text - Be yourself')</defaultValue>
+      <description></description>
+      <id>9505ad08-e731-4f73-965e-a35b9b6e114c</id>
+      <masked>false</masked>
+      <name>Be_your_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl text - Be honest about your age, photos, andbio')</defaultValue>
+      <description></description>
+      <id>286ef301-690d-44ad-90e7-022a4a1e070c</id>
+      <masked>false</masked>
+      <name>Be_honest_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Third Heart Icon')</defaultValue>
+      <description></description>
+      <id>63ef4834-502f-401d-a736-01b1df338753</id>
+      <masked>false</masked>
+      <name>Third_heart_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl text - Be outspoken')</defaultValue>
+      <description></description>
+      <id>f9da3a59-c142-4a9d-974c-3bdfdd19769c</id>
+      <masked>false</masked>
+      <name>Be_out_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Lbl text - Always report bad behavior')</defaultValue>
+      <description></description>
+      <id>d2f05f48-89bc-495d-b79c-354deb94d1bf</id>
+      <masked>false</masked>
+      <name>Always_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/Text - Terms And Conditions')</defaultValue>
+      <description></description>
+      <id>e449956f-f93d-47de-b783-9146b1bf01fc</id>
+      <masked>false</masked>
+      <name>View_term</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/btn I Agree')</defaultValue>
+      <description></description>
+      <id>9d053db2-3b49-4eb7-82bf-17310835f56c</id>
+      <masked>false</masked>
+      <name>btn_Agree</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/Heart Icon')</defaultValue>
+      <description></description>
+      <id>67761169-1028-49b3-8b20-7f54684b5b45</id>
+      <masked>false</masked>
+      <name>Source_heart</name>
+   </variable>
+</TestCaseEntity>

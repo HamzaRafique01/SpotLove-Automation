@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-09 First Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52aeba34-17dd-48da-b726-47bb1329777b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b54da482-3a31-48ae-86fe-26749d7f572d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>231441cb-1b93-4f62-a7d2-8ad1aa408228</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d45ca83b-ea81-4fc2-a0b1-ca72356d0f68</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12291dfd-89e3-4323-bdb4-f8d339e2829b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7bae73b-f454-48f8-9d86-a3556762a0dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec9de7df-0542-4a66-a638-17f413ef8d49</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f27a6bb-39cf-4c36-84a5-021acd4350b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b13b297-9b8b-4777-ac51-6c875af9c03a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2622a12-0f2c-4bb7-a9af-2b71b001d961</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c3703f1-50da-4187-bf15-b34627016362</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/btn back')</defaultValue>
+      <description></description>
+      <id>b54da482-3a31-48ae-86fe-26749d7f572d</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/Heart Icon')</defaultValue>
+      <description></description>
+      <id>231441cb-1b93-4f62-a7d2-8ad1aa408228</id>
+      <masked>false</masked>
+      <name>Heart_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Contact icon')</defaultValue>
+      <description></description>
+      <id>d45ca83b-ea81-4fc2-a0b1-ca72356d0f68</id>
+      <masked>false</masked>
+      <name>Contact_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Lbl text - What should we call you')</defaultValue>
+      <description></description>
+      <id>12291dfd-89e3-4323-bdb4-f8d339e2829b</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Lbl text - Tell us your first name')</defaultValue>
+      <description></description>
+      <id>c7bae73b-f454-48f8-9d86-a3556762a0dc</id>
+      <masked>false</masked>
+      <name>lbl_tell</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Input name field')</defaultValue>
+      <description></description>
+      <id>ec9de7df-0542-4a66-a638-17f413ef8d49</id>
+      <masked>false</masked>
+      <name>First_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hamza'</defaultValue>
+      <description></description>
+      <id>5f27a6bb-39cf-4c36-84a5-021acd4350b5</id>
+      <masked>false</masked>
+      <name>S_First_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/btn Continue')</defaultValue>
+      <description></description>
+      <id>4b13b297-9b8b-4777-ac51-6c875af9c03a</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/btn Continue')</defaultValue>
+      <description></description>
+      <id>f2622a12-0f2c-4bb7-a9af-2b71b001d961</id>
+      <masked>false</masked>
+      <name>btn_Continue2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/cake Icon')</defaultValue>
+      <description></description>
+      <id>8c3703f1-50da-4187-bf15-b34627016362</id>
+      <masked>false</masked>
+      <name>cake_icon</name>
+   </variable>
+</TestCaseEntity>

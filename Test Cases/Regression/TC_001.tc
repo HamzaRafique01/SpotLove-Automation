@@ -9,26 +9,26 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3ec0de0c-227f-4365-9506-ef917bbb05dd</variableId>
+      <variableId>38795f3e-f577-4f0e-a413-072993ec776b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>02657c39-d558-483b-a5ae-84a08e8fdc6b</variableId>
+      <variableId>4f84d679-ec96-4640-b42c-b267e1379fe5</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-001 Intro 1/Middle Screen Pic')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-004 Sign In-Up screen/btn Continue with Phone number')</defaultValue>
       <description></description>
-      <id>3ec0de0c-227f-4365-9506-ef917bbb05dd</id>
+      <id>38795f3e-f577-4f0e-a413-072993ec776b</id>
       <masked>false</masked>
-      <name>intro_Screen_Image</name>
+      <name>btn_continue</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-004 Sign In-Up screen/Logo Spotlove')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-007 Welcome Onboard Screen/btn I Agree')</defaultValue>
       <description></description>
-      <id>02657c39-d558-483b-a5ae-84a08e8fdc6b</id>
+      <id>4f84d679-ec96-4640-b42c-b267e1379fe5</id>
       <masked>false</masked>
-      <name>spotlove_logo</name>
+      <name>Agree</name>
    </variable>
 </TestCaseEntity>

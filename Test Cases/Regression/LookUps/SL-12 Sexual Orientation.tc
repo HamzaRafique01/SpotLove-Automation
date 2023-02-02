@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-12 Sexual Orientation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae029635-9e23-4085-85d3-82703649a631</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c3a5654-cbe1-49bc-be89-6b77383d1412</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cde76b43-e3ce-40f9-b87e-ffb343df7aa0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>424b8fa4-36a5-4f3e-97fc-e755134da86c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27e0d79c-b975-42d4-b9e7-d507bfc4f6c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee408555-b064-4ef0-81a3-c0dbb79f95dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1aa6b758-68fb-46ec-b37c-f296fc33c175</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f1e9e82-bb3d-4b1b-839c-cbc63b4ea6b3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5237cca4-fb44-4263-a288-ba580ea9cb39</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/btn back')</defaultValue>
+      <description></description>
+      <id>0c3a5654-cbe1-49bc-be89-6b77383d1412</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/Mirror Icon')</defaultValue>
+      <description></description>
+      <id>cde76b43-e3ce-40f9-b87e-ffb343df7aa0</id>
+      <masked>false</masked>
+      <name>mirror_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/btn Continue')</defaultValue>
+      <description></description>
+      <id>424b8fa4-36a5-4f3e-97fc-e755134da86c</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/Person Icon')</defaultValue>
+      <description></description>
+      <id>27e0d79c-b975-42d4-b9e7-d507bfc4f6c5</id>
+      <masked>false</masked>
+      <name>profile_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/Lbl text - Who are you into')</defaultValue>
+      <description></description>
+      <id>ee408555-b064-4ef0-81a3-c0dbb79f95dd</id>
+      <masked>false</masked>
+      <name>lbl_Who</name>
+   </variable>
+   <variable>
+      <defaultValue>['Male', 'Nonbinary']</defaultValue>
+      <description></description>
+      <id>1aa6b758-68fb-46ec-b37c-f296fc33c175</id>
+      <masked>false</masked>
+      <name>random</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/btn continue')</defaultValue>
+      <description></description>
+      <id>6f1e9e82-bb3d-4b1b-839c-cbc63b4ea6b3</id>
+      <masked>false</masked>
+      <name>btn_S_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/scale icon')</defaultValue>
+      <description></description>
+      <id>5237cca4-fb44-4263-a288-ba580ea9cb39</id>
+      <masked>false</masked>
+      <name>Scale_icon</name>
+   </variable>
+</TestCaseEntity>

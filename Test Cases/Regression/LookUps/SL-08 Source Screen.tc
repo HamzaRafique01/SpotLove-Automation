@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-08 Source Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>149afdb5-ae41-45e2-96c6-da3fa842b00e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a367ed43-fba3-4147-9d0a-eafe7efeb501</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e743b1ca-6527-4188-867c-1e1c8fae51ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a9efdd7-79c8-4a84-ba03-3c18b258092e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3580026f-10c0-4386-a36a-d917ff1134ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a313945-1cc5-4cc8-a782-c3f2e376f406</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd5b3e70-3372-43ed-b9e2-79d3817f8409</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8011713-3ef2-4775-88aa-e4aa729d79e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/Heart Icon')</defaultValue>
+      <description></description>
+      <id>a367ed43-fba3-4147-9d0a-eafe7efeb501</id>
+      <masked>false</masked>
+      <name>Source_heart</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/Lbl text - How did you hear about us')</defaultValue>
+      <description></description>
+      <id>e743b1ca-6527-4188-867c-1e1c8fae51ff</id>
+      <masked>false</masked>
+      <name>lbl_how</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/lbl text - Referral')</defaultValue>
+      <description></description>
+      <id>8a9efdd7-79c8-4a84-ba03-3c18b258092e</id>
+      <masked>false</masked>
+      <name>lbl_Referral</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/lbl text - Do you have a referral code')</defaultValue>
+      <description></description>
+      <id>3580026f-10c0-4386-a36a-d917ff1134ff</id>
+      <masked>false</masked>
+      <name>lbl_Do</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/lbl text - Referral Code')</defaultValue>
+      <description></description>
+      <id>0a313945-1cc5-4cc8-a782-c3f2e376f406</id>
+      <masked>false</masked>
+      <name>lbl_code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Contact icon')</defaultValue>
+      <description></description>
+      <id>dd5b3e70-3372-43ed-b9e2-79d3817f8409</id>
+      <masked>false</masked>
+      <name>card_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/btn Continue')</defaultValue>
+      <description></description>
+      <id>e8011713-3ef2-4775-88aa-e4aa729d79e6</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+</TestCaseEntity>

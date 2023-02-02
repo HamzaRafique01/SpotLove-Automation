@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-10 Birth date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4417d2f3-af52-437b-b1c1-51feaba8a586</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>411ba28f-1d6a-427d-9c5b-6f28f59e4b7a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c92aca86-93f0-4b97-93a3-2c253a356c25</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9e86ab7-6035-4a3b-8c78-d602f4885e5a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c56db144-95b0-4e55-9901-870647706c17</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc6b3c18-4e13-483f-b2a3-8dc4f76cf3c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>272e4351-ddfa-4e07-8467-1cba1e30e9c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1525c873-6ec0-4fad-bc1b-e2e08566bc73</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67a7564d-7046-427c-9b08-e237d3fad273</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>526f951a-71fc-49b8-a38b-cb31beaff96a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9080a6b8-1a09-45f8-9f57-da8d44312882</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>811ea373-f439-44cd-8523-352eadf445cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc49688f-c790-4320-aebc-58436cb4809c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6c001ea-f4bc-4750-937c-d3b09114ec06</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6a7d7f4-7466-4e74-a1b6-7afa9c887908</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75439984-ce1d-4b4d-8b42-085b77cdad98</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn back')</defaultValue>
+      <description></description>
+      <id>411ba28f-1d6a-427d-9c5b-6f28f59e4b7a</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Lbl text - What should we call you')</defaultValue>
+      <description></description>
+      <id>c92aca86-93f0-4b97-93a3-2c253a356c25</id>
+      <masked>false</masked>
+      <name>Contact_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/cake Icon')</defaultValue>
+      <description></description>
+      <id>e9e86ab7-6035-4a3b-8c78-d602f4885e5a</id>
+      <masked>false</masked>
+      <name>Cake_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/Lbl text - Whats your date of birth')</defaultValue>
+      <description></description>
+      <id>c56db144-95b0-4e55-9901-870647706c17</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/Age Confirmation')</defaultValue>
+      <description></description>
+      <id>dc6b3c18-4e13-483f-b2a3-8dc4f76cf3c5</id>
+      <masked>false</masked>
+      <name>lbl_AGe</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/btn Continue')</defaultValue>
+      <description></description>
+      <id>272e4351-ddfa-4e07-8467-1cba1e30e9c8</id>
+      <masked>false</masked>
+      <name>btn_previous_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/Lbl text - This cant be changed later')</defaultValue>
+      <description></description>
+      <id>1525c873-6ec0-4fad-bc1b-e2e08566bc73</id>
+      <masked>false</masked>
+      <name>lbl_This</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/Lbl text - Please confirm your birthdate')</defaultValue>
+      <description></description>
+      <id>67a7564d-7046-427c-9b08-e237d3fad273</id>
+      <masked>false</masked>
+      <name>lbl_Please</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/Lbl text - This cant be changed later on POPUP')</defaultValue>
+      <description></description>
+      <id>526f951a-71fc-49b8-a38b-cb31beaff96a</id>
+      <masked>false</masked>
+      <name>lbl_can</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/DOB confirmation')</defaultValue>
+      <description></description>
+      <id>9080a6b8-1a09-45f8-9f57-da8d44312882</id>
+      <masked>false</masked>
+      <name>Age_cofirm</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/DOB confirmation')</defaultValue>
+      <description></description>
+      <id>811ea373-f439-44cd-8523-352eadf445cb</id>
+      <masked>false</masked>
+      <name>DOB_cofirmation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn edit on POPUP')</defaultValue>
+      <description></description>
+      <id>fc49688f-c790-4320-aebc-58436cb4809c</id>
+      <masked>false</masked>
+      <name>btn_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn Continue')</defaultValue>
+      <description></description>
+      <id>b6c001ea-f4bc-4750-937c-d3b09114ec06</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn Continue on POPUP')</defaultValue>
+      <description></description>
+      <id>c6a7d7f4-7466-4e74-a1b6-7afa9c887908</id>
+      <masked>false</masked>
+      <name>btn_continue_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/Mirror Icon')</defaultValue>
+      <description></description>
+      <id>75439984-ce1d-4b4d-8b42-085b77cdad98</id>
+      <masked>false</masked>
+      <name>mirror_icon</name>
+   </variable>
+</TestCaseEntity>

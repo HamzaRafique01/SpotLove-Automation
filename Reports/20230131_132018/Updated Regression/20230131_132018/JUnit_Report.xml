@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Updated Regression" time="53.742" tests="1" failures="0" errors="0">
+   <testsuite name="Updated Regression" tests="1" failures="0" errors="0" time="53.742" skipped="0" timestamp="2023-01-31 13:20:27" hostname="pc - 192.168.1.13" id="Test Suites/Updated Regression">
+      <properties>
+         <property name="deviceName" value="samsung SM-A025F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/git/SpotLove-Automation/Reports/20230131_132018/Updated Regression/20230131_132018"/>
+         <property name="logFiles" value="/Users/pc/git/SpotLove-Automation/Reports/20230131_132018/Updated Regression/20230131_132018/execution0.log, /Users/pc/git/SpotLove-Automation/Reports/20230131_132018/Updated Regression/20230131_132018/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - 192.168.1.13"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A025F"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9JNC0DKDXJ"/>
+         <property name="deviceName" value="samsung SM-A025F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Regression/TC_001" time="53.518" classname="Test Cases/Regression/TC_001" status="PASSED">
+         <system-out><![CDATA[2023-01-31 13:20:28 - [TEST_CASE][PASSED] - Test Cases/Regression/TC_001: Test Cases/Regression/TC_001
+
+2023-01-31 13:20:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-31 13:20:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-01-31 13:20:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-01-31 13:20:28 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-01-31 13:20:28 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-01-31 13:20:31 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-01-31 13:20:32 - [MESSAGE][INFO] - Appium server started on port 52,218
+
+2023-01-31 13:20:47 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-01-31 13:20:47 - [TEST_STEP][PASSED] - image = findTestObject("Object Repository/Regression/SC-001 Intro 1/Middle Screen Pic"): null
+
+2023-01-31 13:20:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(image, 20)): Object Object Repository/Regression/SC-001 Intro 1/Middle Screen Pic not found
+
+2023-01-31 13:21:07 - [MESSAGE][WARNING] - Object Object Repository/Regression/SC-001 Intro 1/Middle Screen Pic not found
+
+2023-01-31 13:21:07 - [TEST_STEP][PASSED] - else: Call Test Case 'Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove' successfully
+
+2023-01-31 13:21:07 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10, STOP_ON_FAILURE)): Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree' is present
+
+2023-01-31 13:21:17 - [MESSAGE][WARNING] - Object Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone number not found
+
+2023-01-31 13:21:17 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree' is present
+
+2023-01-31 13:21:17 - [TEST_STEP][PASSED] - else if (waitForElementPresent(Agree, 10, STOP_ON_FAILURE)): Call Test Case 'Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove' successfully
+
+2023-01-31 13:21:17 - [TEST_STEP][PASSED] - markPassed("Please Create Your SpotLove Account......!"): Please Create Your SpotLove Account......!
+
+2023-01-31 13:21:17 - [MESSAGE][PASSED] - Please Create Your SpotLove Account......!
+
+2023-01-31 13:21:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove' successfully
+
+2023-01-31 13:21:17 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove: Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove
+
+2023-01-31 13:21:18 - [TEST_STEP][PASSED] - if (waitForElementPresent(Logo_Spotlove, 10)): null
+
+2023-01-31 13:21:18 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Logo spotlove' is present
+
+2023-01-31 13:21:18 - [TEST_STEP][PASSED] - markPassed("Spot.Love Logo Found......!"): Spot.Love Logo Found......!
+
+2023-01-31 13:21:18 - [MESSAGE][PASSED] - Spot.Love Logo Found......!
+
+2023-01-31 13:21:18 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_txt_first, 10)): null
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Welcome to Spot.Love' is present
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - markPassed("Welcome to Spot.Love lbl text Found......!"): Welcome to Spot.Love lbl text Found......!
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Welcome to Spot.Love lbl text Found......!
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_txt_Sec, 10)): null
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl Text - Please follow these house rules' is present
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - markPassed("Please follow these house rules lbl text Found......!"): Please follow these house rules lbl text Found......!
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Please follow these house rules lbl text Found......!
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(first_heart_icon, 10)): null
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/First Heart Icon' is present
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - markPassed("First Heart Icon Found......!"): First Heart Icon Found......!
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - First Heart Icon Found......!
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_kind_lbl, 10)): null
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be kind' is present
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - markPassed("Be Kind lbl text Found......!"): Be Kind lbl text Found......!
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Be Kind lbl text Found......!
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(Treat_lbl, 10)): null
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Treat everyone with respect andkindness' is present
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - markPassed("Treat everyone with respect and kindness lbl text Found......!"): Treat everyone with respect and kindness lbl text Found......!
+
+2023-01-31 13:21:19 - [MESSAGE][PASSED] - Treat everyone with respect and kindness lbl text Found......!
+
+2023-01-31 13:21:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(Second_heart_icon, 10)): null
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Second Heart Icon' is present
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - markPassed("Second Heart Icon Found......!"): Second Heart Icon Found......!
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Second Heart Icon Found......!
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_your_lbl, 10)): null
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be yourself' is present
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - markPassed("Be yourself lbl text Found......!"): Be yourself lbl text Found......!
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Be yourself lbl text Found......!
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_honest_lbl, 10)): null
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be honest about your age, photos, andbio' is present
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - markPassed("Be honest about your age, photos, and bio lbl text Found......!"): Be honest about your age, photos, and bio lbl text Found......!
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Be honest about your age, photos, and bio lbl text Found......!
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(Third_heart_icon, 10)): null
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Third Heart Icon' is present
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - markPassed("Third Heart Icon Found......!"): Third Heart Icon Found......!
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Third Heart Icon Found......!
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_out_lbl, 10)): null
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be outspoken' is present
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - markPassed("Be outspoken lbl text Found......!"): Be outspoken lbl text Found......!
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Be outspoken lbl text Found......!
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(Always_lbl, 10)): null
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Always report bad behavior' is present
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - markPassed("Always reported bad behavior lbl text Found......!"): Always reported bad behavior lbl text Found......!
+
+2023-01-31 13:21:20 - [MESSAGE][PASSED] - Always reported bad behavior lbl text Found......!
+
+2023-01-31 13:21:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(View_term, 10)): null
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Text - Terms And Conditions' is present
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - markPassed("Terms and Conditions Link is functional......!"): Terms and Conditions Link is functional......!
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - Terms and Conditions Link is functional......!
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Agree, 10)): null
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree' is present
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - tap(btn_Agree, 10): Tapped on element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree'
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree'
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - markPassed("I Agree button found, User navigate to the Source Screen......!"): I Agree button found, User navigate to the Source Screen......!
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - I Agree button found, User navigate to the Source Screen......!
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(Source_heart, 10)): null
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/Heart Icon' is present
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - markPassed("Heart icon found......!"): Heart icon found......!
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - Heart icon found......!
+
+2023-01-31 13:21:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove' successfully
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-01-31 13:21:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-31 13:20:27 - [TEST_SUITE][PASSED] - Updated Regression: Test Cases/Regression/TC_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

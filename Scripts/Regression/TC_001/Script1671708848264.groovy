@@ -20,25 +20,153 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
 
+TestObject image = findTestObject("Object Repository/Regression/SC-001 Intro 1/Middle Screen Pic")
 
+if(Mobile.waitForElementPresent(image, 20)) {
 
-if(Mobile.waitForElementPresent(intro_Screen_Image, 10)) {
-	
-	Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/First Intro Screen'),
-		null, FailureHandling.STOP_ON_FAILURE)
-	
-	Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/Second Intro Screen'),
-		null, FailureHandling.STOP_ON_FAILURE)
-	
-	Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/Third Intro Screen'),
-		null, FailureHandling.STOP_ON_FAILURE)
-	
+	Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-01 First Intro Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+
+	Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-02 Second Intro Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+
+	Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-03 Third Intro Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+
 	KeywordUtil.markPassed("Intro Screens Passed Successfully")
-	
-	
-}else if(Mobile.waitForElementPresent(spotlove_logo, 10)) {
-	
-	Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/Sign In Selection'),
-		null, FailureHandling.STOP_ON_FAILURE)
-	
+
+	if(Mobile.waitForElementPresent(btn_continue, 10,FailureHandling.STOP_ON_FAILURE)) {
+
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-04 Sign In Selection'),
+				null, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen'),
+				null, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-06 OTP Screen'),
+				null, FailureHandling.STOP_ON_FAILURE)
+
+		KeywordUtil.markPassed("User Authenticated......!")
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-08 Source Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-09 First Name'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-10 Birth date'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-11 Gender Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-12 Sexual Orientation'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-13 Height Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+
+	}else if(Mobile.waitForElementPresent(Agree, 10,FailureHandling.STOP_ON_FAILURE )) {
+
+		KeywordUtil.markPassed("Please Create Your SpotLove Account......!")
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-08 Source Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-09 First Name'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-10 Birth date'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-11 Gender Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-12 Sexual Orientation'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-13 Height Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		}
+
+//	}else{
+//		Mobile.callTestCase(findTestCase('Create test case For Home Screen'),
+//				null, FailureHandling.STOP_ON_FAILURE)
+//		KeywordUtil.markPassed("User Successfully Logged into the App.....!")
+//	}
+}else {
+
+	if(Mobile.waitForElementPresent(btn_continue, 10,FailureHandling.STOP_ON_FAILURE)) {
+
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-04 Sign In Selection'),
+				null, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen'),
+				null, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-06 OTP Screen'),
+				null, FailureHandling.STOP_ON_FAILURE)
+
+		KeywordUtil.markPassed("User Authenticated......!")
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-08 Source Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-09 First Name'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-10 Birth date'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-11 Gender Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-12 Sexual Orientation'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-13 Height Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+
+	}else if(Mobile.waitForElementPresent(Agree, 10,FailureHandling.STOP_ON_FAILURE )) {
+
+		KeywordUtil.markPassed("Please Create Your SpotLove Account......!")
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-08 Source Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-09 First Name'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-10 Birth date'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-11 Gender Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-12 Sexual Orientation'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-13 Height Screen'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		}
+
+//	}else{
+//		Mobile.callTestCase(findTestCase('Create test case For Home Screen'),
+//				null, FailureHandling.STOP_ON_FAILURE)
+//		KeywordUtil.markPassed("User Successfully Logged into the App.....!")
+//	}
+
 }

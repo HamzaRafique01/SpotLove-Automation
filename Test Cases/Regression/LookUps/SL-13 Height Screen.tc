@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-13 Height Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7c2e703-2745-4a13-b05a-0bea6a724adb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a35dcfc0-3460-4d84-9c58-13f4f5a01747</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>672d201a-ed29-4605-a792-d1b64b6a6365</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4320616f-2406-41b5-a889-55af47d81dd5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccb746d3-afab-48fa-a172-6f9af5b23d40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e3478a8-a8d7-46e5-8855-32a2ff33eb40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6563e5c3-101b-458d-9925-250e1bc9384f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5354ec97-be06-4cf1-af2a-54d41819fc14</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/btn back')</defaultValue>
+      <description></description>
+      <id>a35dcfc0-3460-4d84-9c58-13f4f5a01747</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/Person Icon')</defaultValue>
+      <description></description>
+      <id>672d201a-ed29-4605-a792-d1b64b6a6365</id>
+      <masked>false</masked>
+      <name>profile_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/btn continue')</defaultValue>
+      <description></description>
+      <id>4320616f-2406-41b5-a889-55af47d81dd5</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/scale icon')</defaultValue>
+      <description></description>
+      <id>ccb746d3-afab-48fa-a172-6f9af5b23d40</id>
+      <masked>false</masked>
+      <name>scale_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/Lbl text - How tall are you')</defaultValue>
+      <description></description>
+      <id>1e3478a8-a8d7-46e5-8855-32a2ff33eb40</id>
+      <masked>false</masked>
+      <name>lbl_How</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/btn continue')</defaultValue>
+      <description></description>
+      <id>6563e5c3-101b-458d-9925-250e1bc9384f</id>
+      <masked>false</masked>
+      <name>btn_H_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Ethnicity Icon')</defaultValue>
+      <description></description>
+      <id>5354ec97-be06-4cf1-af2a-54d41819fc14</id>
+      <masked>false</masked>
+      <name>ethnicity_icon</name>
+   </variable>
+</TestCaseEntity>

@@ -20,7 +20,7 @@ public class Utility {
 
 
 	@Keyword
-	def random_value(String random) {
+	def random_value(List random) {
 		System.out.println("**************************** "+ random)
 		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
 		AppiumDriver driver = MobileDriverFactory.getDriver();
@@ -75,17 +75,44 @@ public class Utility {
 			WebElement obj  = driver.findElement(By.xpath('//*[contains(@text, "'+a+'" )]'))
 			obj.click()
 		}
+	}
 
+
+	@Keyword
+	def tap_Continue() {
+
+		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
+		AppiumDriver driver = MobileDriverFactory.getDriver();
+		Actions action = new Actions(driver);
+
+		WebElement obj = driver.findElement(By.xpath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]"))
+		obj.click()
 	}
 
 
 
+	@Keyword
+	def tap_back() {
 
+		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
+		AppiumDriver driver = MobileDriverFactory.getDriver();
+		Actions action = new Actions(driver);
 
+		WebElement obj = driver.findElement(By.xpath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]"))
+		obj.click()
+	}
 
+	@Keyword
+	def Verify() {
 
+		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
+		AppiumDriver driver = MobileDriverFactory.getDriver();
+		Actions action = new Actions(driver);
+
+		WebElement obj = driver.findElement(By.xpath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]"))
+		obj.click()
+	}
 }
-
 
 
 

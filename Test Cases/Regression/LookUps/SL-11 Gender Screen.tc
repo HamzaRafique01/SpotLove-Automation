@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-11 Gender Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65486b99-e2c7-4a54-9748-097213484de8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58b03124-d70f-4801-9ed3-210070e195ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83595e54-e486-4a56-a7db-4044fa0f280c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0608c9b8-ac23-48e6-870e-9f36bfb35c19</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a126ff41-195c-4803-bcfa-88e6a2c3491d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6870f5b-4b5d-4287-aad3-e22cddf7003d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0749d473-27ed-462f-abca-66c518b6e3fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7139c63a-6e92-41d0-a0bf-5414a1f2de34</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>131795dd-ef90-4fd4-bbbf-b0b99e787518</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0061bb4-1239-4084-bafe-dedf8af74a6a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/btn back')</defaultValue>
+      <description></description>
+      <id>58b03124-d70f-4801-9ed3-210070e195ca</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn Continue')</defaultValue>
+      <description></description>
+      <id>83595e54-e486-4a56-a7db-4044fa0f280c</id>
+      <masked>false</masked>
+      <name>cake_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn Continue')</defaultValue>
+      <description></description>
+      <id>0608c9b8-ac23-48e6-870e-9f36bfb35c19</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn Continue on POPUP')</defaultValue>
+      <description></description>
+      <id>a126ff41-195c-4803-bcfa-88e6a2c3491d</id>
+      <masked>false</masked>
+      <name>btn_continue_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/Mirror Icon')</defaultValue>
+      <description></description>
+      <id>e6870f5b-4b5d-4287-aad3-e22cddf7003d</id>
+      <masked>false</masked>
+      <name>mirror_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/Lbl text - How do you identify')</defaultValue>
+      <description></description>
+      <id>0749d473-27ed-462f-abca-66c518b6e3fd</id>
+      <masked>false</masked>
+      <name>lbl_how</name>
+   </variable>
+   <variable>
+      <defaultValue>['Nonbinary', 'Female']</defaultValue>
+      <description></description>
+      <id>7139c63a-6e92-41d0-a0bf-5414a1f2de34</id>
+      <masked>false</masked>
+      <name>random</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/btn Continue')</defaultValue>
+      <description></description>
+      <id>131795dd-ef90-4fd4-bbbf-b0b99e787518</id>
+      <masked>false</masked>
+      <name>btn_G_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/Person Icon')</defaultValue>
+      <description></description>
+      <id>e0061bb4-1239-4084-bafe-dedf8af74a6a</id>
+      <masked>false</masked>
+      <name>profile_icon</name>
+   </variable>
+</TestCaseEntity>
