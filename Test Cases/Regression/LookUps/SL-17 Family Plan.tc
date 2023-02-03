@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-17 Family Plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26951054-e0a2-4701-9f15-79be4b12dd60</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14547834-f9a1-4a60-9d6a-a4ee15e39fef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24f10e3e-fc65-41ee-832b-92428782cb6b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5729980f-4b0d-4d9c-8b0b-d3fd6b201640</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7de561e1-b540-4c4a-b6fc-c2a3d7322c24</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c5fde86-4981-4782-9b65-03bed78daac0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8deb3a52-7c4b-43fc-bf4b-f3e300e8f213</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c90430d-1ce8-4f08-8662-5b5565949c19</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>364e7bf2-f860-4eaa-bff2-1bbd1d7ebeef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8fc47e0-41f0-4eaf-a46d-492d575637d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5132291-8109-4854-9743-e2e6c6feb063</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44b349f7-570a-4b0d-a87b-c432b97f2218</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/btn back')</defaultValue>
+      <description></description>
+      <id>14547834-f9a1-4a60-9d6a-a4ee15e39fef</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/Heart icon')</defaultValue>
+      <description></description>
+      <id>24f10e3e-fc65-41ee-832b-92428782cb6b</id>
+      <masked>false</masked>
+      <name>heart_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/btn continue')</defaultValue>
+      <description></description>
+      <id>5729980f-4b0d-4d9c-8b0b-d3fd6b201640</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/Face icon')</defaultValue>
+      <description></description>
+      <id>7de561e1-b540-4c4a-b6fc-c2a3d7322c24</id>
+      <masked>false</masked>
+      <name>face_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/Lbl text - Tell us about your family')</defaultValue>
+      <description></description>
+      <id>6c5fde86-4981-4782-9b65-03bed78daac0</id>
+      <masked>false</masked>
+      <name>lbl_tell</name>
+   </variable>
+   <variable>
+      <defaultValue>'I don\'t have children'</defaultValue>
+      <description></description>
+      <id>8deb3a52-7c4b-43fc-bf4b-f3e300e8f213</id>
+      <masked>false</masked>
+      <name>random</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/Lbl text - Do you have children')</defaultValue>
+      <description></description>
+      <id>4c90430d-1ce8-4f08-8662-5b5565949c19</id>
+      <masked>false</masked>
+      <name>lbl_do</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/Lbl text - What are your family plans')</defaultValue>
+      <description></description>
+      <id>364e7bf2-f860-4eaa-bff2-1bbd1d7ebeef</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Not sure', 'I want children']</defaultValue>
+      <description></description>
+      <id>d8fc47e0-41f0-4eaf-a46d-492d575637d9</id>
+      <masked>false</masked>
+      <name>randoom</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/btn Continue')</defaultValue>
+      <description></description>
+      <id>b5132291-8109-4854-9743-e2e6c6feb063</id>
+      <masked>false</masked>
+      <name>btn_F_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-018 Education/Hat Icon')</defaultValue>
+      <description></description>
+      <id>44b349f7-570a-4b0d-a87b-c432b97f2218</id>
+      <masked>false</masked>
+      <name>studyHat_icon</name>
+   </variable>
+</TestCaseEntity>
