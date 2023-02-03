@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sl-19 Vices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fae8a95e-aa1d-4161-bbdd-6c56a1ed5a44</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/btn back')</defaultValue>
+      <description></description>
+      <id>54bc16c4-faae-46f0-b9e6-b6a7b5cf0c70</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-018 Education/Hat Icon')</defaultValue>
+      <description></description>
+      <id>8e6238b8-adcc-4e1b-8c3c-8e215bcdd8ba</id>
+      <masked>false</masked>
+      <name>hat_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-018 Education/btn continue')</defaultValue>
+      <description></description>
+      <id>afbee8cc-5ab9-4e28-a801-ab4c7ec6f92d</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/bottle icon')</defaultValue>
+      <description></description>
+      <id>a93e9d64-cd71-4fc0-b02e-0f27e270bf12</id>
+      <masked>false</masked>
+      <name>bottle_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/Lbl text - What are your vices')</defaultValue>
+      <description></description>
+      <id>2c924ec3-edb3-44d0-9e26-2cd36169dc8c</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/btn_Marijuano_Switch - OFF')</defaultValue>
+      <description></description>
+      <id>850c9f83-42d3-4b5a-900d-844cd47811b6</id>
+      <masked>false</masked>
+      <name>btn_toggle_M</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/btn_Smoking_Switch - OFF')</defaultValue>
+      <description></description>
+      <id>b51b69a4-5ed9-4205-8df4-42989c47535c</id>
+      <masked>false</masked>
+      <name>btn_toggle_S</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/btn_Alcohol_Switch - OFF')</defaultValue>
+      <description></description>
+      <id>b8b324e7-c8e7-47a7-965f-ede8100f8484</id>
+      <masked>false</masked>
+      <name>btn_toggle_A</name>
+   </variable>
+   <variable>
+      <defaultValue>['Often', 'Socially', 'Often']</defaultValue>
+      <description></description>
+      <id>dd132844-7328-4e48-a75c-4c24aecc1814</id>
+      <masked>false</masked>
+      <name>A_random</name>
+   </variable>
+   <variable>
+      <defaultValue>['Socially', 'Often', 'Socially']</defaultValue>
+      <description></description>
+      <id>9787f107-d558-4c6d-ac21-390d6a39afd4</id>
+      <masked>false</masked>
+      <name>S_random</name>
+   </variable>
+   <variable>
+      <defaultValue>['Often', 'Socially', 'Often']</defaultValue>
+      <description></description>
+      <id>37599e45-7556-41ff-9f5d-6c55625036e3</id>
+      <masked>false</masked>
+      <name>M_random</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/btn Continue')</defaultValue>
+      <description></description>
+      <id>28df009b-c23c-4b1c-a814-af8b2f115743</id>
+      <masked>false</masked>
+      <name>btn_V_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-020 Politics/justics Icon')</defaultValue>
+      <description></description>
+      <id>cf9543f1-b350-4610-86eb-d8b659b59e80</id>
+      <masked>false</masked>
+      <name>justice_icon</name>
+   </variable>
+</TestCaseEntity>

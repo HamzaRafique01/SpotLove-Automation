@@ -5,18 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>eec5873b-94d9-4df6-8d88-509ed02df8d4</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>38795f3e-f577-4f0e-a413-072993ec776b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>4f84d679-ec96-4640-b42c-b267e1379fe5</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-004 Sign In-Up screen/btn Continue with Phone number')</defaultValue>
       <description></description>
