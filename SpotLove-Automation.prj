@@ -6,6 +6,7 @@
    <UUID>ec679b1c-e8e3-4b7b-bd39-3a056a119cac</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/pc/git/SpotLove-Automation/SpotLove-Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

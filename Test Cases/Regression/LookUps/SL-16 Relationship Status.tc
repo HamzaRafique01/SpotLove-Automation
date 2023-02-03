@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-16 Relationship Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>443a1550-49bf-4674-b606-7588bc11bf42</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae7b80e6-9f98-49c4-ba43-deb6ada2eb58</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b6361fd-1001-403f-96d4-f0e5a357f3da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>148fcf8b-1807-4e62-8ab9-1e2f1a450f1e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02f4bf6f-9ec8-48c4-a61b-f1dcf045f858</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09f785f8-3502-480c-a188-032f33fc96ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>943adb3c-1b51-493b-b047-abfb7f0e6064</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1b26ad3-6702-4db3-8c13-aa58b08e884a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>924a3e7e-4875-41ec-918e-587b60e719fd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/btn back')</defaultValue>
+      <description></description>
+      <id>ae7b80e6-9f98-49c4-ba43-deb6ada2eb58</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/Holy Book Icon')</defaultValue>
+      <description></description>
+      <id>3b6361fd-1001-403f-96d4-f0e5a357f3da</id>
+      <masked>false</masked>
+      <name>book_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/btn Continue')</defaultValue>
+      <description></description>
+      <id>148fcf8b-1807-4e62-8ab9-1e2f1a450f1e</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/Heart icon')</defaultValue>
+      <description></description>
+      <id>02f4bf6f-9ec8-48c4-a61b-f1dcf045f858</id>
+      <masked>false</masked>
+      <name>heart_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/Lbl text - Whats your relationship status')</defaultValue>
+      <description></description>
+      <id>09f785f8-3502-480c-a188-032f33fc96ab</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
+   </variable>
+   <variable>
+      <defaultValue>['Widowed', 'Divorced', 'Never Married', 'Divorce in Progress']</defaultValue>
+      <description></description>
+      <id>943adb3c-1b51-493b-b047-abfb7f0e6064</id>
+      <masked>false</masked>
+      <name>random</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/btn continue')</defaultValue>
+      <description></description>
+      <id>d1b26ad3-6702-4db3-8c13-aa58b08e884a</id>
+      <masked>false</masked>
+      <name>btn_R_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/Face icon')</defaultValue>
+      <description></description>
+      <id>924a3e7e-4875-41ec-918e-587b60e719fd</id>
+      <masked>false</masked>
+      <name>face_icon</name>
+   </variable>
+</TestCaseEntity>

@@ -161,7 +161,7 @@
    <testCaseLink>
       <guid>95391773-d1a6-4826-8d9e-b34dad2c87d1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke/TC_003 Home</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

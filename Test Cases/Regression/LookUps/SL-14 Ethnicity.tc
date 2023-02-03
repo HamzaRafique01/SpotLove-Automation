@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-14 Ethnicity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e670806-c625-4616-9423-cbb33ad8837d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b162057c-55b3-4906-9ed0-4c9fbe7714eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1bb417e5-d1f2-4d62-83da-f0e5f7b8a280</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79292e6f-99b9-4c62-aed2-44e61232d906</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4638a91-5aaa-4aae-a29a-2f753cd96a9b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>daa5ebf7-662b-40d2-808d-a52baf4d4405</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2a2c81c-47d3-4909-aee0-42dd6585192a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c9f7293-6a6c-4f52-91a9-c47cf986a8cb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/btn back')</defaultValue>
+      <description></description>
+      <id>b162057c-55b3-4906-9ed0-4c9fbe7714eb</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/scale icon')</defaultValue>
+      <description></description>
+      <id>1bb417e5-d1f2-4d62-83da-f0e5f7b8a280</id>
+      <masked>false</masked>
+      <name>scale_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/btn continue')</defaultValue>
+      <description></description>
+      <id>79292e6f-99b9-4c62-aed2-44e61232d906</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Lbl text - Whats your ethnicity')</defaultValue>
+      <description></description>
+      <id>a4638a91-5aaa-4aae-a29a-2f753cd96a9b</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
+   </variable>
+   <variable>
+      <defaultValue>['Middle Eastern', 'White/Caucasian', 'Other', 'Native American', 'East Asian', 'Pacific Islander', 'South Asian']</defaultValue>
+      <description></description>
+      <id>daa5ebf7-662b-40d2-808d-a52baf4d4405</id>
+      <masked>false</masked>
+      <name>random</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/btn Continue')</defaultValue>
+      <description></description>
+      <id>e2a2c81c-47d3-4909-aee0-42dd6585192a</id>
+      <masked>false</masked>
+      <name>btn_E_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/Holy Book Icon')</defaultValue>
+      <description></description>
+      <id>4c9f7293-6a6c-4f52-91a9-c47cf986a8cb</id>
+      <masked>false</masked>
+      <name>book_icon</name>
+   </variable>
+</TestCaseEntity>

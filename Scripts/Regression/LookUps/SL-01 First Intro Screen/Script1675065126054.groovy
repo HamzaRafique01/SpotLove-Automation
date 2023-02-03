@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -18,6 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
 
 if(Mobile.waitForElementPresent(logo, 10)) {
 	
@@ -44,6 +46,7 @@ if(Mobile.waitForElementPresent(logo, 10)) {
 						Mobile.tap(btn_continue, 10)
 						KeywordUtil.markPassed("User Navigate to the Second Screen......!")
 						
+						Mobile.takeScreenshot("test screenshot")
 					
 					}else {
 						KeywordUtil.markFailed("Somethong missing Please check......!")

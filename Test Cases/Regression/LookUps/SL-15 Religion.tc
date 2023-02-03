@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-15 Religion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2d4905f-bb33-4ae9-b55c-ed6363e5892a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7afef821-a4e4-49f3-a88c-b043201e74fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db69b51a-6ba4-47c9-a961-7f6e97cebcc6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0793c183-bf49-4bd2-be30-9b1325f43aa4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5c7f03f-9e6f-401c-b685-ed56a0c2e6f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb09a94b-53c6-442c-8ffc-e981de125b40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa2595b0-ebba-4500-b7f2-48e405580190</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10974dfa-6cb6-4798-b4c5-d7a256b96fc0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90461629-7409-4d7d-a0c8-caf5edcf9936</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/btn back')</defaultValue>
+      <description></description>
+      <id>7afef821-a4e4-49f3-a88c-b043201e74fc</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Ethnicity Icon')</defaultValue>
+      <description></description>
+      <id>db69b51a-6ba4-47c9-a961-7f6e97cebcc6</id>
+      <masked>false</masked>
+      <name>ethnicity_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/btn Continue')</defaultValue>
+      <description></description>
+      <id>0793c183-bf49-4bd2-be30-9b1325f43aa4</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/Holy Book Icon')</defaultValue>
+      <description></description>
+      <id>e5c7f03f-9e6f-401c-b685-ed56a0c2e6f4</id>
+      <masked>false</masked>
+      <name>book_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>['Muslim', 'Agnostic', 'Hindu', 'Spiritual', 'Atheist']</defaultValue>
+      <description></description>
+      <id>fb09a94b-53c6-442c-8ffc-e981de125b40</id>
+      <masked>false</masked>
+      <name>random</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/btn Continue')</defaultValue>
+      <description></description>
+      <id>fa2595b0-ebba-4500-b7f2-48e405580190</id>
+      <masked>false</masked>
+      <name>btn_R_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/Lbl text - Whats your religion')</defaultValue>
+      <description></description>
+      <id>10974dfa-6cb6-4798-b4c5-d7a256b96fc0</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/Heart icon')</defaultValue>
+      <description></description>
+      <id>90461629-7409-4d7d-a0c8-caf5edcf9936</id>
+      <masked>false</masked>
+      <name>heart_icon</name>
+   </variable>
+</TestCaseEntity>

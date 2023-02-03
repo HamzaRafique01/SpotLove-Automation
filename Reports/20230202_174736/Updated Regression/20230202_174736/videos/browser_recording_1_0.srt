@@ -1,0 +1,708 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. image = findTestObject("Object Repository/Regression/SC-001 Intro 1/Middle Screen Pic")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(image, 20))
+
+4
+00:00:00,000 --> 00:00:00,000
+2. if (waitForElementPresent(btn_continue, 10, STOP_ON_FAILURE))
+
+5
+00:00:00,000 --> 00:00:00,000
+2. markPassed("Please Create Your SpotLove Account......!")
+
+6
+00:00:00,000 --> 00:00:00,000
+6. callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove"), null, STOP_ON_FAILURE)
+
+7
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(Logo_Spotlove, 10))
+
+8
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Spot.Love Logo Found......!")
+
+9
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_txt_first, 10))
+
+10
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Welcome to Spot.Love lbl text Found......!")
+
+11
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_txt_Sec, 10))
+
+12
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Please follow these house rules lbl text Found......!")
+
+13
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(first_heart_icon, 10))
+
+14
+00:00:00,000 --> 00:00:00,000
+1. markPassed("First Heart Icon Found......!")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Be_kind_lbl, 10))
+
+16
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Be Kind lbl text Found......!")
+
+17
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Treat_lbl, 10))
+
+18
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Treat everyone with respect and kindness lbl text Found......!")
+
+19
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Second_heart_icon, 10))
+
+20
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Second Heart Icon Found......!")
+
+21
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Be_your_lbl, 10))
+
+22
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Be yourself lbl text Found......!")
+
+23
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Be_honest_lbl, 10))
+
+24
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Be honest about your age, photos, and bio lbl text Found......!")
+
+25
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Third_heart_icon, 10))
+
+26
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Third Heart Icon Found......!")
+
+27
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Be_out_lbl, 10))
+
+28
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Be outspoken lbl text Found......!")
+
+29
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Always_lbl, 10))
+
+30
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Always reported bad behavior lbl text Found......!")
+
+31
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(View_term, 10))
+
+32
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Terms and Conditions Link is functional......!")
+
+33
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_Agree, 10))
+
+34
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_Agree, 10)
+
+35
+00:00:00,000 --> 00:00:00,000
+5. markPassed("I Agree button found, User navigate to the Source Screen......!")
+
+36
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(Source_heart, 10))
+
+37
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Heart icon found......!")
+
+38
+00:00:00,000 --> 00:00:00,000
+10. callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-08 Source Screen"), null, STOP_ON_FAILURE)
+
+39
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(Source_heart, 10))
+
+40
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Heart icon found......!")
+
+41
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_how, 10))
+
+42
+00:00:00,000 --> 00:00:00,000
+1. markPassed("How did you hear about us? label text found......!")
+
+43
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Referral, 10))
+
+44
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Referral label text found......!")
+
+45
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Do, 10))
+
+46
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Do you have a referral code? label text found......!")
+
+47
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_code, 10))
+
+48
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Referral code? label text found......!")
+
+49
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+50
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+51
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the First Name Screen......!")
+
+52
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(card_icon, 10))
+
+53
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Card icon found on First Name Screen......!")
+
+54
+00:00:00,000 --> 00:00:00,000
+14. callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-09 First Name"), null, STOP_ON_FAILURE)
+
+55
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+56
+00:00:00,000 --> 00:00:00,000
+1. com.spotlove.Utility.tap_back()
+
+57
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Source screen......!")
+
+58
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_Continue2, 10))
+
+59
+00:00:00,000 --> 00:00:00,000
+1. com.spotlove.Utility.tap_Continue()
+
+60
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate Move forword to the First Name screen......!")
+
+61
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(Contact_icon, 30))
+
+62
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Contact icon found......!")
+
+63
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_what, 10))
+
+64
+00:00:00,000 --> 00:00:00,000
+1. markPassed("What should we call you? label text found......!")
+
+65
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_tell, 10))
+
+66
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Tell us your first name label text found......!")
+
+67
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(First_Name, 10))
+
+68
+00:00:00,000 --> 00:00:00,000
+1. setText(First_Name, S_First_Name, 0)
+
+69
+00:00:00,000 --> 00:00:00,000
+5. markPassed("First name Entered text......!")
+
+70
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_continue, 10))
+
+71
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+72
+00:00:00,000 --> 00:00:00,000
+5. delay(15)
+
+73
+00:00:00,000 --> 00:00:00,000
+9. markPassed("User navigate Move forword to the Birth date screen......!")
+
+74
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(cake_icon, 10))
+
+75
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Cake icon found......!")
+
+76
+00:00:00,000 --> 00:00:00,000
+18. callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-10 Birth date"), null, STOP_ON_FAILURE)
+
+77
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+78
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+79
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the First Name screen......!")
+
+80
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(Contact_icon, 10))
+
+81
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_previous_continue, 10)
+
+82
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate Move forword to the Date of Birth screen......!")
+
+83
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(Cake_icon, 10))
+
+84
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Cake icon found......!")
+
+85
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_what, 10))
+
+86
+00:00:00,000 --> 00:00:00,000
+1. markPassed("What's your date of birth? label text found......!")
+
+87
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_AGe, 10))
+
+88
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Age xx label text found......!")
+
+89
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_This, 10))
+
+90
+00:00:00,000 --> 00:00:00,000
+1. markPassed("This can't be changed later label text found......!")
+
+91
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+92
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+93
+00:00:00,000 --> 00:00:00,000
+5. markPassed("PopUp should opened on the screen.......!")
+
+94
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(lbl_Please, 10))
+
+95
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Please confirm your birthdate on the PopUp label text found.......!")
+
+96
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_can, 10))
+
+97
+00:00:00,000 --> 00:00:00,000
+1. markPassed("This can't be changed later label text found.......!")
+
+98
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Age_cofirm, 10))
+
+99
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Age Confirmation label text found.......!")
+
+100
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(DOB_cofirmation, 10))
+
+101
+00:00:00,000 --> 00:00:00,000
+1. markPassed("DOB Confirmation label text found.......!")
+
+102
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_edit, 10))
+
+103
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_edit, 10)
+
+104
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Date of Birth.......!")
+
+105
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_continue, 10))
+
+106
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+107
+00:00:00,000 --> 00:00:00,000
+5. markPassed("PopUp should opened on the screen.......!")
+
+108
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_continue_popup, 10))
+
+109
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue_popup, 10)
+
+110
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Gender Screen.......!")
+
+111
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(mirror_icon, 10))
+
+112
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Mirror icon found on Gender Screen.......!")
+
+113
+00:00:00,000 --> 00:00:00,000
+22. callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-11 Gender Screen"), null, STOP_ON_FAILURE)
+
+114
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+115
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+116
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Birthday screen......!")
+
+117
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(cake_icon, 10))
+
+118
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Cake icon found on Birthday screen......!")
+
+119
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+120
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+121
+00:00:00,000 --> 00:00:00,000
+5. markPassed("PopUp should opened on the screen.......!")
+
+122
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_continue_popup, 10))
+
+123
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue_popup, 10)
+
+124
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Gender Screen.......!")
+
+125
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(mirror_icon, 10))
+
+126
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Mirror icon found on Gender Screen.......!")
+
+127
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_how, 10))
+
+128
+00:00:00,000 --> 00:00:00,000
+1. markPassed("How do you identify? label text found.......!")
+
+129
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.dating_Pref(random)
+
+130
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Gender selection successfully.......!")
+
+131
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(btn_G_Continue, 10))
+
+132
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_G_Continue, 10)
+
+133
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Sexual Orientation Screen.......!")
+
+134
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(profile_icon, 10))
+
+135
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Profile icon found on next Screen.......!")
+
+136
+00:00:00,000 --> 00:00:00,000
+26. callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-12 Sexual Orientation"), null, STOP_ON_FAILURE)
+
+137
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+138
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+139
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Gender screen......!")
+
+140
+00:00:00,000 --> 00:00:00,000
+9. delay(10)
+
+141
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(mirror_icon, 20))
+
+142
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Mirror icon found on Gender screen......!")
+
+143
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+144
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+145
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Gender Screen......!")
+
+146
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(profile_icon, 10))
+
+147
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Profile icon found on Into screen......!")
+
+148
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Who, 10))
+
+149
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Who are you into? label text found......!")
+
+150
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.dating_Pref(random)
+
+151
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Partner gender Selection successfully......!")
+
+152
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(btn_S_Continue, 10))
+
+153
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_S_Continue, 10)
+
+154
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Height Screen.......!")
+
+155
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(Scale_icon, 10))
+
+156
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Scale icon found on next Screen.......!")
+
+157
+00:00:00,000 --> 00:00:00,000
+30. callTestCase(findTestCase("Test Cases/Regression/LookUps/SL-13 Height Screen"), null, STOP_ON_FAILURE)
+
+158
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+159
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+160
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Sexual Orientation screen......!")
+
+161
+00:00:00,000 --> 00:00:00,000
+9. delay(10)
+
+162
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(profile_icon, 10))
+
+163
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Profile icon found on Gender screen......!")
+
+164
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+165
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+166
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Height Screen......!")
+
+167
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(scale_icon, 10))
+
+168
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Scale icon found on Into screen......!")
+
+169
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_How, 10))
+
+170
+00:00:00,000 --> 00:00:00,000
+1. markPassed("How tall are you? label text found......!")
+
+171
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_H_Continue, 10))
+
+172
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_H_Continue, 10)
+
+173
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Ethnicity Screen.......!")
+
+174
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(ethnicity_icon, 10))
+
+175
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Ethnicity icon found on next Screen.......!")
+
+176
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+177
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

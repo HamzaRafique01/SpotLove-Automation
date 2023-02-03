@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-02-02 17:59:57,2023-02-02 18:00:28,31.029s,FAILED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-01 First Intro Screen,,,,2023-02-02 17:59:58,2023-02-02 18:00:28,30.794s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-02-02 17:59:58,2023-02-02 17:59:58,0.008s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-02 17:59:58,2023-02-02 18:00:18,20.030s,PASSED
+"if (waitForElementPresent(logo, 10))",,,,2023-02-02 18:00:18,2023-02-02 18:00:28,10.101s,PASSED
+else,,,,2023-02-02 18:00:28,2023-02-02 18:00:28,0.008s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-02-02 18:00:28,2023-02-02 18:00:28,0.003s,PASSED
