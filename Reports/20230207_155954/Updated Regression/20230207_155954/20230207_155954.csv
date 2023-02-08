@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Updated Regression,,,,2023-02-07 16:00:03,2023-02-07 16:01:36,1m - 33.616s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-01 First Intro Screen,,,,2023-02-07 16:00:03,2023-02-07 16:00:27,23.863s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:00:03,2023-02-07 16:00:03,0.010s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-07 16:00:04,2023-02-07 16:00:19,15.545s,PASSED
+"if (waitForElementPresent(logo, 10))",,,,2023-02-07 16:00:19,2023-02-07 16:00:27,7.595s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:00:27,2023-02-07 16:00:27,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-02 Second Intro Screen,,,,2023-02-07 16:00:27,2023-02-07 16:00:33,6.524s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:00:27,2023-02-07 16:00:27,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-07 16:00:27,2023-02-07 16:00:33,5.912s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:00:33,2023-02-07 16:00:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-03 Third Intro Screen,,,,2023-02-07 16:00:33,2023-02-07 16:00:40,6.593s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:00:34,2023-02-07 16:00:34,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-07 16:00:34,2023-02-07 16:00:40,6.021s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:00:40,2023-02-07 16:00:40,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-04 Sign In Selection,,,,2023-02-07 16:00:40,2023-02-07 16:00:42,2.647s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:00:40,2023-02-07 16:00:40,0.001s,PASSED
+"if (waitForElementPresent(First_lbl_text, 10))",,,,2023-02-07 16:00:40,2023-02-07 16:00:42,2.327s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:00:42,2023-02-07 16:00:42,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen,,,,2023-02-07 16:00:42,2023-02-07 16:01:10,27.170s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:00:43,2023-02-07 16:00:43,0.001s,PASSED
+"if (waitForElementPresent(spotlove_logo, 10))",,,,2023-02-07 16:00:43,2023-02-07 16:01:10,26.555s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:01:10,2023-02-07 16:01:10,0.003s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-06 OTP Screen,,,,2023-02-07 16:01:10,2023-02-07 16:01:27,16.920s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:01:10,2023-02-07 16:01:10,0.001s,PASSED
+"if (waitForElementPresent(spotlove_logo, 10))",,,,2023-02-07 16:01:10,2023-02-07 16:01:27,16.502s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:01:27,2023-02-07 16:01:27,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove,,,,2023-02-07 16:01:27,2023-02-07 16:01:33,6.837s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:01:27,2023-02-07 16:01:27,0.001s,PASSED
+"if (waitForElementPresent(Logo_Spotlove, 10))",,,,2023-02-07 16:01:27,2023-02-07 16:01:33,5.972s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:01:33,2023-02-07 16:01:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-08 Source Screen,,,,2023-02-07 16:01:33,2023-02-07 16:01:36,2.811s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 16:01:34,2023-02-07 16:01:34,0.001s,PASSED
+"if (waitForElementPresent(Source_heart, 10))",,,,2023-02-07 16:01:34,2023-02-07 16:01:36,2.398s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 16:01:36,2023-02-07 16:01:36,0.001s,PASSED

@@ -19,24 +19,25 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
+
+
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-	Mobile.tap(btn_back, 10)
-	KeywordUtil.markPassed("User navigate back to the Gender screen......!")
-	Mobile.delay(10)
-	
-	if(Mobile.waitForElementPresent(mirror_icon, 20)) {
+	CustomKeywords.'com.spotlove.Utility.tap_back'()
 
-		KeywordUtil.markPassed("Mirror icon found on Gender screen......!")
+	if(Mobile.waitForElementPresent(lbl_how, 10)) {
+
+		KeywordUtil.markPassed("User navigate back to the Gender and How do you identify? label text found......!")
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-			Mobile.tap(btn_continue, 10)
-			KeywordUtil.markPassed("User navigate to the Gender Screen......!")
+			Mobile.delay(5)
+			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+			Mobile.delay(5)
 
 			if(Mobile.waitForElementPresent(profile_icon, 10)) {
 
-				KeywordUtil.markPassed("Profile icon found on Into screen......!")
+				KeywordUtil.markPassed("User navigate back to the Gender and Profile icon found on Into screen......!")
 
 				if(Mobile.waitForElementPresent(lbl_Who, 10)) {
 
@@ -45,17 +46,18 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 					CustomKeywords.'com.spotlove.Utility.dating_Pref'(random)
 					KeywordUtil.markPassed("Partner gender Selection successfully......!")
 
-					if(Mobile.waitForElementPresent(btn_S_Continue, 10)) {
+					if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-						Mobile.tap(btn_S_Continue, 10)
-						KeywordUtil.markPassed("User navigate to the Height Screen.......!")
+						Mobile.delay(5)
+						CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+						Mobile.delay(5)
 
-						if(Mobile.waitForElementPresent(Scale_icon, 10)) {
+						if(Mobile.waitForElementPresent(lbl_tall, 10)) {
 
-							KeywordUtil.markPassed("Scale icon found on next Screen.......!")
+							KeywordUtil.markPassed("User navigate to the Height Screen and How tall are you? label text found on next Screen.......!")
 
 						}else {
-							KeywordUtil.markFailed("Scale icon not found on next Screen.....!")
+							KeywordUtil.markFailed("How tall are you? label text not found on next Screen.....!")
 						}
 					}else {
 						KeywordUtil.markFailed("User navigation not successfully.....!")
@@ -67,12 +69,22 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 			}else {
 				KeywordUtil.markFailed("Profile icon not found on Into screen....!")
 			}
+
 		}else {
-			KeywordUtil.markFailed("Continue button is not working....!")
+			KeywordUtil.markFailed("Continue button is not working.....!")
 		}
+
 	}else {
-		KeywordUtil.markFailed("Mirror icon not found on Gender screen....!")
+		KeywordUtil.markFailed("How do you identify? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
+
+
+
+
+
+
+
+

@@ -83,11 +83,11 @@
       <name>lbl_code</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Contact icon')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-009 First Name Screen/Lbl text - What should we call you')</defaultValue>
       <description></description>
       <id>dd5b3e70-3372-43ed-b9e2-79d3817f8409</id>
       <masked>false</masked>
-      <name>card_icon</name>
+      <name>lbl_what</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-008 Referel Screen/btn Continue')</defaultValue>

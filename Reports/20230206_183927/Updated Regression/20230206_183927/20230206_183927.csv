@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Updated Regression,,,,2023-02-06 18:39:35,2023-02-06 18:40:16,41.334s,FAILED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-01 First Intro Screen,,,,2023-02-06 18:39:35,2023-02-06 18:39:57,21.595s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-06 18:39:35,2023-02-06 18:39:35,0.008s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-06 18:39:36,2023-02-06 18:39:50,14.284s,PASSED
+"if (waitForElementPresent(logo, 10))",,,,2023-02-06 18:39:50,2023-02-06 18:39:57,6.646s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-06 18:39:57,2023-02-06 18:39:57,0.003s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-02 Second Intro Screen,,,,2023-02-06 18:39:57,2023-02-06 18:40:04,6.946s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-06 18:39:57,2023-02-06 18:39:57,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-06 18:39:57,2023-02-06 18:40:04,6.373s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-06 18:40:04,2023-02-06 18:40:04,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-03 Third Intro Screen,,,,2023-02-06 18:40:04,2023-02-06 18:40:16,12.547s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-02-06 18:40:04,2023-02-06 18:40:04,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-06 18:40:04,2023-02-06 18:40:16,11.987s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-06 18:40:16,2023-02-06 18:40:16,0.002s,PASSED

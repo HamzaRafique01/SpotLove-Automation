@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Updated Regression,,,,2023-02-07 13:03:33,2023-02-07 13:04:13,40.142s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-01 First Intro Screen,,,,2023-02-07 13:03:33,2023-02-07 13:03:55,22.385s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 13:03:33,2023-02-07 13:03:33,0.008s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-07 13:03:34,2023-02-07 13:03:48,14.220s,PASSED
+"if (waitForElementPresent(logo, 10))",,,,2023-02-07 13:03:48,2023-02-07 13:03:55,7.441s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 13:03:55,2023-02-07 13:03:55,0.003s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-02 Second Intro Screen,,,,2023-02-07 13:03:55,2023-02-07 13:04:02,6.992s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 13:03:56,2023-02-07 13:03:56,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-07 13:03:56,2023-02-07 13:04:02,6.337s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 13:04:02,2023-02-07 13:04:02,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-03 Third Intro Screen,,,,2023-02-07 13:04:02,2023-02-07 13:04:09,6.557s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 13:04:03,2023-02-07 13:04:03,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-07 13:04:03,2023-02-07 13:04:09,5.969s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 13:04:09,2023-02-07 13:04:09,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-04 Sign In Selection,,,,2023-02-07 13:04:09,2023-02-07 13:04:12,2.683s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 13:04:09,2023-02-07 13:04:09,0.001s,PASSED
+"if (waitForElementPresent(F_lbl_text, 10))",,,,2023-02-07 13:04:09,2023-02-07 13:04:12,2.321s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 13:04:12,2023-02-07 13:04:12,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen,,,,2023-02-07 13:04:12,2023-02-07 13:04:13,1.272s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 13:04:12,2023-02-07 13:04:12,0.001s,PASSED
+"if (waitForElementPresent(spotlove_logo, 10))",,,,2023-02-07 13:04:12,2023-02-07 13:04:13,0.760s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 13:04:13,2023-02-07 13:04:13,0.004s,PASSED

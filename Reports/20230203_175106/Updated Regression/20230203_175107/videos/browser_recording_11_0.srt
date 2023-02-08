@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+4
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Birthday screen......!")
+
+5
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(cake_icon, 10))
+
+6
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Cake icon found on Birthday screen......!")
+
+7
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+8
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+9
+00:00:00,000 --> 00:00:00,000
+5. markPassed("PopUp should opened on the screen.......!")
+
+10
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_continue_popup, 10))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue_popup, 10)
+
+12
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Gender Screen.......!")
+
+13
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(mirror_icon, 10))
+
+14
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Mirror icon found on Gender Screen.......!")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_how, 10))
+
+16
+00:00:00,000 --> 00:00:00,000
+1. markPassed("How do you identify? label text found.......!")
+
+17
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.dating_Pref(random)
+
+18
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Gender selection successfully.......!")
+
+19
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(btn_G_Continue, 10))
+
+20
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_G_Continue, 10)
+
+21
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Sexual Orientation Screen.......!")
+
+22
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(profile_icon, 10))
+
+23
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Profile icon found on next Screen.......!")
+
+24
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+25
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+26
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

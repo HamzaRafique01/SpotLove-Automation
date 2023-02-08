@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(spotlove_logo, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Spot.Love Logo Found......!")
+

@@ -81,31 +81,38 @@ public class Utility {
 	@Keyword
 	def tap_Continue() {
 
-		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
 		AppiumDriver driver = MobileDriverFactory.getDriver();
 		Actions action = new Actions(driver);
 
-		WebElement obj = driver.findElement(By.xpath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]"))
+		WebElement obj = driver.findElement(By.xpath("//*[@class = 'android.widget.TextView' and (@text = 'Continue' or . = 'Continue')]"))
+		obj.click()
+	}
+	
+	@Keyword
+	def tap_back() {
+
+		AppiumDriver driver = MobileDriverFactory.getDriver();
+		Actions action = new Actions(driver);
+
+		WebElement obj = driver.findElement(By.xpath("//*[@class = 'android.widget.TextView' and (@text = '' or . = '')]"))
 		obj.click()
 	}
 
 
 
 	@Keyword
-	def tap_back() {
+	def tap_Phone_Numebr() {
 
-		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
 		AppiumDriver driver = MobileDriverFactory.getDriver();
 		Actions action = new Actions(driver);
 
-		WebElement obj = driver.findElement(By.xpath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]"))
+		WebElement obj = driver.findElement(By.xpath("//*[@class = 'android.widget.TextView' and (@text = 'Continue with Phone Number' or . = 'Continue with Phone Number')]"))
 		obj.click()
 	}
 
 	@Keyword
 	def Verify() {
 
-		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
 		AppiumDriver driver = MobileDriverFactory.getDriver();
 		Actions action = new Actions(driver);
 

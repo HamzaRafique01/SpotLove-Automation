@@ -15,12 +15,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>83595e54-e486-4a56-a7db-4044fa0f280c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>0608c9b8-ac23-48e6-870e-9f36bfb35c19</variableId>
    </variableLinks>
    <variableLinks>
@@ -59,19 +53,18 @@
       <value></value>
       <variableId>e0061bb4-1239-4084-bafe-dedf8af74a6a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1749bcac-b18d-44d4-a4e1-338b0fd179d2</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-011 Gender/btn back')</defaultValue>
       <description></description>
       <id>58b03124-d70f-4801-9ed3-210070e195ca</id>
       <masked>false</masked>
       <name>btn_back</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn Continue')</defaultValue>
-      <description></description>
-      <id>83595e54-e486-4a56-a7db-4044fa0f280c</id>
-      <masked>false</masked>
-      <name>cake_icon</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-010 DOB Screen/btn Continue')</defaultValue>
@@ -116,10 +109,17 @@
       <name>btn_G_Continue</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-012 Into/Person Icon')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-012 Into/Lbl text - Who are you into')</defaultValue>
       <description></description>
       <id>e0061bb4-1239-4084-bafe-dedf8af74a6a</id>
       <masked>false</masked>
-      <name>profile_icon</name>
+      <name>lbl_who</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/Lbl text - Whats your date of birth')</defaultValue>
+      <description></description>
+      <id>1749bcac-b18d-44d4-a4e1-338b0fd179d2</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
    </variable>
 </TestCaseEntity>

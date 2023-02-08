@@ -47,6 +47,18 @@
       <value></value>
       <variableId>bbb7d107-8220-4d22-99dd-53c16a31b5ef</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83655b6a-6dbc-4564-ad46-f7bef1503293</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42178bc5-6f47-4170-9845-978c41be3a54</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-003 Intro 3/Logo Spotlove')</defaultValue>
       <description></description>
@@ -83,7 +95,7 @@
       <name>Centr_image</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-003 Intro 3/btn Continue')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-002 Intro 2/btn Continue')</defaultValue>
       <description></description>
       <id>7f576d52-86e5-4532-a201-22e0d0651393</id>
       <masked>false</masked>
@@ -95,5 +107,19 @@
       <id>bbb7d107-8220-4d22-99dd-53c16a31b5ef</id>
       <masked>false</masked>
       <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-002 Intro 2/Lbl text - Make a Match With')</defaultValue>
+      <description></description>
+      <id>83655b6a-6dbc-4564-ad46-f7bef1503293</id>
+      <masked>false</masked>
+      <name>lbl_Make</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight')</defaultValue>
+      <description></description>
+      <id>42178bc5-6f47-4170-9845-978c41be3a54</id>
+      <masked>false</masked>
+      <name>lbl_First</name>
    </variable>
 </TestCaseEntity>

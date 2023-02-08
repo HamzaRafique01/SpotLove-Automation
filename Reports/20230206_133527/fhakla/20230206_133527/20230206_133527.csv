@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+fhakla,,,,2023-02-06 13:35:36,2023-02-06 13:36:08,32.133s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-01 First Intro Screen,,,,2023-02-06 13:35:36,2023-02-06 13:36:05,28.998s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-06 13:35:36,2023-02-06 13:35:36,0.007s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-06 13:35:36,2023-02-06 13:35:55,18.757s,PASSED
+"if (waitForElementPresent(logo, 10))",,,,2023-02-06 13:35:55,2023-02-06 13:36:05,9.610s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-06 13:36:05,2023-02-06 13:36:05,0.003s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-02 Second Intro Screen,,,,2023-02-06 13:36:05,2023-02-06 13:36:08,2.912s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-06 13:36:05,2023-02-06 13:36:05,0.002s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-06 13:36:05,2023-02-06 13:36:08,2.378s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-06 13:36:08,2023-02-06 13:36:08,0.002s,PASSED

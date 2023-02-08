@@ -15,12 +15,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>672d201a-ed29-4605-a792-d1b64b6a6365</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>4320616f-2406-41b5-a889-55af47d81dd5</variableId>
    </variableLinks>
    <variableLinks>
@@ -39,13 +33,19 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6563e5c3-101b-458d-9925-250e1bc9384f</variableId>
+      <variableId>5354ec97-be06-4cf1-af2a-54d41819fc14</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5354ec97-be06-4cf1-af2a-54d41819fc14</variableId>
+      <variableId>6ed5638d-24d5-46aa-9c3a-84cbae3f2661</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ebf0af6-9615-40a8-9972-b4e7330b684b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-013 Height/btn back')</defaultValue>
@@ -53,13 +53,6 @@
       <id>a35dcfc0-3460-4d84-9c58-13f4f5a01747</id>
       <masked>false</masked>
       <name>btn_back</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-012 Into/Person Icon')</defaultValue>
-      <description></description>
-      <id>672d201a-ed29-4605-a792-d1b64b6a6365</id>
-      <masked>false</masked>
-      <name>profile_icon</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-012 Into/btn continue')</defaultValue>
@@ -80,14 +73,7 @@
       <description></description>
       <id>1e3478a8-a8d7-46e5-8855-32a2ff33eb40</id>
       <masked>false</masked>
-      <name>lbl_How</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-013 Height/btn continue')</defaultValue>
-      <description></description>
-      <id>6563e5c3-101b-458d-9925-250e1bc9384f</id>
-      <masked>false</masked>
-      <name>btn_H_Continue</name>
+      <name>lbl_how</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Ethnicity Icon')</defaultValue>
@@ -95,5 +81,19 @@
       <id>5354ec97-be06-4cf1-af2a-54d41819fc14</id>
       <masked>false</masked>
       <name>ethnicity_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/Lbl text - Who are you into')</defaultValue>
+      <description></description>
+      <id>6ed5638d-24d5-46aa-9c3a-84cbae3f2661</id>
+      <masked>false</masked>
+      <name>lbl_who</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Lbl text - Whats your ethnicity')</defaultValue>
+      <description></description>
+      <id>8ebf0af6-9615-40a8-9972-b4e7330b684b</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
    </variable>
 </TestCaseEntity>

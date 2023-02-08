@@ -21,50 +21,63 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
 if(Mobile.waitForElementPresent(btn_back, 10)) {
-	
-	Mobile.waitForElementPresent(logo, 10)
-	KeywordUtil.markPassed("Back button Found......!")
-	KeywordUtil.markPassed("Spot Love Logo Found......!")
-	
-	if(Mobile.waitForElementPresent(F_lbl_text, 10)) {
+
+	CustomKeywords.'com.spotlove.Utility.tap_back'()
+	Mobile.waitForElementPresent(lbl_Make, 10)
+
+	KeywordUtil.markPassed("Make a match with Your Soulmate label text Found on previous Screen......!")
+
+	if(Mobile.waitForElementPresent(btn_continue, 10)) {
+
+		//		Mobile.tap(btn_continue, 10)
+		CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+
+		if(Mobile.waitForElementPresent(F_lbl_text, 10)) {
+
+			KeywordUtil.markPassed("User navigate to next screen and 'Spot The Perfect' Lbl text Found .........!")
+
+			if(Mobile.waitForElementPresent(S_lbl_text, 10)) {
+
+				KeywordUtil.markPassed("Someone Lbl text Found......!")
+
+				if(Mobile.waitForElementPresent(T_lbl_text, 10)) {
+
+					KeywordUtil.markPassed("Find The Person Lbl text Found......!")
+
+					if(Mobile.waitForElementPresent(Centr_image, 10)) {
+
+						KeywordUtil.markPassed("Center Image Found......!")
+
+						if(Mobile.waitForElementPresent(Centr_image, 10)) {
+
+	//						Mobile.tap(btn_continue, 10)
+							CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 		
-		KeywordUtil.markPassed("Spot The Perfect Lbl text Found......!")
-		
-		if(Mobile.waitForElementPresent(S_lbl_text, 10)) {
-			
-			KeywordUtil.markPassed("Someone Lbl text Found......!")
-			
-			if(Mobile.waitForElementPresent(T_lbl_text, 10)) {
-				
-				KeywordUtil.markPassed("Find The Person Lbl text Found......!")
-				
-				if(Mobile.waitForElementPresent(Centr_image, 10)) {
-					
-					KeywordUtil.markPassed("Center Image Found......!")
-					
-					if(Mobile.waitForElementPresent(btn_continue, 10)) {
-						
-						Mobile.tap(btn_continue, 10)
-						KeywordUtil.markPassed("User Navigate to the Sign-In selection Screen......!")
-						
-					
+							Mobile.waitForElementPresent(lbl_First, 10)
+							KeywordUtil.markPassed("User navigate to next screen and 'Spot Love at First Sight label text found'......!")
+
+						}else {
+							KeywordUtil.markFailed("Somethong missing Please check......!")
+						}
 					}else {
-						KeywordUtil.markFailed("Somethong missing Please check......!")
+						KeywordUtil.markFailed("Center Image Not Found......!")
 					}
 				}else {
-					KeywordUtil.markFailed("Center Image Not Found......!")
+					KeywordUtil.markFailed("Find The Person Lbl text Not Found......!")
 				}
 			}else {
-				KeywordUtil.markFailed("Find The Person Lbl text Not Found......!")
+				KeywordUtil.markFailed("Someone Lbl text Not Found......!")
 			}
 		}else {
-			KeywordUtil.markFailed("Someone Lbl text Not Found......!")
+			KeywordUtil.markFailed("Spot The Perfect Lbl text Not Found......!")
 		}
 	}else {
-		KeywordUtil.markFailed("Spot The Perfect Lbl text Not Found......!")
+		KeywordUtil.markFailed("Somethong missing Please check......!")
 	}
 }else {
-	KeywordUtil.markFailed("Back button Not Found......!")
-	KeywordUtil.markFailed("Spot Love Logo Not Found......!")
-	
+	KeywordUtil.markFailed("Make a match with Your Soulmate label text Found on previous Screen......!")
+
 }
+
+
+

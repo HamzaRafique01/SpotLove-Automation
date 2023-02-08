@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Updated Regression,,,,2023-02-07 19:43:44,2023-02-07 19:44:34,50.842s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-10 Birth date,,,,2023-02-07 19:43:44,2023-02-07 19:44:34,50.619s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-07 19:43:45,2023-02-07 19:43:45,0.011s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-07 19:43:45,2023-02-07 19:43:58,13.547s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-07 19:43:58,2023-02-07 19:44:34,35.939s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-07 19:44:34,2023-02-07 19:44:34,0.002s,PASSED

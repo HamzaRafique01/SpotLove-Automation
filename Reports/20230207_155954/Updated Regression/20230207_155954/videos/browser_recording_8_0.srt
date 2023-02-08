@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(Source_heart, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Heart icon found......!")
+
+4
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_how, 10))
+
+5
+00:00:00,000 --> 00:00:00,000
+1. markPassed("How did you hear about us? label text found......!")
+
+6
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Referral, 10))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Referral label text found......!")
+
+8
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Do, 10))
+
+9
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Do you have a referral code? label text found......!")
+
+10
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_code, 10))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Referral code? label text found......!")
+
+12
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+13
+00:00:00,000 --> 00:00:00,000
+1. com.spotlove.Utility.tap_Continue()
+
+14
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_what, 10))
+
+15
+00:00:00,000 --> 00:00:00,000
+1. markPassed("User navigate to the First Name Screen and What should we call you? found on First Name Screen......!")
+
+16
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+17
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

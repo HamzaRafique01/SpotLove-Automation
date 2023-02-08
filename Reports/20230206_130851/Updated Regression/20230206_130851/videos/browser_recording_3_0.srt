@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. waitForElementPresent(logo, 10)
+
+4
+00:00:00,000 --> 00:00:00,000
+5. markPassed("Back button Found......!")
+
+5
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Spot Love Logo Found......!")
+
+6
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(F_lbl_text, 10))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Spot The Perfect Lbl text Found......!")
+
+8
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(S_lbl_text, 10))
+
+9
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Someone Lbl text Found......!")
+
+10
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(T_lbl_text, 10))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Find The Person Lbl text Found......!")
+
+12
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(Centr_image, 10))
+
+13
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Center Image Found......!")
+
+14
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+15
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+16
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User Navigate to the Sign-In selection Screen......!")
+
+17
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+18
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+19
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

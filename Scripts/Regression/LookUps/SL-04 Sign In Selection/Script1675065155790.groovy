@@ -18,21 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+//Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
 
-if(Mobile.waitForElementPresent(F_lbl_text, 10)) {
+
+if(Mobile.waitForElementPresent(First_lbl_text, 10)) {
 
 	KeywordUtil.markPassed("Spot Love At First Sight label text found......!")
 
-	if(Mobile.waitForElementPresent(S_lbl_text, 10)) {
+	if(Mobile.waitForElementPresent(Second_lbl_text, 10)) {
 
 		KeywordUtil.markPassed("Select an account to Continue label text found......!")
 
-		if(Mobile.waitForElementPresent(btn_Continue_WPN, 10)) {
+		if(Mobile.waitForElementPresent(btn_Continue, 10)) {
 
-			Mobile.tap(btn_Continue_WPN, 10)
-			KeywordUtil.markPassed("User Navigate to Phone Numebr Screen......!")
+			Mobile.tap(btn_Continue, 10)
 
-
+			if(Mobile.waitForElementPresent(lbl_Sign, 10)) {
+				
+				KeywordUtil.markPassed("User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!")
+				
+			}else {
+				KeywordUtil.markFailed("Sign in to Spot.Love label text Not found......!")	
+			}
 		}else {
 			KeywordUtil.markFailed("Something Missing Please check Again......!")
 		}

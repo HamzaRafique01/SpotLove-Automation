@@ -53,6 +53,12 @@
       <value></value>
       <variableId>4cc138f9-c2d6-4afe-8c2a-856e08af0a00</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>803f02a2-3670-4f0a-87c0-ff33999625a5</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-020 Politics/btn back')</defaultValue>
       <description></description>
@@ -68,7 +74,7 @@
       <name>bottle_icon</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-019 Vices/btn Continue')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/android.widget.TextView - Continue')</defaultValue>
       <description></description>
       <id>0f9ca0dc-ff49-457f-a2f4-4ee931a32668</id>
       <masked>false</masked>
@@ -89,7 +95,7 @@
       <name>lbl_What</name>
    </variable>
    <variable>
-      <defaultValue>['Apolitical', 'Liberal', 'Conservative', 'Moderate']</defaultValue>
+      <defaultValue>['Apolitical', 'Conservative', 'Moderate']</defaultValue>
       <description></description>
       <id>0a296a1f-b3fe-4cbc-bbe5-dd79789ad8d8</id>
       <masked>false</masked>
@@ -108,5 +114,12 @@
       <id>4cc138f9-c2d6-4afe-8c2a-856e08af0a00</id>
       <masked>false</masked>
       <name>Gallery_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/Permissions/Gallery - Only this time')</defaultValue>
+      <description></description>
+      <id>803f02a2-3670-4f0a-87c0-ff33999625a5</id>
+      <masked>false</masked>
+      <name>access_Gallery_Permission</name>
    </variable>
 </TestCaseEntity>

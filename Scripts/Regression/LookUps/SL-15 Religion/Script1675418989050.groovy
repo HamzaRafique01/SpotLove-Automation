@@ -21,7 +21,8 @@ import com.spotlove.Utility
 
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-	Mobile.tap(btn_back, 10)
+//	Mobile.tap(btn_back, 10)
+	CustomKeywords.'com.spotlove.Utility.tap_back'()
 	KeywordUtil.markPassed("User navigate back to the Ethinicity screen......!")
 	Mobile.delay(10)
 	
@@ -31,7 +32,8 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-			Mobile.tap(btn_continue, 10)
+//			Mobile.tap(btn_continue, 10)
+			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 			KeywordUtil.markPassed("User navigate to the Religon Screen......!")
 
 			if(Mobile.waitForElementPresent(book_icon, 10)) {
@@ -47,7 +49,8 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 					if(Mobile.waitForElementPresent(btn_R_Continue, 10)) {
 
-						Mobile.tap(btn_R_Continue, 10)
+//						Mobile.tap(btn_R_Continue, 10)
+						CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 						KeywordUtil.markPassed("User navigate to the Ethnicity Screen.......!")
 
 						if(Mobile.waitForElementPresent(heart_icon, 10)) {

@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+4
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Height screen......!")
+
+5
+00:00:00,000 --> 00:00:00,000
+9. delay(10)
+
+6
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(scale_icon, 20))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Scale icon found on Height screen......!")
+
+8
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+9
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+10
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Ethnicity Screen......!")
+
+11
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(Ethnicity_icon, 10))
+
+12
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+13
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+14
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

@@ -21,6 +21,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
 
+
 if(Mobile.waitForElementPresent(Logo_Spotlove, 10)) {
 
 	KeywordUtil.markPassed("Spot.Love Logo Found......!")
@@ -78,12 +79,12 @@ if(Mobile.waitForElementPresent(Logo_Spotlove, 10)) {
 														Mobile.tap(btn_Agree, 10)
 														KeywordUtil.markPassed("I Agree button found, User navigate to the Source Screen......!")
 
-														if(Mobile.waitForElementPresent(Source_heart, 10)) {
+														if(Mobile.waitForElementPresent(lbl_how, 10)) {
 
-															KeywordUtil.markPassed("Heart icon found......!")
+															KeywordUtil.markPassed("How did you hear about us? label text found......!")
 
 														}else {
-															KeywordUtil.markFailed("Heart icon not found.....!")
+															KeywordUtil.markFailed("How did you hear about us? label text not found.....!")
 														}
 													}else {
 														KeywordUtil.markFailed("I Agree button dosn't found.....!")

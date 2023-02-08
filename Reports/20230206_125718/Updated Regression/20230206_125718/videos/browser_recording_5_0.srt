@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(spotlove_logo, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Spot.Love Logo Found......!")
+
+4
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_back, 10))
+
+5
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Back Button Found......!")
+
+6
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_first_text, 10))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Sign in to Spot.Love label text is found......!")
+
+8
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Second_text, 10))
+
+9
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Continue with your phone number label text is found......!")
+
+10
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(flag_icon, 10))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Country Flag Icon is found......!")
+
+12
+00:00:00,000 --> 00:00:00,000
+5. tap(flag_icon, 10)
+
+13
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Country slection dropdown is opened......!")
+
+14
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(search_box, 10))
+
+15
+00:00:00,000 --> 00:00:00,000
+1. setText(search_box, C_Name, 10)
+
+16
+00:00:00,000 --> 00:00:00,000
+5. markPassed("Country Name Entered in the Search Box......!")
+
+17
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(First_index, 10))
+
+18
+00:00:00,000 --> 00:00:00,000
+1. tap(First_index, 10)
+
+19
+00:00:00,000 --> 00:00:00,000
+5. markPassed("Country Selection Successfully......!")
+
+20
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(Enter_Phonenumber, 10))
+
+21
+00:00:00,000 --> 00:00:00,000
+1. setText(Enter_Phonenumber, PhoneNumber, 10)
+
+22
+00:00:00,000 --> 00:00:00,000
+5. markPassed("Phon number Entered......!")
+
+23
+00:00:00,000 --> 00:00:00,000
+9. com.spotlove.Utility.tap_Continue()
+
+24
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+25
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+26
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Updated Regression" time="138.04" tests="10" failures="0" errors="1">
+   <testsuite name="Updated Regression" tests="10" failures="0" errors="1" time="138.04" skipped="0" timestamp="2023-02-07 19:32:49" hostname="pc - 192.168.1.16" id="Test Suites/Updated Regression">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/git/SpotLove-Automation/Reports/20230207_193240/Updated Regression/20230207_193240"/>
+         <property name="logFiles" value="/Users/pc/git/SpotLove-Automation/Reports/20230207_193240/Updated Regression/20230207_193240/execution0.log, /Users/pc/git/SpotLove-Automation/Reports/20230207_193240/Updated Regression/20230207_193240/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - 192.168.1.16"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Regression/LookUps/SL-01 First Intro Screen" time="22.283" classname="Test Cases/Regression/LookUps/SL-01 First Intro Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:32:49 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-01 First Intro Screen: Test Cases/Regression/LookUps/SL-01 First Intro Screen
+
+2023-02-07 19:32:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:32:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:32:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:32:50 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 19:32:50 - [MESSAGE][INFO] - User set preference: ['deviceId', 'RF8RC109TVZ']
+
+2023-02-07 19:32:53 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-02-07 19:32:54 - [MESSAGE][INFO] - Appium server started on port 54,645
+
+2023-02-07 19:33:04 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 19:33:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(logo, 10)): null
+
+2023-02-07 19:33:09 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/Logo SpotLove' is present
+
+2023-02-07 19:33:09 - [TEST_STEP][PASSED] - markPassed("Spot Love Logo Found......!"): Spot Love Logo Found......!
+
+2023-02-07 19:33:09 - [MESSAGE][PASSED] - Spot Love Logo Found......!
+
+2023-02-07 19:33:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(F_lbl_text, 10)): null
+
+2023-02-07 19:33:09 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/Lbl text Spot The Perfect' is present
+
+2023-02-07 19:33:09 - [TEST_STEP][PASSED] - markPassed("Spot The Perfect Lbl text Found......!"): Spot The Perfect Lbl text Found......!
+
+2023-02-07 19:33:09 - [MESSAGE][PASSED] - Spot The Perfect Lbl text Found......!
+
+2023-02-07 19:33:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(S_lbl_text, 10)): null
+
+2023-02-07 19:33:09 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/Lbl text Someone' is present
+
+2023-02-07 19:33:09 - [TEST_STEP][PASSED] - markPassed("Someone Lbl text Found......!"): Someone Lbl text Found......!
+
+2023-02-07 19:33:09 - [MESSAGE][PASSED] - Someone Lbl text Found......!
+
+2023-02-07 19:33:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(T_lbl_text, 10)): null
+
+2023-02-07 19:33:10 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/Lbl text Find the person that checks all your boxes' is present
+
+2023-02-07 19:33:10 - [TEST_STEP][PASSED] - markPassed("Find The Person Lbl text Found......!"): Find The Person Lbl text Found......!
+
+2023-02-07 19:33:10 - [MESSAGE][PASSED] - Find The Person Lbl text Found......!
+
+2023-02-07 19:33:10 - [TEST_STEP][PASSED] - if (waitForElementPresent(Centr_image, 10)): null
+
+2023-02-07 19:33:10 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/Middle Screen Pic' is present
+
+2023-02-07 19:33:10 - [TEST_STEP][PASSED] - markPassed("Center Image Found......!"): Center Image Found......!
+
+2023-02-07 19:33:10 - [MESSAGE][PASSED] - Center Image Found......!
+
+2023-02-07 19:33:10 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:33:10 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/btn Conitnue' is present
+
+2023-02-07 19:33:10 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:10 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:10 - [TEST_STEP][PASSED] - waitForElementPresent(lbl_Make, 10): Element 'Object Repository/Regression/SC-002 Intro 2/Lbl text - Make a Match With' is present
+
+2023-02-07 19:33:12 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/Lbl text - Make a Match With' is present
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - markPassed("User navigate to next screen and 'Connect with your matches through live video mixers label text found'......!"): User navigate to next screen and 'Connect with your matches through live video mixers label text found'......!
+
+2023-02-07 19:33:12 - [MESSAGE][PASSED] - User navigate to next screen and 'Connect with your matches through live video mixers label text found'......!
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-02 Second Intro Screen" time="6.449" classname="Test Cases/Regression/LookUps/SL-02 Second Intro Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:33:12 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-02 Second Intro Screen: Test Cases/Regression/LookUps/SL-02 Second Intro Screen
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:33:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_back, 10)): null
+
+2023-02-07 19:33:13 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/btn back' is present
+
+2023-02-07 19:33:13 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_back(): com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:33:13 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:33:13 - [TEST_STEP][PASSED] - waitForElementPresent(lbl_Find, 10): Element 'Object Repository/Regression/SC-001 Intro 1/Lbl text Find the person that checks all your boxes' is present
+
+2023-02-07 19:33:13 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/Lbl text Find the person that checks all your boxes' is present
+
+2023-02-07 19:33:13 - [TEST_STEP][PASSED] - markPassed("Find the person that checks all your boxes. label text Found on previous Screen......!"): Find the person that checks all your boxes. label text Found on previous Screen......!
+
+2023-02-07 19:33:13 - [MESSAGE][PASSED] - Find the person that checks all your boxes. label text Found on previous Screen......!
+
+2023-02-07 19:33:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:33:14 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/btn Conitnue' is present
+
+2023-02-07 19:33:14 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:14 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(F_lbl_text, 10)): null
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/Lbl text - Make a Match With' is present
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - markPassed("User navigate to next screen and 'Make a Match with your solemate' Lbl text Found......!"): User navigate to next screen and 'Make a Match with your solemate' Lbl text Found......!
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - User navigate to next screen and 'Make a Match with your solemate' Lbl text Found......!
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(S_lbl_text, 10)): null
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/Lbl text - Your Soulmate' is present
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - markPassed("Your Soulmate Lbl text Found......!"): Your Soulmate Lbl text Found......!
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - Your Soulmate Lbl text Found......!
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(T_lbl_text, 10)): null
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/Lbl text - Its a match when someone likes youback' is present
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - markPassed("It's a match Lbl text Found......!"): It's a match Lbl text Found......!
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - It's a match Lbl text Found......!
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(Centr_image, 10)): null
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/Middle Screen Pic' is present
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - markPassed("Center Image Found......!"): Center Image Found......!
+
+2023-02-07 19:33:16 - [MESSAGE][PASSED] - Center Image Found......!
+
+2023-02-07 19:33:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:33:17 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-001 Intro 1/btn Conitnue' is present
+
+2023-02-07 19:33:17 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:17 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:17 - [TEST_STEP][PASSED] - waitForElementPresent(lbl_Connect, 10): Element 'Object Repository/Regression/SC-003 Intro 3/Lbl text - Connect with your matches through livevideo mixers' is present
+
+2023-02-07 19:33:18 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-003 Intro 3/Lbl text - Connect with your matches through livevideo mixers' is present
+
+2023-02-07 19:33:18 - [TEST_STEP][PASSED] - markPassed("User navigate to next screen and 'Connect with your matches through live video mixers label text found'......!"): User navigate to next screen and 'Connect with your matches through live video mixers label text found'......!
+
+2023-02-07 19:33:18 - [MESSAGE][PASSED] - User navigate to next screen and 'Connect with your matches through live video mixers label text found'......!
+
+2023-02-07 19:33:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:33:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-03 Third Intro Screen" time="6.537" classname="Test Cases/Regression/LookUps/SL-03 Third Intro Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:33:18 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-03 Third Intro Screen: Test Cases/Regression/LookUps/SL-03 Third Intro Screen
+
+2023-02-07 19:33:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:33:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:33:19 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_back, 10)): null
+
+2023-02-07 19:33:19 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-003 Intro 3/btn back' is present
+
+2023-02-07 19:33:19 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_back(): com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:33:19 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:33:19 - [TEST_STEP][PASSED] - waitForElementPresent(lbl_Make, 10): Element 'Object Repository/Regression/SC-002 Intro 2/Lbl text - Make a Match With' is present
+
+2023-02-07 19:33:20 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/Lbl text - Make a Match With' is present
+
+2023-02-07 19:33:20 - [TEST_STEP][PASSED] - markPassed("Make a match with Your Soulmate label text Found on previous Screen......!"): Make a match with Your Soulmate label text Found on previous Screen......!
+
+2023-02-07 19:33:20 - [MESSAGE][PASSED] - Make a match with Your Soulmate label text Found on previous Screen......!
+
+2023-02-07 19:33:20 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:33:21 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-002 Intro 2/btn Continue' is present
+
+2023-02-07 19:33:21 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:21 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(F_lbl_text, 10)): null
+
+2023-02-07 19:33:22 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-003 Intro 3/Lbl text - Connect on Fun' is present
+
+2023-02-07 19:33:22 - [TEST_STEP][PASSED] - markPassed("User navigate to next screen and 'Spot The Perfect' Lbl text Found .........!"): User navigate to next screen and 'Spot The Perfect' Lbl text Found .........!
+
+2023-02-07 19:33:22 - [MESSAGE][PASSED] - User navigate to next screen and 'Spot The Perfect' Lbl text Found .........!
+
+2023-02-07 19:33:22 - [TEST_STEP][PASSED] - if (waitForElementPresent(S_lbl_text, 10)): null
+
+2023-02-07 19:33:22 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-003 Intro 3/Lbl text - Video Dates' is present
+
+2023-02-07 19:33:22 - [TEST_STEP][PASSED] - markPassed("Someone Lbl text Found......!"): Someone Lbl text Found......!
+
+2023-02-07 19:33:22 - [MESSAGE][PASSED] - Someone Lbl text Found......!
+
+2023-02-07 19:33:22 - [TEST_STEP][PASSED] - if (waitForElementPresent(T_lbl_text, 10)): null
+
+2023-02-07 19:33:23 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-003 Intro 3/Lbl text - Connect with your matches through livevideo mixers' is present
+
+2023-02-07 19:33:23 - [TEST_STEP][PASSED] - markPassed("Find The Person Lbl text Found......!"): Find The Person Lbl text Found......!
+
+2023-02-07 19:33:23 - [MESSAGE][PASSED] - Find The Person Lbl text Found......!
+
+2023-02-07 19:33:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(Centr_image, 10)): null
+
+2023-02-07 19:33:23 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-003 Intro 3/MIddle Screen Pic' is present
+
+2023-02-07 19:33:23 - [TEST_STEP][PASSED] - markPassed("Center Image Found......!"): Center Image Found......!
+
+2023-02-07 19:33:23 - [MESSAGE][PASSED] - Center Image Found......!
+
+2023-02-07 19:33:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(Centr_image, 10)): null
+
+2023-02-07 19:33:23 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-003 Intro 3/MIddle Screen Pic' is present
+
+2023-02-07 19:33:23 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:23 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:23 - [TEST_STEP][PASSED] - waitForElementPresent(lbl_First, 10): Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 19:33:25 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - markPassed("User navigate to next screen and 'Spot Love at First Sight label text found'......!"): User navigate to next screen and 'Spot Love at First Sight label text found'......!
+
+2023-02-07 19:33:25 - [MESSAGE][PASSED] - User navigate to next screen and 'Spot Love at First Sight label text found'......!
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-04 Sign In Selection" time="2.612" classname="Test Cases/Regression/LookUps/SL-04 Sign In Selection" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:33:25 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-04 Sign In Selection: Test Cases/Regression/LookUps/SL-04 Sign In Selection
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(First_lbl_text, 10)): null
+
+2023-02-07 19:33:25 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - markPassed("Spot Love At First Sight label text found......!"): Spot Love At First Sight label text found......!
+
+2023-02-07 19:33:25 - [MESSAGE][PASSED] - Spot Love At First Sight label text found......!
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Second_lbl_text, 10)): null
+
+2023-02-07 19:33:25 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Select an account to continue' is present
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - markPassed("Select an account to Continue label text found......!"): Select an account to Continue label text found......!
+
+2023-02-07 19:33:25 - [MESSAGE][PASSED] - Select an account to Continue label text found......!
+
+2023-02-07 19:33:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2023-02-07 19:33:26 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)' is present
+
+2023-02-07 19:33:26 - [TEST_STEP][PASSED] - tap(btn_Continue, 10): Tapped on element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)'
+
+2023-02-07 19:33:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)'
+
+2023-02-07 19:33:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Sign, 10)): null
+
+2023-02-07 19:33:27 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Lbl text - Sign in to Spot.Love' is present
+
+2023-02-07 19:33:27 - [TEST_STEP][PASSED] - markPassed("User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!"): User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!
+
+2023-02-07 19:33:27 - [MESSAGE][PASSED] - User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!
+
+2023-02-07 19:33:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:33:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen" time="27.031" classname="Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:33:27 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen: Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen
+
+2023-02-07 19:33:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:33:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:33:28 - [TEST_STEP][PASSED] - if (waitForElementPresent(spotlove_logo, 10)): null
+
+2023-02-07 19:33:28 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Logo Spotlove' is present
+
+2023-02-07 19:33:28 - [TEST_STEP][PASSED] - markPassed("Spot.Love Logo Found......!"): Spot.Love Logo Found......!
+
+2023-02-07 19:33:28 - [MESSAGE][PASSED] - Spot.Love Logo Found......!
+
+2023-02-07 19:33:28 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_back, 10)): null
+
+2023-02-07 19:33:28 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/btn back' is present
+
+2023-02-07 19:33:28 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_back(): com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:33:29 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:33:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_SPOT, 10)): null
+
+2023-02-07 19:33:30 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 19:33:30 - [TEST_STEP][PASSED] - markPassed("User navigate to the Previous Screen and Spotlove at first sight label text is found......!"): User navigate to the Previous Screen and Spotlove at first sight label text is found......!
+
+2023-02-07 19:33:30 - [MESSAGE][PASSED] - User navigate to the Previous Screen and Spotlove at first sight label text is found......!
+
+2023-02-07 19:33:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:33:30 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)' is present
+
+2023-02-07 19:33:30 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Phone_Numebr(): com.spotlove.Utility.tap_Phone_Numebr is PASSED
+
+2023-02-07 19:33:30 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Phone_Numebr is PASSED
+
+2023-02-07 19:33:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_first_text, 10)): null
+
+2023-02-07 19:33:31 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Lbl text - Sign in to Spot.Love' is present
+
+2023-02-07 19:33:31 - [TEST_STEP][PASSED] - markPassed("User navigate to the Next Screen and Sign in to Spot.Love label text is found......!"): User navigate to the Next Screen and Sign in to Spot.Love label text is found......!
+
+2023-02-07 19:33:31 - [MESSAGE][PASSED] - User navigate to the Next Screen and Sign in to Spot.Love label text is found......!
+
+2023-02-07 19:33:31 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Second_text, 10)): null
+
+2023-02-07 19:33:32 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Lbl text - Continue with your phone number' is present
+
+2023-02-07 19:33:32 - [TEST_STEP][PASSED] - markPassed("Continue with your phone number label text is found......!"): Continue with your phone number label text is found......!
+
+2023-02-07 19:33:32 - [MESSAGE][PASSED] - Continue with your phone number label text is found......!
+
+2023-02-07 19:33:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(flag_icon, 10)): null
+
+2023-02-07 19:33:32 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/dropdown Country Selection' is present
+
+2023-02-07 19:33:32 - [TEST_STEP][PASSED] - print("Country Flag Icon is found......!"): null
+
+2023-02-07 19:33:32 - [TEST_STEP][PASSED] - tap(flag_icon, 10): Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/dropdown Country Selection'
+
+2023-02-07 19:33:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/dropdown Country Selection'
+
+2023-02-07 19:33:32 - [TEST_STEP][PASSED] - markPassed("Country slection dropdown is opened......!"): Country slection dropdown is opened......!
+
+2023-02-07 19:33:32 - [MESSAGE][PASSED] - Country slection dropdown is opened......!
+
+2023-02-07 19:33:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(search_box, 10)): null
+
+2023-02-07 19:33:34 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Search box Enter country name' is present
+
+2023-02-07 19:33:34 - [TEST_STEP][PASSED] - setText(search_box, C_Name, 10): Text 'US' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Search box Enter country name'
+
+2023-02-07 19:33:35 - [MESSAGE][PASSED] - Text 'US' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Search box Enter country name'
+
+2023-02-07 19:33:35 - [TEST_STEP][PASSED] - markPassed("Country Name Entered in the Search Box......!"): Country Name Entered in the Search Box......!
+
+2023-02-07 19:33:35 - [MESSAGE][PASSED] - Country Name Entered in the Search Box......!
+
+2023-02-07 19:33:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(First_index, 10)): null
+
+2023-02-07 19:33:36 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Select Country In First Index' is present
+
+2023-02-07 19:33:36 - [TEST_STEP][PASSED] - tap(First_index, 10): Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Select Country In First Index'
+
+2023-02-07 19:33:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Select Country In First Index'
+
+2023-02-07 19:33:36 - [TEST_STEP][PASSED] - markPassed("Country Selection Successfully......!"): Country Selection Successfully......!
+
+2023-02-07 19:33:36 - [MESSAGE][PASSED] - Country Selection Successfully......!
+
+2023-02-07 19:33:36 - [TEST_STEP][PASSED] - if (waitForElementPresent(Enter_Phonenumber, 10)): null
+
+2023-02-07 19:33:37 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Input Phone Number' is present
+
+2023-02-07 19:33:37 - [TEST_STEP][PASSED] - setText(Enter_Phonenumber, PhoneNumber, 10): Text '6505559876' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Input Phone Number'
+
+2023-02-07 19:33:38 - [MESSAGE][PASSED] - Text '6505559876' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Input Phone Number'
+
+2023-02-07 19:33:38 - [TEST_STEP][PASSED] - markPassed("Phon number Entered......!"): Phon number Entered......!
+
+2023-02-07 19:33:38 - [MESSAGE][PASSED] - Phon number Entered......!
+
+2023-02-07 19:33:38 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:39 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:33:39 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-02-07 19:33:54 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-02-07 19:33:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:33:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-06 OTP Screen" time="17.809" classname="Test Cases/Regression/LookUps/SL-06 OTP Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:33:54 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-06 OTP Screen: Test Cases/Regression/LookUps/SL-06 OTP Screen
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(spotlove_logo, 10)): null
+
+2023-02-07 19:33:55 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-006 OTP Screen/Logo Spotlove' is present
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - markPassed("Spot.Love Logo Found......!"): Spot.Love Logo Found......!
+
+2023-02-07 19:33:55 - [MESSAGE][PASSED] - Spot.Love Logo Found......!
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_first_text, 10)): null
+
+2023-02-07 19:33:55 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-006 OTP Screen/Lbl text - Enter your verification code' is present
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - markPassed("Enter your verification code label text is found......!"): Enter your verification code label text is found......!
+
+2023-02-07 19:33:55 - [MESSAGE][PASSED] - Enter your verification code label text is found......!
+
+2023-02-07 19:33:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Second_text, 10)): null
+
+2023-02-07 19:33:56 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-006 OTP Screen/Lbl text - Weve sent a pin to Phone Number' is present
+
+2023-02-07 19:33:56 - [TEST_STEP][PASSED] - markPassed("We're sent a pin to +16505559876 label text is found......!"): We're sent a pin to +16505559876 label text is found......!
+
+2023-02-07 19:33:56 - [MESSAGE][PASSED] - We're sent a pin to +16505559876 label text is found......!
+
+2023-02-07 19:33:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - -"), 15): Tapped on element 'Object Repository/Smoke/OTP/android.widget.EditText - -'
+
+2023-02-07 19:33:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Smoke/OTP/android.widget.EditText - -'
+
+2023-02-07 19:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (1)"), "1", 2): Text '1' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (1)'
+
+2023-02-07 19:33:59 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (1)'
+
+2023-02-07 19:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (2)"), "2", 2): Text '2' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (2)'
+
+2023-02-07 19:34:01 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (2)'
+
+2023-02-07 19:34:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (3)"), "3", 2): Text '3' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (3)'
+
+2023-02-07 19:34:04 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (3)'
+
+2023-02-07 19:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (4)"), "4", 2): Text '4' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (4)'
+
+2023-02-07 19:34:06 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (4)'
+
+2023-02-07 19:34:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (5)"), "5", 2): Text '5' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (5)'
+
+2023-02-07 19:34:09 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (5)'
+
+2023-02-07 19:34:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (6)"), "6", 2): Text '6' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (6)'
+
+2023-02-07 19:34:11 - [MESSAGE][PASSED] - Text '6' has been set to element 'Object Repository/Smoke/OTP/android.widget.EditText - - (6)'
+
+2023-02-07 19:34:11 - [TEST_STEP][PASSED] - com.spotlove.Utility.Verify(): com.spotlove.Utility.Verify is PASSED
+
+2023-02-07 19:34:12 - [MESSAGE][PASSED] - com.spotlove.Utility.Verify is PASSED
+
+2023-02-07 19:34:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:34:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:12 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove" time="16.126" classname="Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:34:12 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove: Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove
+
+2023-02-07 19:34:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:34:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:34:13 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 19:34:13 - [MESSAGE][INFO] - User set preference: ['deviceId', 'RF8RC109TVZ']
+
+2023-02-07 19:34:22 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 19:34:22 - [TEST_STEP][PASSED] - if (waitForElementPresent(Logo_Spotlove, 10)): null
+
+2023-02-07 19:34:23 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Logo spotlove' is present
+
+2023-02-07 19:34:23 - [TEST_STEP][PASSED] - markPassed("Spot.Love Logo Found......!"): Spot.Love Logo Found......!
+
+2023-02-07 19:34:23 - [MESSAGE][PASSED] - Spot.Love Logo Found......!
+
+2023-02-07 19:34:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_txt_first, 10)): null
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Welcome to Spot.Love' is present
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - markPassed("Welcome to Spot.Love lbl text Found......!"): Welcome to Spot.Love lbl text Found......!
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - Welcome to Spot.Love lbl text Found......!
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_txt_Sec, 10)): null
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl Text - Please follow these house rules' is present
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - markPassed("Please follow these house rules lbl text Found......!"): Please follow these house rules lbl text Found......!
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - Please follow these house rules lbl text Found......!
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(first_heart_icon, 10)): null
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/First Heart Icon' is present
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - markPassed("First Heart Icon Found......!"): First Heart Icon Found......!
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - First Heart Icon Found......!
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_kind_lbl, 10)): null
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be kind' is present
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - markPassed("Be Kind lbl text Found......!"): Be Kind lbl text Found......!
+
+2023-02-07 19:34:24 - [MESSAGE][PASSED] - Be Kind lbl text Found......!
+
+2023-02-07 19:34:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(Treat_lbl, 10)): null
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Treat everyone with respect andkindness' is present
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - markPassed("Treat everyone with respect and kindness lbl text Found......!"): Treat everyone with respect and kindness lbl text Found......!
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Treat everyone with respect and kindness lbl text Found......!
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Second_heart_icon, 10)): null
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Second Heart Icon' is present
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - markPassed("Second Heart Icon Found......!"): Second Heart Icon Found......!
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Second Heart Icon Found......!
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_your_lbl, 10)): null
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be yourself' is present
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - markPassed("Be yourself lbl text Found......!"): Be yourself lbl text Found......!
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Be yourself lbl text Found......!
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_honest_lbl, 10)): null
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be honest about your age, photos, andbio' is present
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - markPassed("Be honest about your age, photos, and bio lbl text Found......!"): Be honest about your age, photos, and bio lbl text Found......!
+
+2023-02-07 19:34:25 - [MESSAGE][PASSED] - Be honest about your age, photos, and bio lbl text Found......!
+
+2023-02-07 19:34:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(Third_heart_icon, 10)): null
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Third Heart Icon' is present
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - markPassed("Third Heart Icon Found......!"): Third Heart Icon Found......!
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Third Heart Icon Found......!
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(Be_out_lbl, 10)): null
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Be outspoken' is present
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - markPassed("Be outspoken lbl text Found......!"): Be outspoken lbl text Found......!
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Be outspoken lbl text Found......!
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(Always_lbl, 10)): null
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Lbl text - Always report bad behavior' is present
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - markPassed("Always reported bad behavior lbl text Found......!"): Always reported bad behavior lbl text Found......!
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Always reported bad behavior lbl text Found......!
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(View_term, 10)): null
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/Text - Terms And Conditions' is present
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - markPassed("Terms and Conditions Link is functional......!"): Terms and Conditions Link is functional......!
+
+2023-02-07 19:34:26 - [MESSAGE][PASSED] - Terms and Conditions Link is functional......!
+
+2023-02-07 19:34:26 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Agree, 10)): null
+
+2023-02-07 19:34:27 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree' is present
+
+2023-02-07 19:34:27 - [TEST_STEP][PASSED] - tap(btn_Agree, 10): Tapped on element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree'
+
+2023-02-07 19:34:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-007 Welcome Onboard Screen/btn I Agree'
+
+2023-02-07 19:34:27 - [TEST_STEP][PASSED] - markPassed("I Agree button found, User navigate to the Source Screen......!"): I Agree button found, User navigate to the Source Screen......!
+
+2023-02-07 19:34:27 - [MESSAGE][PASSED] - I Agree button found, User navigate to the Source Screen......!
+
+2023-02-07 19:34:27 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_how, 10)): null
+
+2023-02-07 19:34:28 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/Lbl text - How did you hear about us' is present
+
+2023-02-07 19:34:28 - [TEST_STEP][PASSED] - markPassed("How did you hear about us? label text found......!"): How did you hear about us? label text found......!
+
+2023-02-07 19:34:28 - [MESSAGE][PASSED] - How did you hear about us? label text found......!
+
+2023-02-07 19:34:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:34:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-08 Source Screen" time="3.083" classname="Test Cases/Regression/LookUps/SL-08 Source Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:34:28 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-08 Source Screen: Test Cases/Regression/LookUps/SL-08 Source Screen
+
+2023-02-07 19:34:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:34:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(Source_heart, 10)): null
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/Heart Icon' is present
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - markPassed("Heart icon found......!"): Heart icon found......!
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - Heart icon found......!
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_how, 10)): null
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/Lbl text - How did you hear about us' is present
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - markPassed("How did you hear about us? label text found......!"): How did you hear about us? label text found......!
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - How did you hear about us? label text found......!
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Referral, 10)): null
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/lbl text - Referral' is present
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - markPassed("Referral label text found......!"): Referral label text found......!
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - Referral label text found......!
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Do, 10)): null
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/lbl text - Do you have a referral code' is present
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - markPassed("Do you have a referral code? label text found......!"): Do you have a referral code? label text found......!
+
+2023-02-07 19:34:29 - [MESSAGE][PASSED] - Do you have a referral code? label text found......!
+
+2023-02-07 19:34:29 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_code, 10)): null
+
+2023-02-07 19:34:30 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/lbl text - Referral Code' is present
+
+2023-02-07 19:34:30 - [TEST_STEP][PASSED] - markPassed("Referral code? label text found......!"): Referral code? label text found......!
+
+2023-02-07 19:34:30 - [MESSAGE][PASSED] - Referral code? label text found......!
+
+2023-02-07 19:34:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:34:30 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/btn Continue' is present
+
+2023-02-07 19:34:30 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:30 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_what, 10)): null
+
+2023-02-07 19:34:31 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/Lbl text - What should we call you' is present
+
+2023-02-07 19:34:31 - [TEST_STEP][PASSED] - markPassed("User navigate to the First Name Screen and What should we call you? found on First Name Screen......!"): User navigate to the First Name Screen and What should we call you? found on First Name Screen......!
+
+2023-02-07 19:34:31 - [MESSAGE][PASSED] - User navigate to the First Name Screen and What should we call you? found on First Name Screen......!
+
+2023-02-07 19:34:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:34:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-09 First Name" time="22.506" classname="Test Cases/Regression/LookUps/SL-09 First Name" status="PASSED">
+         <system-out><![CDATA[2023-02-07 19:34:31 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-09 First Name: Test Cases/Regression/LookUps/SL-09 First Name
+
+2023-02-07 19:34:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:34:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:34:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_back, 10)): null
+
+2023-02-07 19:34:32 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/btn back' is present
+
+2023-02-07 19:34:32 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_back(): com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:34:32 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:34:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_how, 10)): null
+
+2023-02-07 19:34:34 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/Lbl text - How did you hear about us' is present
+
+2023-02-07 19:34:34 - [TEST_STEP][PASSED] - markPassed("User navigate back to the Source screen and How did you about us? label text found......!"): User navigate back to the Source screen and How did you about us? label text found......!
+
+2023-02-07 19:34:34 - [MESSAGE][PASSED] - User navigate back to the Source screen and How did you about us? label text found......!
+
+2023-02-07 19:34:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Referral_Continue, 10)): null
+
+2023-02-07 19:34:34 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-008 Referel Screen/btn Continue' is present
+
+2023-02-07 19:34:34 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:34 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:34 - [TEST_STEP][PASSED] - markPassed("User navigate Move forword to the First Name screen......!"): User navigate Move forword to the First Name screen......!
+
+2023-02-07 19:34:34 - [MESSAGE][PASSED] - User navigate Move forword to the First Name screen......!
+
+2023-02-07 19:34:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(Contact_icon, 30)): null
+
+2023-02-07 19:34:34 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/Contact icon' is present
+
+2023-02-07 19:34:34 - [TEST_STEP][PASSED] - markPassed("Contact icon found......!"): Contact icon found......!
+
+2023-02-07 19:34:34 - [MESSAGE][PASSED] - Contact icon found......!
+
+2023-02-07 19:34:34 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_what, 10)): null
+
+2023-02-07 19:34:35 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/Lbl text - What should we call you' is present
+
+2023-02-07 19:34:35 - [TEST_STEP][PASSED] - markPassed("What should we call you? label text found......!"): What should we call you? label text found......!
+
+2023-02-07 19:34:35 - [MESSAGE][PASSED] - What should we call you? label text found......!
+
+2023-02-07 19:34:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_tell, 10)): null
+
+2023-02-07 19:34:36 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/Lbl text - Tell us your first name' is present
+
+2023-02-07 19:34:36 - [TEST_STEP][PASSED] - markPassed("Tell us your first name label text found......!"): Tell us your first name label text found......!
+
+2023-02-07 19:34:36 - [MESSAGE][PASSED] - Tell us your first name label text found......!
+
+2023-02-07 19:34:36 - [TEST_STEP][PASSED] - if (waitForElementPresent(First_Name, 10)): null
+
+2023-02-07 19:34:36 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/Input name field' is present
+
+2023-02-07 19:34:36 - [TEST_STEP][PASSED] - setText(First_Name, S_First_Name, 0): Text 'Hamza' has been set to element 'Object Repository/Regression/SC-009 First Name Screen/Input name field'
+
+2023-02-07 19:34:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-07 19:34:37 - [MESSAGE][PASSED] - Text 'Hamza' has been set to element 'Object Repository/Regression/SC-009 First Name Screen/Input name field'
+
+2023-02-07 19:34:37 - [TEST_STEP][PASSED] - markPassed("First name Entered text......!"): First name Entered text......!
+
+2023-02-07 19:34:37 - [MESSAGE][PASSED] - First name Entered text......!
+
+2023-02-07 19:34:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:34:38 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/btn Continue' is present
+
+2023-02-07 19:34:38 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:38 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:38 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-02-07 19:34:53 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-02-07 19:34:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_whats, 10)): null
+
+2023-02-07 19:34:54 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/Lbl text - Whats your date of birth' is present
+
+2023-02-07 19:34:54 - [TEST_STEP][PASSED] - markPassed("User navigate Move forword to the Birth date screen and What's your date of birth? label text found......!"): User navigate Move forword to the Birth date screen and What's your date of birth? label text found......!
+
+2023-02-07 19:34:54 - [MESSAGE][PASSED] - User navigate Move forword to the Birth date screen and What's your date of birth? label text found......!
+
+2023-02-07 19:34:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:34:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-10 Birth date" time="13.315" classname="Test Cases/Regression/LookUps/SL-10 Birth date" status="ERROR">
+         <error type="ERROR" message="Test Cases/Regression/LookUps/SL-10 Birth date FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.spotlove.Utility.tap_Continue(Utility.groovy:88)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at SL-10 Birth date.run(SL-10 Birth date:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675780360525.run(TempTestSuite1675780360525.groovy:36)
+"/>
+         <system-out><![CDATA[2023-02-07 19:34:54 - [TEST_CASE][ERROR] - Test Cases/Regression/LookUps/SL-10 Birth date: Test Cases/Regression/LookUps/SL-10 Birth date FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.spotlove.Utility.tap_Continue(Utility.groovy:88)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at SL-10 Birth date.run(SL-10 Birth date:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675780360525.run(TempTestSuite1675780360525.groovy:36)
+
+
+2023-02-07 19:34:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 19:34:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:34:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 19:34:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_back, 10)): null
+
+2023-02-07 19:34:55 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/btn back' is present
+
+2023-02-07 19:34:55 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_back(): com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:34:56 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 19:34:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_What, 10)): null
+
+2023-02-07 19:34:58 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/Lbl text - What should we call you' is present
+
+2023-02-07 19:34:58 - [TEST_STEP][PASSED] - markPassed("User navigate back to the First Name and What should we call you? label text found......!"): User navigate back to the First Name and What should we call you? label text found......!
+
+2023-02-07 19:34:58 - [MESSAGE][PASSED] - User navigate back to the First Name and What should we call you? label text found......!
+
+2023-02-07 19:34:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:34:58 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/btn Continue' is present
+
+2023-02-07 19:34:58 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:58 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:34:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(Cake_icon, 10)): null
+
+2023-02-07 19:34:58 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/cake Icon' is present
+
+2023-02-07 19:34:58 - [TEST_STEP][PASSED] - markPassed("User navigate Move forword to the Birthdate screen nad Cake icon found......!"): User navigate Move forword to the Birthdate screen nad Cake icon found......!
+
+2023-02-07 19:34:58 - [MESSAGE][PASSED] - User navigate Move forword to the Birthdate screen nad Cake icon found......!
+
+2023-02-07 19:34:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_what, 10)): null
+
+2023-02-07 19:35:01 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/Lbl text - Whats your date of birth' is present
+
+2023-02-07 19:35:01 - [TEST_STEP][PASSED] - markPassed("What's your date of birth? label text found......!"): What's your date of birth? label text found......!
+
+2023-02-07 19:35:01 - [MESSAGE][PASSED] - What's your date of birth? label text found......!
+
+2023-02-07 19:35:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_AGe, 10)): null
+
+2023-02-07 19:35:02 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/Age Confirmation' is present
+
+2023-02-07 19:35:02 - [TEST_STEP][PASSED] - markPassed("Age xx label text found......!"): Age xx label text found......!
+
+2023-02-07 19:35:02 - [MESSAGE][PASSED] - Age xx label text found......!
+
+2023-02-07 19:35:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_This, 10)): null
+
+2023-02-07 19:35:02 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/Lbl text - This cant be changed later' is present
+
+2023-02-07 19:35:02 - [TEST_STEP][PASSED] - markPassed("This can't be changed later label text found......!"): This can't be changed later label text found......!
+
+2023-02-07 19:35:02 - [MESSAGE][PASSED] - This can't be changed later label text found......!
+
+2023-02-07 19:35:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:35:03 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/btn Continue' is present
+
+2023-02-07 19:35:03 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:35:04 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 19:35:04 - [TEST_STEP][PASSED] - markPassed("PopUp should opened on the screen.......!"): PopUp should opened on the screen.......!
+
+2023-02-07 19:35:04 - [MESSAGE][PASSED] - PopUp should opened on the screen.......!
+
+2023-02-07 19:35:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Please, 10)): null
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/Lbl text - Please confirm your birthdate' is present
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - markPassed("Please confirm your birthdate on the PopUp label text found.......!"): Please confirm your birthdate on the PopUp label text found.......!
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - Please confirm your birthdate on the PopUp label text found.......!
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_can, 10)): null
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/Lbl text - This cant be changed later on POPUP' is present
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - markPassed("This can't be changed later label text found.......!"): This can't be changed later label text found.......!
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - This can't be changed later label text found.......!
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(Age_cofirm, 10)): null
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/DOB confirmation' is present
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - markPassed("Age Confirmation label text found.......!"): Age Confirmation label text found.......!
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - Age Confirmation label text found.......!
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(DOB_cofirmation, 10)): null
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/DOB confirmation' is present
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - markPassed("DOB Confirmation label text found.......!"): DOB Confirmation label text found.......!
+
+2023-02-07 19:35:05 - [MESSAGE][PASSED] - DOB Confirmation label text found.......!
+
+2023-02-07 19:35:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_edit, 10)): null
+
+2023-02-07 19:35:06 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-010 DOB Screen/btn edit on POPUP' is present
+
+2023-02-07 19:35:06 - [TEST_STEP][PASSED] - tap(btn_edit, 10): Tapped on element 'Object Repository/Regression/SC-010 DOB Screen/btn edit on POPUP'
+
+2023-02-07 19:35:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-010 DOB Screen/btn edit on POPUP'
+
+2023-02-07 19:35:06 - [TEST_STEP][PASSED] - markPassed("User navigate back to the Date of Birth.......!"): User navigate back to the Date of Birth.......!
+
+2023-02-07 19:35:06 - [MESSAGE][PASSED] - User navigate back to the Date of Birth.......!
+
+2023-02-07 19:35:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 19:35:06 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-009 First Name Screen/btn Continue' is present
+
+2023-02-07 19:35:06 - [TEST_STEP][ERROR] - com.spotlove.Utility.tap_Continue(): Test Cases/Regression/LookUps/SL-10 Birth date FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at SL-10 Birth date.run(SL-10 Birth date:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675780360525.run(TempTestSuite1675780360525.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.spotlove.Utility.tap_Continue(Utility.groovy:88)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2023-02-07 19:35:07 - [MESSAGE][ERROR] - androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+
+2023-02-07 19:35:07 - [MESSAGE][ERROR] - Test Cases/Regression/LookUps/SL-10 Birth date FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at SL-10 Birth date.run(SL-10 Birth date:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675780360525.run(TempTestSuite1675780360525.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.spotlove.Utility.tap_Continue(Utility.groovy:88)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2023-02-07 19:35:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 19:35:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 19:35:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2023-02-07 19:34:54 - [TEST_CASE][ERROR] - Test Cases/Regression/LookUps/SL-10 Birth date: Test Cases/Regression/LookUps/SL-10 Birth date FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.spotlove.Utility.tap_Continue(Utility.groovy:88)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at SL-10 Birth date.run(SL-10 Birth date:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675780360525.run(TempTestSuite1675780360525.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-07 19:32:49 - [TEST_SUITE][ERROR] - Updated Regression: Test Cases/Regression/LookUps/SL-10 Birth date FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.spotlove.Utility.tap_Continue(Utility.groovy:88)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at SL-10 Birth date.run(SL-10 Birth date:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675780360525.run(TempTestSuite1675780360525.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-02-07 19:32:49 - [TEST_SUITE][ERROR] - Updated Regression: Test Cases/Regression/LookUps/SL-10 Birth date FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.1.16', ip: '169.254.219.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, databaseEnabled: false, desired: {appActivity: .Settings, appPackage: com.android.settings, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 54648, deviceId: RF8RC109TVZ, deviceName: samsung SM-A325F (Android 13), newCommandTimeout: 1800, platform: ANDROID, platformName: android, platformVersion: 13, systemPort: 8237, udid: RF8RC109TVZ}, deviceApiLevel: 33, deviceId: RF8RC109TVZ, deviceManufacturer: samsung, deviceModel: SM-A325F, deviceName: RF8RC109TVZ, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8RC109TVZ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 13, statBarHeight: 78, systemPort: 8237, takesScreenshot: true, udid: RF8RC109TVZ, viewportRect: {height: 2203, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fae752dd-750b-416e-8fe0-63a726091706
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.spotlove.Utility.tap_Continue(Utility.groovy:88)
+	at com.spotlove.Utility.invokeMethod(Utility.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at SL-10 Birth date.run(SL-10 Birth date:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675780360525.run(TempTestSuite1675780360525.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

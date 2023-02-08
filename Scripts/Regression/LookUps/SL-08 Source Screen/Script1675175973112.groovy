@@ -43,22 +43,21 @@ if(Mobile.waitForElementPresent(Source_heart, 10)) {
 
 					if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-						Mobile.tap(btn_continue, 10)
-						KeywordUtil.markPassed("User navigate to the First Name Screen......!")
+//						Mobile.tap(btn_continue, 10)
+						CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 
-						if(Mobile.waitForElementPresent(card_icon, 10)) {
+						if(Mobile.waitForElementPresent(lbl_what, 10)) {
 
-							KeywordUtil.markPassed("Card icon found on First Name Screen......!")
-
+							KeywordUtil.markPassed("User navigate to the First Name Screen and What should we call you? found on First Name Screen......!")
 
 						}else {
-							KeywordUtil.markFailed("Card icon not found on First Name Screen.....!")
+							KeywordUtil.markFailed("User navigate couldn't made and What should we call you? not found on First Name Screen.....!")
 						}
 					}else {
 						KeywordUtil.markFailed("User navigation failed.....!")
 					}
 				}else {
-					KeywordUtil.markFailed("Referral code?  label text not found.....!")
+					KeywordUtil.markFailed("Referral code? label text not found.....!")
 				}
 			}else {
 				KeywordUtil.markFailed("Do you have a referral code?  label text not found.....!")

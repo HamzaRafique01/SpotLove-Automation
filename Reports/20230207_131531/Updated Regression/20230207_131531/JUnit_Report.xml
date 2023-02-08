@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Updated Regression" time="24.342" tests="2" failures="0" errors="0">
+   <testsuite name="Updated Regression" tests="2" failures="0" errors="0" time="24.342" skipped="0" timestamp="2023-02-07 13:15:39" hostname="pc - 192.168.1.16" id="Test Suites/Updated Regression">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/git/SpotLove-Automation/Reports/20230207_131531/Updated Regression/20230207_131531"/>
+         <property name="logFiles" value="/Users/pc/git/SpotLove-Automation/Reports/20230207_131531/Updated Regression/20230207_131531/execution0.log, /Users/pc/git/SpotLove-Automation/Reports/20230207_131531/Updated Regression/20230207_131531/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - 192.168.1.16"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Regression/LookUps/SL-04 Sign In Selection" time="21.6" classname="Test Cases/Regression/LookUps/SL-04 Sign In Selection" status="PASSED">
+         <system-out><![CDATA[2023-02-07 13:15:40 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-04 Sign In Selection: Test Cases/Regression/LookUps/SL-04 Sign In Selection
+
+2023-02-07 13:15:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 13:15:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 13:15:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 13:15:40 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 13:15:40 - [MESSAGE][INFO] - User set preference: ['deviceId', 'RF8RC109TVZ']
+
+2023-02-07 13:15:43 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-02-07 13:15:45 - [MESSAGE][INFO] - Appium server started on port 60,091
+
+2023-02-07 13:15:55 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 13:15:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(F_lbl_text, 10)): null
+
+2023-02-07 13:15:59 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 13:15:59 - [TEST_STEP][PASSED] - markPassed("Spot Love At First Sight label text found......!"): Spot Love At First Sight label text found......!
+
+2023-02-07 13:15:59 - [MESSAGE][PASSED] - Spot Love At First Sight label text found......!
+
+2023-02-07 13:15:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(S_lbl_text, 10)): null
+
+2023-02-07 13:15:59 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Select an account to continue' is present
+
+2023-02-07 13:15:59 - [TEST_STEP][PASSED] - markPassed("Select an account to Continue label text found......!"): Select an account to Continue label text found......!
+
+2023-02-07 13:15:59 - [MESSAGE][PASSED] - Select an account to Continue label text found......!
+
+2023-02-07 13:15:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2023-02-07 13:15:59 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone number' is present
+
+2023-02-07 13:15:59 - [TEST_STEP][PASSED] - tap(btn_Continue, 10): Tapped on element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone number'
+
+2023-02-07 13:16:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone number'
+
+2023-02-07 13:16:00 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Sign, 10)): null
+
+2023-02-07 13:16:01 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Lbl text - Sign in to Spot.Love' is present
+
+2023-02-07 13:16:01 - [TEST_STEP][PASSED] - markPassed("User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!"): User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!
+
+2023-02-07 13:16:01 - [MESSAGE][PASSED] - User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!
+
+2023-02-07 13:16:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 13:16:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 13:16:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen" time="2.524" classname="Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 13:16:01 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen: Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen
+
+2023-02-07 13:16:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 13:16:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 13:16:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 13:16:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(spotlove_logo, 10)): null
+
+2023-02-07 13:16:02 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Logo Spotlove' is present
+
+2023-02-07 13:16:02 - [TEST_STEP][PASSED] - markPassed("Spot.Love Logo Found......!"): Spot.Love Logo Found......!
+
+2023-02-07 13:16:02 - [MESSAGE][PASSED] - Spot.Love Logo Found......!
+
+2023-02-07 13:16:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_back, 10)): null
+
+2023-02-07 13:16:02 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/btn back' is present
+
+2023-02-07 13:16:02 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_back(): com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 13:16:03 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 13:16:03 - [TEST_STEP][PASSED] - print("Back Button Found and tapped......!"): null
+
+2023-02-07 13:16:03 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_SPOT, 10)): null
+
+2023-02-07 13:16:04 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 13:16:04 - [TEST_STEP][PASSED] - markPassed("User navigate to the Previous Screen and Spotlove at first sight label text is found......!"): User navigate to the Previous Screen and Spotlove at first sight label text is found......!
+
+2023-02-07 13:16:04 - [MESSAGE][PASSED] - User navigate to the Previous Screen and Spotlove at first sight label text is found......!
+
+2023-02-07 13:16:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 13:16:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 13:16:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-07 13:15:39 - [TEST_SUITE][PASSED] - Updated Regression: Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

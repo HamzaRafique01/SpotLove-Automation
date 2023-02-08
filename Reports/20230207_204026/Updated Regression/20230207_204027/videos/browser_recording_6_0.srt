@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(spotlove_logo, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Spot.Love Logo Found......!")
+
+4
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_first_text, 10))
+
+5
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Enter your verification code label text is found......!")
+
+6
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Second_text, 10))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. markPassed("We're sent a pin to +16505559876 label text is found......!")
+
+8
+00:00:00,000 --> 00:00:00,000
+5. tap(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - -"), 15)
+
+9
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (1)"), "1", 2)
+
+10
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (2)"), "2", 2)
+
+11
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (3)"), "3", 2)
+
+12
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (4)"), "4", 2)
+
+13
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (5)"), "5", 2)
+
+14
+00:00:00,000 --> 00:00:00,000
+29. setText(findTestObject("Object Repository/Smoke/OTP/android.widget.EditText - - (6)"), "6", 2)
+
+15
+00:00:00,000 --> 00:00:00,000
+33. com.spotlove.Utility.Verify()
+
+16
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+17
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+18
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

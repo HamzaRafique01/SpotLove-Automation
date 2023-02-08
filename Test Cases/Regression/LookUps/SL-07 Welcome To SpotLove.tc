@@ -194,10 +194,10 @@
       <name>btn_Agree</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/Heart Icon')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/Lbl text - How did you hear about us')</defaultValue>
       <description></description>
       <id>67761169-1028-49b3-8b20-7f54684b5b45</id>
       <masked>false</masked>
-      <name>Source_heart</name>
+      <name>lbl_how</name>
    </variable>
 </TestCaseEntity>

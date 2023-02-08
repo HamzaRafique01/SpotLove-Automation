@@ -21,7 +21,8 @@ import com.spotlove.Utility
 
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-	Mobile.tap(btn_back, 10)
+//	Mobile.tap(btn_back, 10)
+	CustomKeywords.'com.spotlove.Utility.tap_back'()
 	KeywordUtil.markPassed("User navigate back to the Relationship Status screen......!")
 	Mobile.delay(10)
 
@@ -31,7 +32,8 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-			Mobile.tap(btn_continue, 10)
+//			Mobile.tap(btn_continue, 10)
+			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 			KeywordUtil.markPassed("User navigate to the Family Plan Screen......!")
 
 			if(Mobile.waitForElementPresent(face_icon, 10)) {
@@ -58,7 +60,8 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 							if(Mobile.waitForElementPresent(btn_F_Continue, 10)) {
 
-								Mobile.tap(btn_F_Continue, 10)
+//								Mobile.tap(btn_F_Continue, 10)
+								CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 								KeywordUtil.markPassed("User navigate to the Education Screen.......!")
 
 								if(Mobile.waitForElementPresent(studyHat_icon, 10)) {

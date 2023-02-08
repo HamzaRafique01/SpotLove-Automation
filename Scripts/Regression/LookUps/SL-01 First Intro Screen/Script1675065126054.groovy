@@ -43,10 +43,13 @@ if(Mobile.waitForElementPresent(logo, 10)) {
 					
 					if(Mobile.waitForElementPresent(btn_continue, 10)) {
 						
-						Mobile.tap(btn_continue, 10)
-						KeywordUtil.markPassed("User Navigate to the Second Screen......!")
+//						Mobile.tap(btn_continue, 10)
+						CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 						
-						Mobile.takeScreenshot("test screenshot")
+						Mobile.waitForElementPresent(lbl_Make, 10)
+						KeywordUtil.markPassed("User navigate to next screen and 'Connect with your matches through live video mixers label text found'......!")
+						
+					
 					
 					}else {
 						KeywordUtil.markFailed("Somethong missing Please check......!")

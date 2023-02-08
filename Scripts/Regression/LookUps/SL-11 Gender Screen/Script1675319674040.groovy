@@ -19,23 +19,28 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
+
+
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-	Mobile.tap(btn_back, 10)
-	KeywordUtil.markPassed("User navigate back to the Birthday screen......!")
+	CustomKeywords.'com.spotlove.Utility.tap_back'()
 
-	if(Mobile.waitForElementPresent(cake_icon, 10)) {
+	if(Mobile.waitForElementPresent(lbl_What, 10)) {
 
-		KeywordUtil.markPassed("Cake icon found on Birthday screen......!")
+		KeywordUtil.markPassed("User navigate back to the First Name and What should we call you? label text found......!")
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-			Mobile.tap(btn_continue, 10)
+			Mobile.delay(5)
+			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+			Mobile.delay(5)
 			KeywordUtil.markPassed("PopUp should opened on the screen.......!")
 
 			if(Mobile.waitForElementPresent(btn_continue_popup, 10)) {
 
+				Mobile.delay(5)
 				Mobile.tap(btn_continue_popup, 10)
+				Mobile.delay(5)
 				KeywordUtil.markPassed("User navigate to the Gender Screen.......!")
 
 				if(Mobile.waitForElementPresent(mirror_icon, 10)) {
@@ -52,15 +57,16 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 						if(Mobile.waitForElementPresent(btn_G_Continue, 10)) {
 
-							Mobile.tap(btn_G_Continue, 10)
+							
+							CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 							KeywordUtil.markPassed("User navigate to the Sexual Orientation Screen.......!")
 
-							if(Mobile.waitForElementPresent(profile_icon, 10)) {
+							if(Mobile.waitForElementPresent(lbl_who, 10)) {
 
-								KeywordUtil.markPassed("Profile icon found on next Screen.......!")
+								KeywordUtil.markPassed("Who are you into? label text found.......!")
 
 							}else {
-								KeywordUtil.markFailed("Profile icon not found on next Screen.....!")
+								KeywordUtil.markFailed("Who are you into? label text not found on next Screen.....!")
 							}
 						}else {
 							KeywordUtil.markFailed("User navigation not successfully.....!")
@@ -69,6 +75,9 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 						KeywordUtil.markFailed("Gender selection Un-successfully.....!")
 						KeywordUtil.markFailed("How do you identify? label text not found.....!")
 					}
+
+
+
 				}else {
 					KeywordUtil.markFailed("Mirror icon is not found.....!")
 				}
@@ -78,9 +87,17 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 		}else {
 			KeywordUtil.markFailed("Continue button is not working.....!")
 		}
+
 	}else {
-		KeywordUtil.markFailed("Cake icon not found on Birthday screen....!")
+		KeywordUtil.markFailed("What should we call you? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
+
+
+
+
+
+
+

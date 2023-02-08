@@ -65,6 +65,12 @@
       <value></value>
       <variableId>8c3703f1-50da-4187-bf15-b34627016362</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5608853-4736-4e66-86d7-a72b0f3e0140</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-009 First Name Screen/btn back')</defaultValue>
       <description></description>
@@ -126,13 +132,20 @@
       <description></description>
       <id>f2622a12-0f2c-4bb7-a9af-2b71b001d961</id>
       <masked>false</masked>
-      <name>btn_Continue2</name>
+      <name>btn_Referral_Continue</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/cake Icon')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-010 DOB Screen/Lbl text - Whats your date of birth')</defaultValue>
       <description></description>
       <id>8c3703f1-50da-4187-bf15-b34627016362</id>
       <masked>false</masked>
-      <name>cake_icon</name>
+      <name>lbl_whats</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-008 Referel Screen/Lbl text - How did you hear about us')</defaultValue>
+      <description></description>
+      <id>d5608853-4736-4e66-86d7-a72b0f3e0140</id>
+      <masked>false</masked>
+      <name>lbl_how</name>
    </variable>
 </TestCaseEntity>

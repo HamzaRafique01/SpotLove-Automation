@@ -1,0 +1,103 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Updated Regression,,,,2023-02-03 18:19:21,2023-02-03 18:25:42,6m - 20.841s,FAILED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-01 First Intro Screen,,,,2023-02-03 18:19:21,2023-02-03 18:19:45,23.586s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:19:21,2023-02-03 18:19:21,0.009s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-03 18:19:22,2023-02-03 18:19:38,15.996s,PASSED
+"if (waitForElementPresent(logo, 10))",,,,2023-02-03 18:19:38,2023-02-03 18:19:45,6.923s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:19:45,2023-02-03 18:19:45,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-02 Second Intro Screen,,,,2023-02-03 18:19:45,2023-02-03 18:19:48,2.963s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:19:45,2023-02-03 18:19:45,0.002s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:19:45,2023-02-03 18:19:48,2.443s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:19:48,2023-02-03 18:19:48,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-03 Third Intro Screen,,,,2023-02-03 18:19:48,2023-02-03 18:19:51,3.914s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:19:48,2023-02-03 18:19:48,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:19:48,2023-02-03 18:19:51,3.389s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:19:51,2023-02-03 18:19:51,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-04 Sign In Selection,,,,2023-02-03 18:19:51,2023-02-03 18:19:54,2.951s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:19:52,2023-02-03 18:19:52,0.001s,PASSED
+"if (waitForElementPresent(F_lbl_text, 10))",,,,2023-02-03 18:19:52,2023-02-03 18:19:54,2.666s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:19:54,2023-02-03 18:19:54,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen,,,,2023-02-03 18:19:54,2023-02-03 18:20:06,11.099s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:19:55,2023-02-03 18:19:55,0.002s,PASSED
+"if (waitForElementPresent(spotlove_logo, 10))",,,,2023-02-03 18:19:55,2023-02-03 18:20:06,10.576s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:20:06,2023-02-03 18:20:06,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-06 OTP Screen,,,,2023-02-03 18:20:06,2023-02-03 18:20:41,35.167s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:20:06,2023-02-03 18:20:06,0.002s,PASSED
+"if (waitForElementPresent(spotlove_logo, 10))",,,,2023-02-03 18:20:06,2023-02-03 18:20:41,34.829s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:20:41,2023-02-03 18:20:41,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-07 Welcome To SpotLove,,,,2023-02-03 18:20:41,2023-02-03 18:20:53,12.708s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:20:41,2023-02-03 18:20:41,0.001s,PASSED
+"if (waitForElementPresent(Logo_Spotlove, 10))",,,,2023-02-03 18:20:42,2023-02-03 18:20:53,11.882s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:20:53,2023-02-03 18:20:53,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-08 Source Screen,,,,2023-02-03 18:20:53,2023-02-03 18:20:59,5.202s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:20:54,2023-02-03 18:20:54,0.001s,PASSED
+"if (waitForElementPresent(Source_heart, 10))",,,,2023-02-03 18:20:54,2023-02-03 18:20:59,4.783s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:20:59,2023-02-03 18:20:59,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-09 First Name,,,,2023-02-03 18:20:59,2023-02-03 18:21:26,27.062s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:20:59,2023-02-03 18:20:59,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:20:59,2023-02-03 18:21:26,26.577s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:21:26,2023-02-03 18:21:26,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-10 Birth date,,,,2023-02-03 18:21:26,2023-02-03 18:21:46,20.020s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:21:26,2023-02-03 18:21:26,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:21:26,2023-02-03 18:21:46,19.260s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:21:46,2023-02-03 18:21:46,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-11 Gender Screen,,,,2023-02-03 18:21:46,2023-02-03 18:22:02,16.798s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:21:46,2023-02-03 18:21:46,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:21:46,2023-02-03 18:22:02,16.333s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:22:02,2023-02-03 18:22:02,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-12 Sexual Orientation,,,,2023-02-03 18:22:02,2023-02-03 18:22:21,18.264s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:22:03,2023-02-03 18:22:03,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:22:03,2023-02-03 18:22:21,17.842s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:22:21,2023-02-03 18:22:21,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-13 Height Screen,,,,2023-02-03 18:22:21,2023-02-03 18:22:41,20.647s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:22:21,2023-02-03 18:22:21,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:22:21,2023-02-03 18:22:41,20.219s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:22:41,2023-02-03 18:22:41,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-14 Ethnicity,,,,2023-02-03 18:22:41,2023-02-03 18:23:12,30.148s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:22:42,2023-02-03 18:22:42,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:22:42,2023-02-03 18:23:12,29.752s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:23:12,2023-02-03 18:23:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-15 Religion,,,,2023-02-03 18:23:12,2023-02-03 18:23:33,21.188s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:23:12,2023-02-03 18:23:12,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:23:12,2023-02-03 18:23:33,20.772s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:23:33,2023-02-03 18:23:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-16 Relationship Status,,,,2023-02-03 18:23:33,2023-02-03 18:23:58,24.879s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:23:33,2023-02-03 18:23:33,0.002s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:23:33,2023-02-03 18:23:58,24.482s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:23:58,2023-02-03 18:23:58,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-17 Family Plan,,,,2023-02-03 18:23:58,2023-02-03 18:24:21,23.001s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:23:58,2023-02-03 18:23:58,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:23:58,2023-02-03 18:24:21,22.516s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:24:21,2023-02-03 18:24:21,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-18 Education,,,,2023-02-03 18:24:21,2023-02-03 18:24:47,25.930s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:24:21,2023-02-03 18:24:21,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:24:21,2023-02-03 18:24:47,25.532s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:24:47,2023-02-03 18:24:47,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/Sl-19 Vices,,,,2023-02-03 18:24:47,2023-02-03 18:25:18,31.815s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:24:47,2023-02-03 18:24:47,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:24:47,2023-02-03 18:25:18,31.270s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:25:18,2023-02-03 18:25:18,0.001s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-20 Politics,,,,2023-02-03 18:25:18,2023-02-03 18:25:42,23.157s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 18:25:19,2023-02-03 18:25:19,0.001s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 18:25:19,2023-02-03 18:25:42,22.734s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 18:25:42,2023-02-03 18:25:42,0.001s,PASSED

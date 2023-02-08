@@ -25,52 +25,106 @@ if(Mobile.waitForElementPresent(spotlove_logo, 10)) {
 
 	KeywordUtil.markPassed("Spot.Love Logo Found......!")
 
-	if(Mobile.waitForElementPresent(btn_back, 10)) {
+	//	if(Mobile.waitForElementPresent(btn_back, 10)) {
+	//
+	//		CustomKeywords.'com.spotlove.Utility.tap_back'()
+	//		//		print("Back Button Found and tapped......!")
+	//
+	//		if(Mobile.waitForElementPresent(lbl_sign, 10)) {
+	//
+	//			KeywordUtil.markPassed("User navigate to the Next Screen and Sign in to Spot.Love label text is found......!")
+	//
+	//			if(Mobile.waitForElementPresent(btn_continue, 10)) {
+	//
+	//				CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+	//				//				print("Continue Button Found and tapped......!")
 
-		KeywordUtil.markPassed("Back Button Found......!")
+	if(Mobile.waitForElementPresent(lbl_first_text, 10)) {
+			//User navigate to the Next Screen and 
+		KeywordUtil.markPassed("Enter your verification code label text is found......!")
 
-		if(Mobile.waitForElementPresent(lbl_first_text, 60)) {
+		if(Mobile.waitForElementPresent(lbl_Second_text, 10)) {
 
-			KeywordUtil.markPassed("Enter your verification code label text is found......!")
+			KeywordUtil.markPassed("We're sent a pin to +16505559876 label text is found......!")
 
-			if(Mobile.waitForElementPresent(lbl_Second_text, 10)) {
+			Mobile.tap(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - -'), 15)
 
-				KeywordUtil.markPassed("We're sent a pin to +16505559876 label text is found......!")
+			Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (1)'), '1', 2)
 
-				Mobile.tap(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - -'), 15)
+			Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (2)'), '2', 2)
 
-				Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (1)'), '1', 2)
+			Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (3)'), '3', 2)
 
-				Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (2)'), '2', 2)
+			Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (4)'), '4', 2)
 
-				Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (3)'), '3', 2)
+			Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (5)'), '5', 2)
 
-				Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (4)'), '4', 2)
+			Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (6)'), '6', 2)
 
-				Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (5)'), '5', 2)
+			CustomKeywords.'com.spotlove.Utility.Verify'()
 
-				Mobile.setText(findTestObject('Object Repository/Smoke/OTP/android.widget.EditText - - (6)'), '6', 2)
-				
-				CustomKeywords.'com.spotlove.Utility.Verify'()
-
-//				if(Mobile.waitForElementPresent(btn_Resend, 10)) {
-//
-//					Mobile.tap(btn_Resend, 10)
-//					KeywordUtil.markPassed("OTP Code Received Successfully......!")
-//
-//					CustomKeywords.'com.spotlove.Utility.Verify'()
-//				}else {
-//					KeywordUtil.markFailed("OTP Code dosn't Received......!")
-//				}
-			}else {
-				KeywordUtil.markFailed("We're sent a pin to +16505559876 label text is not found......!")
-			}
+			//				if(Mobile.waitForElementPresent(btn_Resend, 10)) {
+			//
+			//					Mobile.tap(btn_Resend, 10)
+			//					KeywordUtil.markPassed("OTP Code Received Successfully......!")
+			//
+			//					CustomKeywords.'com.spotlove.Utility.Verify'()
+			//				}else {
+			//					KeywordUtil.markFailed("OTP Code dosn't Received......!")
+			//				}
 		}else {
-			KeywordUtil.markFailed("Enter your verification code label text is not found......!")
+			KeywordUtil.markFailed("We're sent a pin to +16505559876 label text is not found and OTP conuldn't not enter......!")
 		}
+
 	}else {
-		KeywordUtil.markFailed("Back Button not Found......!")
+		KeywordUtil.markFailed("Naviagation is not made and Enter your verification code label text is not found......!")
 	}
+	//			}else {
+	//				KeywordUtil.markFailed("Continue Button not Found......!")
+	//			}
+	//		}else {
+	//			KeywordUtil.markFailed("Naviagation is not made and Sign in to Spot.Love label text is not found......!")
+	//		}
+	//	}else {
+	//		KeywordUtil.markFailed("Back Button not Found......!")
+	//	}
+
 }else {
 	KeywordUtil.markFailed("Spot.Love Logo not Found......!")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+4
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Relationship Status screen......!")
+
+5
+00:00:00,000 --> 00:00:00,000
+9. delay(10)
+
+6
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(heart_icon, 20))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Heart icon found on  Relationship Status screen......!")
+
+8
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+9
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+10
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Family Plan Screen......!")
+
+11
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(face_icon, 10))
+
+12
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Face icon found on Family Plan screen......!")
+
+13
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_tell, 10))
+
+14
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Tell us about your family label text found......!")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_do, 10))
+
+16
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Do you have children? label text found......!")
+
+17
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.comma_sprt_value(random)
+
+18
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Children Selection successfully......!")
+
+19
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(lbl_what, 10))
+
+20
+00:00:00,000 --> 00:00:00,000
+1. markPassed("What are your family Plans? label text found......!")
+
+21
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.dating_Pref(randoom)
+
+22
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Family Plan Selection successfully......!")
+
+23
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(btn_F_Continue, 10))
+
+24
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_F_Continue, 10)
+
+25
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Education Screen.......!")
+
+26
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(studyHat_icon, 10))
+
+27
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Study Hat icon found on next Screen.......!")
+
+28
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+29
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+30
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+

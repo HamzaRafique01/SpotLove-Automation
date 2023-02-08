@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. com.spotlove.Utility.tap_back()
+
+4
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_who, 10))
+
+5
+00:00:00,000 --> 00:00:00,000
+1. markPassed("User navigate back to the Into screen and How tall are you? label text found......!")
+
+6
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. delay(5)
+
+8
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.tap_Continue()
+
+9
+00:00:00,000 --> 00:00:00,000
+9. delay(5)
+
+10
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(lbl_How, 10))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+12
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

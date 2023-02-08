@@ -15,12 +15,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cde76b43-e3ce-40f9-b87e-ffb343df7aa0</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>424b8fa4-36a5-4f3e-97fc-e755134da86c</variableId>
    </variableLinks>
    <variableLinks>
@@ -45,13 +39,19 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6f1e9e82-bb3d-4b1b-839c-cbc63b4ea6b3</variableId>
+      <variableId>5237cca4-fb44-4263-a288-ba580ea9cb39</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5237cca4-fb44-4263-a288-ba580ea9cb39</variableId>
+      <variableId>e65710bc-781f-4ae9-9192-ecbb7fa2ab4a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c09ac9c2-fb01-44c0-a53a-2211de393ddb</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-012 Into/btn back')</defaultValue>
@@ -59,13 +59,6 @@
       <id>0c3a5654-cbe1-49bc-be89-6b77383d1412</id>
       <masked>false</masked>
       <name>btn_back</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-011 Gender/Mirror Icon')</defaultValue>
-      <description></description>
-      <id>cde76b43-e3ce-40f9-b87e-ffb343df7aa0</id>
-      <masked>false</masked>
-      <name>mirror_icon</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-011 Gender/btn Continue')</defaultValue>
@@ -82,11 +75,11 @@
       <name>profile_icon</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-012 Into/Lbl text - Who are you into')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-011 Gender/Lbl text - How do you identify')</defaultValue>
       <description></description>
       <id>ee408555-b064-4ef0-81a3-c0dbb79f95dd</id>
       <masked>false</masked>
-      <name>lbl_Who</name>
+      <name>lbl_how</name>
    </variable>
    <variable>
       <defaultValue>['Male', 'Nonbinary']</defaultValue>
@@ -96,17 +89,24 @@
       <name>random</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-012 Into/btn continue')</defaultValue>
-      <description></description>
-      <id>6f1e9e82-bb3d-4b1b-839c-cbc63b4ea6b3</id>
-      <masked>false</masked>
-      <name>btn_S_Continue</name>
-   </variable>
-   <variable>
       <defaultValue>findTestObject('Regression/SC-013 Height/scale icon')</defaultValue>
       <description></description>
       <id>5237cca4-fb44-4263-a288-ba580ea9cb39</id>
       <masked>false</masked>
       <name>Scale_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-012 Into/Lbl text - Who are you into')</defaultValue>
+      <description></description>
+      <id>e65710bc-781f-4ae9-9192-ecbb7fa2ab4a</id>
+      <masked>false</masked>
+      <name>lbl_Who</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/Lbl text - How tall are you')</defaultValue>
+      <description></description>
+      <id>c09ac9c2-fb01-44c0-a53a-2211de393ddb</id>
+      <masked>false</masked>
+      <name>lbl_tall</name>
    </variable>
 </TestCaseEntity>

@@ -65,6 +65,18 @@
       <value></value>
       <variableId>4a281325-4c37-4cfb-8959-d030f8053a29</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31ba03e7-875c-42f2-8246-e58d9f819d7d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32d6615b-8c8d-4fed-998d-6542df5933ec</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-005 Sign-in with Phone number/Logo Spotlove')</defaultValue>
       <description></description>
@@ -134,5 +146,19 @@
       <id>4a281325-4c37-4cfb-8959-d030f8053a29</id>
       <masked>false</masked>
       <name>PhoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight')</defaultValue>
+      <description></description>
+      <id>31ba03e7-875c-42f2-8246-e58d9f819d7d</id>
+      <masked>false</masked>
+      <name>lbl_SPOT</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)')</defaultValue>
+      <description></description>
+      <id>32d6615b-8c8d-4fed-998d-6542df5933ec</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
    </variable>
 </TestCaseEntity>

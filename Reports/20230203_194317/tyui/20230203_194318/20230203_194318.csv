@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tyui,,,,2023-02-03 19:43:27,2023-02-03 19:44:58,1m - 31.194s,FAILED
+,,,,,,,
+Test Cases/Regression/LookUps/Sl-19 Vices,,,,2023-02-03 19:43:27,2023-02-03 19:44:35,1m - 7.573s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 19:43:28,2023-02-03 19:43:28,0.009s,PASSED
+"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-02-03 19:43:28,2023-02-03 19:43:43,14.759s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 19:43:43,2023-02-03 19:44:35,51.937s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 19:44:35,2023-02-03 19:44:35,0.002s,PASSED
+,,,,,,,
+Test Cases/Regression/LookUps/SL-20 Politics,,,,2023-02-03 19:44:35,2023-02-03 19:44:58,23.385s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-02-03 19:44:35,2023-02-03 19:44:35,0.002s,PASSED
+"if (waitForElementPresent(btn_back, 10))",,,,2023-02-03 19:44:35,2023-02-03 19:44:58,22.865s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-03 19:44:58,2023-02-03 19:44:58,0.002s,PASSED

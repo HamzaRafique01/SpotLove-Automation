@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Updated Regression" time="43.194" tests="3" failures="1" errors="0">
+   <testsuite name="Updated Regression" tests="3" failures="1" errors="0" time="43.194" skipped="0" timestamp="2023-02-07 15:39:21" hostname="pc - 192.168.1.16" id="Test Suites/Updated Regression">
+      <properties>
+         <property name="deviceName" value="samsung SM-A325F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pc/git/SpotLove-Automation/Reports/20230207_153913/Updated Regression/20230207_153913"/>
+         <property name="logFiles" value="/Users/pc/git/SpotLove-Automation/Reports/20230207_153913/Updated Regression/20230207_153913/execution0.log, /Users/pc/git/SpotLove-Automation/Reports/20230207_153913/Updated Regression/20230207_153913/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pc - 192.168.1.16"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A325F"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8RC109TVZ"/>
+         <property name="deviceName" value="samsung SM-A325F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Regression/LookUps/SL-04 Sign In Selection" time="19.97" classname="Test Cases/Regression/LookUps/SL-04 Sign In Selection" status="PASSED">
+         <system-out><![CDATA[2023-02-07 15:39:21 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-04 Sign In Selection: Test Cases/Regression/LookUps/SL-04 Sign In Selection
+
+2023-02-07 15:39:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 15:39:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 15:39:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 15:39:22 - [TEST_STEP][PASSED] - startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE): Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 15:39:22 - [MESSAGE][INFO] - User set preference: ['deviceId', 'RF8RC109TVZ']
+
+2023-02-07 15:39:25 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-02-07 15:39:26 - [MESSAGE][INFO] - Appium server started on port 51,108
+
+2023-02-07 15:39:36 - [MESSAGE][PASSED] - Starting app with application ID: 'com.spotlove.releaseproduction'
+
+2023-02-07 15:39:36 - [TEST_STEP][PASSED] - if (waitForElementPresent(First_lbl_text, 10)): null
+
+2023-02-07 15:39:39 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 15:39:39 - [TEST_STEP][PASSED] - markPassed("Spot Love At First Sight label text found......!"): Spot Love At First Sight label text found......!
+
+2023-02-07 15:39:39 - [MESSAGE][PASSED] - Spot Love At First Sight label text found......!
+
+2023-02-07 15:39:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(Second_lbl_text, 10)): null
+
+2023-02-07 15:39:40 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Select an account to continue' is present
+
+2023-02-07 15:39:40 - [TEST_STEP][PASSED] - markPassed("Select an account to Continue label text found......!"): Select an account to Continue label text found......!
+
+2023-02-07 15:39:40 - [MESSAGE][PASSED] - Select an account to Continue label text found......!
+
+2023-02-07 15:39:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_Continue, 10)): null
+
+2023-02-07 15:39:40 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)' is present
+
+2023-02-07 15:39:40 - [TEST_STEP][PASSED] - tap(btn_Continue, 10): Tapped on element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)'
+
+2023-02-07 15:39:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)'
+
+2023-02-07 15:39:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Sign, 10)): null
+
+2023-02-07 15:39:41 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Lbl text - Sign in to Spot.Love' is present
+
+2023-02-07 15:39:41 - [TEST_STEP][PASSED] - markPassed("User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!"): User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!
+
+2023-02-07 15:39:41 - [MESSAGE][PASSED] - User Navigate to Phone Numebr Screen and Sign in to Spot.Love label text found......!
+
+2023-02-07 15:39:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 15:39:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 15:39:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen" time="11.536" classname="Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen" status="PASSED">
+         <system-out><![CDATA[2023-02-07 15:39:41 - [TEST_CASE][PASSED] - Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen: Test Cases/Regression/LookUps/SL-05 Phone Number Enter Screen
+
+2023-02-07 15:39:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 15:39:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 15:39:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 15:39:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(spotlove_logo, 10)): null
+
+2023-02-07 15:39:42 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Logo Spotlove' is present
+
+2023-02-07 15:39:42 - [TEST_STEP][PASSED] - markPassed("Spot.Love Logo Found......!"): Spot.Love Logo Found......!
+
+2023-02-07 15:39:42 - [MESSAGE][PASSED] - Spot.Love Logo Found......!
+
+2023-02-07 15:39:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_back, 10)): null
+
+2023-02-07 15:39:43 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/btn back' is present
+
+2023-02-07 15:39:43 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_back(): com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 15:39:43 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_back is PASSED
+
+2023-02-07 15:39:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_SPOT, 10)): null
+
+2023-02-07 15:39:43 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/Lbl text - Spot Love at First Sight' is present
+
+2023-02-07 15:39:43 - [TEST_STEP][PASSED] - markPassed("User navigate to the Previous Screen and Spotlove at first sight label text is found......!"): User navigate to the Previous Screen and Spotlove at first sight label text is found......!
+
+2023-02-07 15:39:43 - [MESSAGE][PASSED] - User navigate to the Previous Screen and Spotlove at first sight label text is found......!
+
+2023-02-07 15:39:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(btn_continue, 10)): null
+
+2023-02-07 15:39:44 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-004 Sign In-Up screen/btn Continue with Phone Number (1)' is present
+
+2023-02-07 15:39:44 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Phone_Numebr(): com.spotlove.Utility.tap_Phone_Numebr is PASSED
+
+2023-02-07 15:39:44 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Phone_Numebr is PASSED
+
+2023-02-07 15:39:44 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_first_text, 10)): null
+
+2023-02-07 15:39:46 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Lbl text - Sign in to Spot.Love' is present
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - markPassed("User navigate to the Next Screen and Sign in to Spot.Love label text is found......!"): User navigate to the Next Screen and Sign in to Spot.Love label text is found......!
+
+2023-02-07 15:39:46 - [MESSAGE][PASSED] - User navigate to the Next Screen and Sign in to Spot.Love label text is found......!
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_Second_text, 10)): null
+
+2023-02-07 15:39:46 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Lbl text - Continue with your phone number' is present
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - markPassed("Continue with your phone number label text is found......!"): Continue with your phone number label text is found......!
+
+2023-02-07 15:39:46 - [MESSAGE][PASSED] - Continue with your phone number label text is found......!
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(flag_icon, 10)): null
+
+2023-02-07 15:39:46 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/dropdown Country Selection' is present
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - print("Country Flag Icon is found......!"): null
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - tap(flag_icon, 10): Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/dropdown Country Selection'
+
+2023-02-07 15:39:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/dropdown Country Selection'
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - markPassed("Country slection dropdown is opened......!"): Country slection dropdown is opened......!
+
+2023-02-07 15:39:46 - [MESSAGE][PASSED] - Country slection dropdown is opened......!
+
+2023-02-07 15:39:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(search_box, 10)): null
+
+2023-02-07 15:39:48 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Search box Enter country name' is present
+
+2023-02-07 15:39:48 - [TEST_STEP][PASSED] - setText(search_box, C_Name, 10): Text 'US' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Search box Enter country name'
+
+2023-02-07 15:39:49 - [MESSAGE][PASSED] - Text 'US' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Search box Enter country name'
+
+2023-02-07 15:39:49 - [TEST_STEP][PASSED] - markPassed("Country Name Entered in the Search Box......!"): Country Name Entered in the Search Box......!
+
+2023-02-07 15:39:49 - [MESSAGE][PASSED] - Country Name Entered in the Search Box......!
+
+2023-02-07 15:39:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(First_index, 10)): null
+
+2023-02-07 15:39:50 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Select Country In First Index' is present
+
+2023-02-07 15:39:50 - [TEST_STEP][PASSED] - tap(First_index, 10): Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Select Country In First Index'
+
+2023-02-07 15:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Select Country In First Index'
+
+2023-02-07 15:39:50 - [TEST_STEP][PASSED] - markPassed("Country Selection Successfully......!"): Country Selection Successfully......!
+
+2023-02-07 15:39:50 - [MESSAGE][PASSED] - Country Selection Successfully......!
+
+2023-02-07 15:39:50 - [TEST_STEP][PASSED] - if (waitForElementPresent(Enter_Phonenumber, 10)): null
+
+2023-02-07 15:39:51 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Input Phone Number' is present
+
+2023-02-07 15:39:51 - [TEST_STEP][PASSED] - setText(Enter_Phonenumber, PhoneNumber, 10): Text '6505559876' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Input Phone Number'
+
+2023-02-07 15:39:52 - [MESSAGE][PASSED] - Text '6505559876' has been set to element 'Object Repository/Regression/SC-005 Sign-in with Phone number/Input Phone Number'
+
+2023-02-07 15:39:52 - [TEST_STEP][PASSED] - markPassed("Phon number Entered......!"): Phon number Entered......!
+
+2023-02-07 15:39:52 - [MESSAGE][PASSED] - Phon number Entered......!
+
+2023-02-07 15:39:52 - [TEST_STEP][PASSED] - com.spotlove.Utility.tap_Continue(): com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 15:39:53 - [MESSAGE][PASSED] - com.spotlove.Utility.tap_Continue is PASSED
+
+2023-02-07 15:39:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 15:39:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 15:39:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression/LookUps/SL-06 OTP Screen" time="11.468" classname="Test Cases/Regression/LookUps/SL-06 OTP Screen" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Regression/LookUps/SL-06 OTP Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Naviagation is not made and Enter your verification code label text is not found......!
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at SL-06 OTP Screen.run(SL-06 OTP Screen:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675766353268.run(TempTestSuite1675766353268.groovy:36)
+"/>
+         <system-out><![CDATA[2023-02-07 15:39:53 - [TEST_CASE][FAILED] - Test Cases/Regression/LookUps/SL-06 OTP Screen: Test Cases/Regression/LookUps/SL-06 OTP Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Naviagation is not made and Enter your verification code label text is not found......!
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at SL-06 OTP Screen.run(SL-06 OTP Screen:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675766353268.run(TempTestSuite1675766353268.groovy:36)
+
+
+2023-02-07 15:39:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-07 15:39:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 15:39:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-02-07 15:39:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(spotlove_logo, 10)): null
+
+2023-02-07 15:39:54 - [MESSAGE][PASSED] - Element 'Object Repository/Regression/SC-006 OTP Screen/Logo Spotlove' is present
+
+2023-02-07 15:39:54 - [TEST_STEP][PASSED] - markPassed("Spot.Love Logo Found......!"): Spot.Love Logo Found......!
+
+2023-02-07 15:39:54 - [MESSAGE][PASSED] - Spot.Love Logo Found......!
+
+2023-02-07 15:39:54 - [TEST_STEP][PASSED] - if (waitForElementPresent(lbl_first_text, 10)): Object Object Repository/Regression/SC-006 OTP Screen/Lbl text - Enter your verification code not found
+
+2023-02-07 15:40:04 - [MESSAGE][WARNING] - Object Object Repository/Regression/SC-006 OTP Screen/Lbl text - Enter your verification code not found
+
+2023-02-07 15:40:04 - [TEST_STEP][FAILED] - else: Naviagation is not made and Enter your verification code label text is not found......!
+
+2023-02-07 15:40:04 - [TEST_STEP][FAILED] - markFailed("Naviagation is not made and Enter your verification code label text is not found......!"): Naviagation is not made and Enter your verification code label text is not found......!
+
+2023-02-07 15:40:04 - [MESSAGE][FAILED] - Naviagation is not made and Enter your verification code label text is not found......!
+
+2023-02-07 15:40:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-07 15:40:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-02-07 15:40:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2023-02-07 15:39:53 - [TEST_CASE][FAILED] - Test Cases/Regression/LookUps/SL-06 OTP Screen: Test Cases/Regression/LookUps/SL-06 OTP Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Naviagation is not made and Enter your verification code label text is not found......!
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at SL-06 OTP Screen.run(SL-06 OTP Screen:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675766353268.run(TempTestSuite1675766353268.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-07 15:39:21 - [TEST_SUITE][FAILED] - Updated Regression: Test Cases/Regression/LookUps/SL-06 OTP Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Naviagation is not made and Enter your verification code label text is not found......!
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at SL-06 OTP Screen.run(SL-06 OTP Screen:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675766353268.run(TempTestSuite1675766353268.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-02-07 15:39:21 - [TEST_SUITE][FAILED] - Updated Regression: Test Cases/Regression/LookUps/SL-06 OTP Screen FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Naviagation is not made and Enter your verification code label text is not found......!
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at SL-06 OTP Screen.run(SL-06 OTP Screen:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1675766353268.run(TempTestSuite1675766353268.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

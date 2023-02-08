@@ -35,6 +35,18 @@
       <value></value>
       <variableId>8e061f9f-54b3-4650-bd0d-9c236cb16f98</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e5485fb-5261-4cf5-a95b-f07b8bc8370f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d9f382c-4e7a-4a5d-a9d3-7bd569f11ecc</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-006 OTP Screen/Logo Spotlove')</defaultValue>
       <description></description>
@@ -69,5 +81,19 @@
       <id>8e061f9f-54b3-4650-bd0d-9c236cb16f98</id>
       <masked>false</masked>
       <name>btn_Resend</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-005 Sign-in with Phone number/Lbl text - Sign in to Spot.Love')</defaultValue>
+      <description></description>
+      <id>2e5485fb-5261-4cf5-a95b-f07b8bc8370f</id>
+      <masked>false</masked>
+      <name>lbl_sign</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-005 Sign-in with Phone number/btn Continue')</defaultValue>
+      <description></description>
+      <id>8d9f382c-4e7a-4a5d-a9d3-7bd569f11ecc</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
    </variable>
 </TestCaseEntity>

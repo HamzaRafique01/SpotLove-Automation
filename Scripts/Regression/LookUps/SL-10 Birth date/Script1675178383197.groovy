@@ -20,116 +20,135 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
 
+
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-	Mobile.tap(btn_back, 10)
-	KeywordUtil.markPassed("User navigate back to the First Name screen......!")
+	CustomKeywords.'com.spotlove.Utility.tap_back'()
 
-	if(Mobile.waitForElementPresent(Contact_icon, 10)) {
+	if(Mobile.waitForElementPresent(lbl_What, 10)) {
 
-		Mobile.tap(btn_previous_continue, 10)
-		KeywordUtil.markPassed("User navigate Move forword to the Date of Birth screen......!")
+		KeywordUtil.markPassed("User navigate back to the First Name and What should we call you? label text found......!")
 
-		if(Mobile.waitForElementPresent(Cake_icon, 10)) {
+		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-			KeywordUtil.markPassed("Cake icon found......!")
+			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
 
-			if(Mobile.waitForElementPresent(lbl_what, 10)) {
+			if(Mobile.waitForElementPresent(Cake_icon, 10)) {
 
-				KeywordUtil.markPassed("What's your date of birth? label text found......!")
+				KeywordUtil.markPassed("User navigate Move forword to the Birthdate screen nad Cake icon found......!")
 
-				if(Mobile.waitForElementPresent(lbl_AGe, 10)) {
+				if(Mobile.waitForElementPresent(lbl_what, 10)) {
 
-					KeywordUtil.markPassed("Age xx label text found......!")
+					KeywordUtil.markPassed("What's your date of birth? label text found......!")
 
-					if(Mobile.waitForElementPresent(lbl_This, 10)) {
+					if(Mobile.waitForElementPresent(lbl_AGe, 10)) {
 
-						KeywordUtil.markPassed("This can't be changed later label text found......!")
+						KeywordUtil.markPassed("Age xx label text found......!")
 
-						if(Mobile.waitForElementPresent(btn_continue, 10)) {
+						if(Mobile.waitForElementPresent(lbl_This, 10)) {
 
-							Mobile.tap(btn_continue, 10)
-							KeywordUtil.markPassed("PopUp should opened on the screen.......!")
+							KeywordUtil.markPassed("This can't be changed later label text found......!")
 
-							if(Mobile.waitForElementPresent(lbl_Please, 10)) {
+							if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-								KeywordUtil.markPassed("Please confirm your birthdate on the PopUp label text found.......!")
+								//							Mobile.tap(btn_continue, 10)
+								CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+								KeywordUtil.markPassed("PopUp should opened on the screen.......!")
 
-								if(Mobile.waitForElementPresent(lbl_can, 10)) {
+								if(Mobile.waitForElementPresent(lbl_Please, 10)) {
 
-									KeywordUtil.markPassed("This can't be changed later label text found.......!")
+									KeywordUtil.markPassed("Please confirm your birthdate on the PopUp label text found.......!")
 
-									if(Mobile.waitForElementPresent(Age_cofirm, 10)) {
+									if(Mobile.waitForElementPresent(lbl_can, 10)) {
 
-										KeywordUtil.markPassed("Age Confirmation label text found.......!")
+										KeywordUtil.markPassed("This can't be changed later label text found.......!")
 
-										if(Mobile.waitForElementPresent(DOB_cofirmation, 10)) {
+										if(Mobile.waitForElementPresent(Age_cofirm, 10)) {
 
-											KeywordUtil.markPassed("DOB Confirmation label text found.......!")
+											KeywordUtil.markPassed("Age Confirmation label text found.......!")
 
-											if(Mobile.waitForElementPresent(btn_edit, 10)) {
+											if(Mobile.waitForElementPresent(DOB_cofirmation, 10)) {
 
-												Mobile.tap(btn_edit, 10)
-												KeywordUtil.markPassed("User navigate back to the Date of Birth.......!")
+												KeywordUtil.markPassed("DOB Confirmation label text found.......!")
 
-												if(Mobile.waitForElementPresent(btn_continue, 10)) {
+												if(Mobile.waitForElementPresent(btn_edit, 10)) {
 
-													Mobile.tap(btn_continue, 10)
-													KeywordUtil.markPassed("PopUp should opened on the screen.......!")
+													Mobile.tap(btn_edit, 10)
+													KeywordUtil.markPassed("User navigate back to the Date of Birth.......!")
 
-													if(Mobile.waitForElementPresent(btn_continue_popup, 10)) {
+													if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-														Mobile.tap(btn_continue_popup, 10)
-														KeywordUtil.markPassed("User navigate to the Gender Screen.......!")
+														Mobile.delay(5)
+														CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+														Mobile.delay(5)
+														KeywordUtil.markPassed("PopUp should opened on the screen.......!")
 
-														if(Mobile.waitForElementPresent(mirror_icon, 10)) {
+														if(Mobile.waitForElementPresent(btn_continue_popup, 10)) {
 
-															KeywordUtil.markPassed("Mirror icon found on Gender Screen.......!")
+															Mobile.delay(5)
+															Mobile.tap(btn_continue_popup, 10)
+															Mobile.delay(5)
+															KeywordUtil.markPassed("User navigate to the Gender Screen.......!")
+
+															if(Mobile.waitForElementPresent(mirror_icon, 10)) {
+
+																KeywordUtil.markPassed("Mirror icon found on Gender Screen.......!")
 
 
+															}else {
+																KeywordUtil.markFailed("Mirror icon is not found.....!")
+															}
 														}else {
-															KeywordUtil.markFailed("Mirror icon is not found.....!")
+															KeywordUtil.markFailed("Continue button is not working.....!")
 														}
 													}else {
 														KeywordUtil.markFailed("Continue button is not working.....!")
 													}
 												}else {
-													KeywordUtil.markFailed("Continue button is not working.....!")
+													KeywordUtil.markFailed("Edit button is not working.....!")
 												}
 											}else {
-												KeywordUtil.markFailed("Edit button is not working.....!")
+												KeywordUtil.markFailed("DOB Confirmation label text not found.....!")
 											}
 										}else {
-											KeywordUtil.markFailed("DOB Confirmation label text not found.....!")
+											KeywordUtil.markFailed("Age Confirmation label text not found.....!")
 										}
 									}else {
-										KeywordUtil.markFailed("Age Confirmation label text not found.....!")
+										KeywordUtil.markFailed("This can't be changed later label text not found.....!")
 									}
 								}else {
-									KeywordUtil.markFailed("This can't be changed later label text not found.....!")
+									KeywordUtil.markFailed("PopUp dosn't open on the screen.....!")
 								}
+
 							}else {
-								KeywordUtil.markFailed("PopUp dosn't open on the screen.....!")
+								KeywordUtil.markFailed("Continue button is not working.....!")
 							}
 
+
 						}else {
-							KeywordUtil.markFailed("Continue button is not working.....!")
+							KeywordUtil.markFailed("This can't be changed later label text not found.....!")
 						}
 					}else {
-						KeywordUtil.markFailed("This can't be changed later label text not found.....!")
+						KeywordUtil.markFailed("Age xx label text not found.....!")
 					}
 				}else {
-					KeywordUtil.markFailed("Age xx label text not found.....!")
+					KeywordUtil.markFailed("What's your date of birth? label text not found.....!")
 				}
 			}else {
-				KeywordUtil.markFailed("What's your date of birth? label text not found.....!")
+				KeywordUtil.markFailed("Cake icon not found.....!")
 			}
 		}else {
-			KeywordUtil.markFailed("Cake icon not found.....!")
+			KeywordUtil.markFailed("Continue button is not working...............!")
 		}
+
 	}else {
-		KeywordUtil.markFailed("Continue button is not working.....!")
+		KeywordUtil.markFailed("What should we call you? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
+
+
+
+
+

@@ -47,19 +47,25 @@
       <value></value>
       <variableId>6d9f129f-7b04-4fca-a38b-4e91bea9c262</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>132b5790-04b2-4d7b-9361-90374253f692</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-002 Intro 2/btn Continue')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-001 Intro 1/btn Conitnue')</defaultValue>
       <description></description>
       <id>ae906b7f-42ae-4e65-8d89-13ee14b113d7</id>
       <masked>false</masked>
       <name>btn_continue</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-002 Intro 2/Logo Spotlove')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-001 Intro 1/Lbl text Find the person that checks all your boxes')</defaultValue>
       <description></description>
       <id>3d62a812-32a3-4eb1-9337-198dd9c6db71</id>
       <masked>false</masked>
-      <name>logo</name>
+      <name>lbl_Find</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-002 Intro 2/Lbl text - Make a Match With')</defaultValue>
@@ -95,5 +101,12 @@
       <id>6d9f129f-7b04-4fca-a38b-4e91bea9c262</id>
       <masked>false</masked>
       <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-003 Intro 3/Lbl text - Connect with your matches through livevideo mixers')</defaultValue>
+      <description></description>
+      <id>132b5790-04b2-4d7b-9361-90374253f692</id>
+      <masked>false</masked>
+      <name>lbl_Connect</name>
    </variable>
 </TestCaseEntity>

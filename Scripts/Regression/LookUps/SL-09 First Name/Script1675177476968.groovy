@@ -23,62 +23,88 @@ import com.spotlove.Utility
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 	CustomKeywords.'com.spotlove.Utility.tap_back'()
-	KeywordUtil.markPassed("User navigate back to the Source screen......!")
 
-	if(Mobile.waitForElementPresent(btn_Continue2, 10)) {
 
-	    CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-		KeywordUtil.markPassed("User navigate Move forword to the First Name screen......!")
+	if(Mobile.waitForElementPresent(lbl_how, 10)) {
 
-		if(Mobile.waitForElementPresent(Contact_icon, 30)) {
+		KeywordUtil.markPassed("User navigate back to the Source screen and How did you about us? label text found......!")
 
-			KeywordUtil.markPassed("Contact icon found......!")
+		if(Mobile.waitForElementPresent(btn_Referral_Continue, 10)) {
 
-			if(Mobile.waitForElementPresent(lbl_what, 10)) {
+			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+			KeywordUtil.markPassed("User navigate Move forword to the First Name screen......!")
 
-				KeywordUtil.markPassed("What should we call you? label text found......!")
+			if(Mobile.waitForElementPresent(Contact_icon, 30)) {
 
-				if(Mobile.waitForElementPresent(lbl_tell, 10)) {
+				KeywordUtil.markPassed("Contact icon found......!")
 
-					KeywordUtil.markPassed("Tell us your first name label text found......!")
+				if(Mobile.waitForElementPresent(lbl_what, 10)) {
 
-					if(Mobile.waitForElementPresent(First_Name, 10)) {
+					KeywordUtil.markPassed("What should we call you? label text found......!")
 
-						Mobile.setText(First_Name, S_First_Name, 0)
-						KeywordUtil.markPassed("First name Entered text......!")
+					if(Mobile.waitForElementPresent(lbl_tell, 10)) {
 
-						if(Mobile.waitForElementPresent(btn_continue, 10)) {
+						KeywordUtil.markPassed("Tell us your first name label text found......!")
 
-							Mobile.tap(btn_continue, 10)
-							Mobile.delay(15)
-							KeywordUtil.markPassed("User navigate Move forword to the Birth date screen......!")
+						if(Mobile.waitForElementPresent(First_Name, 10)) {
 
-							if(Mobile.waitForElementPresent(cake_icon, 10)) {
+							Mobile.setText(First_Name, S_First_Name, 0)
+							KeywordUtil.markPassed("First name Entered text......!")
 
-								KeywordUtil.markPassed("Cake icon found......!")
+							if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
+
+								CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+								Mobile.delay(15)
+
+								if(Mobile.waitForElementPresent(lbl_whats, 10)) {
+
+									KeywordUtil.markPassed("User navigate Move forword to the Birth date screen and What's your date of birth? label text found......!")
+
+								}else {
+									KeywordUtil.markFailed("What's your date of birth? label text not found.....!")
+								}
 
 							}else {
-								KeywordUtil.markFailed("Cake icon not found.....!")
+								KeywordUtil.markFailed("Continue button is not working.....!")
 							}
+
 						}else {
-							KeywordUtil.markFailed("Continue button is not working.....!")
+							KeywordUtil.markFailed("First name not entered text .....!")
 						}
 					}else {
-						KeywordUtil.markFailed("First name not entered text .....!")
+						KeywordUtil.markFailed("Tell us your first name label text not found.....!")
 					}
 				}else {
-					KeywordUtil.markFailed("Tell us your first name label text not found.....!")
+					KeywordUtil.markFailed("What should we call you? label text not found.....!")
 				}
+
 			}else {
-				KeywordUtil.markFailed("What should we call you? label text not found.....!")
+				KeywordUtil.markFailed("Contact icon not found.....!")
 			}
 		}else {
-			KeywordUtil.markFailed("Contact icon not found.....!")
+			KeywordUtil.markFailed("Continue button is not working...............!")
 		}
+
 	}else {
-		KeywordUtil.markFailed("Continue button is not working...............!")
+		KeywordUtil.markFailed("How did you about us? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

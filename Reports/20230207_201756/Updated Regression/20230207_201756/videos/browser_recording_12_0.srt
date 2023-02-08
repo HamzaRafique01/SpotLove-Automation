@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,000 --> 00:00:00,000
+1. if (waitForElementPresent(btn_back, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. com.spotlove.Utility.tap_back()
+
+4
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_how, 10))
+
+5
+00:00:00,000 --> 00:00:00,000
+1. markPassed("User navigate back to the Gender and How do you identify? label text found......!")
+
+6
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. delay(5)
+
+8
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.tap_Continue()
+
+9
+00:00:00,000 --> 00:00:00,000
+9. delay(5)
+
+10
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(profile_icon, 10))
+
+11
+00:00:00,000 --> 00:00:00,000
+1. markPassed("User navigate back to the Gender and Profile icon found on Into screen......!")
+
+12
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_Who, 10))
+
+13
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Who are you into? label text found......!")
+
+14
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.dating_Pref(random)
+
+15
+00:00:00,000 --> 00:00:00,000
+9. markPassed("Partner gender Selection successfully......!")
+
+16
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(btn_continue, 10))
+
+17
+00:00:00,000 --> 00:00:00,000
+1. delay(5)
+
+18
+00:00:00,000 --> 00:00:00,000
+5. com.spotlove.Utility.tap_Continue()
+
+19
+00:00:00,000 --> 00:00:00,000
+9. delay(5)
+
+20
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(lbl_tall, 10))
+
+21
+00:00:00,000 --> 00:00:00,000
+1. markPassed("User navigate to the Height Screen and How tall are you? label text found on next Screen.......!")
+
+22
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+23
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+

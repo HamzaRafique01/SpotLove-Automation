@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. startExistingApplication("com.spotlove.releaseproduction", STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_back, 10))
+
+3
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_back, 10)
+
+4
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate back to the Education screen......!")
+
+5
+00:00:00,000 --> 00:00:00,000
+9. delay(10)
+
+6
+00:00:00,000 --> 00:00:00,000
+13. if (waitForElementPresent(hat_icon, 20))
+
+7
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Hat icon found on Education screen......!")
+
+8
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_continue, 10))
+
+9
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_continue, 10)
+
+10
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the Vices Screen......!")
+
+11
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(bottle_icon, 10))
+
+12
+00:00:00,000 --> 00:00:00,000
+1. markPassed("Bottle icon found on Vices screen......!")
+
+13
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(lbl_What, 10))
+
+14
+00:00:00,000 --> 00:00:00,000
+1. markPassed("What are your vices? label text found......!")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. if (waitForElementPresent(btn_toggle_M, 10))
+
+16
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_toggle_M, 10)
+
+17
+00:00:00,000 --> 00:00:00,000
+5. markPassed("Marijuana Toggle button On......!")
+
+18
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_toggle_S, 10))
+
+19
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_toggle_S, 10)
+
+20
+00:00:00,000 --> 00:00:00,000
+5. markPassed("Smoking Toggle button On......!")
+
+21
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(btn_toggle_A, 10))
+
+22
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_toggle_A, 10)
+
+23
+00:00:00,000 --> 00:00:00,000
+5. markPassed("Alcohol Toggle button On......!")
+
+24
+00:00:00,000 --> 00:00:00,000
+9. com.spotlove.Utility.dating_Pref(A_random)
+
+25
+00:00:00,000 --> 00:00:00,000
+13. markPassed("Alcohol Toggle button On......!")
+
+26
+00:00:00,000 --> 00:00:00,000
+17. com.spotlove.Utility.dating_Pref(S_random)
+
+27
+00:00:00,000 --> 00:00:00,000
+21. markPassed("Smoking Selected......!")
+
+28
+00:00:00,000 --> 00:00:00,000
+25. com.spotlove.Utility.dating_Pref(M_random)
+
+29
+00:00:00,000 --> 00:00:00,000
+29. markPassed("Marijuana Selected......!")
+
+30
+00:00:00,000 --> 00:00:00,000
+33. if (waitForElementPresent(btn_V_Continue, 10))
+
+31
+00:00:00,000 --> 00:00:00,000
+1. tap(btn_V_Continue, 10)
+
+32
+00:00:00,000 --> 00:00:00,000
+5. markPassed("User navigate to the justice Screen.......!")
+
+33
+00:00:00,000 --> 00:00:00,000
+9. if (waitForElementPresent(justice_icon, 10))
+
+34
+00:00:00,000 --> 00:00:00,000
+1. markPassed("justice icon found on next Screen.......!")
+
+35
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
+36
+00:00:00,000 --> 00:00:00,000
+5. println(testCaseContext.getTestCaseStatus())
+
+37
+00:00:00,000 --> 00:00:00,000
+1. println(testCaseContext.getTestCaseId())
+
