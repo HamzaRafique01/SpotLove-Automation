@@ -825,7 +825,7 @@
    <testCaseLink>
       <guid>ffd27512-5d4e-48e0-90eb-cbd5dcbb8bc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/LookUps/SL-14 Ethnicity</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -862,12 +862,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e2a2c81c-47d3-4909-aee0-42dd6585192a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>4c9f7293-6a6c-4f52-91a9-c47cf986a8cb</variableId>
       </variableLink>
       <variableLink>
@@ -876,11 +870,17 @@
          <value></value>
          <variableId>d042cbee-16aa-45c5-8666-0156b5982107</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c9e6999-7240-468b-8c9f-383716284a97</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>863a9737-e9c1-401d-b8cb-752df69d12cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/LookUps/SL-15 Religion</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -888,12 +888,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>7afef821-a4e4-49f3-a88c-b043201e74fc</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>db69b51a-6ba4-47c9-a961-7f6e97cebcc6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -917,12 +911,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fa2595b0-ebba-4500-b7f2-48e405580190</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>10974dfa-6cb6-4798-b4c5-d7a256b96fc0</variableId>
       </variableLink>
       <variableLink>
@@ -931,11 +919,23 @@
          <value></value>
          <variableId>90461629-7409-4d7d-a0c8-caf5edcf9936</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>daee2227-db00-482b-8224-38b25a268420</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3c5886f7-b994-40af-9b38-5387f013f572</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b5bb38b4-c7a6-404c-a3da-93a17b8ffc50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/LookUps/SL-16 Relationship Status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -978,19 +978,25 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d1b26ad3-6702-4db3-8c13-aa58b08e884a</variableId>
+         <variableId>924a3e7e-4875-41ec-918e-587b60e719fd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>924a3e7e-4875-41ec-918e-587b60e719fd</variableId>
+         <variableId>10037660-8708-42d6-9e21-445e5e9be7f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce61e554-9979-45d5-860d-ee14c8b560e6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>bfcc9dc2-3714-4921-b492-97eebc548b99</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/LookUps/SL-17 Family Plan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -1051,19 +1057,19 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b5132291-8109-4854-9743-e2e6c6feb063</variableId>
+         <variableId>44b349f7-570a-4b0d-a87b-c432b97f2218</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>44b349f7-570a-4b0d-a87b-c432b97f2218</variableId>
+         <variableId>ac2a3d25-cf54-4c11-bfda-586ccc2d4f4d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8f0a71b7-db54-44bb-a1ea-29efb413b56c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/LookUps/SL-18 Education</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -1106,19 +1112,19 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0d589eb4-ff16-482e-bd9f-a4fe8dcc58b4</variableId>
+         <variableId>23ef22b9-6f59-47a2-bfa2-cec48ac446ac</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>23ef22b9-6f59-47a2-bfa2-cec48ac446ac</variableId>
+         <variableId>ff12d095-0b96-4555-9e32-c3a6feafc266</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>02d5fe18-c008-46f1-9527-e47a682cd8a1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/LookUps/Sl-19 Vices</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -1144,12 +1150,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>a93e9d64-cd71-4fc0-b02e-0f27e270bf12</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2c924ec3-edb3-44d0-9e26-2cd36169dc8c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1191,19 +1191,25 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>28df009b-c23c-4b1c-a814-af8b2f115743</variableId>
+         <variableId>cf9543f1-b350-4610-86eb-d8b659b59e80</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>cf9543f1-b350-4610-86eb-d8b659b59e80</variableId>
+         <variableId>f4e49bc7-2da6-453a-8b52-c5bf64d9b3d3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2991f27a-38f1-4d0c-af32-f060bba45ed4</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ec034ccc-f90a-4897-a18b-4baeeab4d1f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/LookUps/SL-20 Politics</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -1246,12 +1252,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>53d1d700-b69a-4998-8e51-eb0f57ee7db4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>4cc138f9-c2d6-4afe-8c2a-856e08af0a00</variableId>
       </variableLink>
       <variableLink>
@@ -1259,6 +1259,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>803f02a2-3670-4f0a-87c0-ff33999625a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>786e314d-ed1a-423c-8eee-bd594ca1c77b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

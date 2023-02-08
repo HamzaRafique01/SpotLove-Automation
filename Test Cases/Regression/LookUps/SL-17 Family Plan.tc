@@ -63,13 +63,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b5132291-8109-4854-9743-e2e6c6feb063</variableId>
+      <variableId>44b349f7-570a-4b0d-a87b-c432b97f2218</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>44b349f7-570a-4b0d-a87b-c432b97f2218</variableId>
+      <variableId>ac2a3d25-cf54-4c11-bfda-586ccc2d4f4d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-017 Family Plan/btn back')</defaultValue>
@@ -135,17 +135,17 @@
       <name>randoom</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-017 Family Plan/btn Continue')</defaultValue>
-      <description></description>
-      <id>b5132291-8109-4854-9743-e2e6c6feb063</id>
-      <masked>false</masked>
-      <name>btn_F_Continue</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-018 Education/Hat Icon')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-018 Education/Lbl text - Whats your education background')</defaultValue>
       <description></description>
       <id>44b349f7-570a-4b0d-a87b-c432b97f2218</id>
       <masked>false</masked>
-      <name>studyHat_icon</name>
+      <name>lbl_edu</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/Lbl text - Whats your relationship status')</defaultValue>
+      <description></description>
+      <id>ac2a3d25-cf54-4c11-bfda-586ccc2d4f4d</id>
+      <masked>false</masked>
+      <name>lbl_whats</name>
    </variable>
 </TestCaseEntity>

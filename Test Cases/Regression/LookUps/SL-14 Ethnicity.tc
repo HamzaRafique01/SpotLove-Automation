@@ -39,12 +39,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e2a2c81c-47d3-4909-aee0-42dd6585192a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>4c9f7293-6a6c-4f52-91a9-c47cf986a8cb</variableId>
    </variableLinks>
    <variableLinks>
@@ -52,6 +46,12 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>d042cbee-16aa-45c5-8666-0156b5982107</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c9e6999-7240-468b-8c9f-383716284a97</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-014 Ethnicity/btn back')</defaultValue>
@@ -89,18 +89,11 @@
       <name>random</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/btn Continue')</defaultValue>
-      <description></description>
-      <id>e2a2c81c-47d3-4909-aee0-42dd6585192a</id>
-      <masked>false</masked>
-      <name>btn_E_Continue</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-015 Religion/Holy Book Icon')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/Lbl text - Whats your religion')</defaultValue>
       <description></description>
       <id>4c9f7293-6a6c-4f52-91a9-c47cf986a8cb</id>
       <masked>false</masked>
-      <name>book_icon</name>
+      <name>lbl_whats</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Ethnicity Icon')</defaultValue>
@@ -108,5 +101,12 @@
       <id>d042cbee-16aa-45c5-8666-0156b5982107</id>
       <masked>false</masked>
       <name>ethnicity_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-013 Height/Lbl text - How tall are you')</defaultValue>
+      <description></description>
+      <id>8c9e6999-7240-468b-8c9f-383716284a97</id>
+      <masked>false</masked>
+      <name>lbl_how</name>
    </variable>
 </TestCaseEntity>

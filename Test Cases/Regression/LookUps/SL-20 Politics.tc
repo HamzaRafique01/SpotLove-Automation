@@ -45,12 +45,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>53d1d700-b69a-4998-8e51-eb0f57ee7db4</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>4cc138f9-c2d6-4afe-8c2a-856e08af0a00</variableId>
    </variableLinks>
    <variableLinks>
@@ -58,6 +52,12 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>803f02a2-3670-4f0a-87c0-ff33999625a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>786e314d-ed1a-423c-8eee-bd594ca1c77b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-020 Politics/btn back')</defaultValue>
@@ -88,11 +88,11 @@
       <name>Justics_icon</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-020 Politics/Lbl text - What are your political views')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/Lbl text - What are your vices')</defaultValue>
       <description></description>
       <id>2c4644e4-c12f-4e2d-bb2a-f57480416327</id>
       <masked>false</masked>
-      <name>lbl_What</name>
+      <name>lbl_whats</name>
    </variable>
    <variable>
       <defaultValue>['Apolitical', 'Conservative', 'Moderate']</defaultValue>
@@ -100,13 +100,6 @@
       <id>0a296a1f-b3fe-4cbc-bbe5-dd79789ad8d8</id>
       <masked>false</masked>
       <name>random</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-020 Politics/btn continue')</defaultValue>
-      <description></description>
-      <id>53d1d700-b69a-4998-8e51-eb0f57ee7db4</id>
-      <masked>false</masked>
-      <name>btn_P_Continue</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-021 Gallery/Gallery Icon')</defaultValue>
@@ -121,5 +114,12 @@
       <id>803f02a2-3670-4f0a-87c0-ff33999625a5</id>
       <masked>false</masked>
       <name>access_Gallery_Permission</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-020 Politics/Lbl text - What are your political views')</defaultValue>
+      <description></description>
+      <id>786e314d-ed1a-423c-8eee-bd594ca1c77b</id>
+      <masked>false</masked>
+      <name>lbl_politics</name>
    </variable>
 </TestCaseEntity>

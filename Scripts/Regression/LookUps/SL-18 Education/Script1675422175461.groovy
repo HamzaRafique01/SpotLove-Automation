@@ -19,66 +19,89 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
+
+
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-//	Mobile.tap(btn_back, 10)
 	CustomKeywords.'com.spotlove.Utility.tap_back'()
-	KeywordUtil.markPassed("User navigate back to the Family Plans screen......!")
-	Mobile.delay(10)
-	
-	if(Mobile.waitForElementPresent(face_icon, 20)) {
 
-		KeywordUtil.markPassed("Face icon found on Religon screen......!")
+	if(Mobile.waitForElementPresent(lbl_tell, 10)) {
+
+		KeywordUtil.markPassed("User navigate back to the family Screen screen and Tell us about your family? label text found......!")
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-//			Mobile.tap(btn_continue, 10)
+			Mobile.delay(5)
 			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-			KeywordUtil.markPassed("User navigate to the Education Screen......!")
+			Mobile.delay(5)
 
-			if(Mobile.waitForElementPresent(hat_icon, 10)) {
+			if(Mobile.waitForElementPresent(lbl_what, 10)) {
 
-				KeywordUtil.markPassed("Hat icon found on Education screen......!")
+				KeywordUtil.markPassed("User navigate back to the Education screen and Whats you education background label text found......!")
 
-				if(Mobile.waitForElementPresent(lbl_What, 10)) {
+				if(Mobile.waitForElementPresent(hat_icon, 10)) {
 
-					KeywordUtil.markPassed("What's your Education background? label text found......!")
+					KeywordUtil.markPassed("Hat icon found on Education screen......!")
 
-					CustomKeywords.'com.spotlove.Utility.dating_Pref'(random)
-					KeywordUtil.markPassed("Education Selection successfully......!")
+					if(Mobile.waitForElementPresent(lbl_what, 10)) {
 
-					if(Mobile.waitForElementPresent(btn_E_Continue, 10)) {
+						KeywordUtil.markPassed("What's your Education background? label text found......!")
 
-//						Mobile.tap(btn_E_Continue, 10)
-						CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-						KeywordUtil.markPassed("User navigate to the Vices Screen.......!")
+						CustomKeywords.'com.spotlove.Utility.dating_Pref'(random)
+						KeywordUtil.markPassed("Education Selection successfully......!")
 
-						if(Mobile.waitForElementPresent(bottle_icon, 10)) {
+						if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-							KeywordUtil.markPassed("Bottle icon found on next Screen.......!")
+							CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+							KeywordUtil.markPassed("User navigate to the Vices Screen.......!")
 
+							if(Mobile.waitForElementPresent(lbl_voics, 10)) {
+
+								KeywordUtil.markPassed("What are your vices? found on next Screen.......!")
+
+							}else {
+								KeywordUtil.markFailed("What are your vices?  not found on next Screen.....!")
+							}
 						}else {
-							KeywordUtil.markFailed("Bottle icon not found on next Screen.....!")
+							KeywordUtil.markFailed("User navigation not successfully.....!")
 						}
 					}else {
-						KeywordUtil.markFailed("User navigation not successfully.....!")
+						KeywordUtil.markFailed("Education is not selected....!")
+						KeywordUtil.markFailed("What's your Education background? label text not found....!")
 					}
 				}else {
-					KeywordUtil.markFailed("Education is not selected....!")
-					KeywordUtil.markFailed("What's your Education background? label text not found....!")
+					KeywordUtil.markFailed("Hat icon not found on Education screen....!")
 				}
+
 			}else {
-				KeywordUtil.markFailed("Hat icon not found on Education screen....!")
+				KeywordUtil.markFailed("Children is not selected....!")
+				KeywordUtil.markFailed("Whats you education background label text not found....!")
 			}
 		}else {
-			KeywordUtil.markFailed("Continue button is not working....!")
+			KeywordUtil.markFailed("Continue button is not working.....!")
 		}
 	}else {
-		KeywordUtil.markFailed("Face icon found on Religon screen....!")
+		KeywordUtil.markFailed("Tell us about your family?? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

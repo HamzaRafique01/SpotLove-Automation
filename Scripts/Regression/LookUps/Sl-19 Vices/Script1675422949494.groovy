@@ -21,95 +21,128 @@ import com.spotlove.Utility
 
 
 
+
+
+
+
+
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-//	Mobile.tap(btn_back, 10)
 	CustomKeywords.'com.spotlove.Utility.tap_back'()
-	KeywordUtil.markPassed("User navigate back to the Education screen......!")
-	Mobile.delay(10)
 
-	if(Mobile.waitForElementPresent(hat_icon, 20)) {
+	if(Mobile.waitForElementPresent(lbl_whats, 10)) {
 
-		KeywordUtil.markPassed("Hat icon found on Education screen......!")
+		KeywordUtil.markPassed("User navigate back to the Education screen and What's your education background? label text found......!")
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-//			Mobile.tap(btn_continue, 10)
+			Mobile.delay(5)
 			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-			KeywordUtil.markPassed("User navigate to the Vices Screen......!")
+			Mobile.delay(5)
 
-			if(Mobile.waitForElementPresent(bottle_icon, 10)) {
+			if(Mobile.waitForElementPresent(lbl_vices, 10)) {
 
-				KeywordUtil.markPassed("Bottle icon found on Vices screen......!")
+				KeywordUtil.markPassed("What are your Vices? label text found......!")
 
-				if(Mobile.waitForElementPresent(lbl_What, 10)) {
+				if(Mobile.waitForElementPresent(bottle_icon, 10)) {
 
-					KeywordUtil.markPassed("What are your vices? label text found......!")
+					KeywordUtil.markPassed("Bottle icon found on Vices screen......!")
 
-					if(Mobile.waitForElementPresent(btn_toggle_M, 10)) {
+					if(Mobile.waitForElementPresent(lbl_vices, 10)) {
 
-						Mobile.tap(btn_toggle_M, 10)
-						KeywordUtil.markPassed("Marijuana Toggle button On......!")
+						KeywordUtil.markPassed("What are your vices? label text found......!")
 
-						if(Mobile.waitForElementPresent(btn_toggle_S, 10)) {
+						if(Mobile.waitForElementPresent(btn_toggle_M, 10)) {
 
-							Mobile.tap(btn_toggle_S, 10)
-							KeywordUtil.markPassed("Smoking Toggle button On......!")
+							Mobile.tap(btn_toggle_M, 10)
+							KeywordUtil.markPassed("Marijuana Toggle button On......!")
 
-							if(Mobile.waitForElementPresent(btn_toggle_A, 10)) {
+							if(Mobile.waitForElementPresent(btn_toggle_S, 10)) {
 
-								Mobile.tap(btn_toggle_A, 10)
-								KeywordUtil.markPassed("Alcohol Toggle button On......!")
+								Mobile.tap(btn_toggle_S, 10)
+								KeywordUtil.markPassed("Smoking Toggle button On......!")
 
-								CustomKeywords.'com.spotlove.Utility.dating_Pref'(A_random)
-								KeywordUtil.markPassed("Alcohol Toggle button On......!")
-//
-//								CustomKeywords.'com.spotlove.Utility.dating_Pref'(S_random)
-//								KeywordUtil.markPassed("Smoking Selected......!")
-//
-//								CustomKeywords.'com.spotlove.Utility.dating_Pref'(M_random)
-//								KeywordUtil.markPassed("Marijuana Selected......!")
+								if(Mobile.waitForElementPresent(btn_toggle_A, 10)) {
 
-								if(Mobile.waitForElementPresent(btn_V_Continue, 10)) {
+									Mobile.tap(btn_toggle_A, 10)
+									KeywordUtil.markPassed("Alcohol Toggle button On......!")
 
-//									Mobile.tap(btn_V_Continue, 10)
-									CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-									KeywordUtil.markPassed("User navigate to the justice Screen.......!")
+									CustomKeywords.'com.spotlove.Utility.dating_Pref'(A_random)
+									KeywordUtil.markPassed("Alcohol Toggle button On......!")
+									//
+									//								CustomKeywords.'com.spotlove.Utility.dating_Pref'(S_random)
+									//								KeywordUtil.markPassed("Smoking Selected......!")
+									//
+									//								CustomKeywords.'com.spotlove.Utility.dating_Pref'(M_random)
+									//								KeywordUtil.markPassed("Marijuana Selected......!")
 
-									if(Mobile.waitForElementPresent(justice_icon, 10)) {
+									if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-										KeywordUtil.markPassed("justice icon found on next Screen.......!")
+										//									Mobile.tap(btn_V_Continue, 10)
+										CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+										KeywordUtil.markPassed("User navigate to the justice Screen.......!")
 
+										if(Mobile.waitForElementPresent(justice_icon, 10)) {
+
+											KeywordUtil.markPassed("justice icon found on next Screen.......!")
+
+										}else {
+											KeywordUtil.markFailed("justice icon not found on next Screen.....!")
+										}
 									}else {
-										KeywordUtil.markFailed("justice icon not found on next Screen.....!")
+										KeywordUtil.markFailed("User navigation not successfully.....!")
 									}
 								}else {
-									KeywordUtil.markFailed("User navigation not successfully.....!")
+									KeywordUtil.markFailed("Alcohol Toggle button Off....!")
 								}
 							}else {
-								KeywordUtil.markFailed("Alcohol Toggle button Off....!")
+								KeywordUtil.markFailed("Smoking Toggle button Off....!")
 							}
 						}else {
-							KeywordUtil.markFailed("Smoking Toggle button Off....!")
+							KeywordUtil.markFailed("Marijuana Toggle button Off....!")
 						}
 					}else {
-						KeywordUtil.markFailed("Marijuana Toggle button Off....!")
+						KeywordUtil.markFailed("What are your vices? label text not found....!")
 					}
 				}else {
-					KeywordUtil.markFailed("What are your vices? label text not found....!")
+					KeywordUtil.markFailed("Bottle icon not found on Vices screen....!")
 				}
+
+
 			}else {
-				KeywordUtil.markFailed("Bottle icon not found on Vices screen....!")
+				KeywordUtil.markFailed("What are your Vices?  label text not found....!")
 			}
 		}else {
-			KeywordUtil.markFailed("Continue button is not working....!")
+			KeywordUtil.markFailed("Continue button is not working.....!")
 		}
 	}else {
-		KeywordUtil.markFailed("Hat icon found on Education screen....!")
+		KeywordUtil.markFailed("What's your education background? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,62 +19,71 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
+
+
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-//	Mobile.tap(btn_back, 10)
 	CustomKeywords.'com.spotlove.Utility.tap_back'()
-	KeywordUtil.markPassed("User navigate back to the Religon screen......!")
-	Mobile.delay(10)
-	
-	if(Mobile.waitForElementPresent(book_icon, 20)) {
 
-		KeywordUtil.markPassed("book icon found on Religon screen......!")
+	if(Mobile.waitForElementPresent(lbl_whats, 10)) {
+
+		KeywordUtil.markPassed("User navigate back to the Religion screen and What's your Religion? label text found......!")
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-//			Mobile.tap(btn_continue, 10)
+			Mobile.delay(5)
 			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-			KeywordUtil.markPassed("User navigate to the Reletionship Status Screen......!")
+			Mobile.delay(5)
 
-			if(Mobile.waitForElementPresent(heart_icon, 10)) {
+			if(Mobile.waitForElementPresent(lbl_What, 10)) {
 
-				KeywordUtil.markPassed("Heart icon found on Reletionship Status screen......!")
+				KeywordUtil.markPassed("What's your Reletionship Status? label text found......!")
 
-				if(Mobile.waitForElementPresent(lbl_What, 10)) {
+				if(Mobile.waitForElementPresent(heart_icon, 10)) {
 
-					KeywordUtil.markPassed("What's your Reletionship Status? label text found......!")
+					KeywordUtil.markPassed("Heart icon found on Reletionship Status screen......!")
 
-					CustomKeywords.'com.spotlove.Utility.dating_Pref'(random)
-					KeywordUtil.markPassed("Reletionship Status Selection successfully......!")
+					if(Mobile.waitForElementPresent(lbl_What, 10)) {
 
-					if(Mobile.waitForElementPresent(btn_R_Continue, 10)) {
+						KeywordUtil.markPassed("What's your Reletionship Status? label text found......!")
 
-//						Mobile.tap(btn_R_Continue, 10)
-						CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-						KeywordUtil.markPassed("User navigate to the Children & Family Plan Screen.......!")
+						CustomKeywords.'com.spotlove.Utility.dating_Pref'(random)
+						KeywordUtil.markPassed("Reletionship Status Selection successfully......!")
 
-						if(Mobile.waitForElementPresent(face_icon, 10)) {
+						if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-							KeywordUtil.markPassed("Face icon found on next Screen.......!")
+							
+							CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+							KeywordUtil.markPassed("User navigate to the Children & Family Plan Screen.......!")
 
+							if(Mobile.waitForElementPresent(lbl_tell, 10)) {
+
+								KeywordUtil.markPassed("What's your Reletionship Status? label text found......!")
+
+							}else {
+								KeywordUtil.markFailed("What's your Reletionship Status? label text not found......!")
+							}
 						}else {
-							KeywordUtil.markFailed("Face icon not found on next Screen.....!")
+							KeywordUtil.markFailed("User navigation not successfully.....!")
 						}
 					}else {
-						KeywordUtil.markFailed("User navigation not successfully.....!")
+						KeywordUtil.markFailed("Relationship Status  is not selected....!")
+						KeywordUtil.markFailed("What's your Reletionship Status? label text not found....!")
 					}
 				}else {
-					KeywordUtil.markFailed("religon is not selected....!")
-					KeywordUtil.markFailed("What's your Reletionship Status? label text not found....!")
+					KeywordUtil.markFailed("Heart icon not found on Reletionship Status screen....!")
 				}
+
 			}else {
-				KeywordUtil.markFailed("Heart icon not found on Reletionship Status screen....!")
+				KeywordUtil.markFailed("Relationship Status is not selected....!")
+				KeywordUtil.markFailed("What's your Reletionship Status? label text not found....!")
 			}
+
 		}else {
-			KeywordUtil.markFailed("Continue button is not working....!")
+			KeywordUtil.markFailed("Continue button is not working.....!")
 		}
 	}else {
-		KeywordUtil.markFailed("Book icon not found on Religon screen....!")
+		KeywordUtil.markFailed("What's your Religion? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")

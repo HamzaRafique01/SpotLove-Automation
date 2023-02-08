@@ -19,85 +19,112 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
+
+
+
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
-//	Mobile.tap(btn_back, 10)
 	CustomKeywords.'com.spotlove.Utility.tap_back'()
-	KeywordUtil.markPassed("User navigate back to the Relationship Status screen......!")
-	Mobile.delay(10)
 
-	if(Mobile.waitForElementPresent(heart_icon, 20)) {
+	if(Mobile.waitForElementPresent(lbl_whats, 10)) {
 
-		KeywordUtil.markPassed("Heart icon found on  Relationship Status screen......!")
+		KeywordUtil.markPassed("User navigate back to the Religion screen and What's your Relationship Status? label text found......!")
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-//			Mobile.tap(btn_continue, 10)
+			Mobile.delay(5)
 			CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-			KeywordUtil.markPassed("User navigate to the Family Plan Screen......!")
+			Mobile.delay(5)
 
-			if(Mobile.waitForElementPresent(face_icon, 10)) {
+			if(Mobile.waitForElementPresent(lbl_tell, 10)) {
 
-				KeywordUtil.markPassed("Face icon found on Family Plan screen......!")
+				KeywordUtil.markPassed("User navigate back to the family Plan screen and Tell us about your family label text found......!")
 
-				if(Mobile.waitForElementPresent(lbl_tell, 10)) {
+				if(Mobile.waitForElementPresent(face_icon, 10)) {
 
-					KeywordUtil.markPassed("Tell us about your family label text found......!")
+					KeywordUtil.markPassed("Face icon found on Family Plan screen......!")
 
-					if(Mobile.waitForElementPresent(lbl_do, 10)) {
+					if(Mobile.waitForElementPresent(lbl_tell, 10)) {
 
-						KeywordUtil.markPassed("Do you have children? label text found......!")
+						KeywordUtil.markPassed("Tell us about your family label text found......!")
 
-						CustomKeywords.'com.spotlove.Utility.comma_sprt_value'(random)
-						KeywordUtil.markPassed("Children Selection successfully......!")
+						if(Mobile.waitForElementPresent(lbl_do, 10)) {
 
-						if(Mobile.waitForElementPresent(lbl_what, 10)) {
+							KeywordUtil.markPassed("Do you have children? label text found......!")
 
-							KeywordUtil.markPassed("What are your family Plans? label text found......!")
+							CustomKeywords.'com.spotlove.Utility.comma_sprt_value'(random)
+							KeywordUtil.markPassed("Children Selection successfully......!")
 
-							CustomKeywords.'com.spotlove.Utility.dating_Pref'(randoom)
-							KeywordUtil.markPassed("Family Plan Selection successfully......!")
+							if(Mobile.waitForElementPresent(lbl_what, 10)) {
 
-							if(Mobile.waitForElementPresent(btn_F_Continue, 10)) {
+								KeywordUtil.markPassed("What are your family Plans? label text found......!")
 
-//								Mobile.tap(btn_F_Continue, 10)
-								CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-								KeywordUtil.markPassed("User navigate to the Education Screen.......!")
+								CustomKeywords.'com.spotlove.Utility.dating_Pref'(randoom)
+								KeywordUtil.markPassed("Family Plan Selection successfully......!")
 
-								if(Mobile.waitForElementPresent(studyHat_icon, 10)) {
+								if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-									KeywordUtil.markPassed("Study Hat icon found on next Screen.......!")
+							
+									CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+									KeywordUtil.markPassed("User navigate to the Education Screen.......!")
 
+									if(Mobile.waitForElementPresent(lbl_edu, 10)) {
+
+										KeywordUtil.markPassed("Study Hat icon found on next Screen.......!")
+
+									}else {
+										KeywordUtil.markFailed("Study Hat icon not found on next Screen.....!")
+									}
 								}else {
-									KeywordUtil.markFailed("Study Hat icon not found on next Screen.....!")
+									KeywordUtil.markFailed("User navigation not successfully.....!")
 								}
+
+
 							}else {
-								KeywordUtil.markFailed("User navigation not successfully.....!")
+								KeywordUtil.markFailed("What are your family Plans? label text not found....!")
 							}
-
-
 						}else {
-							KeywordUtil.markFailed("What are your family Plans? label text not found....!")
+							KeywordUtil.markFailed("Do you have children? label text not found....!")
 						}
 					}else {
-						KeywordUtil.markFailed("Do you have children? label text not found....!")
+						KeywordUtil.markFailed("Children is not selected....!")
+						KeywordUtil.markFailed("Tell us about your family label text not found....!")
 					}
 				}else {
-					KeywordUtil.markFailed("Children is not selected....!")
-					KeywordUtil.markFailed("Tell us about your family label text not found....!")
+					KeywordUtil.markFailed("Face icon not found on Family Plan screen....!")
 				}
+
+
 			}else {
-				KeywordUtil.markFailed("Face icon not found on Family Plan screen....!")
+				KeywordUtil.markFailed("Children is not selected....!")
+				KeywordUtil.markFailed("Tell us about your family label text not found....!")
 			}
+
+
 		}else {
-			KeywordUtil.markFailed("Continue button is not working....!")
+			KeywordUtil.markFailed("Continue button is not working.....!")
 		}
 	}else {
-		KeywordUtil.markFailed("Heart icon found on  Relationship Status screen....!")
+		KeywordUtil.markFailed("What's your Religion? label text not found......!")
 	}
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

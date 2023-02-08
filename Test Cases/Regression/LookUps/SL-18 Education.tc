@@ -45,13 +45,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0d589eb4-ff16-482e-bd9f-a4fe8dcc58b4</variableId>
+      <variableId>23ef22b9-6f59-47a2-bfa2-cec48ac446ac</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>23ef22b9-6f59-47a2-bfa2-cec48ac446ac</variableId>
+      <variableId>ff12d095-0b96-4555-9e32-c3a6feafc266</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-018 Education/btn back')</defaultValue>
@@ -86,7 +86,7 @@
       <description></description>
       <id>a4e0de92-d3b1-4d85-91f0-93fd35cdd702</id>
       <masked>false</masked>
-      <name>lbl_What</name>
+      <name>lbl_what</name>
    </variable>
    <variable>
       <defaultValue>['College Degree', 'Phd/Doctoral', 'Some College']</defaultValue>
@@ -96,17 +96,17 @@
       <name>random</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-018 Education/btn continue')</defaultValue>
-      <description></description>
-      <id>0d589eb4-ff16-482e-bd9f-a4fe8dcc58b4</id>
-      <masked>false</masked>
-      <name>btn_E_Continue</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-019 Vices/bottle icon')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/Lbl text - What are your vices')</defaultValue>
       <description></description>
       <id>23ef22b9-6f59-47a2-bfa2-cec48ac446ac</id>
       <masked>false</masked>
-      <name>bottle_icon</name>
+      <name>lbl_voics</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-017 Family Plan/Lbl text - Tell us about your family')</defaultValue>
+      <description></description>
+      <id>ff12d095-0b96-4555-9e32-c3a6feafc266</id>
+      <masked>false</masked>
+      <name>lbl_tell</name>
    </variable>
 </TestCaseEntity>

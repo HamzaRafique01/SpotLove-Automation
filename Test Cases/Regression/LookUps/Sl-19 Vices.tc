@@ -33,12 +33,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2c924ec3-edb3-44d0-9e26-2cd36169dc8c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>850c9f83-42d3-4b5a-900d-844cd47811b6</variableId>
    </variableLinks>
    <variableLinks>
@@ -75,13 +69,19 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>28df009b-c23c-4b1c-a814-af8b2f115743</variableId>
+      <variableId>cf9543f1-b350-4610-86eb-d8b659b59e80</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cf9543f1-b350-4610-86eb-d8b659b59e80</variableId>
+      <variableId>f4e49bc7-2da6-453a-8b52-c5bf64d9b3d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2991f27a-38f1-4d0c-af32-f060bba45ed4</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-019 Vices/btn back')</defaultValue>
@@ -110,13 +110,6 @@
       <id>a93e9d64-cd71-4fc0-b02e-0f27e270bf12</id>
       <masked>false</masked>
       <name>bottle_icon</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-019 Vices/Lbl text - What are your vices')</defaultValue>
-      <description></description>
-      <id>2c924ec3-edb3-44d0-9e26-2cd36169dc8c</id>
-      <masked>false</masked>
-      <name>lbl_What</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-019 Vices/btn_Marijuano_Switch - OFF')</defaultValue>
@@ -161,17 +154,24 @@
       <name>M_random</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-019 Vices/android.widget.TextView - Continue')</defaultValue>
-      <description></description>
-      <id>28df009b-c23c-4b1c-a814-af8b2f115743</id>
-      <masked>false</masked>
-      <name>btn_V_Continue</name>
-   </variable>
-   <variable>
       <defaultValue>findTestObject('Regression/SC-020 Politics/justics Icon')</defaultValue>
       <description></description>
       <id>cf9543f1-b350-4610-86eb-d8b659b59e80</id>
       <masked>false</masked>
       <name>justice_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-019 Vices/Lbl text - What are your vices')</defaultValue>
+      <description></description>
+      <id>f4e49bc7-2da6-453a-8b52-c5bf64d9b3d3</id>
+      <masked>false</masked>
+      <name>lbl_vices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-018 Education/Lbl text - Whats your education background')</defaultValue>
+      <description></description>
+      <id>2991f27a-38f1-4d0c-af32-f060bba45ed4</id>
+      <masked>false</masked>
+      <name>lbl_whats</name>
    </variable>
 </TestCaseEntity>

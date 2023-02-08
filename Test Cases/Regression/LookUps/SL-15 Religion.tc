@@ -15,12 +15,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>db69b51a-6ba4-47c9-a961-7f6e97cebcc6</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>0793c183-bf49-4bd2-be30-9b1325f43aa4</variableId>
    </variableLinks>
    <variableLinks>
@@ -39,12 +33,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fa2595b0-ebba-4500-b7f2-48e405580190</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>10974dfa-6cb6-4798-b4c5-d7a256b96fc0</variableId>
    </variableLinks>
    <variableLinks>
@@ -53,19 +41,24 @@
       <value></value>
       <variableId>90461629-7409-4d7d-a0c8-caf5edcf9936</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>daee2227-db00-482b-8224-38b25a268420</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c5886f7-b994-40af-9b38-5387f013f572</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-015 Religion/btn back')</defaultValue>
       <description></description>
       <id>7afef821-a4e4-49f3-a88c-b043201e74fc</id>
       <masked>false</masked>
       <name>btn_back</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Ethnicity Icon')</defaultValue>
-      <description></description>
-      <id>db69b51a-6ba4-47c9-a961-7f6e97cebcc6</id>
-      <masked>false</masked>
-      <name>ethnicity_icon</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-014 Ethnicity/btn Continue')</defaultValue>
@@ -89,18 +82,11 @@
       <name>random</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-015 Religion/btn Continue')</defaultValue>
-      <description></description>
-      <id>fa2595b0-ebba-4500-b7f2-48e405580190</id>
-      <masked>false</masked>
-      <name>btn_R_Continue</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Regression/SC-015 Religion/Lbl text - Whats your religion')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-014 Ethnicity/Lbl text - Whats your ethnicity')</defaultValue>
       <description></description>
       <id>10974dfa-6cb6-4798-b4c5-d7a256b96fc0</id>
       <masked>false</masked>
-      <name>lbl_What</name>
+      <name>lbl_whats</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/SC-016 Relationship Status/Heart icon')</defaultValue>
@@ -108,5 +94,19 @@
       <id>90461629-7409-4d7d-a0c8-caf5edcf9936</id>
       <masked>false</masked>
       <name>heart_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-015 Religion/Lbl text - Whats your religion')</defaultValue>
+      <description></description>
+      <id>daee2227-db00-482b-8224-38b25a268420</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-016 Relationship Status/Lbl text - Whats your relationship status')</defaultValue>
+      <description></description>
+      <id>3c5886f7-b994-40af-9b38-5387f013f572</id>
+      <masked>false</masked>
+      <name>lbl_relation</name>
    </variable>
 </TestCaseEntity>

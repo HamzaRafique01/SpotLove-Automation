@@ -22,6 +22,7 @@ import com.spotlove.Utility
 
 
 
+
 if(Mobile.waitForElementPresent(Logo_Spotlove, 10)) {
 
 	KeywordUtil.markPassed("Spot.Love Logo Found......!")
