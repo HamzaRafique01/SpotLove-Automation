@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-conditional Suit,,,,2022-05-12 13:51:22,2022-05-12 13:51:46,24.718s,PASSED
-,,,,,,,
-Test Cases/testing/Use Phone Number screen,,,,2022-05-12 13:51:22,2022-05-12 13:51:45,22.767s,PASSED
-"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-05-12 13:51:23,2022-05-12 13:51:37,14.432s,PASSED
-"if (waitForElementPresent(heart, 30))",,,,2022-05-12 13:51:37,2022-05-12 13:51:45,7.603s,PASSED
-,,,,,,,
-Test Cases/testing/Whats Your phone number,,,,2022-05-12 13:51:45,2022-05-12 13:51:46,1.690s,PASSED
-"if (waitForElementPresent(DEETS, 30))",,,,2022-05-12 13:51:45,2022-05-12 13:51:46,1.439s,PASSED

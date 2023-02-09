@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-test,,,,2023-02-02 17:54:36,2023-02-02 17:54:38,1.462s,FAILED
-,,,,,,,
-Test Cases/Regression/LookUps/SL-01 First Intro Screen,,,,2023-02-02 17:54:37,2023-02-02 17:54:38,1.235s,FAILED
-Start listener action : sampleBeforeTestCase,,,,2023-02-02 17:54:37,2023-02-02 17:54:37,0.007s,PASSED
-"if (waitForElementPresent(logo, 10))",,,,2023-02-02 17:54:37,2023-02-02 17:54:38,0.510s,PASSED
-Start listener action : sampleAfterTestCase,,,,2023-02-02 17:54:38,2023-02-02 17:54:38,0.016s,PASSED

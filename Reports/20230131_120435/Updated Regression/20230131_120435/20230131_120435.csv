@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Updated Regression,,,,2023-01-31 12:04:44,2023-01-31 12:06:06,1m - 22.009s,PASSED
-,,,,,,,
-Test Cases/Regression/TC_001,,,,2023-01-31 12:04:45,2023-01-31 12:06:06,1m - 21.785s,PASSED
-Start listener action : sampleBeforeTestCase,,,,2023-01-31 12:04:45,2023-01-31 12:04:45,0.007s,PASSED
-"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2023-01-31 12:04:45,2023-01-31 12:05:04,19.102s,PASSED
-"image = findTestObject(""Object Repository/Regression/SC-001 Intro 1/Middle Screen Pic"")",,,,2023-01-31 12:05:04,2023-01-31 12:05:04,0.042s,PASSED
-"if (waitForElementPresent(image, 20))",,,,2023-01-31 12:05:04,2023-01-31 12:06:06,1m - 2.294s,PASSED
-Start listener action : sampleAfterTestCase,,,,2023-01-31 12:06:06,2023-01-31 12:06:06,0.002s,PASSED

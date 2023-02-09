@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Admin,Chrome 108.0.0.0,,,2022-12-02 17:28:34,2022-12-02 17:28:45,10.622s,PASSED
-,,,,,,,
-Test Cases/Smoke/Web Portal/Login,Chrome 108.0.0.0,,,2022-12-02 17:28:38,2022-12-02 17:28:45,6.375s,PASSED
-Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2022-12-02 17:28:39,2022-12-02 17:28:39,0.010s,PASSED
-"if (waitForElementPresent(User_Name, 10))",Chrome 108.0.0.0,,,2022-12-02 17:28:39,2022-12-02 17:28:44,5.660s,PASSED
-Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2022-12-02 17:28:44,2022-12-02 17:28:45,0.004s,PASSED

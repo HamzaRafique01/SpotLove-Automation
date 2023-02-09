@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Smoke,,,,2022-11-24 19:27:12,2022-11-24 19:27:42,30.256s,ERROR
-,,,,,,,
-Test Cases/Smoke/TC_001,,,,2022-11-24 19:27:12,2022-11-24 19:27:42,29.943s,ERROR
-"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-24 19:27:12,2022-11-24 19:27:26,13.987s,PASSED
-"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen1_Intro Screens""), null, STOP_ON_FAILURE)",,,,2022-11-24 19:27:26,2022-11-24 19:27:34,7.696s,PASSED
-"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen2_Welcome Screen""), null, STOP_ON_FAILURE)",,,,2022-11-24 19:27:34,2022-11-24 19:27:35,1.364s,PASSED
-"callTestCase(findTestCase(""Test Cases/Smoke/LookUps For Sign IN UP/Screen3_Phone Number (Enter number)""), [""CName"":C_Name, ""PNumber"":P_Number], STOP_ON_FAILURE)",,,,2022-11-24 19:27:35,2022-11-24 19:27:42,6.597s,ERROR

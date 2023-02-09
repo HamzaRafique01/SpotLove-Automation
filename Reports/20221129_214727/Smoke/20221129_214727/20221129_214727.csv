@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Smoke,,,,2022-11-29 21:50:14,2022-11-29 21:50:40,26.248s,FAILED
-,,,,,,,
-Test Cases/Smoke/TC_001,,,,2022-11-29 21:50:14,2022-11-29 21:50:40,25.929s,FAILED
-"startExistingApplication(""com.spotlove.releaseproduction"", STOP_ON_FAILURE)",,,,2022-11-29 21:50:15,2022-11-29 21:50:40,25.595s,FAILED

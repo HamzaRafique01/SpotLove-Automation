@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Smoke,,,,2022-11-28 11:45:29,2022-11-28 11:45:31,1.724s,FAILED
-,,,,,,,
-Test Cases/Smoke/TC_002 Onboard,,,,2022-11-28 11:45:29,2022-11-28 11:45:31,1.309s,FAILED
-"callTestCase(findTestCase(""Test Cases/Smoke/LookUp For Onboard/Tap on I agree button""), null, STOP_ON_FAILURE)",,,,2022-11-28 11:45:30,2022-11-28 11:45:31,0.822s,FAILED
