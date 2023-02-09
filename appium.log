@@ -34,11 +34,12 @@
 [35m[ADB][39m Using 'adb' from '/Users/pc/.katalon/tools/android_sdk/platform-tools/adb'
 [35m[AndroidDriver][39m Retrieving device list
 [35m[AndroidDriver][39m Using device: RF8RC109TVZ
-[35m[ADB][39m Using 'adb' from '/Users/pc/.katalon/tools/android_sdk/platform-tools/adb'
-[35m[ADB][39m Getting device platform version
+[35m[ADB][39m Using 'adb' from '/Users/pc/.katalon/tools/androi[35m[Appium][39m Received SIGTERM - shutting down
+vice platform version
 [35m[UiAutomator2][39m Relaxing hidden api policy
 [35m[AndroidDriver][39m No app sent in, not parsing package/activity
-[35m[UiAutomator2][39m Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is not writeable. Will copy it into the temporary location at '/var/folders/1v/3_56wbt90zbb48qtwvw1bry40000gn/T/Katalon/Appium/Temp1675766147201/202317-38199-vat442.qea3g' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[35m[UiAutomator2][39m Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is not writeable. Will[35m[Appium][39m Received SIGTERM - shutting down
+s/1v/3_56wbt90zbb48qtwvw1bry40000gn/T/Katalon/Appium/Temp1675766147201/202317-38199-vat442.qea3g' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
 [35m[UiAutomator2][39m Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at '/var/folders/1v/3_56wbt90zbb48qtwvw1bry40000gn/T/Katalon/Appium/Temp1675766147201/202317-38199-vat442.qea3g' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
 [35m[ADB][39m Using 'apksigner.jar' from '/Users/pc/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
 [35m[ADB][39m '/var/folders/1v/3_56wbt90zbb48qtwvw1bry40000gn/T/Katalon/Appium/Temp1675766147201/202317-38199-vat442.qea3g/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
@@ -58,7 +59,8 @@
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52 [39m[32m200[39m [90m10 ms - 1162[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/89c6e389-e4de-441c-[35[35m[Appium][39m Received SIGTERM - shutting down
+39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52[39m
 [35m[HTTP][39m [90m{}[39m
@@ -88,15 +90,11 @@
 [35m[HTTP][39m [90m{"bundleId":"com.spotlove.releaseproduction"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/appium/device/activate_app [39m[32m200[39m [90m586 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (89c6e389)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab0c7ca7-3da6-4a10-ab6f-5d508c412b26 with 89c6e389-e4de-441c-8b30-59269d73bc52
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/source [39m[32m200[39m [90m901 ms - 9836[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/screenshot [39m[32m200[39m [90m1079 ms - 814206[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b3[35m[Appium][39m Received SIGTERM - shutting down
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Removing session 'a9b2a1a0-2a75-4aa6-83e4-ed4cf82b0e41' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+e4de-441c-8b30-59269d73bc52/screenshot [39m[32m200[39m [90m1079 ms - 814206[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Continue with Phone Number' or . = 'Continue with Phone Number')]"}[39m
@@ -106,14 +104,14 @@
 [35m[HTTP][39m [90m{"implicit":1000}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/timeouts [39m[32m200[39m [90m1 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Continue with Phone Number' or . = 'Continue with Phone Number')]"}[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/elements[35m[Appium][39m Received SIGTERM - shutting down
+"//*[@class = 'android.widget.TextView' and (@text = 'Continue with Phone Number' or . = 'Continue with Phone Number')]"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/elements [39m[32m200[39m [90m104 ms - 139[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/element/00000000-0000-00ae-ffff-ffff0000001a/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (89c6e389)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab0c7ca7-3da6-4a10-ab6f-5d508c412b26 with 89c6e389-e4de-441c-8b30-59269d73bc52
+[35m[W3C (89c6e389)][39m Driver proxy active, passing request on via HT[35m[Appium][39m Received SIGTERM - shutting down
+0c7ca7-3da6-4a10-ab6f-5d508c412b26 with 89c6e389-e4de-441c-8b30-59269d73bc52
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/element/00000000-0000-00ae-ffff-ffff0000001a/location [39m[32m200[39m [90m23 ms - 79[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/89c6e389-e4de-441c-8b30-59269d73bc52/element/00000000-0000-00ae-ffff-ffff0000001a/size[39m
