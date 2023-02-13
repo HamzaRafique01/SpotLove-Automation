@@ -56,20 +56,20 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 							KeywordUtil.markPassed("Marijuana Selected......!")
 
 							if(Mobile.waitForElementPresent(btn_toggle_S, 10)) {
+								
+								Mobile.tap(btn_toggle_A, 10)
+								KeywordUtil.markPassed("Alcohol Toggle button On......!")
 
-								Mobile.tap(btn_toggle_S, 10)
-								KeywordUtil.markPassed("Smoking Toggle button On......!")
-
-								CustomKeywords.'com.spotlove.Utility.dating_Pref'(S_random)
-								KeywordUtil.markPassed("Smoking Selected......!")
+								CustomKeywords.'com.spotlove.Utility.dating_Pref'(A_random)
+								KeywordUtil.markPassed("Alcohol Toggle button On......!")
 
 								if(Mobile.waitForElementPresent(btn_toggle_A, 10)) {
 
-									Mobile.tap(btn_toggle_A, 10)
-									KeywordUtil.markPassed("Alcohol Toggle button On......!")
-
-									CustomKeywords.'com.spotlove.Utility.dating_Pref'(A_random)
-									KeywordUtil.markPassed("Alcohol Toggle button On......!")
+									Mobile.tap(btn_toggle_S, 10)
+									KeywordUtil.markPassed("Smoking Toggle button On......!")
+	
+									CustomKeywords.'com.spotlove.Utility.dating_Pref'(S_random)
+									KeywordUtil.markPassed("Smoking Selected......!")
 					
 									if(Mobile.waitForElementPresent(btn_continue, 10)) {
 

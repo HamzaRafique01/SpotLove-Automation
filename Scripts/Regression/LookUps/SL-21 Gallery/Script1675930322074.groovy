@@ -20,8 +20,9 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
 
+Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
 
-
+//*[@resource-id = 'com.sec.android.app.camera:id/done_button']
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 	CustomKeywords.'com.spotlove.Utility.tap_back'()

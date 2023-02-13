@@ -172,7 +172,7 @@
       <name>btn_capture</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/SC-021 Gallery/btn OK for camera')</defaultValue>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/OK')</defaultValue>
       <description></description>
       <id>d54ca6c6-279c-40b5-b35a-c097b2c003e6</id>
       <masked>false</masked>

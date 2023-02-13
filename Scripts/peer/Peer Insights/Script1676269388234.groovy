@@ -57,8 +57,6 @@ if(Mobile.waitForElementPresent(abc, 10)) {
 						Mobile.tap(btn_loginAP, 10)
 						KeywordUtil.markPassed("User Successfully LggedIn")
 
-
-
 					}else {
 						KeywordUtil.markFailed("PassCode Incorrect")
 					}
