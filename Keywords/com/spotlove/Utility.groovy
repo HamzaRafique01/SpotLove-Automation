@@ -87,7 +87,7 @@ public class Utility {
 		WebElement obj = driver.findElement(By.xpath("//*[@class = 'android.widget.TextView' and (@text = 'Continue' or . = 'Continue')]"))
 		obj.click()
 	}
-	
+
 	@Keyword
 	def tap_back() {
 

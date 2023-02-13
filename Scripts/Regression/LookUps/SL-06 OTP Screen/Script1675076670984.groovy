@@ -21,6 +21,10 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
 
+//Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
+
+
+
 if(Mobile.waitForElementPresent(spotlove_logo, 10)) {
 
 	KeywordUtil.markPassed("Spot.Love Logo Found......!")

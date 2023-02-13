@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-21 Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>111941b0-d453-4102-b8a9-e6cac004c67a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13fc6d7f-d001-4e19-bcab-f820c3cc768b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c655826d-6787-47fc-b300-3dd00e14229f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32cf0b31-80e2-4ec5-a67a-7ffccc37cde4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0bce1776-3de2-4140-86f6-b66aa8150043</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74139113-bccd-481e-91aa-150ea3e53129</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34fdc2e7-80e0-461b-805e-879d8f13e2c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3538a24-c587-4754-8b95-ea2769e290f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5c5079e-b957-42cc-878a-c15cfa620236</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21497db8-6f97-434c-ab87-b0adc914b616</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe4bb3d4-cfc0-460b-bf79-fd9b0b794347</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d54ca6c6-279c-40b5-b35a-c097b2c003e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e7a2122-1662-41f0-9cc0-2d88ee9ba3f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe58536b-5893-4bec-be13-0c7f7ee0ef02</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e799bb4b-f756-42f1-93c1-a530beea3a5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6fc84bc4-aa93-4933-8e3b-28711f55bfa5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8810a11e-ac4a-4e12-8b6b-028451b11dda</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/btn back')</defaultValue>
+      <description></description>
+      <id>13fc6d7f-d001-4e19-bcab-f820c3cc768b</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-020 Politics/Lbl text - What are your political views')</defaultValue>
+      <description></description>
+      <id>c655826d-6787-47fc-b300-3dd00e14229f</id>
+      <masked>false</masked>
+      <name>lbl_whats</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-020 Politics/btn continue')</defaultValue>
+      <description></description>
+      <id>32cf0b31-80e2-4ec5-a67a-7ffccc37cde4</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Lbl text - Add profile photos')</defaultValue>
+      <description></description>
+      <id>0bce1776-3de2-4140-86f6-b66aa8150043</id>
+      <masked>false</masked>
+      <name>lbl_Gallery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Gallery Icon')</defaultValue>
+      <description></description>
+      <id>74139113-bccd-481e-91aa-150ea3e53129</id>
+      <masked>false</masked>
+      <name>Gallery_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Lbl text - Add 3 photos to continue')</defaultValue>
+      <description></description>
+      <id>34fdc2e7-80e0-461b-805e-879d8f13e2c2</id>
+      <masked>false</masked>
+      <name>lbl_add</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Lbl text - MAIN PHOTO')</defaultValue>
+      <description></description>
+      <id>a3538a24-c587-4754-8b95-ea2769e290f2</id>
+      <masked>false</masked>
+      <name>lbl_Main</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Picture Placeholder 3')</defaultValue>
+      <description></description>
+      <id>a5c5079e-b957-42cc-878a-c15cfa620236</id>
+      <masked>false</masked>
+      <name>btn_photo3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Take Photo')</defaultValue>
+      <description></description>
+      <id>21497db8-6f97-434c-ab87-b0adc914b616</id>
+      <masked>false</masked>
+      <name>btn_take</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Btn image capture from camera')</defaultValue>
+      <description></description>
+      <id>fe4bb3d4-cfc0-460b-bf79-fd9b0b794347</id>
+      <masked>false</masked>
+      <name>btn_capture</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/btn OK for camera')</defaultValue>
+      <description></description>
+      <id>d54ca6c6-279c-40b5-b35a-c097b2c003e6</id>
+      <masked>false</masked>
+      <name>btn_Okay</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Picture Cropped')</defaultValue>
+      <description></description>
+      <id>9e7a2122-1662-41f0-9cc0-2d88ee9ba3f2</id>
+      <masked>false</masked>
+      <name>btn_crop</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Picture Placeholder 1')</defaultValue>
+      <description></description>
+      <id>fe58536b-5893-4bec-be13-0c7f7ee0ef02</id>
+      <masked>false</masked>
+      <name>btn_photo1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Photo Gallery')</defaultValue>
+      <description></description>
+      <id>e799bb4b-f756-42f1-93c1-a530beea3a5c</id>
+      <masked>false</masked>
+      <name>btn_Photo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/First Picture From Gallery')</defaultValue>
+      <description></description>
+      <id>6fc84bc4-aa93-4933-8e3b-28711f55bfa5</id>
+      <masked>false</masked>
+      <name>select_photo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-022 One Liner/Lbl text - Give us your best one liner or tell others about yourself')</defaultValue>
+      <description></description>
+      <id>8810a11e-ac4a-4e12-8b6b-028451b11dda</id>
+      <masked>false</masked>
+      <name>lbl_Giveus</name>
+   </variable>
+</TestCaseEntity>

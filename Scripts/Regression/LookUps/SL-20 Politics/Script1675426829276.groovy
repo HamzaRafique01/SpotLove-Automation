@@ -19,17 +19,18 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
-
+//Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
 
 
 
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 	CustomKeywords.'com.spotlove.Utility.tap_back'()
+	Mobile.delay(5)
 
 	if(Mobile.waitForElementPresent(lbl_whats, 10)) {
 
-		KeywordUtil.markPassed("User navigate back to the Religion screen and What are your vices? label text found......!")
+		KeywordUtil.markPassed("User navigate back to the Vices screen and What are your vices? label text found......!")
 
 		if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
@@ -55,22 +56,22 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 						if(Mobile.waitForElementPresent(btn_continue, 10)) {
 
-							//						Mobile.tap(btn_P_Continue, 10)
+						
 							CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-							KeywordUtil.markPassed("User navigate to the Gallery Screen.......!")
-
+							Mobile.delay(5)
 
 							if(Mobile.waitForElementPresent(access_Gallery_Permission, 10)) {
 
-								KeywordUtil.markPassed("Gallery Permission Granted.......!")
+								Mobile.tap(access_Gallery_Permission, 10)
+								KeywordUtil.markPassed("User navigate to the Gallery Screen and Gallery Permission Granted.......!")
 
-								if(Mobile.waitForElementPresent(Gallery_icon, 10)) {
+								if(Mobile.waitForElementPresent(lbl_addd, 10)) {
 
-									KeywordUtil.markPassed("Gallery icon found on next Screen.......!")
+									KeywordUtil.markPassed("Add profile photos label text found on next Screen.......!")
 
 
 								}else {
-									KeywordUtil.markFailed("Gallery icon not found on next Screen.....!")
+									KeywordUtil.markFailed("Add profile photos label text not found on next Screen.....!")
 								}
 							}else {
 								KeywordUtil.markFailed("Unable to access gallery due to permissions.....!")
@@ -78,7 +79,7 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 						}else {
 							KeywordUtil.markFailed("User navigation not successfully.....!")
 						}
-					}else {
+					}else { 
 						KeywordUtil.markFailed("Political view is not selected....!")
 						KeywordUtil.markFailed("What are your political views? label text not found....!")
 					}
@@ -97,11 +98,6 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 }else {
 	KeywordUtil.markFailed("Back button is not working.....!")
 }
-
-
-
-
-
 
 
 

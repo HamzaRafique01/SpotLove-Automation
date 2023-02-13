@@ -59,6 +59,12 @@
       <value></value>
       <variableId>786e314d-ed1a-423c-8eee-bd594ca1c77b</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>daaa40b8-2f02-498c-bc12-87cb57a434ce</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-020 Politics/btn back')</defaultValue>
       <description></description>
@@ -109,7 +115,7 @@
       <name>Gallery_icon</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Regression/Permissions/Gallery - Only this time')</defaultValue>
+      <defaultValue>findTestObject('Regression/Permissions/Gallery - While using the app')</defaultValue>
       <description></description>
       <id>803f02a2-3670-4f0a-87c0-ff33999625a5</id>
       <masked>false</masked>
@@ -121,5 +127,12 @@
       <id>786e314d-ed1a-423c-8eee-bd594ca1c77b</id>
       <masked>false</masked>
       <name>lbl_politics</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Lbl text - Add profile photos')</defaultValue>
+      <description></description>
+      <id>daaa40b8-2f02-498c-bc12-87cb57a434ce</id>
+      <masked>false</masked>
+      <name>lbl_addd</name>
    </variable>
 </TestCaseEntity>

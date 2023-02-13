@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-22 One-liner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad59d908-5260-4719-8a69-f589a4a3a5be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07979d1b-627e-44bd-8a11-ba13d4c40d0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1575d88-95d5-477d-8459-f4e87df4fc8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38ff6bf3-516d-436f-960c-409b070d0565</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6ba1949-4995-4d97-9bda-9c5d9754b37b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82546b5f-cf7f-497b-91b4-cc7dcbf16d16</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0fca5a45-c791-469f-8c48-7d6e5f98e26a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14ab8f18-458f-4e1e-afde-92303e139fb7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d38c020-3f84-42ac-a85d-3f7d378dc089</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-022 One Liner/btn back')</defaultValue>
+      <description></description>
+      <id>07979d1b-627e-44bd-8a11-ba13d4c40d0e</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/Lbl text - Add profile photos')</defaultValue>
+      <description></description>
+      <id>f1575d88-95d5-477d-8459-f4e87df4fc8e</id>
+      <masked>false</masked>
+      <name>lbl_Add</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/btn Continue')</defaultValue>
+      <description></description>
+      <id>38ff6bf3-516d-436f-960c-409b070d0565</id>
+      <masked>false</masked>
+      <name>btn_continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-022 One Liner/Lbl text - Give us your best one liner or tell others about yourself')</defaultValue>
+      <description></description>
+      <id>f6ba1949-4995-4d97-9bda-9c5d9754b37b</id>
+      <masked>false</masked>
+      <name>lbl_Giveus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-022 One Liner/Lbl text - Lets help you stand out')</defaultValue>
+      <description></description>
+      <id>82546b5f-cf7f-497b-91b4-cc7dcbf16d16</id>
+      <masked>false</masked>
+      <name>lbl_lets</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-022 One Liner/EditText - This is my catch phrase')</defaultValue>
+      <description></description>
+      <id>0fca5a45-c791-469f-8c48-7d6e5f98e26a</id>
+      <masked>false</masked>
+      <name>input_oneliner</name>
+   </variable>
+   <variable>
+      <defaultValue>'The simulator is faster than Emulator\nThe simulator is just to use simulate anything and Emulator is near physical devices\nUsers can change the dimensions of the Simulator but Emulator cannot change anything just like your physical devices'</defaultValue>
+      <description></description>
+      <id>14ab8f18-458f-4e1e-afde-92303e139fb7</id>
+      <masked>false</masked>
+      <name>oneliner</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-022 One Liner/OneLiner Icon')</defaultValue>
+      <description></description>
+      <id>4d38c020-3f84-42ac-a85d-3f7d378dc089</id>
+      <masked>false</masked>
+      <name>oneliner_icon</name>
+   </variable>
+</TestCaseEntity>

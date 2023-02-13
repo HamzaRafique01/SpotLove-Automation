@@ -89,6 +89,13 @@ if(Mobile.waitForElementPresent(image, 20)) {
 
 		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-20 Politics'),
 				null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-21 Gallery'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-22 One-liner'),
+			null, FailureHandling.STOP_ON_FAILURE)
+
 
 
 	}else if(Mobile.waitForElementPresent(Agree, 10,FailureHandling.STOP_ON_FAILURE )) {
@@ -136,6 +143,12 @@ if(Mobile.waitForElementPresent(image, 20)) {
 
 		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-20 Politics'),
 				null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-21 Gallery'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-22 One-liner'),
+			null, FailureHandling.STOP_ON_FAILURE)
 	}
 
 	//	}else{
@@ -199,6 +212,12 @@ if(Mobile.waitForElementPresent(image, 20)) {
 
 		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-20 Politics'),
 				null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-21 Gallery'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-22 One-liner'),
+			null, FailureHandling.STOP_ON_FAILURE)
 
 	}else if(Mobile.waitForElementPresent(Agree, 10,FailureHandling.STOP_ON_FAILURE )) {
 
@@ -245,6 +264,12 @@ if(Mobile.waitForElementPresent(image, 20)) {
 
 		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-20 Politics'),
 				null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-21 Gallery'),
+			null, FailureHandling.STOP_ON_FAILURE)
+		
+		Mobile.callTestCase(findTestCase('Test Cases/Regression/LookUps/SL-22 One-liner'),
+			null, FailureHandling.STOP_ON_FAILURE)
 	}
 
 	//	}else{
