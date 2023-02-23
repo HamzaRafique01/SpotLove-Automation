@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login WebPortal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffed888a-0f36-44c4-8826-d5965fe6b3e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>986ff491-50b8-4160-a45b-62d34133ddcd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>993202d6-44c0-4706-9538-351227d4d410</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29f56980-8c7a-4ba3-b85a-6d25dc7fda6f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5940fed6-7103-4db6-8e6d-13c4b3572ad0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>948980d2-e65d-4952-a444-7fa8c3854d4e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adfc8d21-067e-44dc-9c4d-acf757805a9e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be38a242-8b3d-46d2-9bd5-cb6543bc0698</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0fcab675-5f44-4096-9530-83349f329593</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee3c46a0-975f-44a7-9f53-fdc5135ba9b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9fd4a098-35ed-4804-a24b-d54a6a2351f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d85c6c92-9f1b-4e40-8ac4-e5322e83d2c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Web portal/User name')</defaultValue>
+      <description></description>
+      <id>986ff491-50b8-4160-a45b-62d34133ddcd</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/PAssword')</defaultValue>
+      <description></description>
+      <id>993202d6-44c0-4706-9538-351227d4d410</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/btn_login')</defaultValue>
+      <description></description>
+      <id>29f56980-8c7a-4ba3-b85a-6d25dc7fda6f</id>
+      <masked>false</masked>
+      <name>Login</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/btn_Mixer')</defaultValue>
+      <description></description>
+      <id>5940fed6-7103-4db6-8e6d-13c4b3572ad0</id>
+      <masked>false</masked>
+      <name>Mixer</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/From Date')</defaultValue>
+      <description></description>
+      <id>948980d2-e65d-4952-a444-7fa8c3854d4e</id>
+      <masked>false</masked>
+      <name>From_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/To Date')</defaultValue>
+      <description></description>
+      <id>adfc8d21-067e-44dc-9c4d-acf757805a9e</id>
+      <masked>false</masked>
+      <name>To_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Spotlove Admin')</defaultValue>
+      <description></description>
+      <id>be38a242-8b3d-46d2-9bd5-cb6543bc0698</id>
+      <masked>false</masked>
+      <name>admin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/search')</defaultValue>
+      <description></description>
+      <id>0fcab675-5f44-4096-9530-83349f329593</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Search Nmae')</defaultValue>
+      <description></description>
+      <id>ee3c46a0-975f-44a7-9f53-fdc5135ba9b4</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Select User')</defaultValue>
+      <description></description>
+      <id>9fd4a098-35ed-4804-a24b-d54a6a2351f7</id>
+      <masked>false</masked>
+      <name>select_user</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Waitlist Toggle')</defaultValue>
+      <description></description>
+      <id>d85c6c92-9f1b-4e40-8ac4-e5322e83d2c3</id>
+      <masked>false</masked>
+      <name>Waitlist</name>
+   </variable>
+</TestCaseEntity>

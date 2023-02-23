@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A0F7DE2089B3108FCECE7D416987C71B",
+  "keywordFileContentHash": "E4D129333DC0C3BEE13E9D237361C374",
   "keywordClasses": [
     {
       "name": "com.spotlove.Utility",
@@ -20,8 +20,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "One_liner",
@@ -39,8 +38,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "comma_sprt_value",
@@ -58,8 +56,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "dating_Pref",
@@ -77,8 +74,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "edit_prof_data",
@@ -96,31 +92,85 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "tap_Submit",
+          "parameters": []
         },
         {
           "name": "tap_Continue",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "tap_back",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "pageScrollUp",
+          "parameters": []
+        },
+        {
+          "name": "pageScrollDown",
+          "parameters": []
         },
         {
           "name": "tap_Phone_Numebr",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "Verify",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "swipe_down",
+          "parameters": []
+        },
+        {
+          "name": "swipe_up",
+          "parameters": []
+        },
+        {
+          "name": "swipe_left_to_right",
+          "parameters": []
+        },
+        {
+          "name": "swipe_right_to_left",
+          "parameters": []
+        },
+        {
+          "name": "swipe",
+          "parameters": [
+            {
+              "name": "device_Height",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "device_Width",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

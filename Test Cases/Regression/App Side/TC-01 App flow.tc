@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01 App flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dccadd5d-4c44-4b1e-b3e1-3af4902c13bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d86f8b63-afa8-46bc-83ea-87e3abda3f57</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d69f6284-29d8-4da7-800d-ebe09dba8592</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1124070-fc12-4962-9c56-0452a3101c6d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc5b7bcc-1abc-4ad9-9152-06ff3f02522b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5cbb8ef7-37d9-4851-ac3d-60856c3cb890</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a139ae0-fcf7-44e1-be35-ef50f7bff8bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47f5b9c4-dd55-4338-b5b0-4952b5bc9bf7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>17b86c32-067a-4a1a-85eb-8ba3d15d1f8c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4679b386-2d29-47cf-a86c-3e901057e2f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0166f41d-97df-4970-b665-04505ead4336</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c49a7f5d-7273-4354-94a8-1fc8e1d5b510</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd7f8a57-d26a-4b60-a371-92e882c55e28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2cb68247-82e8-4b0b-8c9d-0afbc96e9079</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a29be109-6627-4391-93f9-9f944955892e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Explore Tab')</defaultValue>
+      <description></description>
+      <id>d86f8b63-afa8-46bc-83ea-87e3abda3f57</id>
+      <masked>false</masked>
+      <name>explore_tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Liked You')</defaultValue>
+      <description></description>
+      <id>d69f6284-29d8-4da7-800d-ebe09dba8592</id>
+      <masked>false</masked>
+      <name>liked_tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Matches')</defaultValue>
+      <description></description>
+      <id>f1124070-fc12-4962-9c56-0452a3101c6d</id>
+      <masked>false</masked>
+      <name>matches_tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Profile')</defaultValue>
+      <description></description>
+      <id>cc5b7bcc-1abc-4ad9-9152-06ff3f02522b</id>
+      <masked>false</masked>
+      <name>profile_tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Preferences Icon (home)')</defaultValue>
+      <description></description>
+      <id>5cbb8ef7-37d9-4851-ac3d-60856c3cb890</id>
+      <masked>false</masked>
+      <name>preferences_home</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Explore Tab/User Profile Image')</defaultValue>
+      <description></description>
+      <id>6a139ae0-fcf7-44e1-be35-ef50f7bff8bf</id>
+      <masked>false</masked>
+      <name>profile_image</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Header - Dating Preferences')</defaultValue>
+      <description></description>
+      <id>47f5b9c4-dd55-4338-b5b0-4952b5bc9bf7</id>
+      <masked>false</masked>
+      <name>lbl_Dating</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/btn back')</defaultValue>
+      <description></description>
+      <id>17b86c32-067a-4a1a-85eb-8ba3d15d1f8c</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Explore Tab/Header lbl - Explore')</defaultValue>
+      <description></description>
+      <id>4679b386-2d29-47cf-a86c-3e901057e2f3</id>
+      <masked>false</masked>
+      <name>header_Explore</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/lbl - Profile')</defaultValue>
+      <description></description>
+      <id>0166f41d-97df-4970-b665-04505ead4336</id>
+      <masked>false</masked>
+      <name>profile_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/btn Edit Profile')</defaultValue>
+      <description></description>
+      <id>c49a7f5d-7273-4354-94a8-1fc8e1d5b510</id>
+      <masked>false</masked>
+      <name>Edit_profile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/User Name Profile Screen')</defaultValue>
+      <description></description>
+      <id>cd7f8a57-d26a-4b60-a371-92e882c55e28</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/header lbl - Liked You')</defaultValue>
+      <description></description>
+      <id>2cb68247-82e8-4b0b-8c9d-0afbc96e9079</id>
+      <masked>false</masked>
+      <name>liked_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/header lbl - Matches')</defaultValue>
+      <description></description>
+      <id>a29be109-6627-4391-93f9-9f944955892e</id>
+      <masked>false</masked>
+      <name>matches_lbl</name>
+   </variable>
+</TestCaseEntity>

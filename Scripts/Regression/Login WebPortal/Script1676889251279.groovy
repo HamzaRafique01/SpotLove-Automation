@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.spotlove.Utility
 
-WebUI.openBrowser('https://spotlove-production.web.app/spotlove/memberlist', FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('https://spotlove-production.web.app/', FailureHandling.STOP_ON_FAILURE)
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 if(WebUI.waitForElementPresent(User_Name, 10)) {
@@ -27,27 +27,28 @@ if(WebUI.waitForElementPresent(User_Name, 10)) {
 	
 	WebUI.setText(Password, "test123")
 	
+	WebUI.delay(5)
+	
 	WebUI.click(Login)
 	
-	WebUI.click(Mixer)
+	WebUI.delay(5)
+	
+	WebUI.click(admin)
 	
 	WebUI.refresh()
 	
-//	WebUI.click(To_Date)
+	WebUI.click(search)
 	
-//	CustomKeywords.'com.spotlove.Utility.From_Date'()
+	WebUI.delay(3)
 	
+	WebUI.setText(Name, "+16505559876")
 	
-}else {
-	WebUI.click(Mixer)
+	WebUI.click(select_user)
 	
-	WebUI.refresh()
-	
-//	WebUI.click(To_Date)
-	
-	CustomKeywords.'com.spotlove.Utility.From_Date'()
-	
+	WebUI.click(Waitlist)
 	
 	
 }
+
+
 
