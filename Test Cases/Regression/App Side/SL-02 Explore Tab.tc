@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-02 Explore Tab</name>
+   <name>SL-02 Explore Tab</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a5dc3406-7e60-4fe8-9861-381e60aa457e</testCaseGuid>

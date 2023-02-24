@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-01 App flow</name>
+   <name>SL-01 App flow</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dccadd5d-4c44-4b1e-b3e1-3af4902c13bd</testCaseGuid>

@@ -16,15 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+int a,b
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
 Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(explore_tab, 60)
 
-
-
-if(Mobile.waitForElementPresent(profile_image, 10)) {
+if(Mobile.waitForElementPresent(profile_image, 60)) {
 
 	KeywordUtil.markPassed("Application Launched Successfully.......!")
 	KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details.......!")
@@ -32,6 +32,10 @@ if(Mobile.waitForElementPresent(profile_image, 10)) {
 	if(Mobile.waitForElementPresent(explore_tab, 10)) {
 
 		KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
+
+		CustomKeywords.'com.spotlove.Utility.swipe_down'()
+		Mobile.delay(2)
+		CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
 		if(Mobile.waitForElementPresent(preferences_home, 10)) {
 
@@ -41,6 +45,10 @@ if(Mobile.waitForElementPresent(profile_image, 10)) {
 			if(Mobile.waitForElementPresent(lbl_Dating, 10)) {
 
 				KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header text found.......!")
+
+				CustomKeywords.'com.spotlove.Utility.swipe_down'()
+				Mobile.delay(2)
+				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
 				if(Mobile.waitForElementPresent(btn_back, 10)) {
 
@@ -69,6 +77,10 @@ if(Mobile.waitForElementPresent(profile_image, 10)) {
 
 										KeywordUtil.markPassed("User Navigate to the Edit Profile Tab Screen and User Name header text found.......!")
 
+										CustomKeywords.'com.spotlove.Utility.swipe_down'()
+										Mobile.delay(2)
+										CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+
 										if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 											CustomKeywords.'com.spotlove.Utility.tap_back'()
@@ -84,8 +96,16 @@ if(Mobile.waitForElementPresent(profile_image, 10)) {
 													KeywordUtil.markPassed("User Navigate to the liked tab.......!")
 
 													if(Mobile.waitForElementPresent(liked_lbl, 10)) {
-														
+
 														KeywordUtil.markPassed("User Navigate to the liked tab and Liked You Lbl text found on the Liked you tab.......!")
+
+														CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
+														Mobile.delay(2)
+														CustomKeywords.'com.spotlove.Utility.swipe_right_to_left'()
+														Mobile.delay(2)
+														CustomKeywords.'com.spotlove.Utility.swipe_down'()
+														Mobile.delay(2)
+														CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
 														if(Mobile.waitForElementPresent(matches_tab, 10)) {
 
@@ -95,16 +115,23 @@ if(Mobile.waitForElementPresent(profile_image, 10)) {
 															if(Mobile.waitForElementPresent(matches_lbl, 10)) {
 
 																KeywordUtil.markPassed("User Navigate to the Matches tab and Matches Lbl text found on the Matches tab.......!")
-																
+
 																CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
-																Mobile.delay(5)
+																Mobile.delay(2)
 																CustomKeywords.'com.spotlove.Utility.swipe_right_to_left'()
-																Mobile.delay(5)
+																Mobile.delay(2)
 																CustomKeywords.'com.spotlove.Utility.swipe_down'()
-																Mobile.delay(5)
-																CustomKeywords.'com.spotlove.Utility.swipe'(0,0)
-																
-																
+																Mobile.delay(2)
+																CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+
+																if(Mobile.waitForElementPresent(explore_tab, 10)) {
+
+																	Mobile.tap(explore_tab, 60)
+																	KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
+
+																}else {
+																	KeywordUtil.markFailed("User cannot moving to the Explore tab.......!")
+																}
 															}else {
 																KeywordUtil.markFailed("User cannot moving to the Matches tab.......!")
 															}

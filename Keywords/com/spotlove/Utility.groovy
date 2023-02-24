@@ -151,45 +151,42 @@ public class Utility {
 
 
 
-	@Keyword (keywordObject = "<Swipe 3X>")
+	@Keyword
 	def swipe_down() {
 		Swipe.swipe(SwipeDirection.BOTTOM_TO_TOP)
 	}
 
-	@Keyword (keywordObject = "<Swipe 1X>")
-	def swipe_up() {
-		Swipe.swipe(SwipeDirection.TOP_TO_BOTTOM)
-	}
-
-	@Keyword (keywordObject = "<Swipe 1X>")
+	@Keyword
 	def swipe_left_to_right() {
 		Swipe.swipe(SwipeDirection.LEFT_TO_RIGHT)
 	}
 
-	@Keyword (keywordObject = "<Swipe 1X>")
+	@Keyword
 	def swipe_right_to_left() {
 		Swipe.swipe(SwipeDirection.RIGHT_TO_LEFT)
 	}
 
 
 	@Keyword
-	def swipe (int device_Height, int device_Width) {
+	def swipe_up (int device_Height, int device_Width) {
 
 		device_Height = Mobile.getDeviceHeight()
 
 		device_Width = Mobile.getDeviceWidth()
+		
 
 		int startX = device_Width / 2
 
-
 		int endX = startX
 
-		int startY = device_Height * 0.30
+		int startY = device_Height * 0.55
 
-		int endY = device_Height * 0.70
+		int endY = device_Height * 0.76
 
 		Mobile.swipe(startX, startY, endX, endY)
-		
+		Mobile.swipe(startX, startY, endX, endY)
+
+	
 	}
 
 

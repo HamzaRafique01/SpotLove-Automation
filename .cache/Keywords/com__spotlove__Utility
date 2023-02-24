@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E4D129333DC0C3BEE13E9D237361C374",
+  "keywordFileContentHash": "BF8264B1B9FDAF53464FD1748F4D0816",
   "keywordClasses": [
     {
       "name": "com.spotlove.Utility",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "One_liner",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "comma_sprt_value",
@@ -56,7 +58,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "dating_Pref",
@@ -74,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "edit_prof_data",
@@ -92,54 +96,61 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "tap_Submit",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "tap_Continue",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "tap_back",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pageScrollUp",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pageScrollDown",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "tap_Phone_Numebr",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "Verify",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "swipe_down",
-          "parameters": []
-        },
-        {
-          "name": "swipe_up",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "swipe_left_to_right",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "swipe_right_to_left",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
-          "name": "swipe",
+          "name": "swipe_up",
           "parameters": [
             {
               "name": "device_Height",
@@ -167,10 +178,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
