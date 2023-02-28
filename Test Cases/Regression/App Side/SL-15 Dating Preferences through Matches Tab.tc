@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-15 Dating Preferences through Matches Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61227c3c-861e-4ca7-ac67-275b754d14a8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1737848-dfbc-4e00-84a2-1745a8659910</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>978d5c50-bb15-4b8e-acd7-bbc23b1e6088</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a58d7847-4ef8-4fab-a43c-0aa28382190d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abea91a3-2319-4f9c-87b1-ec58c2391d52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>731e2480-23e3-4eef-a37b-9c4c2f3c35f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84ea16a1-2d00-4873-ad4a-b0a0f9b0d5bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9914ab47-0921-407c-9382-756490db23a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b47f7125-54a5-479a-beee-1c6580eefba3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bde7508b-a1f5-472d-80be-4260d017acd1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b8dd865-e99a-4114-8de6-f4216e0344d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2679806-ede7-46a6-a41f-f990d0efa10f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0ae9081-ea08-4e33-8c4e-b24776f5eba7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c5d08dd-9e0b-4b01-bb3a-5da1615abb9d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1500f12d-d435-4a6b-a468-ef656793219d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Matches')</defaultValue>
+      <description></description>
+      <id>b1737848-dfbc-4e00-84a2-1745a8659910</id>
+      <masked>false</masked>
+      <name>matches_tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/header lbl - Matches')</defaultValue>
+      <description></description>
+      <id>978d5c50-bb15-4b8e-acd7-bbc23b1e6088</id>
+      <masked>false</masked>
+      <name>lbl_matches</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Preferences Icon (home)')</defaultValue>
+      <description></description>
+      <id>a58d7847-4ef8-4fab-a43c-0aa28382190d</id>
+      <masked>false</masked>
+      <name>preferences_home</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Header - Dating Preferences')</defaultValue>
+      <description></description>
+      <id>abea91a3-2319-4f9c-87b1-ec58c2391d52</id>
+      <masked>false</masked>
+      <name>lbl_Dating</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/Education hat icon')</defaultValue>
+      <description></description>
+      <id>731e2480-23e3-4eef-a37b-9c4c2f3c35f2</id>
+      <masked>false</masked>
+      <name>Education_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/user data')</defaultValue>
+      <description></description>
+      <id>84ea16a1-2d00-4873-ad4a-b0a0f9b0d5bf</id>
+      <masked>false</masked>
+      <name>Education_userdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/forword icon')</defaultValue>
+      <description></description>
+      <id>9914ab47-0921-407c-9382-756490db23a8</id>
+      <masked>false</masked>
+      <name>for_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/lbl - Education')</defaultValue>
+      <description></description>
+      <id>b47f7125-54a5-479a-beee-1c6580eefba3</id>
+      <masked>false</masked>
+      <name>lbl_Education</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/btn Pop Close')</defaultValue>
+      <description></description>
+      <id>bde7508b-a1f5-472d-80be-4260d017acd1</id>
+      <masked>false</masked>
+      <name>close_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/Header popup - Education')</defaultValue>
+      <description></description>
+      <id>5b8dd865-e99a-4114-8de6-f4216e0344d8</id>
+      <masked>false</masked>
+      <name>Education_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/lbl - What are you open to')</defaultValue>
+      <description></description>
+      <id>c2679806-ede7-46a6-a41f-f990d0efa10f</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Open To All', 'College Degree', 'Some College', 'High School Diploma']</defaultValue>
+      <description></description>
+      <id>d0ae9081-ea08-4e33-8c4e-b24776f5eba7</id>
+      <masked>false</masked>
+      <name>Education</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Education/btn - Save')</defaultValue>
+      <description></description>
+      <id>8c5d08dd-9e0b-4b01-bb3a-5da1615abb9d</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/btn back')</defaultValue>
+      <description></description>
+      <id>1500f12d-d435-4a6b-a468-ef656793219d</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+</TestCaseEntity>

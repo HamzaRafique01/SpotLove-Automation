@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-08 Dating Preferences Relationship status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>deb2de08-c96b-46c3-b095-7b5b85dd29e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5f08299-2936-465d-b19f-9b33a9984ba5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0a4a311-d2c6-469f-99e0-5e8c41638861</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c441f0b3-3f50-4e3a-bd4c-a76bae4fc747</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e462785-5635-4036-aeab-93517aebac95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>454ffaea-18af-40b6-a4e6-23c1a0f7c0cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e1baabd-e7d0-45d4-82b4-27c748489015</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>909a4b7b-c8c3-4bb1-b02d-bb7f01dbae30</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55f6f4cb-98d6-4138-92dd-ece618801c90</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b178804d-bb4a-44b5-8897-c95647271a76</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/Relationship Icon')</defaultValue>
+      <description></description>
+      <id>b5f08299-2936-465d-b19f-9b33a9984ba5</id>
+      <masked>false</masked>
+      <name>Relationship_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/user Data')</defaultValue>
+      <description></description>
+      <id>d0a4a311-d2c6-469f-99e0-5e8c41638861</id>
+      <masked>false</masked>
+      <name>Relationship_userdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/Forword icon')</defaultValue>
+      <description></description>
+      <id>c441f0b3-3f50-4e3a-bd4c-a76bae4fc747</id>
+      <masked>false</masked>
+      <name>for_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/lbl - Relationship status')</defaultValue>
+      <description></description>
+      <id>3e462785-5635-4036-aeab-93517aebac95</id>
+      <masked>false</masked>
+      <name>lbl_Relationship</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/btn close Popup')</defaultValue>
+      <description></description>
+      <id>454ffaea-18af-40b6-a4e6-23c1a0f7c0cc</id>
+      <masked>false</masked>
+      <name>close_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/Popup header - Relationship status')</defaultValue>
+      <description></description>
+      <id>0e1baabd-e7d0-45d4-82b4-27c748489015</id>
+      <masked>false</masked>
+      <name>Relationship_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/lbl txt - What are you open to')</defaultValue>
+      <description></description>
+      <id>909a4b7b-c8c3-4bb1-b02d-bb7f01dbae30</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Open To All', 'Separated', 'Divorced', 'Never Married']</defaultValue>
+      <description></description>
+      <id>55f6f4cb-98d6-4138-92dd-ece618801c90</id>
+      <masked>false</masked>
+      <name>Relationship</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/btn - Save')</defaultValue>
+      <description></description>
+      <id>b178804d-bb4a-44b5-8897-c95647271a76</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>

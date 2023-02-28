@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-14 Dating Preferences Verification through Liked You Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdee1580-30d7-496d-a91a-75b286875bca</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d51009a-0062-46f5-83ea-f09d6deea5cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f92b19b5-0fab-4cc8-9938-e5dedbafb15e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2ea3eb0-efe4-44d9-8558-2a5c8c9c7532</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03e566c7-5e3a-4777-a591-5bba0f24401e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04628fc4-adc6-4c6f-b1c8-e9f1b90a1a97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89ca4049-7cc7-4ae9-ad8f-884e5603e465</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a25abb52-44e9-49af-97f3-977ac3edc35a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>64d62bf2-7359-4712-b785-07cafe6b6f95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>749f7c75-df0e-4d65-b211-ada65a7e520c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd125153-581a-49fc-9bd4-e7cab9eced05</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb44266e-2555-4bf9-a43e-d2e05cd2f737</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7f6c1b0-b2d2-482e-a276-f253223bbf68</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ff7cf97-9261-464d-9bb2-801d504414d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81b3daa4-57a7-49fe-ad3c-5760745e4db7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Liked You')</defaultValue>
+      <description></description>
+      <id>5d51009a-0062-46f5-83ea-f09d6deea5cb</id>
+      <masked>false</masked>
+      <name>likedyou_tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/header lbl - Liked You')</defaultValue>
+      <description></description>
+      <id>f92b19b5-0fab-4cc8-9938-e5dedbafb15e</id>
+      <masked>false</masked>
+      <name>lbl_Likedyou</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Preferences Icon (home)')</defaultValue>
+      <description></description>
+      <id>a2ea3eb0-efe4-44d9-8558-2a5c8c9c7532</id>
+      <masked>false</masked>
+      <name>preferences_home</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Header - Dating Preferences')</defaultValue>
+      <description></description>
+      <id>03e566c7-5e3a-4777-a591-5bba0f24401e</id>
+      <masked>false</masked>
+      <name>lbl_Dating</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/Ethnicity icon')</defaultValue>
+      <description></description>
+      <id>04628fc4-adc6-4c6f-b1c8-e9f1b90a1a97</id>
+      <masked>false</masked>
+      <name>Ethnicity_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/Ethnicity User data')</defaultValue>
+      <description></description>
+      <id>89ca4049-7cc7-4ae9-ad8f-884e5603e465</id>
+      <masked>false</masked>
+      <name>Ethnicity_userdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/forword icon')</defaultValue>
+      <description></description>
+      <id>a25abb52-44e9-49af-97f3-977ac3edc35a</id>
+      <masked>false</masked>
+      <name>for_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/lbl txt - Ethnicity')</defaultValue>
+      <description></description>
+      <id>64d62bf2-7359-4712-b785-07cafe6b6f95</id>
+      <masked>false</masked>
+      <name>lbl_Ethnicity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/btn Close PopUp')</defaultValue>
+      <description></description>
+      <id>749f7c75-df0e-4d65-b211-ada65a7e520c</id>
+      <masked>false</masked>
+      <name>close_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/PopUp Header - Ethnicity')</defaultValue>
+      <description></description>
+      <id>dd125153-581a-49fc-9bd4-e7cab9eced05</id>
+      <masked>false</masked>
+      <name>Ethnicity_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/lbl txt - What are you open to')</defaultValue>
+      <description></description>
+      <id>cb44266e-2555-4bf9-a43e-d2e05cd2f737</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Open To All', 'East Asian', 'South Asian', 'Other', 'Middle Eastern']</defaultValue>
+      <description></description>
+      <id>a7f6c1b0-b2d2-482e-a276-f253223bbf68</id>
+      <masked>false</masked>
+      <name>Ethnicity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Ethnicity/btn - Save')</defaultValue>
+      <description></description>
+      <id>2ff7cf97-9261-464d-9bb2-801d504414d4</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/btn back')</defaultValue>
+      <description></description>
+      <id>81b3daa4-57a7-49fe-ad3c-5760745e4db7</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+</TestCaseEntity>

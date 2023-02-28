@@ -23,108 +23,108 @@ import com.spotlove.Utility
 
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(profile_tab, 10)
+Mobile.tap(profile_tab, 60)
 
-if(Mobile.waitForElementPresent(lbl_profile, 10)) {
+if(Mobile.waitForElementPresent(lbl_profile, 60)) {
 
 	KeywordUtil.markPassed("User Navigate to the Profile tab and Profile text found.......!")
 
-	if(Mobile.waitForElementPresent(profile_image, 10)) {
+	if(Mobile.waitForElementPresent(profile_image, 60)) {
 
 		KeywordUtil.markPassed("Profile Image found.......!")
 
-		if(Mobile.waitForElementPresent(profile_image, 10)) {
+		if(Mobile.waitForElementPresent(profile_image, 60)) {
 
 			KeywordUtil.markPassed("Profile 100% Complete lbl text found.......!")
 
-			if(Mobile.waitForElementPresent(user_name, 10)) {
+			if(Mobile.waitForElementPresent(user_name, 60)) {
 
 				KeywordUtil.markPassed("User Name & Age lbl text found.......!")
 
-				if(Mobile.waitForElementPresent(btn_Editprofile, 10)) {
+				if(Mobile.waitForElementPresent(btn_Editprofile, 60)) {
 
-					Mobile.tap(btn_Editprofile, 10)
+					Mobile.tap(btn_Editprofile, 60)
 
-					if(Mobile.waitForElementPresent(User_Name_edit_setting, 10)) {
+					if(Mobile.waitForElementPresent(User_Name_edit_setting, 60)) {
 
 						KeywordUtil.markPassed("User Navigate to the Edit profile settings and User Name found.......!")
 
-						if(Mobile.waitForElementPresent(btn_back, 10)) {
+						if(Mobile.waitForElementPresent(btn_back, 60)) {
 
 							CustomKeywords.'com.spotlove.Utility.tap_back'()
 
-							if(Mobile.waitForElementPresent(lbl_profile, 10)) {
+							if(Mobile.waitForElementPresent(lbl_profile, 60)) {
 
 								KeywordUtil.markPassed("User Navigate to the Profile tab and Profile text found.......!")
 
-								if(Mobile.waitForElementPresent(lbl_edit_profile, 10)) {
+								if(Mobile.waitForElementPresent(lbl_edit_profile, 60)) {
 
 									KeywordUtil.markPassed("Edit Profile lbl text found.......!")
 
-									if(Mobile.waitForElementPresent(Settings_icon_DP, 10)) {
+									if(Mobile.waitForElementPresent(Settings_icon_DP, 60)) {
 
 										KeywordUtil.markPassed("Setting icon on Dating Preferences setting Tab found.......!")
 
-										if(Mobile.waitForElementPresent(forword_icon_DP, 10)) {
+										if(Mobile.waitForElementPresent(forword_icon_DP, 60)) {
 
 											KeywordUtil.markPassed("Forword icon on Dating Preferences setting Tab found.......!")
 
-											if(Mobile.waitForElementPresent(Dating_Preferences, 10)) {
+											if(Mobile.waitForElementPresent(Dating_Preferences, 60)) {
 
-												Mobile.tap(Dating_Preferences, 10)
+												Mobile.tap(Dating_Preferences, 60)
 												KeywordUtil.markPassed("Dating Preferences lbl text found.......!")
 
-												if(Mobile.waitForElementPresent(Dating_Preferences_lbl, 10)) {
+												if(Mobile.waitForElementPresent(Dating_Preferences_lbl, 60)) {
 
 													KeywordUtil.markPassed("Dating Preferences lbl text found.......!")
 
-													if(Mobile.waitForElementPresent(btn_back, 10)) {
+													if(Mobile.waitForElementPresent(btn_back, 60)) {
 
 														CustomKeywords.'com.spotlove.Utility.tap_back'()
 
-														if(Mobile.waitForElementPresent(lbl_profile, 10)) {
+														if(Mobile.waitForElementPresent(lbl_profile, 60)) {
 
 															KeywordUtil.markPassed("User Navigate to the Profile tab and Profile text found.......!")
 
-															if(Mobile.waitForElementPresent(setting_icon, 10)) {
+															if(Mobile.waitForElementPresent(setting_icon, 60)) {
 
 																KeywordUtil.markPassed("Setting icon on setting Tab found.......!")
 
-																if(Mobile.waitForElementPresent(forword_icon_setting, 10)) {
+																if(Mobile.waitForElementPresent(forword_icon_setting, 60)) {
 
 																	KeywordUtil.markPassed("Forword icon on setting Tab found.......!")
 
-																	if(Mobile.waitForElementPresent(Setting, 10)) {
+																	if(Mobile.waitForElementPresent(Setting, 60)) {
 
-																		Mobile.tap(Setting, 10)
+																		Mobile.tap(Setting, 60)
 																		KeywordUtil.markPassed("Setting tab tapped.......!")
 
-																		if(Mobile.waitForElementPresent(lbl_profile, 10)) {
+																		if(Mobile.waitForElementPresent(lbl_profile, 60)) {
 
 																			KeywordUtil.markPassed("User Navigate to the Setting tab and Profile text found.......!")
 
-																			if(Mobile.waitForElementPresent(btn_back, 10)) {
+																			if(Mobile.waitForElementPresent(btn_back, 60)) {
 
 																				CustomKeywords.'com.spotlove.Utility.tap_back'()
 
-																				if(Mobile.waitForElementPresent(lbl_profile, 10)) {
+																				if(Mobile.waitForElementPresent(lbl_profile, 60)) {
 
 																					KeywordUtil.markPassed("User Navigate to the Profile tab and Profile text found.......!")
 
-																					if(Mobile.waitForElementPresent(info_icon, 10)) {
+																					if(Mobile.waitForElementPresent(info_icon, 60)) {
 
 																						KeywordUtil.markPassed("Info icon on Dating Preferences setting Tab found.......!")
 
-																						if(Mobile.waitForElementPresent(forword_icon_info, 10)) {
+																						if(Mobile.waitForElementPresent(forword_icon_info, 60)) {
 
 																							KeywordUtil.markPassed("Forword icon on Help Center setting Tab found.......!")
 
-																							if(Mobile.waitForElementPresent(Help_center, 10)) {
+																							if(Mobile.waitForElementPresent(Help_center, 60)) {
 
 																								KeywordUtil.markPassed("Setting icon on Help Center setting Tab found.......!")
 																								CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
-																								if(Mobile.waitForElementPresent(APp_Version, 10)) {
+																								if(Mobile.waitForElementPresent(APp_Version, 60)) {
 
 																									KeywordUtil.markPassed("App Version label text found.......!")
 

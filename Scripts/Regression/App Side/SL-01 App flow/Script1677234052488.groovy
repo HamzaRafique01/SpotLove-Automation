@@ -29,7 +29,7 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 	KeywordUtil.markPassed("Application Launched Successfully.......!")
 	KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details.......!")
 
-	if(Mobile.waitForElementPresent(explore_tab, 10)) {
+	if(Mobile.waitForElementPresent(explore_tab, 60)) {
 
 		KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
 
@@ -37,12 +37,12 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 		Mobile.delay(2)
 		CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-		if(Mobile.waitForElementPresent(preferences_home, 10)) {
+		if(Mobile.waitForElementPresent(preferences_home, 60)) {
 
-			Mobile.tap(preferences_home, 10)
+			Mobile.tap(preferences_home, 60)
 			KeywordUtil.markPassed("Icon Found and Tapped.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Dating, 10)) {
+			if(Mobile.waitForElementPresent(lbl_Dating, 60)) {
 
 				KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header text found.......!")
 
@@ -50,30 +50,30 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 				Mobile.delay(2)
 				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-				if(Mobile.waitForElementPresent(btn_back, 10)) {
+				if(Mobile.waitForElementPresent(btn_back, 60)) {
 
 					CustomKeywords.'com.spotlove.Utility.tap_back'()
 					KeywordUtil.markPassed("Back Button Found and Tapped.......!")
 
-					if(Mobile.waitForElementPresent(header_Explore, 10)) {
+					if(Mobile.waitForElementPresent(header_Explore, 60)) {
 
 						KeywordUtil.markPassed("User Navigate back to the Explore Screen and Explore header Label Text found.......!")
 
-						if(Mobile.waitForElementPresent(profile_tab, 10)) {
+						if(Mobile.waitForElementPresent(profile_tab, 60)) {
 
-							Mobile.tap(profile_tab, 10)
+							Mobile.tap(profile_tab, 60)
 							KeywordUtil.markPassed("User tap on the Profile tab.......!")
 
-							if(Mobile.waitForElementPresent(profile_lbl, 10)) {
+							if(Mobile.waitForElementPresent(profile_lbl, 60)) {
 
 								KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header text found.......!")
 
-								if(Mobile.waitForElementPresent(Edit_profile, 10)) {
+								if(Mobile.waitForElementPresent(Edit_profile, 60)) {
 
-									Mobile.tap(Edit_profile, 10)
+									Mobile.tap(Edit_profile, 60)
 									KeywordUtil.markPassed("User Tapped on the Edit Profile button.......!")
 
-									if(Mobile.waitForElementPresent(User_Name, 0)) {
+									if(Mobile.waitForElementPresent(User_Name, 30)) {
 
 										KeywordUtil.markPassed("User Navigate to the Edit Profile Tab Screen and User Name header text found.......!")
 
@@ -81,21 +81,21 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 										Mobile.delay(2)
 										CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-										if(Mobile.waitForElementPresent(btn_back, 10)) {
+										if(Mobile.waitForElementPresent(btn_back, 60)) {
 
 											CustomKeywords.'com.spotlove.Utility.tap_back'()
 											KeywordUtil.markPassed("Back Button Found and Tapped.......!")
 
-											if(Mobile.waitForElementPresent(profile_lbl, 10)) {
+											if(Mobile.waitForElementPresent(profile_lbl, 60)) {
 
 												KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header text found.......!")
 
-												if(Mobile.waitForElementPresent(liked_tab, 10)) {
+												if(Mobile.waitForElementPresent(liked_tab, 60)) {
 
-													Mobile.tap(liked_tab, 10)
+													Mobile.tap(liked_tab, 60)
 													KeywordUtil.markPassed("User Navigate to the liked tab.......!")
 
-													if(Mobile.waitForElementPresent(liked_lbl, 10)) {
+													if(Mobile.waitForElementPresent(liked_lbl, 60)) {
 
 														KeywordUtil.markPassed("User Navigate to the liked tab and Liked You Lbl text found on the Liked you tab.......!")
 
@@ -107,12 +107,12 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 														Mobile.delay(2)
 														CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-														if(Mobile.waitForElementPresent(matches_tab, 10)) {
+														if(Mobile.waitForElementPresent(matches_tab, 60)) {
 
-															Mobile.tap(matches_tab, 10)
+															Mobile.tap(matches_tab, 60)
 															KeywordUtil.markPassed("User Navigate to the Matches tab.......!")
 
-															if(Mobile.waitForElementPresent(matches_lbl, 10)) {
+															if(Mobile.waitForElementPresent(matches_lbl, 60)) {
 
 																KeywordUtil.markPassed("User Navigate to the Matches tab and Matches Lbl text found on the Matches tab.......!")
 
@@ -124,7 +124,7 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 																Mobile.delay(2)
 																CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-																if(Mobile.waitForElementPresent(explore_tab, 10)) {
+																if(Mobile.waitForElementPresent(explore_tab, 60)) {
 
 																	Mobile.tap(explore_tab, 60)
 																	KeywordUtil.markPassed("User Navigate to the Explore tab.......!")

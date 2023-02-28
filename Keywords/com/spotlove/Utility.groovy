@@ -46,6 +46,20 @@ public class Utility {
 	}
 
 	@Keyword
+	def Save_btn_Preferences() {
+
+		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
+		AppiumDriver driver = MobileDriverFactory.getDriver();
+		Actions action = new Actions(driver);
+
+		WebElement obj = driver.findElement(By.xpath('//*[contains(@text, "Save" )]'))
+		obj.click()
+	}
+
+
+
+
+	@Keyword
 	def comma_sprt_value(str1) {
 
 		AndroidDriver androidDriver = MobileDriverFactory.getDriver();
@@ -173,7 +187,7 @@ public class Utility {
 		device_Height = Mobile.getDeviceHeight()
 
 		device_Width = Mobile.getDeviceWidth()
-		
+
 
 		int startX = device_Width / 2
 
@@ -185,16 +199,7 @@ public class Utility {
 
 		Mobile.swipe(startX, startY, endX, endY)
 		Mobile.swipe(startX, startY, endX, endY)
-
-	
 	}
-
-
-
-
-
-
-
 }
 
 

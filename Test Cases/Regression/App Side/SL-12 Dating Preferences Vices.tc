@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-12 Dating Preferences Vices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcfb2fab-452c-44c7-87fd-472b6e7b28bc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d41d0460-1977-4abf-ae0f-3d18ac3c55e1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9af33065-f3c9-46aa-91be-383145556eac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>63b39305-4472-4333-b6e4-723caff5880b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a37ddaad-1ddd-4eb6-a57b-c81ff035d090</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e7d62b1-03e5-4e84-ac27-0e23e2f19cce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>514c2bf4-d5ff-4370-82f6-7508b4a565e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20b98057-7596-47ac-b61d-1eb5bf93bb6a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>148f01ae-2313-4abe-9ead-0cb57c07a289</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66ece6a1-cee7-4fc1-bdaa-bf2f8289d0e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e268900-0e52-49d2-91b3-c588268bbf9f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/bottle icon')</defaultValue>
+      <description></description>
+      <id>d41d0460-1977-4abf-ae0f-3d18ac3c55e1</id>
+      <masked>false</masked>
+      <name>Vices_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/user data')</defaultValue>
+      <description></description>
+      <id>9af33065-f3c9-46aa-91be-383145556eac</id>
+      <masked>false</masked>
+      <name>Vices_userdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/forword icon')</defaultValue>
+      <description></description>
+      <id>63b39305-4472-4333-b6e4-723caff5880b</id>
+      <masked>false</masked>
+      <name>for_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/lbl - Vices')</defaultValue>
+      <description></description>
+      <id>a37ddaad-1ddd-4eb6-a57b-c81ff035d090</id>
+      <masked>false</masked>
+      <name>lbl_Vices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/btn PopUp Close')</defaultValue>
+      <description></description>
+      <id>6e7d62b1-03e5-4e84-ac27-0e23e2f19cce</id>
+      <masked>false</masked>
+      <name>close_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/Popup header - Vices')</defaultValue>
+      <description></description>
+      <id>514c2bf4-d5ff-4370-82f6-7508b4a565e4</id>
+      <masked>false</masked>
+      <name>Vices_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/lbl - What are you open to')</defaultValue>
+      <description></description>
+      <id>20b98057-7596-47ac-b61d-1eb5bf93bb6a</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Open To All', 'Socially']</defaultValue>
+      <description></description>
+      <id>148f01ae-2313-4abe-9ead-0cb57c07a289</id>
+      <masked>false</masked>
+      <name>Vices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/btn - Save')</defaultValue>
+      <description></description>
+      <id>66ece6a1-cee7-4fc1-bdaa-bf2f8289d0e5</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/btn back')</defaultValue>
+      <description></description>
+      <id>2e268900-0e52-49d2-91b3-c588268bbf9f</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+</TestCaseEntity>

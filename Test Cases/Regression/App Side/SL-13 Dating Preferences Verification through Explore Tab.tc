@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-13 Dating Preferences Verification through Explore Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2a7d993-34df-48a8-bbf3-a68dca841b32</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67e7702c-4727-45be-ae4e-2d00bdb9d027</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>047d6994-419f-4302-a7ba-fed1decf9b4b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b90205f8-a473-4a4f-88d3-00abae9f53b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f16e0ef4-6207-4f9f-99d0-a51f3cba9dd5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c75a0374-c8aa-4887-9c12-cd5d83b299a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bcef206e-7122-4015-99b6-020e34ac0020</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10a3ca57-52de-41cc-973d-462e7601563b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ad40905-4c37-4ad1-9e12-c48c3b602f82</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14ff29db-d3f2-4c8c-87fd-cfb1fb980f54</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7489443-d679-4e44-823c-1e11df80ccc1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24558714-3096-40dc-a5b8-3f1fcc070038</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb5a0c74-1cc6-4526-a064-231a5e1bfe23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>738e0df3-1ab8-490c-8f3e-d7daa2b2b71c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2c41114-5a05-4ed5-853c-bb1fb5513750</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Explore Tab')</defaultValue>
+      <description></description>
+      <id>67e7702c-4727-45be-ae4e-2d00bdb9d027</id>
+      <masked>false</masked>
+      <name>explore_tab</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Explore Tab/User Profile Image')</defaultValue>
+      <description></description>
+      <id>047d6994-419f-4302-a7ba-fed1decf9b4b</id>
+      <masked>false</masked>
+      <name>profile_image</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Preferences Icon (home)')</defaultValue>
+      <description></description>
+      <id>b90205f8-a473-4a4f-88d3-00abae9f53b9</id>
+      <masked>false</masked>
+      <name>preferences_home</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Header - Dating Preferences')</defaultValue>
+      <description></description>
+      <id>f16e0ef4-6207-4f9f-99d0-a51f3cba9dd5</id>
+      <masked>false</masked>
+      <name>lbl_Dating</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/Religion Icon')</defaultValue>
+      <description></description>
+      <id>c75a0374-c8aa-4887-9c12-cd5d83b299a3</id>
+      <masked>false</masked>
+      <name>Religion_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/user data')</defaultValue>
+      <description></description>
+      <id>bcef206e-7122-4015-99b6-020e34ac0020</id>
+      <masked>false</masked>
+      <name>Religion_userdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/religion Forword icon')</defaultValue>
+      <description></description>
+      <id>10a3ca57-52de-41cc-973d-462e7601563b</id>
+      <masked>false</masked>
+      <name>for_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/lbl txt - Religion')</defaultValue>
+      <description></description>
+      <id>1ad40905-4c37-4ad1-9e12-c48c3b602f82</id>
+      <masked>false</masked>
+      <name>lbl_Religion</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/btn Close PopUp')</defaultValue>
+      <description></description>
+      <id>14ff29db-d3f2-4c8c-87fd-cfb1fb980f54</id>
+      <masked>false</masked>
+      <name>close_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/PopUp Header - Religion')</defaultValue>
+      <description></description>
+      <id>e7489443-d679-4e44-823c-1e11df80ccc1</id>
+      <masked>false</masked>
+      <name>Religion_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/lbl txt - What are you open to')</defaultValue>
+      <description></description>
+      <id>24558714-3096-40dc-a5b8-3f1fcc070038</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Open To All', 'Catholic', 'Muslim', 'Hindu']</defaultValue>
+      <description></description>
+      <id>bb5a0c74-1cc6-4526-a064-231a5e1bfe23</id>
+      <masked>false</masked>
+      <name>Religion</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/btn - Save')</defaultValue>
+      <description></description>
+      <id>738e0df3-1ab8-490c-8f3e-d7daa2b2b71c</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/btn back')</defaultValue>
+      <description></description>
+      <id>e2c41114-5a05-4ed5-853c-bb1fb5513750</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+</TestCaseEntity>

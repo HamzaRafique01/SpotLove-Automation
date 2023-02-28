@@ -27,151 +27,151 @@ import com.detroitlabs.katalonmobileutil.touch.Scroll.ScrollFactor as ScrollFact
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 
-if(Mobile.waitForElementPresent(ProfileImage, 30)) {
+if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 
 	KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details....!")
 
-	if(Mobile.waitForElementPresent(header_Explore, 30)) {
+	if(Mobile.waitForElementPresent(header_Explore, 60)) {
 
 		KeywordUtil.markPassed("Explore header Label Text found....!")
 
-		if(Mobile.waitForElementPresent(Preferences_icon, 10)) {
+		if(Mobile.waitForElementPresent(Preferences_icon, 60)) {
 
-			Mobile.tap(Preferences_icon, 10)
+			Mobile.tap(Preferences_icon, 60)
 			KeywordUtil.markPassed("Icon Found and Tapped....!")
 
-			if(Mobile.waitForElementPresent(lbl_Dating, 10)) {
+			if(Mobile.waitForElementPresent(lbl_Dating, 60)) {
 
 				KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header text found....!")
 
-				if(Mobile.waitForElementPresent(btn_back, 10)) {
+				if(Mobile.waitForElementPresent(btn_back, 60)) {
 
 					CustomKeywords.'com.spotlove.Utility.tap_back'()
 					KeywordUtil.markPassed("Back Button Found and Tapped....!")
 
-					if(Mobile.waitForElementPresent(header_Explore, 10)) {
+					if(Mobile.waitForElementPresent(header_Explore, 60)) {
 
 						KeywordUtil.markPassed("User Navigate back to the Explore Screen and Explore header Label Text found....!!")
 
-						if(Mobile.waitForElementPresent(three_dots, 10)) {
+						if(Mobile.waitForElementPresent(three_dots, 60)) {
 
-							Mobile.tap(three_dots, 10)
+							Mobile.tap(three_dots, 60)
 							KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
 
-							if(Mobile.waitForElementPresent(btn_close, 10)) {
+							if(Mobile.waitForElementPresent(btn_close, 60)) {
 
-								Mobile.tap(btn_close, 10)
+								Mobile.tap(btn_close, 60)
 								KeywordUtil.markPassed("Report/Block Bottom sheet close ....!")
 
-								if(Mobile.waitForElementPresent(three_dots, 10)) {
+								if(Mobile.waitForElementPresent(three_dots, 60)) {
 
-									Mobile.tap(three_dots, 10)
+									Mobile.tap(three_dots, 60)
 									KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
 
-									if(Mobile.waitForElementPresent(header_option, 0)) {
+									if(Mobile.waitForElementPresent(header_option, 60)) {
 
 										KeywordUtil.markPassed("Header Option Label text found.....!")
 
-										if(Mobile.waitForElementPresent(block_user, 10)) {
+										if(Mobile.waitForElementPresent(block_user, 60)) {
 
-											Mobile.tap(block_user, 10)
+											Mobile.tap(block_user, 60)
 											KeywordUtil.markPassed("Current User has been blocked...!")
 
-											if(Mobile.waitForElementPresent(three_dots, 10)) {
+											if(Mobile.waitForElementPresent(three_dots, 60)) {
 
-												Mobile.tap(three_dots, 10)
+												Mobile.tap(three_dots, 60)
 												KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
 
-												if(Mobile.waitForElementPresent(report_user, 10)) {
+												if(Mobile.waitForElementPresent(report_user, 60)) {
 
-													Mobile.tap(report_user, 10)
+													Mobile.tap(report_user, 60)
 													KeywordUtil.markPassed("Report bottom sheet opened on the Screen...!")
 													Mobile.delay(10)
 
-													if(Mobile.waitForElementPresent(btn_close, 10)) {
+													if(Mobile.waitForElementPresent(btn_close, 60)) {
 
-														Mobile.tap(btn_close, 10)
+														Mobile.tap(btn_close, 60)
 														KeywordUtil.markPassed("Report/Block Bottom sheet close ....!")
 
-														if(Mobile.waitForElementPresent(three_dots, 10)) {
+														if(Mobile.waitForElementPresent(three_dots, 60)) {
 
-															Mobile.tap(three_dots, 10)
+															Mobile.tap(three_dots, 60)
 															KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
 
-															if(Mobile.waitForElementPresent(report_user, 10)) {
+															if(Mobile.waitForElementPresent(report_user, 60)) {
 
-																Mobile.tap(report_user, 10)
+																Mobile.tap(report_user, 60)
 																KeywordUtil.markPassed("Report bottom sheet opened on the Screen...!")
 
-																if(Mobile.waitForElementPresent(report_header, 10)) {
+																if(Mobile.waitForElementPresent(report_header, 60)) {
 
 																	KeywordUtil.markPassed("Report Reason header label found on the bottom sheet....!")
 
-																	if(Mobile.waitForElementPresent(we_lbl, 10)) {
+																	if(Mobile.waitForElementPresent(we_lbl, 60)) {
 
 																		KeywordUtil.markPassed("We will never show this user to you again label text found on the bottom sheet....!")
 
-																		if(Mobile.waitForElementPresent(input_reason, 10)) {
+																		if(Mobile.waitForElementPresent(input_reason, 60)) {
 
-																			Mobile.setText(input_reason, reason, 0)
+																			Mobile.setText(input_reason, reason, 60)
 																			KeywordUtil.markPassed("User Report reason entered on the Text edit box....!")
 
-																			if(Mobile.waitForElementPresent(input_reason, 10)) {
+																			if(Mobile.waitForElementPresent(input_reason, 60)) {
 
 																				CustomKeywords.'com.spotlove.Utility.tap_Submit'()
 																				KeywordUtil.markPassed("Submit Button found on the bottom sheet......!")
 
-																				if(Mobile.waitForElementPresent(User_Name, 10)) {
+																				if(Mobile.waitForElementPresent(User_Name, 60)) {
 
 																					KeywordUtil.markPassed("User name found on Explore Tab User Details....!")
 
-																					if(Mobile.waitForElementPresent(User_AGe, 10)) {
+																					if(Mobile.waitForElementPresent(User_AGe, 60)) {
 
 																						KeywordUtil.markPassed("User Age found on Explore Tab User Details....!")
 
-																						if(Mobile.waitForElementPresent(ProfileImage, 10)) {
+																						if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 
 																							KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details....!")
 
-																							if(Mobile.waitForElementPresent(oneliner, 10)) {
+																							if(Mobile.waitForElementPresent(oneliner, 60)) {
 
 																								KeywordUtil.markPassed("User Oneliner details found on Explore Tab User Details....!")
 																								CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
-																								if(Mobile.waitForElementPresent(user_location, 10)) {
+																								if(Mobile.waitForElementPresent(user_location, 60)) {
 
 
 																									KeywordUtil.markPassed("User Location details found on Explore Tab User Details....!")
 
-																									if(Mobile.waitForElementPresent(user_height, 10)) {
+																									if(Mobile.waitForElementPresent(user_height, 60)) {
 
 																										KeywordUtil.markPassed("User height details found on Explore Tab User Details....!")
 
-																										if(Mobile.waitForElementPresent(user_Gender, 10)) {
+																										if(Mobile.waitForElementPresent(user_Gender, 60)) {
 
 																											KeywordUtil.markPassed("User Gender details found on Explore Tab User Details....!")
 
-																											if(Mobile.waitForElementPresent(partner_gender, 10)) {
+																											if(Mobile.waitForElementPresent(partner_gender, 60)) {
 
 																												KeywordUtil.markPassed("User Partner Gender details found on Explore Tab User Details....!")
 
-																												if(Mobile.waitForElementPresent(ethnicity, 10)) {
+																												if(Mobile.waitForElementPresent(ethnicity, 60)) {
 
 																													KeywordUtil.markPassed("User ethnicity details found on Explore Tab User Details....!")
 
-																													if(Mobile.waitForElementPresent(religon, 10)) {
+																													if(Mobile.waitForElementPresent(religon, 60)) {
 
 																														KeywordUtil.markPassed("User religon details found on Explore Tab User Details....!")
 
-																														if(Mobile.waitForElementPresent(relationship_status, 10)) {
+																														if(Mobile.waitForElementPresent(relationship_status, 60)) {
 
 																															KeywordUtil.markPassed("User Relationship Status details found on Explore Tab User Details....!")
 
-																															if(Mobile.waitForElementPresent(family_plan, 10)) {
+																															if(Mobile.waitForElementPresent(family_plan, 60)) {
 
 																																KeywordUtil.markPassed("User Family Plan details found on Explore Tab User Details....!")
 
-																																if(Mobile.waitForElementPresent(education, 10)) {
+																																if(Mobile.waitForElementPresent(education, 60)) {
 
 																																	KeywordUtil.markPassed("User Education details found on Explore Tab User Details....!")
 																																	CustomKeywords.'com.spotlove.Utility.swipe_up'(0,0)

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-05 Dating Preferences Gender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>010cfcad-ee66-409e-ab6b-c145eb420699</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b094df7b-8bef-4319-87bc-e4be2348310e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9878c36f-b957-47c8-be4f-516335eae389</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ba39125-3ce7-459a-a1e2-55991902d4e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46276965-d45b-4ed9-8816-43c1f7243fdb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3f483f7-9846-4d90-b00d-e36d60746e9a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85a86aeb-72c1-41a2-870f-6da5b5109212</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4137963-e8ac-4ff5-b38f-af87b38d136e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b87d205-fa7f-4b93-a324-c97970c086ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cfc30bff-e9b5-4049-957e-e104e54d4363</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e34f5e4-5d72-48a8-be73-1e3b5f011c68</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13376ac1-84fd-46c7-b21c-50c16de5a3b3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1514c69-bdcf-47b0-baf0-3d89f50826be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b247b89d-e848-4cbc-a713-5a274c11087d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58fbefd5-8b9c-4c0d-996b-985745be2885</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Profile')</defaultValue>
+      <description></description>
+      <id>b094df7b-8bef-4319-87bc-e4be2348310e</id>
+      <masked>false</masked>
+      <name>Profile_tap</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/setting icon dating preferences')</defaultValue>
+      <description></description>
+      <id>9878c36f-b957-47c8-be4f-516335eae389</id>
+      <masked>false</masked>
+      <name>setting_icon_DP</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/forword icon dating preferences')</defaultValue>
+      <description></description>
+      <id>5ba39125-3ce7-459a-a1e2-55991902d4e2</id>
+      <masked>false</masked>
+      <name>forword_icon_DP</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/lbl text - Dating Preferences')</defaultValue>
+      <description></description>
+      <id>46276965-d45b-4ed9-8816-43c1f7243fdb</id>
+      <masked>false</masked>
+      <name>Dating_Preferences</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Header - Dating Preferences')</defaultValue>
+      <description></description>
+      <id>b3f483f7-9846-4d90-b00d-e36d60746e9a</id>
+      <masked>false</masked>
+      <name>lbl_profile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Header - Dating Preferences')</defaultValue>
+      <description></description>
+      <id>85a86aeb-72c1-41a2-870f-6da5b5109212</id>
+      <masked>false</masked>
+      <name>lbl_Dating</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Gender/lbl - Gender')</defaultValue>
+      <description></description>
+      <id>e4137963-e8ac-4ff5-b38f-af87b38d136e</id>
+      <masked>false</masked>
+      <name>lbl_Gender</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Gender/Gender Icon')</defaultValue>
+      <description></description>
+      <id>5b87d205-fa7f-4b93-a324-c97970c086ad</id>
+      <masked>false</masked>
+      <name>Gender_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Gender/Gender user data')</defaultValue>
+      <description></description>
+      <id>cfc30bff-e9b5-4049-957e-e104e54d4363</id>
+      <masked>false</masked>
+      <name>Gender_userdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Gender/btn Close X')</defaultValue>
+      <description></description>
+      <id>7e34f5e4-5d72-48a8-be73-1e3b5f011c68</id>
+      <masked>false</masked>
+      <name>close_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Gender/Header PopUp - Gender')</defaultValue>
+      <description></description>
+      <id>13376ac1-84fd-46c7-b21c-50c16de5a3b3</id>
+      <masked>false</masked>
+      <name>Gender_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Gender/lbl - What are you open to')</defaultValue>
+      <description></description>
+      <id>c1514c69-bdcf-47b0-baf0-3d89f50826be</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Open To All', 'Male', 'Nonbinary', 'Female']</defaultValue>
+      <description></description>
+      <id>b247b89d-e848-4cbc-a713-5a274c11087d</id>
+      <masked>false</masked>
+      <name>Gender</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Gender/btn - Save')</defaultValue>
+      <description></description>
+      <id>58fbefd5-8b9c-4c0d-996b-985745be2885</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>

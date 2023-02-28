@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-11 Dating Preferences Politices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e301727b-8d97-4fd4-b0b3-e54bab1397e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f490d6ae-7914-4089-94e7-9d07d90a22d5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f97573e-7d12-4f23-af70-46e7837d28b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67d14b24-10f3-4eb5-b7f6-ae5f97005bd9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06dc50e4-2c38-48f3-8b9c-a917526565a1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1b3f07d-b19f-4ff1-8338-36918f5034d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>123cad39-1f7d-47ce-a368-80f1d2c90caf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c80f7d78-b6f1-4cf9-b277-2702ffcf78ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dee755a7-8e04-42e3-8927-1987d59a7450</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ce4450c-1df1-433c-97be-b53ec6a48cb0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/justics icon')</defaultValue>
+      <description></description>
+      <id>f490d6ae-7914-4089-94e7-9d07d90a22d5</id>
+      <masked>false</masked>
+      <name>Politics_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/user data')</defaultValue>
+      <description></description>
+      <id>9f97573e-7d12-4f23-af70-46e7837d28b2</id>
+      <masked>false</masked>
+      <name>Politics_userdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/forword icon')</defaultValue>
+      <description></description>
+      <id>67d14b24-10f3-4eb5-b7f6-ae5f97005bd9</id>
+      <masked>false</masked>
+      <name>for_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/lvl - Political Views')</defaultValue>
+      <description></description>
+      <id>06dc50e4-2c38-48f3-8b9c-a917526565a1</id>
+      <masked>false</masked>
+      <name>lbl_Politics</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/btn Close PopUp')</defaultValue>
+      <description></description>
+      <id>c1b3f07d-b19f-4ff1-8338-36918f5034d6</id>
+      <masked>false</masked>
+      <name>close_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/Popup Header - Political Views')</defaultValue>
+      <description></description>
+      <id>123cad39-1f7d-47ce-a368-80f1d2c90caf</id>
+      <masked>false</masked>
+      <name>Politics_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/lbl - What are you open to')</defaultValue>
+      <description></description>
+      <id>c80f7d78-b6f1-4cf9-b277-2702ffcf78ae</id>
+      <masked>false</masked>
+      <name>lbl_what</name>
+   </variable>
+   <variable>
+      <defaultValue>['Open To All', 'Moderate', 'Apolitical']</defaultValue>
+      <description></description>
+      <id>dee755a7-8e04-42e3-8927-1987d59a7450</id>
+      <masked>false</masked>
+      <name>Politics</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Politics/btn - Save')</defaultValue>
+      <description></description>
+      <id>7ce4450c-1df1-433c-97be-b53ec6a48cb0</id>
+      <masked>false</masked>
+      <name>btn_save</name>
+   </variable>
+</TestCaseEntity>
