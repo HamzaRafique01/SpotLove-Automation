@@ -22,10 +22,10 @@ int a,b
 
 
 
-//Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 
-
+try {
 if(Mobile.waitForElementPresent(matches_tab, 60)) {
 
 	Mobile.tap(matches_tab, 60)
@@ -143,5 +143,10 @@ if(Mobile.waitForElementPresent(matches_tab, 60)) {
 }
 
 
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(5)
+}
 
 

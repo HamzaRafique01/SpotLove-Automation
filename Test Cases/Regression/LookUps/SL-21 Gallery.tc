@@ -101,6 +101,18 @@
       <value></value>
       <variableId>8810a11e-ac4a-4e12-8b6b-028451b11dda</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f894b05-b286-4dd0-9402-648a892c60b6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f929c3e6-7868-43d5-9a26-2a7265f6b73e</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/SC-021 Gallery/btn back')</defaultValue>
       <description></description>
@@ -212,5 +224,19 @@
       <id>8810a11e-ac4a-4e12-8b6b-028451b11dda</id>
       <masked>false</masked>
       <name>lbl_Giveus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/btn Emulator photo capture')</defaultValue>
+      <description></description>
+      <id>0f894b05-b286-4dd0-9402-648a892c60b6</id>
+      <masked>false</masked>
+      <name>btn_capture_Emulator</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/SC-021 Gallery/btn Okay Emulator Photo')</defaultValue>
+      <description></description>
+      <id>f929c3e6-7868-43d5-9a26-2a7265f6b73e</id>
+      <masked>false</masked>
+      <name>btn_okay_Emulator</name>
    </variable>
 </TestCaseEntity>

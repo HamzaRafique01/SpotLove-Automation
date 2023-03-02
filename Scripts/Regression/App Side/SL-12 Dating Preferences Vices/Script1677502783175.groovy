@@ -19,53 +19,53 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
-Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+//Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
-
-if(Mobile.waitForElementPresent(Vices_icon, 60)) {
+try {
+if(Mobile.waitForElementPresent(Vices_icon, 120)) {
 
 	KeywordUtil.markPassed("Vices icon found.......!")
 
-	if(Mobile.waitForElementPresent(Vices_userdata, 60)) {
+	if(Mobile.waitForElementPresent(Vices_userdata, 120)) {
 
 		KeywordUtil.markPassed("Vices User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 60)) {
+		if(Mobile.waitForElementPresent(for_icon, 120)) {
 
 			KeywordUtil.markPassed("Vices Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Vices, 60)) {
+			if(Mobile.waitForElementPresent(lbl_Vices, 120)) {
 
-				Mobile.tap(lbl_Vices, 60)
+				Mobile.tap(lbl_Vices, 120)
 				//				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 				KeywordUtil.markPassed("Vices Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 60)) {
+				if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 60)
+					Mobile.tap(close_popup, 120)
 					KeywordUtil.markPassed("Vices PopUp closed.......!")
 					//					CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
-					if(Mobile.waitForElementPresent(lbl_Vices, 60)) {
+					if(Mobile.waitForElementPresent(lbl_Vices, 120)) {
 
-						Mobile.tap(lbl_Vices, 60)
+						Mobile.tap(lbl_Vices, 120)
 						KeywordUtil.markPassed("Vices Selection PopUp opened.......!")
 
-						if(Mobile.waitForElementPresent(Vices_popup, 60)) {
+						if(Mobile.waitForElementPresent(Vices_popup, 120)) {
 
 							KeywordUtil.markPassed("Header Vices on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 60)) {
+							if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
 								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
 								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Vices)
 
-								if(Mobile.waitForElementPresent(btn_save, 60)) {
+								if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 60)
+									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Vices PopUp Closed Found.......!")
 
-									if(Mobile.waitForElementPresent(btn_back, 60)) {
+									if(Mobile.waitForElementPresent(btn_back, 120)) {
 
 										CustomKeywords.'com.spotlove.Utility.tap_back'()
 										KeywordUtil.markPassed("Back Button Found and Tapped.......!")
@@ -100,4 +100,12 @@ if(Mobile.waitForElementPresent(Vices_icon, 60)) {
 	}
 }else {
 	KeywordUtil.markFailed("Vices icon not Found.......!")
+}
+
+
+
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(5)
 }

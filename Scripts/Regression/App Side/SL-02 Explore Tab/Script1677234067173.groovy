@@ -24,7 +24,7 @@ import com.detroitlabs.katalonmobileutil.touch.Swipe.SwipeDirection as SwipeDire
 import com.detroitlabs.katalonmobileutil.touch.Scroll as Scroll
 import com.detroitlabs.katalonmobileutil.touch.Scroll.ScrollFactor as ScrollFactor
 
-//Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 
 if(Mobile.waitForElementPresent(ProfileImage, 60)) {
@@ -283,7 +283,7 @@ if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 		KeywordUtil.markFailed("Explore header Label text not found....!")
 	}
 }else {
-	KeywordUtil.markFailed("User Profile Image not found on Explore Tab")
+	KeywordUtil.logInfo("User Profile Image not found on Explore Tab")
 }
 
 

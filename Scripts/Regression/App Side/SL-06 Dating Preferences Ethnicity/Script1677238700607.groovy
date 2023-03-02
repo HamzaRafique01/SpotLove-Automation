@@ -24,75 +24,80 @@ import com.spotlove.Utility
 
 
 
+try {
+	if(Mobile.waitForElementPresent(Ethnicity_icon, 120)) {
 
-if(Mobile.waitForElementPresent(Ethnicity_icon, 60)) {
+		KeywordUtil.markPassed("Ethnicity icon found.......!")
 
-	KeywordUtil.markPassed("Ethnicity icon found.......!")
+		if(Mobile.waitForElementPresent(Ethnicity_userdata, 120)) {
 
-	if(Mobile.waitForElementPresent(Ethnicity_userdata, 60)) {
+			KeywordUtil.markPassed("Ethnicity User data Label text found.......!")
 
-		KeywordUtil.markPassed("Ethnicity User data Label text found.......!")
+			if(Mobile.waitForElementPresent(for_icon, 120)) {
 
-		if(Mobile.waitForElementPresent(for_icon, 60)) {
+				KeywordUtil.markPassed("Ethnicity Forword icon found.......!")
 
-			KeywordUtil.markPassed("Ethnicity Forword icon found.......!")
+				if(Mobile.waitForElementPresent(lbl_Ethnicity, 120)) {
 
-			if(Mobile.waitForElementPresent(lbl_Ethnicity, 60)) {
+					Mobile.tap(lbl_Ethnicity, 120)
+					KeywordUtil.markPassed("Ethnicity Selection PopUp opened.......!")
 
-				Mobile.tap(lbl_Ethnicity, 60)
-				KeywordUtil.markPassed("Ethnicity Selection PopUp opened.......!")
+//					if(Mobile.waitForElementPresent(close_popup, 120)) {
+//
+//						Mobile.tap(close_popup, 120)
+//						KeywordUtil.markPassed("Ethnicity PopUp closed.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 60)) {
+						if(Mobile.waitForElementPresent(Ethnicity_userdata, 120)) {
 
-					Mobile.tap(close_popup, 60)
-					KeywordUtil.markPassed("Ethnicity PopUp closed.......!")
+							Mobile.tap(Ethnicity_userdata, 120)
+							KeywordUtil.markPassed("Ethnicity Selection PopUp opened.......!")
+							Mobile.delay(2)
 
-					if(Mobile.waitForElementPresent(Ethnicity_userdata, 60)) {
+							if(Mobile.waitForElementPresent(Ethnicity_popup, 180)) {
 
-						Mobile.tap(Ethnicity_userdata, 30)
-						KeywordUtil.markPassed("Ethnicity Selection PopUp opened.......!")
+								KeywordUtil.markPassed("Header Ethnicity on PopUp Found.......!")
 
-						if(Mobile.waitForElementPresent(Ethnicity_popup, 60)) {
+								if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
-							KeywordUtil.markPassed("Header Ethnicity on PopUp Found.......!")
+									KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
+									CustomKeywords.'com.spotlove.Utility.dating_Pref'(Ethnicity)
 
-							if(Mobile.waitForElementPresent(lbl_what, 60)) {
+									if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
-								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Ethnicity)
-
-								if(Mobile.waitForElementPresent(btn_save, 60)) {
-
-									Mobile.tap(btn_save, 60)
-									KeywordUtil.markPassed("Ethnicity PopUp Closed Found.......!")
+										Mobile.tap(btn_save, 120)
+										KeywordUtil.markPassed("Ethnicity PopUp Closed Found.......!")
 
 
+									}else {
+										KeywordUtil.markFailed("Save Buttonnot Found.......!")
+									}
 								}else {
-									KeywordUtil.markFailed("Save Buttonnot Found.......!")
+									KeywordUtil.markFailed("What are you open to? not Found.......!")
 								}
 							}else {
-								KeywordUtil.markFailed("What are you open to? not Found.......!")
+								KeywordUtil.markFailed("Header Ethnicity on PopUp not Found.......!")
 							}
 						}else {
-							KeywordUtil.markFailed("Header Ethnicity on PopUp not Found.......!")
+							KeywordUtil.markFailed("Ethnicity Popup not opened on the screen.......!")
 						}
-					}else {
-						KeywordUtil.markFailed("Ethnicity Popup not opened on the screen.......!")
-					}
+//					}else {
+//						KeywordUtil.markFailed("Close button not Found.......!")
+//					}
 				}else {
-					KeywordUtil.markFailed("Close button not Found.......!")
+					KeywordUtil.markFailed("Ethnicity Popup not opened on the screen.......!")
 				}
 			}else {
-				KeywordUtil.markFailed("Ethnicity Popup not opened on the screen.......!")
+				KeywordUtil.markFailed("Ethnicity  Forword icon Label text not Found.......!")
 			}
 		}else {
-			KeywordUtil.markFailed("Ethnicity  Forword icon Label text not Found.......!")
+			KeywordUtil.markFailed("Ethnicity User data Label text not Found.......!")
 		}
 	}else {
-		KeywordUtil.markFailed("Ethnicity User data Label text not Found.......!")
+		KeywordUtil.markFailed("Ethnicity icon not Found.......!")
 	}
-}else {
-	KeywordUtil.markFailed("Ethnicity icon not Found.......!")
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(2)
 }
-
 

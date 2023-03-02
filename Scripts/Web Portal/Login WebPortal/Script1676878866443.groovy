@@ -47,6 +47,8 @@ if(WebUI.waitForElementPresent(User_Name, 10)) {
 	
 	WebUI.click(Waitlist)
 	
+	WebUI.delay(5)
+	
 	
 }
 

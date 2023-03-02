@@ -31,6 +31,8 @@ class NewTestListener {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
+//		Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+		
 	}
 
 	/**

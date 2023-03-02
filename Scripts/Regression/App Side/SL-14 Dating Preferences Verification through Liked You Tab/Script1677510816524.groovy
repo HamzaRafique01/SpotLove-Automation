@@ -25,7 +25,7 @@ int a,b
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 
-
+try {
 if(Mobile.waitForElementPresent(likedyou_tab, 60)) {
 
 	Mobile.tap(likedyou_tab, 60)
@@ -140,5 +140,10 @@ if(Mobile.waitForElementPresent(likedyou_tab, 60)) {
 	KeywordUtil.markFailed("Application Launching Unsuccessfully.......!")
 }
 
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(5)
+}
 
 

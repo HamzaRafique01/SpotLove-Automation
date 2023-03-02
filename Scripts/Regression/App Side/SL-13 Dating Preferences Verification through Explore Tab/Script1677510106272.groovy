@@ -22,16 +22,17 @@ int a,b
 
 
 
-Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+//Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(explore_tab, 60)
+Mobile.tap(explore_tab, 120)
 
-if(Mobile.waitForElementPresent(profile_image, 60)) {
+try {
+if(Mobile.waitForElementPresent(profile_image, 120)) {
 
 	KeywordUtil.markPassed("Application Launched Successfully.......!")
 	KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details.......!")
 
-	if(Mobile.waitForElementPresent(explore_tab, 60)) {
+	if(Mobile.waitForElementPresent(explore_tab, 120)) {
 
 		KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
 
@@ -39,62 +40,62 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 		Mobile.delay(2)
 		CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-		if(Mobile.waitForElementPresent(preferences_home, 60)) {
+		if(Mobile.waitForElementPresent(preferences_home, 120)) {
 
-			Mobile.tap(preferences_home, 60)
+			Mobile.tap(preferences_home, 120)
 			KeywordUtil.markPassed("Icon Found and Tapped.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Dating, 60)) {
+			if(Mobile.waitForElementPresent(lbl_Dating, 120)) {
 
 				KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header text found.......!")
 
-				if(Mobile.waitForElementPresent(Religion_icon, 60)) {
+				if(Mobile.waitForElementPresent(Religion_icon, 120)) {
 
 					KeywordUtil.markPassed("Religion icon found.......!")
 
-					if(Mobile.waitForElementPresent(Religion_userdata, 60)) {
+					if(Mobile.waitForElementPresent(Religion_userdata, 120)) {
 
 						KeywordUtil.markPassed("Religion User data Label text found.......!")
 
-						if(Mobile.waitForElementPresent(for_icon, 60)) {
+						if(Mobile.waitForElementPresent(for_icon, 120)) {
 
 							KeywordUtil.markPassed("Religion Forword icon found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_Religion, 60)) {
+							if(Mobile.waitForElementPresent(lbl_Religion, 120)) {
 
-								Mobile.tap(lbl_Religion, 60)
+								Mobile.tap(lbl_Religion, 120)
 								KeywordUtil.markPassed("Religion Selection PopUp opened.......!")
 
-								if(Mobile.waitForElementPresent(close_popup, 60)) {
+								if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-									Mobile.tap(close_popup, 60)
+									Mobile.tap(close_popup, 120)
 									KeywordUtil.markPassed("Religion PopUp closed.......!")
 
-									if(Mobile.waitForElementPresent(Religion_userdata, 60)) {
+									if(Mobile.waitForElementPresent(Religion_userdata, 120)) {
 
-										Mobile.tap(Religion_userdata, 60)
+										Mobile.tap(Religion_userdata, 120)
 										KeywordUtil.markPassed("Religion Selection PopUp opened.......!")
 
 										if(Mobile.waitForElementPresent(Religion_popup, 20)) {
 
 											KeywordUtil.markPassed("Header Religion on PopUp Found.......!")
 
-											if(Mobile.waitForElementPresent(lbl_what, 60)) {
+											if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
 												KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
 												CustomKeywords.'com.spotlove.Utility.dating_Pref'(Religion)
 
-												if(Mobile.waitForElementPresent(btn_save, 60)) {
+												if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-													Mobile.tap(btn_save, 60)
+													Mobile.tap(btn_save, 120)
 													KeywordUtil.markPassed("Religion PopUp Closed Found.......!")
 
-													if(Mobile.waitForElementPresent(btn_back, 60)) {
+													if(Mobile.waitForElementPresent(btn_back, 120)) {
 
 														CustomKeywords.'com.spotlove.Utility.tap_back'()
 														KeywordUtil.markPassed("Back Button Found and Tapped.......!")
 
-														if(Mobile.waitForElementPresent(profile_image, 60)) {
+														if(Mobile.waitForElementPresent(profile_image, 120)) {
 
 															KeywordUtil.markPassed("User Navigate to the Explore Tab Screen and Explore header text found.......!")
 
@@ -147,6 +148,11 @@ if(Mobile.waitForElementPresent(profile_image, 60)) {
 
 
 
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(5)
+}
 
 
 

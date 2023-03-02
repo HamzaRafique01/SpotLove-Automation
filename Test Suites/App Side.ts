@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>dbbfe730-70ad-466b-962e-7ab6020393d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-01 App flow</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -105,7 +105,7 @@
    <testCaseLink>
       <guid>da237bf8-1d6f-4110-ab2c-ca2c79f0b0c2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-02 Explore Tab</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -286,7 +286,7 @@
    <testCaseLink>
       <guid>efa0fb51-df77-466e-a588-81fbdfd496fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-03 Profile Tab</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -407,7 +407,7 @@
    <testCaseLink>
       <guid>5ef7fb0a-53e6-4ffe-8334-e75865e5da63</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-04 Settings Tab</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -516,7 +516,7 @@
    <testCaseLink>
       <guid>d9dbdaac-6661-4b5c-9161-627c3d090f6b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-05 Dating Preferences Gender</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -607,7 +607,7 @@
    <testCaseLink>
       <guid>8eba0cfa-a72f-4168-b4eb-c83eb212e29d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-06 Dating Preferences Ethnicity</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -668,7 +668,7 @@
    <testCaseLink>
       <guid>5610acfe-ae09-48b4-ba1b-92819f50a089</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-07 Dating Preferences Religion</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -729,7 +729,7 @@
    <testCaseLink>
       <guid>d9f931bd-67ef-40bf-940a-89ccf13bfc2d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-08 Dating Preferences Relationship status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -790,7 +790,7 @@
    <testCaseLink>
       <guid>4e57ba8d-0c7b-41f1-9615-f58f5cfc3f48</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-09 Dating Preferences Children</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -851,7 +851,7 @@
    <testCaseLink>
       <guid>dcd12d64-4316-4d83-bf5e-cbb8334aa7b9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-10 Dating Preferencees Education</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -912,7 +912,7 @@
    <testCaseLink>
       <guid>1cb27053-9865-4a53-8294-0a06baf842f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-11 Dating Preferences Politices</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -973,7 +973,7 @@
    <testCaseLink>
       <guid>220c30b1-5be1-467a-ad7c-546db610a0eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-12 Dating Preferences Vices</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

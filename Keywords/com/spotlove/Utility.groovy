@@ -168,6 +168,7 @@ public class Utility {
 	@Keyword
 	def swipe_down() {
 		Swipe.swipe(SwipeDirection.BOTTOM_TO_TOP)
+		Swipe.swipe(SwipeDirection.BOTTOM_TO_TOP)
 	}
 
 	@Keyword

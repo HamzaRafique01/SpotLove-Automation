@@ -22,48 +22,48 @@ import com.spotlove.Utility
 
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
-
-if(Mobile.waitForElementPresent(Education_icon, 60)) {
+try{
+if(Mobile.waitForElementPresent(Education_icon, 120)) {
 
 	KeywordUtil.markPassed("Education icon found.......!")
 
-	if(Mobile.waitForElementPresent(Education_userdata, 60)) {
+	if(Mobile.waitForElementPresent(Education_userdata, 120)) {
 
 		KeywordUtil.markPassed("Education User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 60)) {
+		if(Mobile.waitForElementPresent(for_icon, 120)) {
 
 			KeywordUtil.markPassed("Education Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Education, 60)) {
+			if(Mobile.waitForElementPresent(lbl_Education, 120)) {
 
-				Mobile.tap(lbl_Education, 60)
+				Mobile.tap(lbl_Education, 120)
 //				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 				KeywordUtil.markPassed("Education Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 60)) {
+				if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 60)
+					Mobile.tap(close_popup, 120)
 					KeywordUtil.markPassed("Education PopUp closed.......!")
 //					CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
-					if(Mobile.waitForElementPresent(for_icon, 60)) {
+					if(Mobile.waitForElementPresent(for_icon, 120)) {
 
-						Mobile.tap(for_icon, 60)
+						Mobile.tap(for_icon, 120)
 						KeywordUtil.markPassed("Education Selection PopUp opened.......!")
 
-						if(Mobile.waitForElementPresent(Education_popup, 60)) {
+						if(Mobile.waitForElementPresent(Education_popup, 120)) {
 
 							KeywordUtil.markPassed("Header Education on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 60)) {
+							if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
 								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
 								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Education)
 
-								if(Mobile.waitForElementPresent(btn_save, 60)) {
+								if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 60)
+									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Education PopUp Closed Found.......!")
 
 
@@ -93,4 +93,11 @@ if(Mobile.waitForElementPresent(Education_icon, 60)) {
 	}
 }else {
 	KeywordUtil.markFailed("Education icon not Found.......!")
+}
+
+
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(5)
 }

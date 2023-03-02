@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
-Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
+//Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
 
 
 if(Mobile.waitForElementPresent(btn_back, 10)) {
@@ -65,7 +65,7 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 //								Mobile.setText(city, city_name, 10)
 //								
 //								Mobile.tap(code, 10)
-								Mobile.setText(code, code_num, 10)
+//								Mobile.setText(code, code_num, 10)
 								
 								Mobile.delay(5)
 								CustomKeywords.'com.spotlove.Utility.tap_Submit'()

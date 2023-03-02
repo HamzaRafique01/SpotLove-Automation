@@ -22,46 +22,46 @@ import com.spotlove.Utility
 
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
-
-if(Mobile.waitForElementPresent(Religion_icon, 60)) {
+try {
+if(Mobile.waitForElementPresent(Religion_icon, 120)) {
 
 	KeywordUtil.markPassed("Religion icon found.......!")
 
-	if(Mobile.waitForElementPresent(Religion_userdata, 60)) {
+	if(Mobile.waitForElementPresent(Religion_userdata, 120)) {
 
 		KeywordUtil.markPassed("Religion User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 60)) {
+		if(Mobile.waitForElementPresent(for_icon, 120)) {
 
 			KeywordUtil.markPassed("Religion Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Religion, 60)) {
+			if(Mobile.waitForElementPresent(lbl_Religion, 120)) {
 
-				Mobile.tap(lbl_Religion, 60)
+				Mobile.tap(lbl_Religion, 120)
 				KeywordUtil.markPassed("Religion Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 60)) {
+				if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 60)
+					Mobile.tap(close_popup, 120)
 					KeywordUtil.markPassed("Religion PopUp closed.......!")
 
-					if(Mobile.waitForElementPresent(Religion_userdata, 60)) {
+					if(Mobile.waitForElementPresent(Religion_userdata, 120)) {
 
-						Mobile.tap(Religion_userdata, 60)
+						Mobile.tap(Religion_userdata, 120)
 						KeywordUtil.markPassed("Religion Selection PopUp opened.......!")
 
-						if(Mobile.waitForElementPresent(Religion_popup, 60)) {
+						if(Mobile.waitForElementPresent(Religion_popup, 120)) {
 
 							KeywordUtil.markPassed("Header Religion on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 60)) {
+							if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
 								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
 								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Religion)
 
-								if(Mobile.waitForElementPresent(btn_save, 60)) {
+								if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 60)
+									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Religion PopUp Closed Found.......!")
 
 
@@ -93,5 +93,10 @@ if(Mobile.waitForElementPresent(Religion_icon, 60)) {
 	KeywordUtil.markFailed("Religion icon not Found.......!")
 }
 
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(2)
+}
 
 

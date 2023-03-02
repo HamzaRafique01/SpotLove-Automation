@@ -26,157 +26,157 @@ Mobile.tap(explore_tab, 60)
 
 if(Mobile.waitForElementPresent(profile_image, 60)) {
 
-	KeywordUtil.markPassed("Application Launched Successfully.......!")
-	KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details.......!")
+	KeywordUtil.markPassed("Application Launched Successfully and User Profile Image found on Explore Tab in the User Details.......!")
+	
+}else {
+	KeywordUtil.logInfo("Application cannot launch.......!")
+}
 
-	if(Mobile.waitForElementPresent(explore_tab, 60)) {
+if(Mobile.waitForElementPresent(explore_tab, 60)) {
 
-		KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
+	KeywordUtil.markPassed("User is standing on the Explore Tab.......!")
 
-		CustomKeywords.'com.spotlove.Utility.swipe_down'()
-		Mobile.delay(2)
-		CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+	CustomKeywords.'com.spotlove.Utility.swipe_down'()
+	Mobile.delay(2)
+	CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-		if(Mobile.waitForElementPresent(preferences_home, 60)) {
+	if(Mobile.waitForElementPresent(preferences_home, 60)) {
 
-			Mobile.tap(preferences_home, 60)
-			KeywordUtil.markPassed("Icon Found and Tapped.......!")
+		Mobile.tap(preferences_home, 60)
+		KeywordUtil.markPassed("Icon Found and Tapped.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Dating, 60)) {
+		if(Mobile.waitForElementPresent(lbl_Dating, 60)) {
 
-				KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header text found.......!")
+			KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header text found.......!")
 
-				CustomKeywords.'com.spotlove.Utility.swipe_down'()
-				Mobile.delay(2)
-				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+			CustomKeywords.'com.spotlove.Utility.swipe_down'()
+			Mobile.delay(2)
+			CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-				if(Mobile.waitForElementPresent(btn_back, 60)) {
+			if(Mobile.waitForElementPresent(btn_back, 60)) {
 
-					CustomKeywords.'com.spotlove.Utility.tap_back'()
-					KeywordUtil.markPassed("Back Button Found and Tapped.......!")
+				CustomKeywords.'com.spotlove.Utility.tap_back'()
+				KeywordUtil.markPassed("Back Button Found and Tapped.......!")
 
-					if(Mobile.waitForElementPresent(header_Explore, 60)) {
+				if(Mobile.waitForElementPresent(header_Explore, 60)) {
 
-						KeywordUtil.markPassed("User Navigate back to the Explore Screen and Explore header Label Text found.......!")
+					KeywordUtil.markPassed("User Navigate back to the Explore Screen and Explore header Label Text found.......!")
 
-						if(Mobile.waitForElementPresent(profile_tab, 60)) {
+					if(Mobile.waitForElementPresent(profile_tab, 60)) {
 
-							Mobile.tap(profile_tab, 60)
-							KeywordUtil.markPassed("User tap on the Profile tab.......!")
+						Mobile.tap(profile_tab, 60)
+						KeywordUtil.markPassed("User tap on the Profile tab.......!")
 
-							if(Mobile.waitForElementPresent(profile_lbl, 60)) {
+						if(Mobile.waitForElementPresent(profile_lbl, 60)) {
 
-								KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header text found.......!")
+							KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header text found.......!")
 
-								if(Mobile.waitForElementPresent(Edit_profile, 60)) {
+							if(Mobile.waitForElementPresent(Edit_profile, 60)) {
 
-									Mobile.tap(Edit_profile, 60)
-									KeywordUtil.markPassed("User Tapped on the Edit Profile button.......!")
+								Mobile.tap(Edit_profile, 60)
+								KeywordUtil.markPassed("User Tapped on the Edit Profile button.......!")
 
-									if(Mobile.waitForElementPresent(User_Name, 30)) {
+								if(Mobile.waitForElementPresent(User_Name, 30)) {
 
-										KeywordUtil.markPassed("User Navigate to the Edit Profile Tab Screen and User Name header text found.......!")
+									KeywordUtil.markPassed("User Navigate to the Edit Profile Tab Screen and User Name header text found.......!")
 
-										CustomKeywords.'com.spotlove.Utility.swipe_down'()
-										Mobile.delay(2)
-										CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+									CustomKeywords.'com.spotlove.Utility.swipe_down'()
+									Mobile.delay(2)
+									CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-										if(Mobile.waitForElementPresent(btn_back, 60)) {
+									if(Mobile.waitForElementPresent(btn_back, 60)) {
 
-											CustomKeywords.'com.spotlove.Utility.tap_back'()
-											KeywordUtil.markPassed("Back Button Found and Tapped.......!")
+										CustomKeywords.'com.spotlove.Utility.tap_back'()
+										KeywordUtil.markPassed("Back Button Found and Tapped.......!")
 
-											if(Mobile.waitForElementPresent(profile_lbl, 60)) {
+										if(Mobile.waitForElementPresent(profile_lbl, 60)) {
 
-												KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header text found.......!")
+											KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header text found.......!")
 
-												if(Mobile.waitForElementPresent(liked_tab, 60)) {
+											if(Mobile.waitForElementPresent(liked_tab, 60)) {
 
-													Mobile.tap(liked_tab, 60)
-													KeywordUtil.markPassed("User Navigate to the liked tab.......!")
+												Mobile.tap(liked_tab, 60)
+												KeywordUtil.markPassed("User Navigate to the liked tab.......!")
 
-													if(Mobile.waitForElementPresent(liked_lbl, 60)) {
+												if(Mobile.waitForElementPresent(liked_lbl, 60)) {
 
-														KeywordUtil.markPassed("User Navigate to the liked tab and Liked You Lbl text found on the Liked you tab.......!")
+													KeywordUtil.markPassed("User Navigate to the liked tab and Liked You Lbl text found on the Liked you tab.......!")
 
-														CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
-														Mobile.delay(2)
-														CustomKeywords.'com.spotlove.Utility.swipe_right_to_left'()
-														Mobile.delay(2)
-														CustomKeywords.'com.spotlove.Utility.swipe_down'()
-														Mobile.delay(2)
-														CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+													CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
+													Mobile.delay(2)
+													CustomKeywords.'com.spotlove.Utility.swipe_right_to_left'()
+													Mobile.delay(2)
+													CustomKeywords.'com.spotlove.Utility.swipe_down'()
+													Mobile.delay(2)
+													CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-														if(Mobile.waitForElementPresent(matches_tab, 60)) {
+													if(Mobile.waitForElementPresent(matches_tab, 60)) {
 
-															Mobile.tap(matches_tab, 60)
-															KeywordUtil.markPassed("User Navigate to the Matches tab.......!")
+														Mobile.tap(matches_tab, 60)
+														KeywordUtil.markPassed("User Navigate to the Matches tab.......!")
 
-															if(Mobile.waitForElementPresent(matches_lbl, 60)) {
+														if(Mobile.waitForElementPresent(matches_lbl, 60)) {
 
-																KeywordUtil.markPassed("User Navigate to the Matches tab and Matches Lbl text found on the Matches tab.......!")
+															KeywordUtil.markPassed("User Navigate to the Matches tab and Matches Lbl text found on the Matches tab.......!")
 
-																CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
-																Mobile.delay(2)
-																CustomKeywords.'com.spotlove.Utility.swipe_right_to_left'()
-																Mobile.delay(2)
-																CustomKeywords.'com.spotlove.Utility.swipe_down'()
-																Mobile.delay(2)
-																CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+															CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
+															Mobile.delay(2)
+															CustomKeywords.'com.spotlove.Utility.swipe_right_to_left'()
+															Mobile.delay(2)
+															CustomKeywords.'com.spotlove.Utility.swipe_down'()
+															Mobile.delay(2)
+															CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 
-																if(Mobile.waitForElementPresent(explore_tab, 60)) {
+															if(Mobile.waitForElementPresent(explore_tab, 60)) {
 
-																	Mobile.tap(explore_tab, 60)
-																	KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
+																Mobile.tap(explore_tab, 60)
+																KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
 
-																}else {
-																	KeywordUtil.markFailed("User cannot moving to the Explore tab.......!")
-																}
 															}else {
-																KeywordUtil.markFailed("User cannot moving to the Matches tab.......!")
+																KeywordUtil.markFailed("User cannot moving to the Explore tab.......!")
 															}
 														}else {
 															KeywordUtil.markFailed("User cannot moving to the Matches tab.......!")
 														}
 													}else {
-														KeywordUtil.markFailed("User cannot moving to the liked tab.......!")
+														KeywordUtil.markFailed("User cannot moving to the Matches tab.......!")
 													}
 												}else {
 													KeywordUtil.markFailed("User cannot moving to the liked tab.......!")
 												}
 											}else {
-												KeywordUtil.markFailed("Navigation Failed.......!")
+												KeywordUtil.markFailed("User cannot moving to the liked tab.......!")
 											}
-										} else {
-											KeywordUtil.markFailed("Back button not found.......!")
+										}else {
+											KeywordUtil.markFailed("Navigation Failed.......!")
 										}
-									}else {
-										KeywordUtil.markFailed("User Name header Label text not found.......!")
+									} else {
+										KeywordUtil.markFailed("Back button not found.......!")
 									}
 								}else {
-									KeywordUtil.markFailed("Edit profile button not found.......!")
+									KeywordUtil.markFailed("User Name header Label text not found.......!")
 								}
 							}else {
-								KeywordUtil.markFailed("Profile header Label text not found.......!")
+								KeywordUtil.markFailed("Edit profile button not found.......!")
 							}
 						}else {
-							KeywordUtil.markFailed("Profile Tab not found.......!")
+							KeywordUtil.markFailed("Profile header Label text not found.......!")
 						}
-					} else {
-						KeywordUtil.markFailed("Back button not found.......!")
+					}else {
+						KeywordUtil.markFailed("Profile Tab not found.......!")
 					}
 				} else {
 					KeywordUtil.markFailed("Back button not found.......!")
 				}
 			} else {
-				KeywordUtil.markFailed("Dating Preferences header Label text not found.......!")
+				KeywordUtil.markFailed("Back button not found.......!")
 			}
 		} else {
-			KeywordUtil.markFailed("Preferences Icon not Found.......!")
+			KeywordUtil.markFailed("Dating Preferences header Label text not found.......!")
 		}
-	}else {
-		KeywordUtil.markFailed("User cannot moving to the Explore tab.......!")
+	} else {
+		KeywordUtil.markFailed("Preferences icon not Found.......!")
 	}
 }else {
-	KeywordUtil.markFailed("User Profile Image not found on Explore Tab.......!")
+	KeywordUtil.markFailed("User is stnading somewhere else except Explore tab.......!")
 }

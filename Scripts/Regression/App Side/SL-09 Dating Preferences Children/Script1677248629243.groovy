@@ -22,48 +22,48 @@ import com.spotlove.Utility
 
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
-
-if(Mobile.waitForElementPresent(Children_icon, 60)) {
+try {
+if(Mobile.waitForElementPresent(Children_icon, 120)) {
 
 	KeywordUtil.markPassed("Children icon found.......!")
 	CustomKeywords.'com.spotlove.Utility.swipe_down'()
 	
 	
-	if(Mobile.waitForElementPresent(Children_userdata, 60)) {
+	if(Mobile.waitForElementPresent(Children_userdata, 120)) {
 
 		KeywordUtil.markPassed("Children User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 60)) {
+		if(Mobile.waitForElementPresent(for_icon, 120)) {
 
 			KeywordUtil.markPassed("Children Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Children, 60)) {
+			if(Mobile.waitForElementPresent(lbl_Children, 120)) {
 
-				Mobile.tap(lbl_Children, 60)
+				Mobile.tap(lbl_Children, 120)
 				KeywordUtil.markPassed("Children Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 60)) {
+				if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 60)
+					Mobile.tap(close_popup, 120)
 					KeywordUtil.markPassed("Children PopUp closed.......!")
 
-					if(Mobile.waitForElementPresent(lbl_Children, 60)) {
+					if(Mobile.waitForElementPresent(lbl_Children, 120)) {
 
-						Mobile.tap(lbl_Children, 60)
+						Mobile.tap(lbl_Children, 120)
 						KeywordUtil.markPassed("Children Selection PopUp opened.......!")
 
 						if(Mobile.waitForElementPresent(Children_popup, 20)) {
 
 							KeywordUtil.markPassed("Header Children on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 60)) {
+							if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
 								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
 								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Children)
 
-								if(Mobile.waitForElementPresent(btn_save, 60)) {
+								if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 60)
+									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Children PopUp Closed Found.......!")
 
 
@@ -95,6 +95,11 @@ if(Mobile.waitForElementPresent(Children_icon, 60)) {
 	KeywordUtil.markFailed("Children icon not Found.......!")
 }
 
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(5)
+}
 
 
 

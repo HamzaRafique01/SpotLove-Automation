@@ -22,7 +22,7 @@ import com.spotlove.Utility
 
 //Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
 
-
+ 
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
 	CustomKeywords.'com.spotlove.Utility.tap_back'()

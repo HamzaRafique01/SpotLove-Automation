@@ -21,7 +21,7 @@ import com.spotlove.Utility
 
 
 //Mobile.startExistingApplication("com.spotlove.releaseproduction" , FailureHandling.STOP_ON_FAILURE)
-
+ 
 
 if(Mobile.waitForElementPresent(btn_back, 10)) {
 
@@ -129,6 +129,8 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 														}else {
 															KeywordUtil.markFailed("Gallery is not opened....!")
 														}
+
+
 													}else {
 														KeywordUtil.markFailed("Bottom sheet is not appears on the screen not found....!")
 													}
@@ -138,8 +140,49 @@ if(Mobile.waitForElementPresent(btn_back, 10)) {
 											}else {
 												KeywordUtil.markFailed("Done button is not found....!")
 											}
-										}else {
-											KeywordUtil.markFailed("Okay Button not found")
+										}else if(Mobile.waitForElementPresent(btn_capture_Emulator, 10)) {
+
+//											if(Mobile.waitForElementPresent(btn_capture_Emulator, 10)) {
+
+												Mobile.tap(btn_capture_Emulator, 10)
+												KeywordUtil.markPassed("Camera takes the Photo......!")
+
+												if(Mobile.waitForElementPresent(btn_okay_Emulator, 10)) {
+
+													Mobile.tap(btn_okay_Emulator, 10)
+													KeywordUtil.markPassed("Okay Button Tapped and move forword to crop image......!")
+
+													if(Mobile.waitForElementPresent(btn_crop, 10)) {
+
+														Mobile.tap(btn_crop, 10)
+														KeywordUtil.markPassed("User crop the image and tap on done button......!")
+														Mobile.delay(15)
+
+														if(Mobile.waitForElementPresent(btn_continue, 10)) {
+
+															CustomKeywords.'com.spotlove.Utility.tap_Continue'()
+
+															if(Mobile.waitForElementPresent(lbl_Giveus, 10)) {
+
+																KeywordUtil.markPassed("User navigate to the One-Liner screen screen and Give us your best... label text found......!")
+
+
+
+															}else {
+																KeywordUtil.markFailed("Continue button is not working.....!")
+															}
+														}else {
+															KeywordUtil.markFailed("Continue button is not working.....!")
+														}
+													}else {
+														KeywordUtil.markFailed("User can't crop the image and tap on done button......!")
+													}
+												}else {
+													KeywordUtil.markFailed("Done button is not found....!")
+												}
+//											}else {
+//												KeywordUtil.markFailed("Okay Button not found")
+//											}
 										}
 									}else {
 										KeywordUtil.markFailed("camera permission denied....!")

@@ -69,7 +69,7 @@ if(Mobile.waitForElementPresent(spotlove_logo, 10)) {
 										KeywordUtil.markPassed("Phon number Entered......!")
 
 										CustomKeywords.'com.spotlove.Utility.tap_Continue'()
-										Mobile.delay(15)
+										Mobile.delay(35)
 
 									}else {
 										KeywordUtil.markFailed("Phone Numebr field not found......!")

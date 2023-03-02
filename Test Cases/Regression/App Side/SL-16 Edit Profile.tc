@@ -137,6 +137,84 @@
       <value></value>
       <variableId>26766466-cee6-4625-ba9b-63d78032518c</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff68b84d-547b-4e65-8db9-49173f6ebec0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40b2cbaf-6fec-423f-821b-4cb323d54771</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38923064-53e0-4447-b12a-192366875457</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93d9a2df-cbab-471f-896d-a110d3e6e5b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>942ec898-7bce-444a-921f-05dbf36b96a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a69b5b30-3d08-49d2-9c69-8b84f1dce6ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36ffec34-4de5-463d-b8a9-c0e3f614ebd3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6be8824-d818-429d-b1ef-620418720d90</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f3ba4a4-6aa6-4935-ad18-1e2ce49e79ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83f5d4e1-1d8b-4c65-aba0-618b3abf6f27</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>075a4117-d2e3-4829-8987-9f0db3435be0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f41493c1-1c63-4ace-8c2f-414a264e2885</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cfceb6bf-c611-421c-a172-56812dea9352</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Profile')</defaultValue>
       <description></description>
@@ -290,5 +368,96 @@
       <id>26766466-cee6-4625-ba9b-63d78032518c</id>
       <masked>false</masked>
       <name>btn_close_Oneliner</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/lbl - Vices')</defaultValue>
+      <description></description>
+      <id>ff68b84d-547b-4e65-8db9-49173f6ebec0</id>
+      <masked>false</masked>
+      <name>lbl_Vices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/bottle icon')</defaultValue>
+      <description></description>
+      <id>40b2cbaf-6fec-423f-821b-4cb323d54771</id>
+      <masked>false</masked>
+      <name>Vices_icon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/forword icon')</defaultValue>
+      <description></description>
+      <id>38923064-53e0-4447-b12a-192366875457</id>
+      <masked>false</masked>
+      <name>Vices_forwordicon</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/header popup - Vices')</defaultValue>
+      <description></description>
+      <id>93d9a2df-cbab-471f-896d-a110d3e6e5b2</id>
+      <masked>false</masked>
+      <name>header_Vices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/btn close popup')</defaultValue>
+      <description></description>
+      <id>942ec898-7bce-444a-921f-05dbf36b96a2</id>
+      <masked>false</masked>
+      <name>btn_CloseVices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/Alcohol Toggle - OFF')</defaultValue>
+      <description></description>
+      <id>a69b5b30-3d08-49d2-9c69-8b84f1dce6ff</id>
+      <masked>false</masked>
+      <name>Alcohol_toggle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/Alcohol Socially')</defaultValue>
+      <description></description>
+      <id>36ffec34-4de5-463d-b8a9-c0e3f614ebd3</id>
+      <masked>false</masked>
+      <name>AL_Socially</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/Marijuana toggle - OFF')</defaultValue>
+      <description></description>
+      <id>a6be8824-d818-429d-b1ef-620418720d90</id>
+      <masked>false</masked>
+      <name>Mari_toggle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/Marijuana Socially')</defaultValue>
+      <description></description>
+      <id>7f3ba4a4-6aa6-4935-ad18-1e2ce49e79ea</id>
+      <masked>false</masked>
+      <name>Mari_Socially</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/Edit Profile/Vices/btn - Save')</defaultValue>
+      <description></description>
+      <id>83f5d4e1-1d8b-4c65-aba0-618b3abf6f27</id>
+      <masked>false</masked>
+      <name>btn_save_vices</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>075a4117-d2e3-4829-8987-9f0db3435be0</id>
+      <masked>false</masked>
+      <name>lbl_edu</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>f41493c1-1c63-4ace-8c2f-414a264e2885</id>
+      <masked>false</masked>
+      <name>header_edu</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>cfceb6bf-c611-421c-a172-56812dea9352</id>
+      <masked>false</masked>
+      <name>Education_list</name>
    </variable>
 </TestCaseEntity>

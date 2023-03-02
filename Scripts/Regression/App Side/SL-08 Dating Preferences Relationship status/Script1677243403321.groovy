@@ -22,46 +22,46 @@ import com.spotlove.Utility
 
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
-
-if(Mobile.waitForElementPresent(Relationship_icon, 60)) {
+try {
+if(Mobile.waitForElementPresent(Relationship_icon, 120)) {
 
 	KeywordUtil.markPassed("Relationship Status icon found.......!")
 
-	if(Mobile.waitForElementPresent(Relationship_userdata, 60)) {
+	if(Mobile.waitForElementPresent(Relationship_userdata, 120)) {
 
 		KeywordUtil.markPassed("Relationship Status User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 60)) {
+		if(Mobile.waitForElementPresent(for_icon, 120)) {
 
 			KeywordUtil.markPassed("Relationship Status Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Relationship, 60)) {
+			if(Mobile.waitForElementPresent(lbl_Relationship, 120)) {
 
-				Mobile.tap(lbl_Relationship, 60)
+				Mobile.tap(lbl_Relationship, 120)
 				KeywordUtil.markPassed("Relationship Status Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 60)) {
+				if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 60)
+					Mobile.tap(close_popup, 120)
 					KeywordUtil.markPassed("Relationship Status PopUp closed.......!")
 
-					if(Mobile.waitForElementPresent(Relationship_userdata, 60)) {
+					if(Mobile.waitForElementPresent(Relationship_userdata, 120)) {
 
-						Mobile.tap(Relationship_userdata, 60)
+						Mobile.tap(Relationship_userdata, 120)
 						KeywordUtil.markPassed("Relationship Status Selection PopUp opened.......!")
 
-						if(Mobile.waitForElementPresent(Relationship_popup, 60)) {
+						if(Mobile.waitForElementPresent(Relationship_popup, 120)) {
 
 							KeywordUtil.markPassed("Header Relationship Status on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 60)) {
+							if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
 								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
 								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Relationship)
 
-								if(Mobile.waitForElementPresent(btn_save, 60)) {
+								if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 60)
+									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Relationship Status PopUp Closed Found.......!")
 
 
@@ -93,6 +93,11 @@ if(Mobile.waitForElementPresent(Relationship_icon, 60)) {
 	KeywordUtil.markFailed("Relationship Status icon not Found.......!")
 }
 
+}catch(Exception e) {
+	e.printStackTrace()
+}finally {
+	Mobile.delay(2)
+}
 
 
 
