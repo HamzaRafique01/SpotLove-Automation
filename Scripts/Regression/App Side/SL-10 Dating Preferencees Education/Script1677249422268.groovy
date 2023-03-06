@@ -65,6 +65,15 @@ if(Mobile.waitForElementPresent(Education_icon, 120)) {
 
 									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Education PopUp Closed Found.......!")
+									
+									if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
+										
+										KeywordUtil.markPassed("Education preferences Updated Successfully.......!")
+										Mobile.delay(5)
+									}else {
+										KeywordUtil.markFailed("Education preferences Updating Error.......!")
+									}
+
 
 
 								}else {

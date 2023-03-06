@@ -84,7 +84,12 @@ if(Mobile.waitForElementPresent(likedyou_tab, 60)) {
 
 													Mobile.tap(btn_save, 60)
 													KeywordUtil.markPassed("Ethnicity PopUp Closed Found.......!")
-
+													
+													if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
+														
+														KeywordUtil.markPassed("Ethnicity preferences Updated Successfully.......!")
+														Mobile.delay(5)
+													
 													if(Mobile.waitForElementPresent(btn_back, 60)) {
 
 														CustomKeywords.'com.spotlove.Utility.tap_back'()
@@ -102,6 +107,9 @@ if(Mobile.waitForElementPresent(likedyou_tab, 60)) {
 													}
 												}else {
 													KeywordUtil.markFailed("Save Buttonnot Found.......!")
+												}
+												}else {
+													KeywordUtil.markFailed("Ethnicity preferences Updating Error.......!")
 												}
 											}else {
 												KeywordUtil.markFailed("What are you open to? not Found.......!")

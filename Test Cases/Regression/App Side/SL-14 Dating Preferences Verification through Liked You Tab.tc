@@ -89,6 +89,12 @@
       <value></value>
       <variableId>81b3daa4-57a7-49fe-ad3c-5760745e4db7</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3808c1b7-5280-4de0-9db9-59d0f4c7884a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Liked You')</defaultValue>
       <description></description>
@@ -186,5 +192,12 @@
       <id>81b3daa4-57a7-49fe-ad3c-5760745e4db7</id>
       <masked>false</masked>
       <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/bottom sheet - Preferences Updated')</defaultValue>
+      <description></description>
+      <id>3808c1b7-5280-4de0-9db9-59d0f4c7884a</id>
+      <masked>false</masked>
+      <name>Preferences_updated</name>
    </variable>
 </TestCaseEntity>

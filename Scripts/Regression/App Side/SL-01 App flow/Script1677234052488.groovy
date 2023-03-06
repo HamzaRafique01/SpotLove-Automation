@@ -27,7 +27,7 @@ Mobile.tap(explore_tab, 60)
 if(Mobile.waitForElementPresent(profile_image, 60)) {
 
 	KeywordUtil.markPassed("Application Launched Successfully and User Profile Image found on Explore Tab in the User Details.......!")
-	
+
 }else {
 	KeywordUtil.logInfo("Application cannot launch.......!")
 }
@@ -47,7 +47,7 @@ if(Mobile.waitForElementPresent(explore_tab, 60)) {
 
 		if(Mobile.waitForElementPresent(lbl_Dating, 60)) {
 
-			KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header text found.......!")
+			KeywordUtil.markPassed("User Navigate to the Dating Preferences Screen and Dating Preferences header label text found.......!")
 
 			CustomKeywords.'com.spotlove.Utility.swipe_down'()
 			Mobile.delay(2)
@@ -74,7 +74,7 @@ if(Mobile.waitForElementPresent(explore_tab, 60)) {
 							if(Mobile.waitForElementPresent(Edit_profile, 60)) {
 
 								Mobile.tap(Edit_profile, 60)
-								KeywordUtil.markPassed("User Tapped on the Edit Profile button.......!")
+								KeywordUtil.markPassed("User tap on the Edit Profile button.......!")
 
 								if(Mobile.waitForElementPresent(User_Name, 30)) {
 
@@ -91,16 +91,16 @@ if(Mobile.waitForElementPresent(explore_tab, 60)) {
 
 										if(Mobile.waitForElementPresent(profile_lbl, 60)) {
 
-											KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header text found.......!")
+											KeywordUtil.markPassed("User Navigate to the Profile Tab Screen and Profile header label text found.......!")
 
 											if(Mobile.waitForElementPresent(liked_tab, 60)) {
 
 												Mobile.tap(liked_tab, 60)
-												KeywordUtil.markPassed("User Navigate to the liked tab.......!")
+												KeywordUtil.markPassed("User tap on the liked tab.......!")
 
 												if(Mobile.waitForElementPresent(liked_lbl, 60)) {
 
-													KeywordUtil.markPassed("User Navigate to the liked tab and Liked You Lbl text found on the Liked you tab.......!")
+													KeywordUtil.markPassed("User Navigate to the liked tab and Liked You Lbl text found on the header of Liked you tab.......!")
 
 													CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
 													Mobile.delay(2)
@@ -113,11 +113,11 @@ if(Mobile.waitForElementPresent(explore_tab, 60)) {
 													if(Mobile.waitForElementPresent(matches_tab, 60)) {
 
 														Mobile.tap(matches_tab, 60)
-														KeywordUtil.markPassed("User Navigate to the Matches tab.......!")
+														KeywordUtil.markPassed("User tap on the Matches tab.......!")
 
 														if(Mobile.waitForElementPresent(matches_lbl, 60)) {
 
-															KeywordUtil.markPassed("User Navigate to the Matches tab and Matches Lbl text found on the Matches tab.......!")
+															KeywordUtil.markPassed("User Navigate to the Matches tab and Matches Lbl text found on the header of the Matches tab.......!")
 
 															CustomKeywords.'com.spotlove.Utility.swipe_left_to_right'()
 															Mobile.delay(2)
@@ -130,22 +130,28 @@ if(Mobile.waitForElementPresent(explore_tab, 60)) {
 															if(Mobile.waitForElementPresent(explore_tab, 60)) {
 
 																Mobile.tap(explore_tab, 60)
-																KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
+																KeywordUtil.markPassed("User tap on the Explore tab.......!")
 
+																if(Mobile.waitForElementPresent(header_Explore, 60)) {
+
+																	KeywordUtil.markPassed("User Navigate back to the Explore Screen and Explore header Label Text found.......!")
+																} else {
+																	KeywordUtil.markFailed("User navigation failed and Back button not found.......!")
+																}
 															}else {
-																KeywordUtil.markFailed("User cannot moving to the Explore tab.......!")
+																KeywordUtil.markFailed("Explore tab not found.......!")
 															}
 														}else {
-															KeywordUtil.markFailed("User cannot moving to the Matches tab.......!")
+															KeywordUtil.markFailed("Navigation Failed on Matches tab.......!")
 														}
 													}else {
-														KeywordUtil.markFailed("User cannot moving to the Matches tab.......!")
+														KeywordUtil.markFailed("Matches tab not found.......!")
 													}
 												}else {
-													KeywordUtil.markFailed("User cannot moving to the liked tab.......!")
+													KeywordUtil.markFailed("User navigation failed and Liked You header Label text not found.......!")
 												}
 											}else {
-												KeywordUtil.markFailed("User cannot moving to the liked tab.......!")
+												KeywordUtil.markFailed("liked tab not found.......!")
 											}
 										}else {
 											KeywordUtil.markFailed("Navigation Failed.......!")
@@ -154,25 +160,25 @@ if(Mobile.waitForElementPresent(explore_tab, 60)) {
 										KeywordUtil.markFailed("Back button not found.......!")
 									}
 								}else {
-									KeywordUtil.markFailed("User Name header Label text not found.......!")
+									KeywordUtil.markFailed("User navigation failed and Header User Name Label text not found.......!")
 								}
 							}else {
 								KeywordUtil.markFailed("Edit profile button not found.......!")
 							}
 						}else {
-							KeywordUtil.markFailed("Profile header Label text not found.......!")
+							KeywordUtil.markFailed("User navigation failed and Profile header Label text not found.......!")
 						}
 					}else {
 						KeywordUtil.markFailed("Profile Tab not found.......!")
 					}
 				} else {
-					KeywordUtil.markFailed("Back button not found.......!")
+					KeywordUtil.markFailed("User navigation failed and Back button not found.......!")
 				}
 			} else {
 				KeywordUtil.markFailed("Back button not found.......!")
 			}
 		} else {
-			KeywordUtil.markFailed("Dating Preferences header Label text not found.......!")
+			KeywordUtil.markFailed("User navigation failed and Dating Preferences header Label text not found.......!")
 		}
 	} else {
 		KeywordUtil.markFailed("Preferences icon not Found.......!")

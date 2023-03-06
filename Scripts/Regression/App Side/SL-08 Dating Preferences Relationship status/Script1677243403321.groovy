@@ -23,75 +23,81 @@ import com.spotlove.Utility
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 try {
-if(Mobile.waitForElementPresent(Relationship_icon, 120)) {
+	if(Mobile.waitForElementPresent(Relationship_icon, 120)) {
 
-	KeywordUtil.markPassed("Relationship Status icon found.......!")
+		KeywordUtil.markPassed("Relationship Status icon found.......!")
 
-	if(Mobile.waitForElementPresent(Relationship_userdata, 120)) {
+		if(Mobile.waitForElementPresent(Relationship_userdata, 120)) {
 
-		KeywordUtil.markPassed("Relationship Status User data Label text found.......!")
+			KeywordUtil.markPassed("Relationship Status User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 120)) {
+			if(Mobile.waitForElementPresent(for_icon, 120)) {
 
-			KeywordUtil.markPassed("Relationship Status Forword icon found.......!")
+				KeywordUtil.markPassed("Relationship Status Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Relationship, 120)) {
+				if(Mobile.waitForElementPresent(lbl_Relationship, 120)) {
 
-				Mobile.tap(lbl_Relationship, 120)
-				KeywordUtil.markPassed("Relationship Status Selection PopUp opened.......!")
+					Mobile.tap(lbl_Relationship, 120)
+					KeywordUtil.markPassed("Relationship Status Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 120)) {
+					if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 120)
-					KeywordUtil.markPassed("Relationship Status PopUp closed.......!")
+						Mobile.tap(close_popup, 120)
+						KeywordUtil.markPassed("Relationship Status PopUp closed.......!")
 
-					if(Mobile.waitForElementPresent(Relationship_userdata, 120)) {
+						if(Mobile.waitForElementPresent(Relationship_userdata, 120)) {
 
-						Mobile.tap(Relationship_userdata, 120)
-						KeywordUtil.markPassed("Relationship Status Selection PopUp opened.......!")
+							Mobile.tap(Relationship_userdata, 120)
+							KeywordUtil.markPassed("Relationship Status Selection PopUp opened.......!")
 
-						if(Mobile.waitForElementPresent(Relationship_popup, 120)) {
+							if(Mobile.waitForElementPresent(Relationship_popup, 120)) {
 
-							KeywordUtil.markPassed("Header Relationship Status on PopUp Found.......!")
+								KeywordUtil.markPassed("Header Relationship Status on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 120)) {
+								if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
-								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
-								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Relationship)
+									KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
+									CustomKeywords.'com.spotlove.Utility.dating_Pref'(Relationship)
 
-								if(Mobile.waitForElementPresent(btn_save, 120)) {
+									if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 120)
-									KeywordUtil.markPassed("Relationship Status PopUp Closed Found.......!")
+										Mobile.tap(btn_save, 120)
+										KeywordUtil.markPassed("Relationship Status PopUp Closed Found.......!")
 
+										if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
 
+											KeywordUtil.markPassed("Relationship Status preferences Updated Successfully.......!")
+											Mobile.delay(5)
+										}else {
+											KeywordUtil.markFailed("Relationship Status preferences Updating Error.......!")
+										}
+									}else {
+										KeywordUtil.markFailed("Save Button not Found.......!")
+									}
 								}else {
-									KeywordUtil.markFailed("Save Button not Found.......!")
+									KeywordUtil.markFailed("What are you open to? not Found.......!")
 								}
 							}else {
-								KeywordUtil.markFailed("What are you open to? not Found.......!")
+								KeywordUtil.markFailed("Header Relationship Status on PopUp not Found.......!")
 							}
 						}else {
-							KeywordUtil.markFailed("Header Relationship Status on PopUp not Found.......!")
+							KeywordUtil.markFailed("Relationship Status Popup not opened on the screen.......!")
 						}
 					}else {
-						KeywordUtil.markFailed("Relationship Status Popup not opened on the screen.......!")
+						KeywordUtil.markFailed("Close button not Found.......!")
 					}
 				}else {
-					KeywordUtil.markFailed("Close button not Found.......!")
+					KeywordUtil.markFailed("Relationship Status Popup not opened on the screen.......!")
 				}
 			}else {
-				KeywordUtil.markFailed("Relationship Status Popup not opened on the screen.......!")
+				KeywordUtil.markFailed("Relationship Status Forword icon Label text not Found.......!")
 			}
 		}else {
-			KeywordUtil.markFailed("Relationship Status Forword icon Label text not Found.......!")
+			KeywordUtil.markFailed("Relationship Status User data Label text not Found.......!")
 		}
 	}else {
-		KeywordUtil.markFailed("Relationship Status User data Label text not Found.......!")
+		KeywordUtil.markFailed("Relationship Status icon not Found.......!")
 	}
-}else {
-	KeywordUtil.markFailed("Relationship Status icon not Found.......!")
-}
 
 }catch(Exception e) {
 	e.printStackTrace()

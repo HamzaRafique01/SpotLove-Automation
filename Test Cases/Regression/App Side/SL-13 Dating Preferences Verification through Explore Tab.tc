@@ -89,12 +89,24 @@
       <value></value>
       <variableId>e2c41114-5a05-4ed5-853c-bb1fb5513750</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c89c9ab-2feb-420e-95ff-db7f3d82a170</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2cf997b1-c6c4-46ce-bea2-903db91614dc</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Explore Tab')</defaultValue>
+      <defaultValue>findTestObject('Regression/App Sides/Explore Tab/Header lbl - Explore')</defaultValue>
       <description></description>
       <id>67e7702c-4727-45be-ae4e-2d00bdb9d027</id>
       <masked>false</masked>
-      <name>explore_tab</name>
+      <name>lbl_explore</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Explore Tab/User Profile Image')</defaultValue>
@@ -186,5 +198,19 @@
       <id>e2c41114-5a05-4ed5-853c-bb1fb5513750</id>
       <masked>false</masked>
       <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/bottom sheet - Preferences Updated')</defaultValue>
+      <description></description>
+      <id>1c89c9ab-2feb-420e-95ff-db7f3d82a170</id>
+      <masked>false</masked>
+      <name>Preferences_updated</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Explore Tab')</defaultValue>
+      <description></description>
+      <id>2cf997b1-c6c4-46ce-bea2-903db91614dc</id>
+      <masked>false</masked>
+      <name>explore_tab</name>
    </variable>
 </TestCaseEntity>

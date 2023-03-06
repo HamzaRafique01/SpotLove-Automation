@@ -33,7 +33,7 @@ if(Mobile.waitForElementPresent(lbl_profile, 60)) {
 
 		KeywordUtil.markPassed("Profile Image found.......!")
 
-		if(Mobile.waitForElementPresent(profile_image, 60)) {
+		if(Mobile.waitForElementPresent(lbl_profile_percentage, 60)) {
 
 			KeywordUtil.markPassed("Profile 100% Complete lbl text found.......!")
 
@@ -206,13 +206,3 @@ if(Mobile.waitForElementPresent(lbl_profile, 60)) {
 }else {
 	KeywordUtil.markFailed("Profile lbl text not Found.......!")
 }
-
-
-
-
-
-
-
-
-
-

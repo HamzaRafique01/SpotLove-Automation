@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
 
-//Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 
 Mobile.tap(Profile_tap, 120)
@@ -81,13 +81,17 @@ try {
 
 													Mobile.tap(btn_save, 120)
 													KeywordUtil.markPassed("Gender PopUp Closed.......!")
-
-
+													
+													if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
+														
+														KeywordUtil.markPassed("Gender preferences Updated Successfully.......!")
+														Mobile.delay(5)
+													}else {
+														KeywordUtil.markFailed("Gender preferences Updating Error.......!")
+													}
 												}else {
 													KeywordUtil.markFailed("Save Button not Found.......!")
 												}
-
-
 											}else {
 												KeywordUtil.markFailed("Header Gender on PopUp not Found.......!")
 											}

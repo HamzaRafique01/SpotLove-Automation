@@ -65,6 +65,14 @@ if(Mobile.waitForElementPresent(Children_icon, 120)) {
 
 									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Children PopUp Closed Found.......!")
+									
+									if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
+										
+										KeywordUtil.markPassed("Children preferences Updated Successfully.......!")
+										Mobile.delay(5)
+									}else {
+										KeywordUtil.markFailed("Children preferences Updating Error.......!")
+									}
 
 
 								}else {

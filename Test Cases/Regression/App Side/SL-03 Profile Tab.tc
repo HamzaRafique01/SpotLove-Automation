@@ -119,6 +119,12 @@
       <value></value>
       <variableId>ad08dd9e-b1e8-4a20-9aa1-c7d7e16c4c9e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>219bf986-9ca2-48aa-8acd-2cf7b8223146</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Profile')</defaultValue>
       <description></description>
@@ -251,5 +257,12 @@
       <id>ad08dd9e-b1e8-4a20-9aa1-c7d7e16c4c9e</id>
       <masked>false</masked>
       <name>Setting</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Profile Tab/lbl text - 100 percent Complete')</defaultValue>
+      <description></description>
+      <id>219bf986-9ca2-48aa-8acd-2cf7b8223146</id>
+      <masked>false</masked>
+      <name>lbl_profile_percentage</name>
    </variable>
 </TestCaseEntity>

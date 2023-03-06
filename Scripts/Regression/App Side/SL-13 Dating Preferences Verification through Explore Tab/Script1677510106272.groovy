@@ -27,14 +27,10 @@ int a,b
 Mobile.tap(explore_tab, 120)
 
 try {
-if(Mobile.waitForElementPresent(profile_image, 120)) {
 
-	KeywordUtil.markPassed("Application Launched Successfully.......!")
-	KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details.......!")
+	if(Mobile.waitForElementPresent(lbl_explore, 120)) {
 
-	if(Mobile.waitForElementPresent(explore_tab, 120)) {
-
-		KeywordUtil.markPassed("User Navigate to the Explore tab.......!")
+		KeywordUtil.markPassed("Application Launched Successfully and User Navigate to the Explore tab.......!")
 
 		CustomKeywords.'com.spotlove.Utility.swipe_down'()
 		Mobile.delay(2)
@@ -90,24 +86,32 @@ if(Mobile.waitForElementPresent(profile_image, 120)) {
 													Mobile.tap(btn_save, 120)
 													KeywordUtil.markPassed("Religion PopUp Closed Found.......!")
 
-													if(Mobile.waitForElementPresent(btn_back, 120)) {
+													if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
 
-														CustomKeywords.'com.spotlove.Utility.tap_back'()
-														KeywordUtil.markPassed("Back Button Found and Tapped.......!")
+														KeywordUtil.markPassed("Religion preferences Updated Successfully.......!")
+														Mobile.delay(5)
 
-														if(Mobile.waitForElementPresent(profile_image, 120)) {
+														if(Mobile.waitForElementPresent(btn_back, 120)) {
 
-															KeywordUtil.markPassed("User Navigate to the Explore Tab Screen and Explore header text found.......!")
+															CustomKeywords.'com.spotlove.Utility.tap_back'()
+															KeywordUtil.markPassed("Back Button Found and Tapped.......!")
 
-														}else {
-															KeywordUtil.markFailed("Navigation Failed.......!")
+															if(Mobile.waitForElementPresent(lbl_explore, 120)) {
+
+																KeywordUtil.markPassed("User Navigate to the Explore Tab Screen and Explore header text found.......!")
+
+															}else {
+																KeywordUtil.markFailed("Navigation Failed.......!")
+															}
+														} else {
+															KeywordUtil.markFailed("Back button not found.......!")
 														}
-													} else {
-														KeywordUtil.markFailed("Back button not found.......!")
-													}
 
+													}else {
+														KeywordUtil.markFailed("Save Button not Found.......!")
+													}
 												}else {
-													KeywordUtil.markFailed("Save Button not Found.......!")
+													KeywordUtil.markFailed("Religion preferences Updating Error.......!")
 												}
 											}else {
 												KeywordUtil.markFailed("What are you open to? not Found.......!")
@@ -142,9 +146,6 @@ if(Mobile.waitForElementPresent(profile_image, 120)) {
 	}else {
 		KeywordUtil.markFailed("User cannot moving to the Explore tab.......!")
 	}
-}else {
-	KeywordUtil.markFailed("User Profile Image not found on Explore Tab.......!")
-}
 
 
 

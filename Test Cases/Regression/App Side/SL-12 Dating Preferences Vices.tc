@@ -65,6 +65,12 @@
       <value></value>
       <variableId>2e268900-0e52-49d2-91b3-c588268bbf9f</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5414af10-5d90-4db1-8058-29a876dab840</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Vices/bottle icon')</defaultValue>
       <description></description>
@@ -134,5 +140,12 @@
       <id>2e268900-0e52-49d2-91b3-c588268bbf9f</id>
       <masked>false</masked>
       <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/bottom sheet - Preferences Updated')</defaultValue>
+      <description></description>
+      <id>5414af10-5d90-4db1-8058-29a876dab840</id>
+      <masked>false</masked>
+      <name>Preferences_updated</name>
    </variable>
 </TestCaseEntity>

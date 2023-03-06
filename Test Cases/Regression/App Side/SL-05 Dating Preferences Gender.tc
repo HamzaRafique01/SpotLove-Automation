@@ -89,6 +89,12 @@
       <value></value>
       <variableId>58fbefd5-8b9c-4c0d-996b-985745be2885</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9534be13-c5c0-45df-918c-918e6ca6233a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Profile')</defaultValue>
       <description></description>
@@ -186,5 +192,12 @@
       <id>58fbefd5-8b9c-4c0d-996b-985745be2885</id>
       <masked>false</masked>
       <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/bottom sheet - Preferences Updated')</defaultValue>
+      <description></description>
+      <id>9534be13-c5c0-45df-918c-918e6ca6233a</id>
+      <masked>false</masked>
+      <name>Preferences_updated</name>
    </variable>
 </TestCaseEntity>

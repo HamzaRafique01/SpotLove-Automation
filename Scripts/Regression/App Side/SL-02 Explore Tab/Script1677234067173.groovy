@@ -24,14 +24,15 @@ import com.detroitlabs.katalonmobileutil.touch.Swipe.SwipeDirection as SwipeDire
 import com.detroitlabs.katalonmobileutil.touch.Scroll as Scroll
 import com.detroitlabs.katalonmobileutil.touch.Scroll.ScrollFactor as ScrollFactor
 
-Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+//Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(Explore_tab, 120)
 
 if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 
 	KeywordUtil.markPassed("User Profile Image found on Explore Tab User Details....!")
 
-	if(Mobile.waitForElementPresent(header_Explore, 60)) {
+	if(Mobile.waitForElementPresent(lbl_header_Explore, 60)) {
 
 		KeywordUtil.markPassed("Explore header Label Text found....!")
 
@@ -49,58 +50,58 @@ if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 					CustomKeywords.'com.spotlove.Utility.tap_back'()
 					KeywordUtil.markPassed("Back Button Found and Tapped....!")
 
-					if(Mobile.waitForElementPresent(header_Explore, 60)) {
+					if(Mobile.waitForElementPresent(lbl_header_Explore, 60)) {
 
-						KeywordUtil.markPassed("User Navigate back to the Explore Screen and Explore header Label Text found....!!")
+						KeywordUtil.markPassed("User Navigate back to the Explore Screen and Explore header Label Text found.....!")
 
 						if(Mobile.waitForElementPresent(three_dots, 60)) {
 
 							Mobile.tap(three_dots, 60)
-							KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
+							KeywordUtil.markPassed("Three Dots icon found and tapped....!")
 
 							if(Mobile.waitForElementPresent(btn_close, 60)) {
 
 								Mobile.tap(btn_close, 60)
-								KeywordUtil.markPassed("Report/Block Bottom sheet close ....!")
+								KeywordUtil.markPassed("Report/Block Bottom sheet closed....!")
 
 								if(Mobile.waitForElementPresent(three_dots, 60)) {
 
 									Mobile.tap(three_dots, 60)
-									KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
+									KeywordUtil.markPassed("Three Dots icon tap on Explore Tab.....!")
 
 									if(Mobile.waitForElementPresent(header_option, 60)) {
 
 										KeywordUtil.markPassed("Header Option Label text found.....!")
 
-										if(Mobile.waitForElementPresent(block_user, 60)) {
+										if(Mobile.waitForElementPresent(btn_block_user, 60)) {
 
-											Mobile.tap(block_user, 60)
+											Mobile.tap(btn_block_user, 60)
 											KeywordUtil.markPassed("Current User has been blocked...!")
 
 											if(Mobile.waitForElementPresent(three_dots, 60)) {
 
 												Mobile.tap(three_dots, 60)
-												KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
+												KeywordUtil.markPassed("Three Dots icon found and tap......!")
 
-												if(Mobile.waitForElementPresent(report_user, 60)) {
+												if(Mobile.waitForElementPresent(btn_report_user, 60)) {
 
-													Mobile.tap(report_user, 60)
+													Mobile.tap(btn_report_user, 60)
 													KeywordUtil.markPassed("Report bottom sheet opened on the Screen...!")
 													Mobile.delay(10)
 
 													if(Mobile.waitForElementPresent(btn_close, 60)) {
 
 														Mobile.tap(btn_close, 60)
-														KeywordUtil.markPassed("Report/Block Bottom sheet close ....!")
+														KeywordUtil.markPassed("Report/Block Bottom sheet close button found.....!")
 
 														if(Mobile.waitForElementPresent(three_dots, 60)) {
 
 															Mobile.tap(three_dots, 60)
 															KeywordUtil.markPassed("Three Dots icon found on Explore Tab User Details....!")
 
-															if(Mobile.waitForElementPresent(report_user, 60)) {
+															if(Mobile.waitForElementPresent(btn_report_user, 60)) {
 
-																Mobile.tap(report_user, 60)
+																Mobile.tap(btn_report_user, 60)
 																KeywordUtil.markPassed("Report bottom sheet opened on the Screen...!")
 
 																if(Mobile.waitForElementPresent(report_header, 60)) {
@@ -116,10 +117,11 @@ if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 																			Mobile.setText(input_reason, reason, 60)
 																			KeywordUtil.markPassed("User Report reason entered on the Text edit box....!")
 
-																			if(Mobile.waitForElementPresent(input_reason, 60)) {
+																			if(Mobile.waitForElementPresent(btn_submit, 120)) {
 
+																				Mobile.waitForElementPresent(btn_submit, 120)
 																				CustomKeywords.'com.spotlove.Utility.tap_Submit'()
-																				KeywordUtil.markPassed("Submit Button found on the bottom sheet......!")
+																				KeywordUtil.markPassed("Submit Button found on the bottom sheet and tapped......!")
 
 																				if(Mobile.waitForElementPresent(User_Name, 60)) {
 
@@ -139,7 +141,6 @@ if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 																								CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
 																								if(Mobile.waitForElementPresent(user_location, 60)) {
-
 
 																									KeywordUtil.markPassed("User Location details found on Explore Tab User Details....!")
 
@@ -165,15 +166,15 @@ if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 
 																														if(Mobile.waitForElementPresent(relationship_status, 60)) {
 
-																															KeywordUtil.markPassed("User Relationship Status details found on Explore Tab User Details....!")
+																															KeywordUtil.markPassed("User Relationship Status details found on Explore Tab......!")
 
 																															if(Mobile.waitForElementPresent(family_plan, 60)) {
 
-																																KeywordUtil.markPassed("User Family Plan details found on Explore Tab User Details....!")
+																																KeywordUtil.markPassed("User Family Plan details found on Explore Tab......!")
 
 																																if(Mobile.waitForElementPresent(education, 60)) {
 
-																																	KeywordUtil.markPassed("User Education details found on Explore Tab User Details....!")
+																																	KeywordUtil.markPassed("User Education details found on Explore Tab......!")
 																																	CustomKeywords.'com.spotlove.Utility.swipe_up'(0,0)
 																																	Mobile.delay(10)
 
@@ -224,85 +225,62 @@ if(Mobile.waitForElementPresent(ProfileImage, 60)) {
 																					KeywordUtil.markFailed("User Name not found on Explore Tab")
 																				}
 																			} else {
-																				KeywordUtil.markFailed("Back button not found....")
+																				KeywordUtil.markFailed("Submit button not found....")
 																			}
-
 																		} else {
-																			KeywordUtil.markFailed("Submit button is not found!")
+																			KeywordUtil.markFailed("Report text box not found.....!")
 																		}
 																	} else {
-																		KeywordUtil.markFailed("Report text box not found....!")
+																		KeywordUtil.markFailed("We will never show this user to you again label text not found....!")
 																	}
 																} else {
-																	KeywordUtil.markFailed("We will never show this user to you again label text not found....!")
+																	KeywordUtil.markFailed("Report Header is not found......s!")
 																}
 															} else {
-																KeywordUtil.markFailed("Report Header is not found....!")
+																KeywordUtil.markFailed("Report Button is not working....!")
 															}
 														} else {
-															KeywordUtil.markFailed("Report Button is not working")
+															KeywordUtil.markFailed("Three Dots icon not found on Explore Tab....!")
 														}
 													} else {
-														KeywordUtil.markFailed("Three Dots icon not found on Explore Tab")
+														KeywordUtil.markFailed("Close button is not found on Explore Tab.....!")
 													}
 												} else {
-													KeywordUtil.markFailed("Close button is not found on Explore Tab")
+													KeywordUtil.markFailed("Report Button is not working....!")
 												}
 											} else {
-												KeywordUtil.markFailed("Report Button is not working")
+												KeywordUtil.markFailed("Three Dots icon not found on Explore Tab")
 											}
 										} else {
-											KeywordUtil.markFailed("Three Dots icon not found on Explore Tab")
+											KeywordUtil.markFailed("Block Button is not working....!")
 										}
 									} else {
-										KeywordUtil.markFailed("Block Button is not working")
+										KeywordUtil.markFailed("Header Option Label text not found.....!")
 									}
-
 								}else {
-									KeywordUtil.markFailed("Header Option Label text not found.....!")
+									KeywordUtil.markFailed("Three Dots icon not found on Explore Tab")
 								}
 							} else {
-								KeywordUtil.markFailed("Three Dots icon not found on Explore Tab")
+								KeywordUtil.markFailed("Close button is not found on Explore Tab")
 							}
 						} else {
-							KeywordUtil.markFailed("Close button is not found on Explore Tab")
+							KeywordUtil.markFailed("Three Dots icon not found on Explore Tab....!")
 						}
 					} else {
-						KeywordUtil.markFailed("Three Dots icon not found on Explore Tab")
+						KeywordUtil.markFailed("Navigation failed due to Back button not found....!")
 					}
 				} else {
-					KeywordUtil.markFailed("Back button not found....!")
+					KeywordUtil.markFailed("Dating Preferences header Label text not found....!")
 				}
 			} else {
-				KeywordUtil.markFailed("Dating Preferences header Label text not found....!")
+				KeywordUtil.markFailed("Navigation failed due to Preferences Icon not Found....!")
 			}
 		} else {
-			KeywordUtil.markFailed("Preferences Icon not Found....!")
+			KeywordUtil.markFailed("Explore header Label text not found....!")
 		}
 	} else {
-		KeywordUtil.markFailed("Explore header Label text not found....!")
+		KeywordUtil.markFailed("User Profile Image not found on Explore Tab")
 	}
 }else {
 	KeywordUtil.logInfo("User Profile Image not found on Explore Tab")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

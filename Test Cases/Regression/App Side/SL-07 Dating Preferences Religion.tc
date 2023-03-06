@@ -59,6 +59,12 @@
       <value></value>
       <variableId>2bc53111-e523-473b-a626-c6eb84533a86</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40ed5371-6fe7-45cd-9cea-d49db94c50ab</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Religion/Religion Icon')</defaultValue>
       <description></description>
@@ -121,5 +127,12 @@
       <id>2bc53111-e523-473b-a626-c6eb84533a86</id>
       <masked>false</masked>
       <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/bottom sheet - Preferences Updated')</defaultValue>
+      <description></description>
+      <id>40ed5371-6fe7-45cd-9cea-d49db94c50ab</id>
+      <masked>false</masked>
+      <name>Preferences_updated</name>
    </variable>
 </TestCaseEntity>

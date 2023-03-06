@@ -42,10 +42,10 @@ try {
 					Mobile.tap(lbl_Ethnicity, 120)
 					KeywordUtil.markPassed("Ethnicity Selection PopUp opened.......!")
 
-//					if(Mobile.waitForElementPresent(close_popup, 120)) {
-//
-//						Mobile.tap(close_popup, 120)
-//						KeywordUtil.markPassed("Ethnicity PopUp closed.......!")
+					if(Mobile.waitForElementPresent(close_popup, 120)) {
+
+						Mobile.tap(close_popup, 120)
+						KeywordUtil.markPassed("Ethnicity PopUp closed.......!")
 
 						if(Mobile.waitForElementPresent(Ethnicity_userdata, 120)) {
 
@@ -66,8 +66,14 @@ try {
 
 										Mobile.tap(btn_save, 120)
 										KeywordUtil.markPassed("Ethnicity PopUp Closed Found.......!")
-
-
+										
+										if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
+											
+											KeywordUtil.markPassed("Ethnicity preferences Updated Successfully.......!")
+											Mobile.delay(5)
+										}else {
+											KeywordUtil.markFailed("Ethnicity preferences Updating Error.......!")
+										}
 									}else {
 										KeywordUtil.markFailed("Save Buttonnot Found.......!")
 									}
@@ -80,9 +86,9 @@ try {
 						}else {
 							KeywordUtil.markFailed("Ethnicity Popup not opened on the screen.......!")
 						}
-//					}else {
-//						KeywordUtil.markFailed("Close button not Found.......!")
-//					}
+					}else {
+						KeywordUtil.markFailed("Close button not Found.......!")
+					}
 				}else {
 					KeywordUtil.markFailed("Ethnicity Popup not opened on the screen.......!")
 				}

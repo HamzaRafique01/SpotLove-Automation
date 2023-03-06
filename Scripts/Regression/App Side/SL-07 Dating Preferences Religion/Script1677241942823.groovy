@@ -63,8 +63,14 @@ if(Mobile.waitForElementPresent(Religion_icon, 120)) {
 
 									Mobile.tap(btn_save, 120)
 									KeywordUtil.markPassed("Religion PopUp Closed Found.......!")
-
-
+									
+									if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
+										
+										KeywordUtil.markPassed("Religion preferences Updated Successfully.......!")
+										Mobile.delay(5)
+									}else {
+										KeywordUtil.markFailed("Religion preferences Updating Error.......!")
+									}
 								}else {
 									KeywordUtil.markFailed("Save Button not Found.......!")
 								}

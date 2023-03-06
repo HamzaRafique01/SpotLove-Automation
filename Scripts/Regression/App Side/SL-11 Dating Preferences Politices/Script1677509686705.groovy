@@ -26,76 +26,82 @@ import com.spotlove.Utility
 CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
 try {
-if(Mobile.waitForElementPresent(Politics_icon, 120)) {
+	if(Mobile.waitForElementPresent(Politics_icon, 120)) {
 
-	KeywordUtil.markPassed("Politics icon found.......!")
+		KeywordUtil.markPassed("Politics icon found.......!")
 
-	if(Mobile.waitForElementPresent(Politics_userdata, 120)) {
+		if(Mobile.waitForElementPresent(Politics_userdata, 120)) {
 
-		KeywordUtil.markPassed("Politics User data Label text found.......!")
+			KeywordUtil.markPassed("Politics User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 120)) {
+			if(Mobile.waitForElementPresent(for_icon, 120)) {
 
-			KeywordUtil.markPassed("Politics Forword icon found.......!")
+				KeywordUtil.markPassed("Politics Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Politics, 120)) {
+				if(Mobile.waitForElementPresent(lbl_Politics, 120)) {
 
-				Mobile.tap(lbl_Politics, 120)
-				KeywordUtil.markPassed("Politics Selection PopUp opened.......!")
+					Mobile.tap(lbl_Politics, 120)
+					KeywordUtil.markPassed("Politics Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 120)) {
+					if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 120)
-					KeywordUtil.markPassed("Politics PopUp closed.......!")
-//					CustomKeywords.'com.spotlove.Utility.swipe_down'()
+						Mobile.tap(close_popup, 120)
+						KeywordUtil.markPassed("Politics PopUp closed.......!")
+						//					CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
-					if(Mobile.waitForElementPresent(lbl_Politics, 80)) {
+						if(Mobile.waitForElementPresent(lbl_Politics, 80)) {
 
-						Mobile.tap(lbl_Politics, 120)
-						KeywordUtil.markPassed("Politics Selection PopUp opened.......!")
+							Mobile.tap(lbl_Politics, 120)
+							KeywordUtil.markPassed("Politics Selection PopUp opened.......!")
 
-						if(Mobile.waitForElementPresent(Politics_popup, 120)) {
+							if(Mobile.waitForElementPresent(Politics_popup, 120)) {
 
-							KeywordUtil.markPassed("Header Politics on PopUp Found.......!")
+								KeywordUtil.markPassed("Header Politics on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 120)) {
+								if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
-								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
-								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Politics)
+									KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
+									CustomKeywords.'com.spotlove.Utility.dating_Pref'(Politics)
 
-								if(Mobile.waitForElementPresent(btn_save, 120)) {
+									if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 120)
-									KeywordUtil.markPassed("Politics PopUp Closed Found.......!")
+										Mobile.tap(btn_save, 120)
+										KeywordUtil.markPassed("Politics PopUp Closed Found.......!")
 
+										if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
 
+											KeywordUtil.markPassed("Politics preferences Updated Successfully.......!")
+											Mobile.delay(5)
+										}else {
+											KeywordUtil.markFailed("Politics preferences Updating Error.......!")
+										}
+									}else {
+										KeywordUtil.markFailed("Save Button not Found.......!")
+									}
 								}else {
-									KeywordUtil.markFailed("Save Button not Found.......!")
+									KeywordUtil.markFailed("What are you open to? not Found.......!")
 								}
 							}else {
-								KeywordUtil.markFailed("What are you open to? not Found.......!")
+								KeywordUtil.markFailed("Header Politics on PopUp not Found.......!")
 							}
 						}else {
-							KeywordUtil.markFailed("Header Politics on PopUp not Found.......!")
+							KeywordUtil.markFailed("Politics Popup not opened on the screen.......!")
 						}
 					}else {
-						KeywordUtil.markFailed("Politics Popup not opened on the screen.......!")
+						KeywordUtil.markFailed("Close button not Found.......!")
 					}
 				}else {
-					KeywordUtil.markFailed("Close button not Found.......!")
+					KeywordUtil.markFailed("Politics Popup not opened on the screen.......!")
 				}
 			}else {
-				KeywordUtil.markFailed("Politics Popup not opened on the screen.......!")
+				KeywordUtil.markFailed("Politics Forword icon Label text not Found.......!")
 			}
 		}else {
-			KeywordUtil.markFailed("Politics Forword icon Label text not Found.......!")
+			KeywordUtil.markFailed("Politics User data Label text not Found.......!")
 		}
 	}else {
-		KeywordUtil.markFailed("Politics User data Label text not Found.......!")
+		KeywordUtil.markFailed("Politics icon not Found.......!")
 	}
-}else {
-	KeywordUtil.markFailed("Politics icon not Found.......!")
-}
 
 
 }catch(Exception e) {

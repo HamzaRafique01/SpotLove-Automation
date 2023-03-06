@@ -196,7 +196,7 @@ public class Utility {
 
 		int startY = device_Height * 0.55
 
-		int endY = device_Height * 0.76
+		int endY = device_Height * 0.80
 
 		Mobile.swipe(startX, startY, endX, endY)
 		Mobile.swipe(startX, startY, endX, endY)

@@ -177,14 +177,14 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>02b8dd95-1e45-4e94-b28e-3866ff4cd9c6</variableId>
+      <variableId>e2598806-a0cc-4337-a10f-a997db02c990</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Explore Tab/Header lbl - Explore')</defaultValue>
       <description></description>
       <id>c81d7fc2-6c34-4c2a-a446-ddf7a355ae4b</id>
       <masked>false</masked>
-      <name>header_Explore</name>
+      <name>lbl_header_Explore</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Explore Tab/Preferences Icon (home)')</defaultValue>
@@ -324,14 +324,14 @@
       <description></description>
       <id>aa1882c3-3eff-4a7b-825d-4b990cc370a8</id>
       <masked>false</masked>
-      <name>block_user</name>
+      <name>btn_block_user</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Explore Tab/Report Block Bottom Sheets/btn Report User')</defaultValue>
       <description></description>
       <id>ee8cd034-a305-4fdd-9ff3-95904df14525</id>
       <masked>false</masked>
-      <name>report_user</name>
+      <name>btn_report_user</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Explore Tab/Report Block Bottom Sheets/lbl text - We will never show this user to you again')</defaultValue>
@@ -376,10 +376,10 @@
       <name>report_header</name>
    </variable>
    <variable>
-      <defaultValue>'Liberal'</defaultValue>
+      <defaultValue>findTestObject('Regression/App Sides/Main Tabs/Explore Tab')</defaultValue>
       <description></description>
-      <id>02b8dd95-1e45-4e94-b28e-3866ff4cd9c6</id>
+      <id>e2598806-a0cc-4337-a10f-a997db02c990</id>
       <masked>false</masked>
-      <name>text</name>
+      <name>Explore_tab</name>
    </variable>
 </TestCaseEntity>

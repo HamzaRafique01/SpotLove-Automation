@@ -22,85 +22,92 @@ import com.spotlove.Utility
 //Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 try {
-if(Mobile.waitForElementPresent(Vices_icon, 120)) {
+	if(Mobile.waitForElementPresent(Vices_icon, 120)) {
 
-	KeywordUtil.markPassed("Vices icon found.......!")
+		KeywordUtil.markPassed("Vices icon found.......!")
 
-	if(Mobile.waitForElementPresent(Vices_userdata, 120)) {
+		if(Mobile.waitForElementPresent(Vices_userdata, 120)) {
 
-		KeywordUtil.markPassed("Vices User data Label text found.......!")
+			KeywordUtil.markPassed("Vices User data Label text found.......!")
 
-		if(Mobile.waitForElementPresent(for_icon, 120)) {
+			if(Mobile.waitForElementPresent(for_icon, 120)) {
 
-			KeywordUtil.markPassed("Vices Forword icon found.......!")
+				KeywordUtil.markPassed("Vices Forword icon found.......!")
 
-			if(Mobile.waitForElementPresent(lbl_Vices, 120)) {
+				if(Mobile.waitForElementPresent(lbl_Vices, 120)) {
 
-				Mobile.tap(lbl_Vices, 120)
-				//				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
-				KeywordUtil.markPassed("Vices Selection PopUp opened.......!")
+					Mobile.tap(lbl_Vices, 120)
+					//				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
+					KeywordUtil.markPassed("Vices Selection PopUp opened.......!")
 
-				if(Mobile.waitForElementPresent(close_popup, 120)) {
+					if(Mobile.waitForElementPresent(close_popup, 120)) {
 
-					Mobile.tap(close_popup, 120)
-					KeywordUtil.markPassed("Vices PopUp closed.......!")
-					//					CustomKeywords.'com.spotlove.Utility.swipe_down'()
+						Mobile.tap(close_popup, 120)
+						KeywordUtil.markPassed("Vices PopUp closed.......!")
+						//					CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
-					if(Mobile.waitForElementPresent(lbl_Vices, 120)) {
+						if(Mobile.waitForElementPresent(lbl_Vices, 120)) {
 
-						Mobile.tap(lbl_Vices, 120)
-						KeywordUtil.markPassed("Vices Selection PopUp opened.......!")
+							Mobile.tap(lbl_Vices, 120)
+							KeywordUtil.markPassed("Vices Selection PopUp opened.......!")
 
-						if(Mobile.waitForElementPresent(Vices_popup, 120)) {
+							if(Mobile.waitForElementPresent(Vices_popup, 120)) {
 
-							KeywordUtil.markPassed("Header Vices on PopUp Found.......!")
+								KeywordUtil.markPassed("Header Vices on PopUp Found.......!")
 
-							if(Mobile.waitForElementPresent(lbl_what, 120)) {
+								if(Mobile.waitForElementPresent(lbl_what, 120)) {
 
-								KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
-								CustomKeywords.'com.spotlove.Utility.dating_Pref'(Vices)
+									KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
+									CustomKeywords.'com.spotlove.Utility.dating_Pref'(Vices)
 
-								if(Mobile.waitForElementPresent(btn_save, 120)) {
+									if(Mobile.waitForElementPresent(btn_save, 120)) {
 
-									Mobile.tap(btn_save, 120)
-									KeywordUtil.markPassed("Vices PopUp Closed Found.......!")
+										Mobile.tap(btn_save, 120)
+										KeywordUtil.markPassed("Vices PopUp Closed Found.......!")
 
-									if(Mobile.waitForElementPresent(btn_back, 120)) {
+										if(Mobile.waitForElementPresent(Preferences_updated, 120)) {
 
-										CustomKeywords.'com.spotlove.Utility.tap_back'()
-										KeywordUtil.markPassed("Back Button Found and Tapped.......!")
+											KeywordUtil.markPassed("Vices preferences Updated Successfully.......!")
+											Mobile.delay(5)
 
-										
-									} else {
-										KeywordUtil.markFailed("Back button not found.......!")
+											if(Mobile.waitForElementPresent(btn_back, 120)) {
+
+												CustomKeywords.'com.spotlove.Utility.tap_back'()
+												KeywordUtil.markPassed("Back Button Found and Tapped.......!")
+
+											} else {
+												KeywordUtil.markFailed("Back button not found.......!")
+											}
+										}else {
+											KeywordUtil.markFailed("Vices preferences Updating Error.......!")
+										}
+									}else {
+										KeywordUtil.markFailed("Save Button not Found.......!")
 									}
 								}else {
-									KeywordUtil.markFailed("Save Button not Found.......!")
+									KeywordUtil.markFailed("What are you open to? not Found.......!")
 								}
 							}else {
-								KeywordUtil.markFailed("What are you open to? not Found.......!")
+								KeywordUtil.markFailed("Header Vices on PopUp not Found.......!")
 							}
 						}else {
-							KeywordUtil.markFailed("Header Vices on PopUp not Found.......!")
+							KeywordUtil.markFailed("Vices Popup not opened on the screen.......!")
 						}
 					}else {
-						KeywordUtil.markFailed("Vices Popup not opened on the screen.......!")
+						KeywordUtil.markFailed("Close button not Found.......!")
 					}
 				}else {
-					KeywordUtil.markFailed("Close button not Found.......!")
+					KeywordUtil.markFailed("Vices Popup not opened on the screen.......!")
 				}
 			}else {
-				KeywordUtil.markFailed("Vices Popup not opened on the screen.......!")
+				KeywordUtil.markFailed("Vices Forword icon Label text not Found.......!")
 			}
 		}else {
-			KeywordUtil.markFailed("Vices Forword icon Label text not Found.......!")
+			KeywordUtil.markFailed("Vices User data Label text not Found.......!")
 		}
 	}else {
-		KeywordUtil.markFailed("Vices User data Label text not Found.......!")
+		KeywordUtil.markFailed("Vices icon not Found.......!")
 	}
-}else {
-	KeywordUtil.markFailed("Vices icon not Found.......!")
-}
 
 
 

@@ -59,6 +59,12 @@
       <value></value>
       <variableId>b178804d-bb4a-44b5-8897-c95647271a76</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51383658-e46f-4417-88cf-fca6a512b2d5</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/Relationship Status/Relationship Icon')</defaultValue>
       <description></description>
@@ -121,5 +127,12 @@
       <id>b178804d-bb4a-44b5-8897-c95647271a76</id>
       <masked>false</masked>
       <name>btn_save</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Perferences Tab/bottom sheet - Preferences Updated')</defaultValue>
+      <description></description>
+      <id>51383658-e46f-4417-88cf-fca6a512b2d5</id>
+      <masked>false</masked>
+      <name>Preferences_updated</name>
    </variable>
 </TestCaseEntity>
