@@ -44,7 +44,7 @@ try {
 
 						Mobile.tap(close_popup, 120)
 						KeywordUtil.markPassed("Vices PopUp closed.......!")
-						//					CustomKeywords.'com.spotlove.Utility.swipe_down'()
+						CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
 						if(Mobile.waitForElementPresent(lbl_Vices, 120)) {
 
@@ -59,6 +59,7 @@ try {
 
 									KeywordUtil.markPassed("What are you open to? on PopUp Found.......!")
 									CustomKeywords.'com.spotlove.Utility.dating_Pref'(Vices)
+									Mobile.delay(10)
 
 									if(Mobile.waitForElementPresent(btn_save, 120)) {
 

@@ -74,6 +74,7 @@ if(Mobile.waitForElementPresent(likedyou_tab, 60)) {
 										if(Mobile.waitForElementPresent(Ethnicity_popup, 60)) {
 
 											KeywordUtil.markPassed("Header Ethnicity on PopUp Found.......!")
+											Mobile.delay(15)
 
 											if(Mobile.waitForElementPresent(lbl_what, 60)) {
 

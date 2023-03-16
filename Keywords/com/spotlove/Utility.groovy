@@ -1,7 +1,11 @@
 package com.spotlove
 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 import org.openqa.selenium.By
+import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.Keys
+import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions;
 
@@ -10,9 +14,13 @@ import com.detroitlabs.katalonmobileutil.touch.Swipe.SwipeDirection
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import io.appium.java_client.AppiumDriver
 import io.appium.java_client.android.AndroidDriver;
+
 
 
 
@@ -201,6 +209,89 @@ public class Utility {
 		Mobile.swipe(startX, startY, endX, endY)
 		Mobile.swipe(startX, startY, endX, endY)
 	}
+
+	@Keyword
+	def From_date() {
+		WebDriver driver = DriverFactory.getWebDriver()
+		TestObject F_month_year = findTestObject('Object Repository/Web portal/Date picker/Page_Spot Love Admin/month')
+
+		String cmonth = WebUI.getText(F_month_year)
+
+		//		System.out.println(cmonth)
+
+
+		String date1 = "10-April 2024";
+
+		String edate = date1.split("-")[0]
+
+		String emonth = date1.split("-")[1]
+
+
+		while((!cmonth.equals(emonth))) {
+			TestObject btn_next = findTestObject('Object Repository/Web portal/Date picker/Page_Spot Love Admin/btn forword')
+
+			WebUI.click(btn_next)
+
+			cmonth = WebUI.getText(F_month_year)
+		}
+		List<WebElement> el = driver.findElements(By.xpath("//p[@class='MuiTypography-root MuiTypography-body2 MuiTypography-colorInherit']"))
+
+		for(WebElement e :el) {
+			//			System.out.println(e.getText()+"******")
+			if(e.getText().equals(edate)) {
+				e.click()
+				break;
+			}
+		}
+	}
+
+
+	@Keyword
+	def To_date() {
+
+		WebDriver driver = DriverFactory.getWebDriver()
+		TestObject T_month_year = findTestObject('Object Repository/Web portal/Date picker/Page_Spot Love Admin/month')
+
+		String cmonth = WebUI.getText(T_month_year)
+
+		//		System.out.println(cmonth)
+
+
+		String date1 = "10-May 2024";
+
+		String edate = date1.split("-")[0]
+
+		String emonth = date1.split("-")[1]
+
+
+		while((!cmonth.equals(emonth))) {
+			TestObject btn_next = findTestObject('Object Repository/Web portal/Date picker/Page_Spot Love Admin/To btn next')
+
+			WebUI.click(btn_next)
+
+			cmonth = WebUI.getText(T_month_year)
+		}
+		List<WebElement> el = driver.findElements(By.xpath("//p[@class='MuiTypography-root MuiTypography-body2 MuiTypography-colorInherit']"))
+
+		for(WebElement e :el) {
+			//			System.out.println(e.getText()+"******")
+			if(e.getText().equals(edate)) {
+				e.click()
+				break;
+			}
+		}
+	}
+
+	@Keyword
+	def hours_selector() {
+		
+		WebDriver driver = DriverFactory.getWebDriver()
+		TestObject time = findTestObject('Object Repository/Calender/2')
+
+		WebUI.click(time)
+
+		
+	}
 }
 
 
@@ -208,7 +299,7 @@ public class Utility {
 
 
 
-
+//driver.findElement(By.xpath("//div/span[contains(text(),'8')]"))
 
 
 

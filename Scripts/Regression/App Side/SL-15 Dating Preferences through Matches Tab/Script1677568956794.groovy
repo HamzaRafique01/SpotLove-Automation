@@ -55,9 +55,10 @@ try {
 							if(Mobile.waitForElementPresent(for_icon, 60)) {
 
 								KeywordUtil.markPassed("Education Forword icon found.......!")
-
+								
+								
 								if(Mobile.waitForElementPresent(lbl_Education, 60)) {
-
+									
 									Mobile.tap(lbl_Education, 60)
 									//				CustomKeywords.'com.spotlove.Utility.swipe_up'(a,b)
 									KeywordUtil.markPassed("Education Selection PopUp opened.......!")
@@ -66,7 +67,7 @@ try {
 
 										Mobile.tap(close_popup, 60)
 										KeywordUtil.markPassed("Education PopUp closed.......!")
-										//					CustomKeywords.'com.spotlove.Utility.swipe_down'()
+										CustomKeywords.'com.spotlove.Utility.swipe_down'()
 
 										if(Mobile.waitForElementPresent(lbl_Education, 60)) {
 

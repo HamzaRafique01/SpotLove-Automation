@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>dbbfe730-70ad-466b-962e-7ab6020393d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-01 App flow</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -105,7 +105,7 @@
    <testCaseLink>
       <guid>da237bf8-1d6f-4110-ab2c-ca2c79f0b0c2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-02 Explore Tab</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -286,7 +286,7 @@
    <testCaseLink>
       <guid>efa0fb51-df77-466e-a588-81fbdfd496fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-03 Profile Tab</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -413,7 +413,7 @@
    <testCaseLink>
       <guid>5ef7fb0a-53e6-4ffe-8334-e75865e5da63</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Regression/App Side/SL-04 Settings Tab</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

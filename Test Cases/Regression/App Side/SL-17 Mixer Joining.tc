@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-17 Mixer Joining</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4312a00-a7f6-4101-aef0-3a350d3c584b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>470651ef-8b71-4618-b15a-3399db64501b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5ff2a57-d4dc-4291-b1a5-fee582e34fe2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff9fea3d-75cd-4c31-8239-38c70fd57153</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61cc5f3e-a83a-4a55-aeee-b1ec28df778e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/remaining time for mixer')</defaultValue>
+      <description></description>
+      <id>470651ef-8b71-4618-b15a-3399db64501b</id>
+      <masked>false</masked>
+      <name>mixer_time</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl text - RSVP for the Next Mixer')</defaultValue>
+      <description></description>
+      <id>e5ff2a57-d4dc-4291-b1a5-fee582e34fe2</id>
+      <masked>false</masked>
+      <name>lbl_RSVP</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Reserve RSVP')</defaultValue>
+      <description></description>
+      <id>ff9fea3d-75cd-4c31-8239-38c70fd57153</id>
+      <masked>false</masked>
+      <name>btn_RSVP</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl text - RSVPD')</defaultValue>
+      <description></description>
+      <id>61cc5f3e-a83a-4a55-aeee-b1ec28df778e</id>
+      <masked>false</masked>
+      <name>lbl_RSVPD</name>
+   </variable>
+</TestCaseEntity>

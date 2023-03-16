@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mixer Creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>896157d8-5b67-4d99-a358-8d80d69912b7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1815aef0-313f-43d7-9852-e174dc719aac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0099e88-d1cd-4ec7-b601-a5e8250f12ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5692b4b8-dc62-49cf-84b5-19640b2ae4c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59e66f71-7b56-41f2-bbd1-bd404ec3f092</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e07cbf83-d463-44dc-bd4b-473c1ca70a2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a762e4b-d636-42bd-889a-dd4c5e9fb940</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2df2a633-9fed-44e6-8645-7dbc440bbace</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85ba3151-c1f2-4ea0-82d7-d56ecfbb33aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9fcaa27-cb6e-4c60-a4cf-b443639cacac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd970f86-c123-42d9-8687-ed1da9ee9593</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Web portal/User name')</defaultValue>
+      <description></description>
+      <id>1815aef0-313f-43d7-9852-e174dc719aac</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/PAssword')</defaultValue>
+      <description></description>
+      <id>a0099e88-d1cd-4ec7-b601-a5e8250f12ad</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/btn_Mixer')</defaultValue>
+      <description></description>
+      <id>5692b4b8-dc62-49cf-84b5-19640b2ae4c9</id>
+      <masked>false</masked>
+      <name>Mixer</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Date picker/Page_Spot Love Admin/from date')</defaultValue>
+      <description></description>
+      <id>59e66f71-7b56-41f2-bbd1-bd404ec3f092</id>
+      <masked>false</masked>
+      <name>F_datepicker</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/btn_login')</defaultValue>
+      <description></description>
+      <id>e07cbf83-d463-44dc-bd4b-473c1ca70a2b</id>
+      <masked>false</masked>
+      <name>Login</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Date picker/Page_Spot Love Admin/month')</defaultValue>
+      <description></description>
+      <id>4a762e4b-d636-42bd-889a-dd4c5e9fb940</id>
+      <masked>false</masked>
+      <name>month_year</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Date picker/Page_Spot Love Admin/To btn next')</defaultValue>
+      <description></description>
+      <id>2df2a633-9fed-44e6-8645-7dbc440bbace</id>
+      <masked>false</masked>
+      <name>btn_next</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Date picker/Page_Spot Love Admin/To btn back')</defaultValue>
+      <description></description>
+      <id>85ba3151-c1f2-4ea0-82d7-d56ecfbb33aa</id>
+      <masked>false</masked>
+      <name>btn_back</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Date picker/Page_Spot Love Admin/To Date')</defaultValue>
+      <description></description>
+      <id>c9fcaa27-cb6e-4c60-a4cf-b443639cacac</id>
+      <masked>false</masked>
+      <name>T_datepicker</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Web portal/Add Mixer')</defaultValue>
+      <description></description>
+      <id>fd970f86-c123-42d9-8687-ed1da9ee9593</id>
+      <masked>false</masked>
+      <name>Add_Mixer</name>
+   </variable>
+</TestCaseEntity>
