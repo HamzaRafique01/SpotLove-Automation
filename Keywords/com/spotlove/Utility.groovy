@@ -284,22 +284,20 @@ public class Utility {
 
 	@Keyword
 	def hours_selector() {
-		
+
 		WebDriver driver = DriverFactory.getWebDriver()
 		TestObject time = findTestObject('Object Repository/Calender/2')
 
 		WebUI.click(time)
 
-		
+
 	}
+
+
 }
 
 
 
-
-
-
-//driver.findElement(By.xpath("//div/span[contains(text(),'8')]"))
 
 
 

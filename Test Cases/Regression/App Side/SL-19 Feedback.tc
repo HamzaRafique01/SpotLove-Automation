@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-19 Feedback</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8cd9325-5110-44bc-872b-19822a485467</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26ca2ca0-fc3d-4e8c-b110-495f8d82b46e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b69f640-d266-4e07-87f2-5b61e2a22280</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e9ce0c9-4ed8-44d0-9a2f-9e2d84828d5a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c7b5aa1-2e66-41c4-afac-5358d1f9e296</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>528672b7-b7c7-46a9-bd6d-54c442bd6304</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab4b3c75-5fc0-4511-8967-fa765adc8a7c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52050188-f83c-49bb-906d-ceaac21aca67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31d9a50b-1bff-4b16-ab20-7a1d4fc8e5c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>883b7774-a039-4f85-b198-9063bb15e6f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65b2954f-1c35-41f4-b621-9c8b2d407b28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84ddf4ba-9248-4c03-8466-dc53d5ef1a2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f2ff31c-c651-4d78-936d-349142873d4d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Logo Spotlove')</defaultValue>
+      <description></description>
+      <id>26ca2ca0-fc3d-4e8c-b110-495f8d82b46e</id>
+      <masked>false</masked>
+      <name>logo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/lbl text - What did you think')</defaultValue>
+      <description></description>
+      <id>2b69f640-d266-4e07-87f2-5b61e2a22280</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/lbl text - Tell us about your date with Take')</defaultValue>
+      <description></description>
+      <id>1e9ce0c9-4ed8-44d0-9a2f-9e2d84828d5a</id>
+      <masked>false</masked>
+      <name>lbl_tell</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/User Profile image')</defaultValue>
+      <description></description>
+      <id>2c7b5aa1-2e66-41c4-afac-5358d1f9e296</id>
+      <masked>false</masked>
+      <name>profile_image</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Btn - I want to chat with Take again')</defaultValue>
+      <description></description>
+      <id>528672b7-b7c7-46a9-bd6d-54c442bd6304</id>
+      <masked>false</masked>
+      <name>Positive_feedback</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Btn - Continue')</defaultValue>
+      <description></description>
+      <id>ab4b3c75-5fc0-4511-8967-fa765adc8a7c</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Btn - Report User')</defaultValue>
+      <description></description>
+      <id>52050188-f83c-49bb-906d-ceaac21aca67</id>
+      <masked>false</masked>
+      <name>btn_report_user</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Report User/Btn Close Report Bottom sheet')</defaultValue>
+      <description></description>
+      <id>31d9a50b-1bff-4b16-ab20-7a1d4fc8e5c9</id>
+      <masked>false</masked>
+      <name>btn_close</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Report User/Header lbl txt popup - Report Reason')</defaultValue>
+      <description></description>
+      <id>883b7774-a039-4f85-b198-9063bb15e6f6</id>
+      <masked>false</masked>
+      <name>lbl_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Report User/EditText box (Enter Reason for reporting the user)')</defaultValue>
+      <description></description>
+      <id>65b2954f-1c35-41f4-b621-9c8b2d407b28</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+   <variable>
+      <defaultValue>'Elapsed time: 0.001s\n\nUser Profile found on the screen......'</defaultValue>
+      <description></description>
+      <id>84ddf4ba-9248-4c03-8466-dc53d5ef1a2f</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Report User/Btn - Continue')</defaultValue>
+      <description></description>
+      <id>5f2ff31c-c651-4d78-936d-349142873d4d</id>
+      <masked>false</masked>
+      <name>btn_submit</name>
+   </variable>
+</TestCaseEntity>

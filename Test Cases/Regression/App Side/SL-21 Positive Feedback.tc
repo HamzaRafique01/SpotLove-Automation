@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-21 Positive Feedback</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c685285-c726-4790-95e5-ead4b50e82a9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76e7ffd1-4b5c-4840-a663-d5e3933241a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34bc11da-02eb-4b39-bf3e-4d914f159365</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f14397f7-897d-42be-bb3a-7263e73c06a9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4020f21-affa-4746-80fa-10756e3f5cbd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4342c94f-41a2-417b-adff-7f74d76d01dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04c2a16a-6ae3-4d8a-ba98-144484a01920</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f17c5bb6-de95-470b-bcd4-529841f4d6dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a782258f-8ec9-4b56-a10b-6f8a4f28bada</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ef14411-3db0-4412-a86c-5e67129b4505</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fbd94014-8a1b-40a6-b765-3fe896ae4b2c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0dce5e74-a8c3-4bfc-9010-49f230c11318</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0dcbc60a-5cd4-4546-8ef8-094bfbb5bf1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30924379-d315-4fdd-a06b-4a6dea7dd28d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6331880-536b-4e05-9897-6faf61f8cfba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Positive Feedback Screen/Logo Spotlove')</defaultValue>
+      <description></description>
+      <id>76e7ffd1-4b5c-4840-a663-d5e3933241a5</id>
+      <masked>false</masked>
+      <name>logo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Positive Feedback Screen/lbl txt - What was it about her')</defaultValue>
+      <description></description>
+      <id>34bc11da-02eb-4b39-bf3e-4d914f159365</id>
+      <masked>false</masked>
+      <name>lbl_What</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Positive Feedback Screen/lbl txt - Tell us why Take was a match')</defaultValue>
+      <description></description>
+      <id>f14397f7-897d-42be-bb3a-7263e73c06a9</id>
+      <masked>false</masked>
+      <name>lbl_tell</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Positive Feedback Screen/User Profile Image')</defaultValue>
+      <description></description>
+      <id>e4020f21-affa-4746-80fa-10756e3f5cbd</id>
+      <masked>false</masked>
+      <name>profile_imgae</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Positive Feedback Screen/Btn - Great Conversation')</defaultValue>
+      <description></description>
+      <id>4342c94f-41a2-417b-adff-7f74d76d01dd</id>
+      <masked>false</masked>
+      <name>Btn_great</name>
+   </variable>
+   <variable>
+      <defaultValue>['Great conversation', 'Incredibly good looking']</defaultValue>
+      <description></description>
+      <id>04c2a16a-6ae3-4d8a-ba98-144484a01920</id>
+      <masked>false</masked>
+      <name>feedback</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Positive Feedback Screen/Btn - Continue')</defaultValue>
+      <description></description>
+      <id>f17c5bb6-de95-470b-bcd4-529841f4d6dc</id>
+      <masked>false</masked>
+      <name>btn_Continue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Leave Mixer')</defaultValue>
+      <description></description>
+      <id>a782258f-8ec9-4b56-a10b-6f8a4f28bada</id>
+      <masked>false</masked>
+      <name>btn_Mixer_leave</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Logo Spotlove')</defaultValue>
+      <description></description>
+      <id>7ef14411-3db0-4412-a86c-5e67129b4505</id>
+      <masked>false</masked>
+      <name>logo1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/lbl text - What did you think')</defaultValue>
+      <description></description>
+      <id>fbd94014-8a1b-40a6-b765-3fe896ae4b2c</id>
+      <masked>false</masked>
+      <name>lbl_What1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/lbl text - Tell us about your date with Take')</defaultValue>
+      <description></description>
+      <id>0dce5e74-a8c3-4bfc-9010-49f230c11318</id>
+      <masked>false</masked>
+      <name>lbl_tell1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/User Profile image')</defaultValue>
+      <description></description>
+      <id>0dcbc60a-5cd4-4546-8ef8-094bfbb5bf1a</id>
+      <masked>false</masked>
+      <name>profile_imgae1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Btn - I want to chat with Take again')</defaultValue>
+      <description></description>
+      <id>30924379-d315-4fdd-a06b-4a6dea7dd28d</id>
+      <masked>false</masked>
+      <name>Positive_feedback</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Feedback Screen 1/Btn - Continue')</defaultValue>
+      <description></description>
+      <id>d6331880-536b-4e05-9897-6faf61f8cfba</id>
+      <masked>false</masked>
+      <name>btn_Continue1</name>
+   </variable>
+</TestCaseEntity>

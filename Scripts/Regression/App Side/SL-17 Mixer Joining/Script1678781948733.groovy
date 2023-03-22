@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.spotlove.Utility
 
-Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
+//Mobile.startExistingApplication('com.spotlove.releaseproduction', FailureHandling.STOP_ON_FAILURE)
 
 
 if(Mobile.waitForElementPresent(mixer_time, 120)) {
@@ -105,9 +105,24 @@ if(Mobile.waitForElementPresent(mixer_time, 120)) {
 
 																			Mobile.tap(btn_open, 120)
 																			KeywordUtil.markPassed("Bottom sheet Open Button found and Tapped.......")
-																			println("________----------________--------________---------________")
+																			Mobile.delay(5)
+
+																			if(Mobile.waitForElementPresent(btn_leave_Mixer, 120)) {
+
+																				Mobile.tap(btn_leave_Mixer, 120)
+																				KeywordUtil.markPassed("Call PopUp tapped.......")
+
+																				if(Mobile.waitForElementPresent(btn_pickUp_Call, 120)) {
+
+																					Mobile.tap(btn_pickUp_Call, 120)
 
 
+																				}else {
+																					KeywordUtil.markFailed("Picked Up Call Button is not found......")
+																				}
+																			}else {
+																				KeywordUtil.markFailed("PopUp not found......")
+																			}
 																		}else {
 																			KeywordUtil.markFailed("Bottom sheet Open Button not found......")
 																		}
@@ -165,13 +180,3 @@ if(Mobile.waitForElementPresent(mixer_time, 120)) {
 }else {
 	KeywordUtil.markFailed("Mixer Remainning timer not found......")
 }
-
-
-
-
-
-
-
-
-
-

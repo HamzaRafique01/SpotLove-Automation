@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "CC2B2B933EAEE3FC53B5502A1A288373",
+  "keywordFileContentHash": "8C5B7F4DD594BA16689C7462761E531E",
   "keywordClasses": [
     {
       "name": "com.spotlove.Utility",
@@ -20,8 +20,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "One_liner",
@@ -39,13 +38,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "Save_btn_Preferences",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "comma_sprt_value",
@@ -63,8 +60,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "dating_Pref",
@@ -82,8 +78,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "edit_prof_data",
@@ -101,58 +96,47 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "tap_Submit",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "tap_Continue",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "tap_back",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pageScrollUp",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pageScrollDown",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "tap_Phone_Numebr",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "Verify",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "swipe_down",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "swipe_left_to_right",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "swipe_right_to_left",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "swipe_up",
@@ -183,26 +167,22 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "From_date",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "To_date",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "hours_selector",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SL-18 Calling Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c765494a-0eae-4ebe-a637-43fbc4add668</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2dfc523b-67ee-43ad-a690-9f2c6e9a6667</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b33a64d1-4b3a-4335-834e-ed97e7aba242</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7c13bfa-ade0-419e-a2f7-d2e37d7d4905</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>649ed938-344b-43c8-8dda-d4a05891f035</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ae5ba9e-fb81-4bac-a4d3-0b729d258bdf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18702409-fbe5-4b79-b7c2-4b60c4d5ea5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a6923dc-1ddb-4545-aa76-563a1ab3f6a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04d8e46a-8106-4e46-9534-e1b6115adea3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/User Name and Age')</defaultValue>
+      <description></description>
+      <id>2dfc523b-67ee-43ad-a690-9f2c6e9a6667</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/User Profile Image')</defaultValue>
+      <description></description>
+      <id>b33a64d1-4b3a-4335-834e-ed97e7aba242</id>
+      <masked>false</masked>
+      <name>User_Profile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/Btn Camera Change')</defaultValue>
+      <description></description>
+      <id>a7c13bfa-ade0-419e-a2f7-d2e37d7d4905</id>
+      <masked>false</masked>
+      <name>Camera_rotate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/Btn Mic Close and open')</defaultValue>
+      <description></description>
+      <id>649ed938-344b-43c8-8dda-d4a05891f035</id>
+      <masked>false</masked>
+      <name>btn_Mic</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/Btn Video Close and Open')</defaultValue>
+      <description></description>
+      <id>9ae5ba9e-fb81-4bac-a4d3-0b729d258bdf</id>
+      <masked>false</masked>
+      <name>btn_Video_Switch</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/Mixer Call Remainning Timer')</defaultValue>
+      <description></description>
+      <id>18702409-fbe5-4b79-b7c2-4b60c4d5ea5c</id>
+      <masked>false</masked>
+      <name>Call_remainning_timer</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/Btn Call End')</defaultValue>
+      <description></description>
+      <id>2a6923dc-1ddb-4545-aa76-563a1ab3f6a2</id>
+      <masked>false</masked>
+      <name>btn_End_Call</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Call Screen/Close Call tips popup')</defaultValue>
+      <description></description>
+      <id>04d8e46a-8106-4e46-9534-e1b6115adea3</id>
+      <masked>false</masked>
+      <name>Close_popup</name>
+   </variable>
+</TestCaseEntity>
