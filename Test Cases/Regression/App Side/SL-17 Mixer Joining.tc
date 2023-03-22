@@ -9,52 +9,273 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>470651ef-8b71-4618-b15a-3399db64501b</variableId>
+      <variableId>e025e213-7854-48ac-90a0-ef8534cb2f02</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e5ff2a57-d4dc-4291-b1a5-fee582e34fe2</variableId>
+      <variableId>2e4ce4cb-5751-4319-bbe4-701480f5f236</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ff9fea3d-75cd-4c31-8239-38c70fd57153</variableId>
+      <variableId>27926e7b-6a58-44bf-acb4-e9202b53bdf7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>61cc5f3e-a83a-4a55-aeee-b1ec28df778e</variableId>
+      <variableId>e23681f6-a61c-4527-a442-da865d9c7a78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22626e60-8553-45b3-bccc-43f4247ace86</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40980773-fda1-4c40-a026-75aa746a99b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6a47735-bd1b-4d34-8c6e-e45dae7dfb94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5617fce8-9349-48db-9193-f93d50fc9ad1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1dfb467f-d96a-4059-973a-40f552fa482d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b60d6e6-0454-49e3-934c-54bd1977a5cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad85cb0c-cca2-47f7-9858-649abdad3792</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfbe4679-3b1c-4f82-b4c8-51d46129c405</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40a3df1e-4eee-4a38-a964-6e6d7b33a414</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56fdafcd-56ce-4377-aea1-dadfc31a9cec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eada64d8-0f69-4c3a-9f75-de8e14770dcc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b31d529-9ba8-49cf-a716-3c24df45e7dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0be27298-46b6-4e45-98dc-e5cf12185276</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a0509e7-e983-49f4-bcd4-e9df393faad8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>41a36663-0454-494c-b181-bda18b297a8a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4514021-d1e9-449f-8261-1746807711e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9854e8f6-8d16-4484-8571-585b83d67830</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Mixer/remaining time for mixer')</defaultValue>
       <description></description>
-      <id>470651ef-8b71-4618-b15a-3399db64501b</id>
+      <id>e025e213-7854-48ac-90a0-ef8534cb2f02</id>
       <masked>false</masked>
       <name>mixer_time</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl text - RSVP for the Next Mixer')</defaultValue>
       <description></description>
-      <id>e5ff2a57-d4dc-4291-b1a5-fee582e34fe2</id>
+      <id>2e4ce4cb-5751-4319-bbe4-701480f5f236</id>
       <masked>false</masked>
       <name>lbl_RSVP</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Reserve RSVP')</defaultValue>
       <description></description>
-      <id>ff9fea3d-75cd-4c31-8239-38c70fd57153</id>
+      <id>27926e7b-6a58-44bf-acb4-e9202b53bdf7</id>
       <masked>false</masked>
       <name>btn_RSVP</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl text - RSVPD')</defaultValue>
       <description></description>
-      <id>61cc5f3e-a83a-4a55-aeee-b1ec28df778e</id>
+      <id>e23681f6-a61c-4527-a442-da865d9c7a78</id>
       <masked>false</masked>
       <name>lbl_RSVPD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Live Badge on Mixer Screen')</defaultValue>
+      <description></description>
+      <id>22626e60-8553-45b3-bccc-43f4247ace86</id>
+      <masked>false</masked>
+      <name>Live_badge</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/User Count on current mixer')</defaultValue>
+      <description></description>
+      <id>40980773-fda1-4c40-a026-75aa746a99b4</id>
+      <masked>false</masked>
+      <name>Live_users</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Leave Mixer')</defaultValue>
+      <description></description>
+      <id>c6a47735-bd1b-4d34-8c6e-e45dae7dfb94</id>
+      <masked>false</masked>
+      <name>btn_leave_Mixer</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl txt -  Live Now')</defaultValue>
+      <description></description>
+      <id>5617fce8-9349-48db-9193-f93d50fc9ad1</id>
+      <masked>false</masked>
+      <name>lbl_live</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl txt - Join the Mixer Now')</defaultValue>
+      <description></description>
+      <id>1dfb467f-d96a-4059-973a-40f552fa482d</id>
+      <masked>false</masked>
+      <name>lbl_Join</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Join Mixer')</defaultValue>
+      <description></description>
+      <id>6b60d6e6-0454-49e3-934c-54bd1977a5cf</id>
+      <masked>false</masked>
+      <name>btn_join</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Enable Blind Dating')</defaultValue>
+      <description></description>
+      <id>ad85cb0c-cca2-47f7-9858-649abdad3792</id>
+      <masked>false</masked>
+      <name>btn_blindcall</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl txt - There are no matches right now')</defaultValue>
+      <description></description>
+      <id>bfbe4679-3b1c-4f82-b4c8-51d46129c405</id>
+      <masked>false</masked>
+      <name>lbl_There</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/PopUp First lbl (Blind call)- No Matches In The Waiting Room')</defaultValue>
+      <description></description>
+      <id>40a3df1e-4eee-4a38-a964-6e6d7b33a414</id>
+      <masked>false</masked>
+      <name>first_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/PopUp Second lbl(Blind call) - None of your matches have joined the mixeryet. You can enable blind matching to get more opportunities')</defaultValue>
+      <description></description>
+      <id>56fdafcd-56ce-4377-aea1-dadfc31a9cec</id>
+      <masked>false</masked>
+      <name>second_lbl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl txt - Youre about to get a call')</defaultValue>
+      <description></description>
+      <id>eada64d8-0f69-4c3a-9f75-de8e14770dcc</id>
+      <masked>false</masked>
+      <name>lbl_you</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl txt - Blind Dates Enabled')</defaultValue>
+      <description></description>
+      <id>8b31d529-9ba8-49cf-a716-3c24df45e7dc</id>
+      <masked>false</masked>
+      <name>lbl_blind</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Toggle Switch - ON Blind Call')</defaultValue>
+      <description></description>
+      <id>0be27298-46b6-4e45-98dc-e5cf12185276</id>
+      <masked>false</masked>
+      <name>btn_toggle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Open Bottom sheet')</defaultValue>
+      <description></description>
+      <id>2a0509e7-e983-49f4-bcd4-e9df393faad8</id>
+      <masked>false</masked>
+      <name>btn_open</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/lbl txt - First dates should not feel like an interview or an interrogation')</defaultValue>
+      <description></description>
+      <id>41a36663-0454-494c-b181-bda18b297a8a</id>
+      <masked>false</masked>
+      <name>lbl_Frst</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/Btn No thanks')</defaultValue>
+      <description></description>
+      <id>d4514021-d1e9-449f-8261-1746807711e9</id>
+      <masked>false</masked>
+      <name>btn_nothanks</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Regression/App Sides/Mixer/btn Close bottom Sheet')</defaultValue>
+      <description></description>
+      <id>9854e8f6-8d16-4484-8571-585b83d67830</id>
+      <masked>false</masked>
+      <name>btn_Close</name>
    </variable>
 </TestCaseEntity>
